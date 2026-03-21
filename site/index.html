@@ -821,6 +821,13 @@ body {
   gap: 12px;
 }
 
+.detail-meta-footer {
+  display: grid;
+  gap: 12px;
+  padding-top: 8px;
+  border-top: 1px solid rgba(24, 38, 49, 0.1);
+}
+
 .detail-header.reveal-pulse,
 .child-detail.reveal-pulse {
   animation: revealPulse 820ms ease;
@@ -1210,10 +1217,39 @@ body {
 }
 
 .footer-note {
-  margin-top: 16px;
+  margin-top: 24px;
+  padding-top: 14px;
+  border-top: 1px solid rgba(24, 38, 49, 0.12);
   color: var(--muted);
-  font-size: 12px;
-  line-height: 1.6;
+  font-size: 11px;
+  line-height: 1.65;
+}
+
+.footer-note p {
+  margin: 0;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 14px;
+  margin-top: 8px;
+}
+
+.footer-links a {
+  color: var(--muted);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(24, 38, 49, 0.16);
+}
+
+.footer-links a:hover {
+  color: var(--text);
+  border-bottom-color: rgba(24, 38, 49, 0.34);
+}
+
+.footer-links a::after {
+  content: " ↗";
+  font-size: 10px;
 }
 
 @keyframes rise {
@@ -1357,7 +1393,6 @@ body {
 <main class="shell">
   <header class="hero">
     <section class="hero-main">
-      <div class="hero-kicker">Fuentes oficiales · INE + SEPE · V1</div>
       <h1>Impacto laboral de la IA <span>en España</span></h1>
       <div class="hero-copy">
         <p>Qué trabajos parecen más protegidos frente a la IA, cuáles más expuestos y dónde hay más competencia, según datos oficiales.</p>
@@ -1426,17 +1461,18 @@ body {
   <div class="workspace">
     <section class="map-panel">
       <div class="map-note">
-        <div class="headline" id="mapHeadline">Barra más larga = más empleo. Color = cuánto podría automatizarse con IA.</div>
+        <div class="headline" id="mapHeadline">Barra más larga = más empleo. Color = de muy blindado a muy expuesto a la IA.</div>
         <div class="chip-row" id="coverageChips"></div>
       </div>
       <div id="treemap" aria-label="Visualización de ocupaciones"></div>
-      <div class="footer-note" id="footerNote"></div>
     </section>
 
     <aside class="detail-panel" id="detailPanel">
       <div class="empty">Cargando datos...</div>
     </aside>
   </div>
+
+  <footer class="footer-note" id="footerNote"></footer>
 </main>
 
 <div class="tooltip" id="tooltip" role="status" aria-hidden="true">
@@ -1583,11 +1619,11 @@ const SEARCH_ALIASES_BY_CODE = {
 };
 
 const AUTOMATION_BUCKETS = [
-  { id: "very_low", range: "0-1", label: "Muy baja", color: "#3d6ea8" },
-  { id: "low", range: "2-3", label: "Baja", color: "#60a6b0" },
-  { id: "medium", range: "4-5", label: "Media", color: "#e1b64e" },
-  { id: "high", range: "6-7", label: "Alta", color: "#d46d37" },
-  { id: "very_high", range: "8-10", label: "Muy alta", color: "#a83a33" },
+  { id: "very_low", range: "0-2", label: "Muy blindado", legendLabel: "Muy blindado frente a la IA", color: "#3d6ea8" },
+  { id: "low", range: "3-4", label: "Bastante blindado", legendLabel: "Bastante blindado frente a la IA", color: "#60a6b0" },
+  { id: "medium", range: "5", label: "Zona intermedia", legendLabel: "Zona intermedia", color: "#e1b64e" },
+  { id: "high", range: "6-7", label: "Bastante expuesto", legendLabel: "Bastante expuesto a la IA", color: "#d46d37" },
+  { id: "very_high", range: "8-10", label: "Muy expuesto", legendLabel: "Muy expuesto a la IA", color: "#a83a33" },
 ];
 
 const EDUCATION_BUCKETS = [
@@ -1712,6 +1748,16 @@ function formatExposure(value) {
   return formatScoreOutOfTen(value);
 }
 
+function estimateAnnualGrossFromMonthly(monthlyGross) {
+  if (monthlyGross == null || Number.isNaN(monthlyGross)) return null;
+  return Number(monthlyGross) * 12;
+}
+
+function roundedAutomationScore(value) {
+  if (value == null || Number.isNaN(value)) return null;
+  return Math.max(0, Math.min(10, Math.round(Number(value))));
+}
+
 function friendlyModelName(model) {
   if (!model) return "un modelo de IA";
   if (model === "google/gemini-3.1-pro-preview") return "Gemini 3.1 Pro Preview";
@@ -1730,11 +1776,12 @@ function salaryPercentileLabel(label) {
 }
 
 function automationBucket(value) {
-  if (value == null || Number.isNaN(value)) return null;
-  if (value < 2) return AUTOMATION_BUCKETS[0];
-  if (value < 4) return AUTOMATION_BUCKETS[1];
-  if (value < 6) return AUTOMATION_BUCKETS[2];
-  if (value < 8) return AUTOMATION_BUCKETS[3];
+  const rounded = roundedAutomationScore(value);
+  if (rounded == null) return null;
+  if (rounded <= 2) return AUTOMATION_BUCKETS[0];
+  if (rounded <= 4) return AUTOMATION_BUCKETS[1];
+  if (rounded === 5) return AUTOMATION_BUCKETS[2];
+  if (rounded <= 7) return AUTOMATION_BUCKETS[3];
   return AUTOMATION_BUCKETS[4];
 }
 
@@ -1746,6 +1793,14 @@ function automationColor(value, alpha = 0.94) {
 
 function automationLabel(value) {
   return automationBucket(value)?.label || "Sin dato";
+}
+
+function automationLegendLabel(value) {
+  return automationBucket(value)?.legendLabel || "Sin dato";
+}
+
+function automationRange(value) {
+  return automationBucket(value)?.range || "—";
 }
 
 function automationBadge(text, value, fallback = "Sin estimación IA") {
@@ -2060,12 +2115,7 @@ function competitionPer100(ratio) {
 }
 
 function shieldingLabel(value) {
-  if (value == null || Number.isNaN(value)) return "Sin estimación";
-  if (value < 2) return "Muy blindada";
-  if (value < 4) return "Bastante blindada";
-  if (value < 6) return "Intermedia";
-  if (value < 8) return "Bastante expuesta";
-  return "Muy expuesta";
+  return automationLabel(value);
 }
 
 function combinedStudyShieldScore(occupation) {
@@ -2191,7 +2241,7 @@ function tileSubline(occupation) {
     return `${formatCompact(occupation.demandants)} personas la buscan`;
   }
   if (STATE.colorMode === "exposure") {
-    return occupation.exposure == null ? "Sin estimación" : `${automationLabel(occupation.exposure)} · ${formatExposure(occupation.exposure)}`;
+    return occupation.exposure == null ? "Sin estimación" : automationLabel(occupation.exposure);
   }
   const bucket = educationBucket(occupation.education);
   return bucket ? bucket.label : "Sin dato educativo";
@@ -2241,7 +2291,7 @@ function tooltipRows(occupation) {
     ["Salario", occupation.pay == null ? "Sin dato disponible" : formatCurrency(occupation.pay)],
     ["Cambio en contratos", formatPct(occupation.outlook, 2)],
     ["Personas que buscan este trabajo", formatInteger(occupation.demandants)],
-    ["Automatizable por IA", formatExposure(occupation.exposure)],
+    ["Automatizable por IA", occupation.exposure == null ? "Sin estimación" : `${automationLabel(occupation.exposure)} · ${automationRange(occupation.exposure)}`],
   ];
 }
 
@@ -2432,11 +2482,11 @@ function renderLegend() {
       ${AUTOMATION_BUCKETS.map((bucket) => `
         <span class="legend-pill emphasis">
           <span class="legend-swatch" style="background:${bucket.color}"></span>
-          ${bucket.range} · ${bucket.label}
+          ${bucket.range} · ${bucket.legendLabel}
         </span>
       `).join("")}
       <span class="legend-pill"><span class="legend-swatch" style="background:rgba(132,132,132,0.44)"></span>Sin dato</span>
-      <span class="legend-caption">Azul = menos automatizable por IA. Rojo = más automatizable por IA.</span>
+      <span class="legend-caption">Azul = más blindado frente a la IA. Rojo = más expuesto a la IA.</span>
     `;
     return;
   }
@@ -2531,7 +2581,7 @@ function renderEditorial() {
       question: "La más blindada frente a la IA",
       title: displayTitleForOccupation(mostShielded),
       tag: shieldingLabel(mostShielded.exposure),
-      value: `Automatizable por IA: ${formatExposure(mostShielded.exposure)}`,
+      value: `Automatizable por IA: ${automationLabel(mostShielded.exposure)}`,
       meta: `${formatInteger(mostShielded.jobs)} personas en este empleo · estudios más habituales: ${educationBucket(mostShielded.education)?.label || mostShielded.education || "sin dato"}.`,
       code: mostShielded.code,
       featured: true,
@@ -2541,7 +2591,7 @@ function renderEditorial() {
       question: "La más automatizable",
       title: displayTitleForOccupation(mostExposed),
       tag: shieldingLabel(mostExposed.exposure),
-      value: `Automatizable por IA: ${formatExposure(mostExposed.exposure)}`,
+      value: `Automatizable por IA: ${automationLabel(mostExposed.exposure)}`,
       meta: `${formatInteger(mostExposed.jobs)} personas en este empleo · salario medio ${mostExposed.pay == null ? "sin dato" : formatCurrency(mostExposed.pay)}.`,
       code: mostExposed.code,
       accent: automationColor(mostExposed.exposure, 0.24),
@@ -2550,7 +2600,7 @@ function renderEditorial() {
       question: "Pide más estudios y aguanta mejor",
       title: displayTitleForOccupation(studyShielded),
       tag: "Estudios + blindaje",
-      value: `Estudios: ${educationBucket(studyShielded.education)?.label || studyShielded.education || "Sin dato"} · Automatizable por IA: ${formatExposure(studyShielded.exposure)}`,
+      value: `Estudios: ${educationBucket(studyShielded.education)?.label || studyShielded.education || "Sin dato"} · ${automationLabel(studyShielded.exposure)}`,
       meta: `Cruce entre estudios habituales y menor automatización. ${formatInteger(studyShielded.jobs)} personas en este empleo.`,
       code: studyShielded.code,
       accent: automationColor(studyShielded.exposure, 0.2),
@@ -2559,7 +2609,7 @@ function renderEditorial() {
       question: "Pide menos estudios y queda más expuesta",
       title: displayTitleForOccupation(easyVulnerable),
       tag: "Menos barrera, más riesgo",
-      value: `Estudios: ${educationBucket(easyVulnerable.education)?.label || easyVulnerable.education || "Sin dato"} · Automatizable por IA: ${formatExposure(easyVulnerable.exposure)}`,
+      value: `Estudios: ${educationBucket(easyVulnerable.education)?.label || easyVulnerable.education || "Sin dato"} · ${automationLabel(easyVulnerable.exposure)}`,
       meta: `Cruce entre menor exigencia de estudios y mayor automatización. ${formatInteger(easyVulnerable.jobs)} personas en este empleo.`,
       code: easyVulnerable.code,
       accent: automationColor(easyVulnerable.exposure, 0.22),
@@ -2592,7 +2642,7 @@ function renderEditorial() {
         .map((occupation) => ({
           code: occupation.code,
           name: displayTitleForOccupation(occupation),
-          value: formatExposure(occupation.exposure),
+          value: automationRange(occupation.exposure),
           meta: `${shieldingLabel(occupation.exposure)} · ${formatInteger(occupation.jobs)} personas en este empleo`,
         })),
     },
@@ -2606,7 +2656,7 @@ function renderEditorial() {
         .map((occupation) => ({
           code: occupation.code,
           name: displayTitleForOccupation(occupation),
-          value: formatExposure(occupation.exposure),
+          value: automationRange(occupation.exposure),
           meta: `${shieldingLabel(occupation.exposure)} · ${formatInteger(occupation.jobs)} personas en este empleo`,
         })),
     },
@@ -2624,7 +2674,7 @@ function renderEditorial() {
         .map((occupation) => ({
           code: occupation.code,
           name: displayTitleForOccupation(occupation),
-          value: `${competitionPer100(occupation.competitionRatio)} · IA ${formatExposure(occupation.exposure)}`,
+          value: `${competitionPer100(occupation.competitionRatio)} · ${automationRange(occupation.exposure)}`,
           meta: `${shieldingLabel(occupation.exposure)} · ${formatInteger(occupation.demandants)} personas buscan este trabajo`,
         })),
     },
@@ -2639,7 +2689,7 @@ function renderEditorial() {
           code: occupation.code,
           name: displayTitleForOccupation(occupation),
           value: formatCurrency(occupation.pay),
-          meta: `Automatizable por IA: ${formatExposure(occupation.exposure)}`,
+          meta: `Automatizable por IA: ${automationLabel(occupation.exposure)}`,
         })),
     },
   ];
@@ -2672,7 +2722,17 @@ function renderEditorial() {
     <span class="chip">IA estimada con ${aiModel}</span>
   `;
 
-  footerNoteEl.innerHTML = `La vista Automatizable por IA es una estimación hecha con ${aiModel} a partir de descripciones oficiales de trabajos concretos, y después resumida en familias más amplias. Es orientativa: con otros criterios o con otro modelo se podría llegar a notas distintas.`;
+  footerNoteEl.innerHTML = `
+    <p><strong>Metodología:</strong> empleo y estudios del INE (tabla 69953, dato 2023), salarios del INE (tabla 70672, dato 2018), salario de referencia del INE (tabla 66244, dato 2024), contratos y personas inscritas del SEPE (2025) y, cuando existe, sueldo por titulación del INE EILU 2019 (tabla 04049). La capa “Automatizable por IA” es una estimación orientativa con ${aiModel} a partir de descripciones oficiales del SEPE y luego resumida en familias de empleo.</p>
+    <div class="footer-links">
+      <a href="https://www.ine.es/jaxiT3/Tabla.htm?t=69953" target="_blank" rel="noreferrer">INE empleo y estudios</a>
+      <a href="https://www.ine.es/jaxiT3/Tabla.htm?t=70672" target="_blank" rel="noreferrer">INE salarios</a>
+      <a href="https://www.ine.es/jaxiT3/Tabla.htm?t=66244" target="_blank" rel="noreferrer">INE salario de referencia</a>
+      <a href="https://www.ine.es/jaxi/Tabla.htm?L=0&file=04049.px&path=%2Ft13%2Fp100%2F2019%2Fp01%2F" target="_blank" rel="noreferrer">INE titulaciones</a>
+      <a href="https://www.sepe.es/HomeSepe/que-es-observatorio/informacion-mt-por-ocupacion.html" target="_blank" rel="noreferrer">SEPE ocupaciones</a>
+      <a href="https://github.com/antorsae/ia-espana" target="_blank" rel="noreferrer">Código y metodología</a>
+    </div>
+  `;
 }
 
 function selectedOccupation() {
@@ -2974,7 +3034,7 @@ function renderTreemap() {
     pay: "Barra más larga = más empleo. Color = salario medio anual.",
     education: "Barra más larga = más empleo. Color = estudios más habituales.",
     demandants: "Barra más larga = más empleo. Color = cuánta gente busca ese trabajo.",
-    exposure: "Barra más larga = más empleo. Color = cuánto podría automatizarse con IA.",
+    exposure: "Barra más larga = más empleo. Color = de muy blindado a muy expuesto a la IA.",
   })[STATE.colorMode];
 }
 
@@ -3150,10 +3210,11 @@ function renderDetailPanel() {
     ? `<span class="badge">Dato con poca muestra</span>`
     : "";
   const proxyBadge = occupation.pay == null && occupation.payProxyMonth != null
-    ? `<span class="badge">Referencia aproximada: ${formatCurrency(occupation.payProxyMonth)} al mes en 2024</span>`
+    ? `<span class="badge">Estimación anual: ${formatCurrency(estimateAnnualGrossFromMonthly(occupation.payProxyMonth))}</span>`
     : "";
+  const payProxyAnnualEstimate = estimateAnnualGrossFromMonthly(occupation.payProxyMonth);
   const aiBadge = automationBadge(
-    `Automatizable por IA ${formatExposure(occupation.exposure)}`,
+    `Automatizable por IA · ${automationLabel(occupation.exposure)}`,
     occupation.exposure,
   );
 
@@ -3169,20 +3230,8 @@ function renderDetailPanel() {
 
   detailPanelEl.innerHTML = `
     <section class="detail-header">
-      <div class="detail-overline">
-        <span>${occupation.code}</span>
-        <span>·</span>
-        <span>${SHORT_CATEGORY_LABELS[occupation.categoryCode] || occupation.categoryLabel}</span>
-      </div>
       <h2 class="detail-title" tabindex="-1">${displayTitleForOccupation(occupation)}</h2>
       ${displayTitleForOccupation(occupation) !== occupation.title ? `<p class="detail-official-title">Nombre oficial: ${occupation.title}</p>` : ""}
-      <div class="badge-row">
-        <span class="badge strong">El tamaño del bloque depende del empleo total</span>
-        ${salaryBadge}
-        ${qualityBadge}
-        ${proxyBadge}
-        ${aiBadge}
-      </div>
     </section>
 
     ${searchContextNote}
@@ -3190,14 +3239,14 @@ function renderDetailPanel() {
 
     <section class="metric-grid">
       <article class="metric">
-        <span class="eyebrow">Personas que trabajan en esta ${scope.unitLabel}</span>
+        <span class="eyebrow">Personas que trabajan en ${scope.broad ? "esta familia" : "este empleo"}</span>
         <span class="number">${formatInteger(occupation.jobs)}</span>
         <span class="detail">Dato del INE ${occupation.jobsYear}${scope.broad ? " para el grupo completo" : ""}</span>
       </article>
       <article class="metric">
-        <span class="eyebrow">Salario medio al año de esta ${scope.unitLabel}</span>
-        <span class="number">${occupation.pay == null ? "—" : formatCurrency(occupation.pay)}</span>
-        <span class="detail">${occupation.pay == null ? `No hay dato directo para este grupo.${occupation.payProxyMonth == null ? "" : ` Referencia aproximada: ${formatCurrency(occupation.payProxyMonth)} al mes en 2024.`}` : `Dato del INE ${occupation.salaryYear}${scope.broad ? " para el grupo completo" : ""}`}</span>
+        <span class="eyebrow">Salario medio al año de ${scope.broad ? "esta familia" : "este empleo"}</span>
+        <span class="number">${occupation.pay == null ? (payProxyAnnualEstimate == null ? "—" : formatCurrency(payProxyAnnualEstimate)) : formatCurrency(occupation.pay)}</span>
+        <span class="detail">${occupation.pay == null ? `No hay dato anual directo para este grupo.${payProxyAnnualEstimate == null ? "" : ` Estimación propia de esta web: ${formatCurrency(occupation.payProxyMonth)} brutos al mes en 2024 × 12 = ${formatCurrency(payProxyAnnualEstimate)} brutos al año.`}` : `Dato del INE ${occupation.salaryYear}${scope.broad ? " para el grupo completo" : ""}`}</span>
       </article>
       <article class="metric">
         <span class="eyebrow">Contratos en el último año</span>
@@ -3215,14 +3264,14 @@ function renderDetailPanel() {
         <span class="detail">Parte de quienes buscan esta ocupación</span>
       </article>
       <article class="metric">
-        <span class="eyebrow">Estudios más habituales en esta ${scope.unitLabel}</span>
+        <span class="eyebrow">Estudios más habituales en ${scope.broad ? "esta familia" : "este empleo"}</span>
         <span class="number" style="font-size:1.05rem;line-height:1.25">${educationBucket(occupation.education)?.label || occupation.education || "—"}</span>
         <span class="detail">Nivel de estudios más frecuente según el INE${scope.broad ? " para el grupo completo" : ""}</span>
       </article>
       <article class="metric">
         <span class="eyebrow">Automatizable por IA</span>
-        <span class="number">${formatExposure(occupation.exposure)}</span>
-        <span class="detail">${occupation.exposure == null ? "No hay estimación disponible." : `Nivel ${automationLabel(occupation.exposure).toLowerCase()} · confianza ${occupation.exposureConfidence == null ? "—" : formatScoreOutOfTen(occupation.exposureConfidence)}`}</span>
+        <span class="number" style="font-size:1.05rem;line-height:1.25">${automationLabel(occupation.exposure)}</span>
+        <span class="detail">${occupation.exposure == null ? "No hay estimación disponible." : `Rango ${automationRange(occupation.exposure)} · nota orientativa ${formatExposure(occupation.exposure)} · confianza ${occupation.exposureConfidence == null ? "—" : formatScoreOutOfTen(occupation.exposureConfidence)}`}</span>
       </article>
       <article class="metric">
         <span class="eyebrow">Cómo se calcula</span>
@@ -3263,7 +3312,7 @@ function renderDetailPanel() {
               value: item.weight,
               exposure: item.exposure,
             })),
-            (item) => `${automationLabel(item.exposure)} · ${formatExposure(item.exposure)}`,
+            (item) => `${automationLabel(item.exposure)} · ${automationRange(item.exposure)}`,
             (item) => automationColor(item.exposure, 0.92),
           )}
     </section>
@@ -3277,7 +3326,7 @@ function renderDetailPanel() {
           <span class="badge">Personas que buscan este trabajo: ${formatInteger(selectedChild.demandants)}</span>
           <span class="badge">Personas en paro: ${formatInteger(selectedChild.unemployed)}</span>
           ${automationBadge(
-            `Automatizable por IA ${formatExposure(selectedChild.ai_exposure)}`,
+            `Automatizable por IA · ${automationLabel(selectedChild.ai_exposure)}`,
             selectedChild.ai_exposure,
             "Sin estimación IA",
           )}
@@ -3352,11 +3401,26 @@ function renderDetailPanel() {
               </div>
               <div class="child-stat">
                 <span class="label">Automatizable por IA</span>
-                <span class="value">${formatExposure(child.ai_exposure)}</span>
+                <span class="value">${automationLabel(child.ai_exposure)}</span>
               </div>
             </div>
           </article>
         `).join("")}
+      </div>
+    </section>
+
+    <section class="detail-meta-footer">
+      <div class="detail-overline">
+        <span>${occupation.code}</span>
+        <span>·</span>
+        <span>${SHORT_CATEGORY_LABELS[occupation.categoryCode] || occupation.categoryLabel}</span>
+      </div>
+      <div class="badge-row">
+        <span class="badge strong">El tamaño del bloque depende del empleo total</span>
+        ${salaryBadge}
+        ${qualityBadge}
+        ${proxyBadge}
+        ${aiBadge}
       </div>
     </section>
 
