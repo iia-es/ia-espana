@@ -3090,14 +3090,16 @@ function renderBarList(items, formatter, colorForItem) {
   `;
 }
 
-function renderSpecificSalarySignals(occupation, selectedChild) {
-  const matches = relevantSpecificSalarySignals(occupation, selectedChild);
+function renderSpecificSalarySignals(matches, selectedChild, options = {}) {
   if (!matches.length) return "";
 
   return `
     <section class="section">
-      <h3>Dato más específico por titulación</h3>
-      <p class="section-intro">Cuando existe una fuente oficial más concreta por estudios, la mostramos aparte para no confundirla con la media del grupo amplio.</p>
+      <h3>${options.promoted ? "Dato más específico encontrado" : "Dato más específico por titulación"}</h3>
+      <p class="section-intro">${options.promoted
+        ? "Como has buscado una subprofesión concreta, este dato va primero para no confundirlo con la media del grupo amplio."
+        : "Cuando existe una fuente oficial más concreta por estudios, la mostramos aparte para no confundirla con la media del grupo amplio."
+      }</p>
       <div class="specific-salary-grid">
         ${matches.map(({ entry, matchedByChild, matchedByQuery }) => `
           <article class="specific-salary-card">
@@ -3152,8 +3154,12 @@ function renderDetailPanel() {
   const children = childDetailsFor(occupation.code);
   const selectedChild = children.find((child) => child.cno_4d === STATE.selectedChildCode) || null;
   const scope = occupationScopeContext(occupation);
-  const specificSalarySection = renderSpecificSalarySignals(occupation, selectedChild);
   const activeQuery = STATE.search.trim();
+  const specificSalaryMatches = relevantSpecificSalarySignals(occupation, selectedChild, activeQuery);
+  const hasPromotedSpecificSalary = Boolean(activeQuery && specificSalaryMatches.length);
+  const specificSalarySection = renderSpecificSalarySignals(specificSalaryMatches, selectedChild, {
+    promoted: hasPromotedSpecificSalary,
+  });
   const matchedChildResults = activeQuery ? filteredChildSearchResults(occupation, activeQuery) : [];
   const matchedChildren = matchedChildResults.map((item) => item.child);
   const searchContextNote = activeQuery && matchedChildren.length
@@ -3233,6 +3239,7 @@ function renderDetailPanel() {
     </section>
 
     ${searchContextNote}
+    ${hasPromotedSpecificSalary ? specificSalarySection : ""}
     ${aggregateContextNote}
 
     <section class="metric-grid">
@@ -3242,9 +3249,15 @@ function renderDetailPanel() {
         <span class="detail">Dato del INE ${occupation.jobsYear}${scope.broad ? " para el grupo completo" : ""}</span>
       </article>
       <article class="metric">
-        <span class="eyebrow">${occupation.pay == null ? "Referencia salarial del gran grupo" : `Salario medio al año de ${scope.broad ? "esta familia" : "este empleo"}`}</span>
+        <span class="eyebrow">${occupation.pay == null
+          ? "Referencia salarial del gran grupo"
+          : hasPromotedSpecificSalary
+            ? "Media salarial del grupo amplio"
+            : `Salario medio al año de ${scope.broad ? "esta familia" : "este empleo"}`}</span>
         <span class="number">${occupation.pay == null ? (payProxyAnnualEstimate == null ? "—" : formatCurrency(payProxyAnnualEstimate)) : formatCurrency(occupation.pay)}</span>
-        <span class="detail">${occupation.pay == null ? `No hay salario anual directo para ${scope.broad ? "esta familia" : "este empleo"}.${payProxyAnnualEstimate == null ? "" : ` Como orientación, esta web usa el salario bruto mensual medio del gran grupo ${broadPayLabel} en 2024 (${formatCurrency(occupation.payProxyMonth)}) y lo anualiza × 12 = ${formatCurrency(payProxyAnnualEstimate)}.`}` : `Dato del INE ${occupation.salaryYear}${scope.broad ? " para el grupo completo" : ""}`}</span>
+        <span class="detail">${occupation.pay == null
+          ? `No hay salario anual directo para ${scope.broad ? "esta familia" : "este empleo"}.${payProxyAnnualEstimate == null ? "" : ` Como orientación, esta web usa el salario bruto mensual medio del gran grupo ${broadPayLabel} en 2024 (${formatCurrency(occupation.payProxyMonth)}) y lo anualiza × 12 = ${formatCurrency(payProxyAnnualEstimate)}.`}`
+          : `Dato del INE ${occupation.salaryYear}${scope.broad ? " para el grupo completo" : ""}${hasPromotedSpecificSalary ? ", no para la subprofesión buscada" : ""}`}</span>
       </article>
       <article class="metric">
         <span class="eyebrow">Contratos en el último año</span>
@@ -3298,7 +3311,7 @@ function renderDetailPanel() {
           )}
     </section>
 
-    ${specificSalarySection}
+    ${hasPromotedSpecificSalary ? "" : specificSalarySection}
 
     <section class="section">
       <h3>Trabajos concretos que más influyen en esta nota</h3>
