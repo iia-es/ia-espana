@@ -895,6 +895,56 @@ body {
   background: rgba(255,255,255,0.64);
 }
 
+.context-note {
+  display: grid;
+  gap: 10px;
+  padding: 14px 16px;
+  border-radius: 16px;
+  border: 1px solid rgba(180, 87, 53, 0.16);
+  background: rgba(180, 87, 53, 0.08);
+}
+
+.context-note.subtle {
+  border-color: rgba(24, 38, 49, 0.08);
+  background: rgba(24, 38, 49, 0.05);
+}
+
+.context-note p {
+  margin: 0;
+  color: var(--text);
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+.context-note strong {
+  color: var(--text);
+}
+
+.match-pill-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.match-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 7px 11px;
+  border-radius: 999px;
+  border: 1px solid rgba(24, 38, 49, 0.1);
+  background: rgba(255,255,255,0.7);
+  color: var(--text);
+  font-size: 12px;
+  cursor: pointer;
+  transition: transform 140ms ease, border-color 140ms ease, background 140ms ease;
+}
+
+.match-pill:hover {
+  transform: translateY(-1px);
+  border-color: rgba(31, 106, 108, 0.26);
+  background: rgba(255,255,255,0.9);
+}
+
 .metric .eyebrow {
   display: block;
   margin-bottom: 6px;
@@ -1734,6 +1784,33 @@ function buildSearchProfile(occupation) {
   };
 }
 
+function buildChildSearchProfile(child) {
+  const fieldSpecs = [
+    { text: child.cno_4d, weight: 260, exactOnly: true },
+    { text: child.label, weight: 220 },
+    ...((child.included_examples || []).slice(0, 10).map((text) => ({ text, weight: 180 }))),
+    ...((child.tasks || []).slice(0, 8).map((text) => ({ text, weight: 120 }))),
+    ...(child.description_summary ? [{ text: child.description_summary, weight: 100 }] : []),
+  ];
+
+  const fields = fieldSpecs
+    .map((field) => {
+      const normalized = normalizeSearchText(field.text);
+      if (!normalized) return null;
+      return {
+        ...field,
+        normalized,
+        tokens: new Set(tokenizeSearchText(normalized)),
+      };
+    })
+    .filter(Boolean);
+
+  return {
+    fields,
+    tokenSet: new Set(fields.flatMap((field) => [...field.tokens])),
+  };
+}
+
 function searchMatch(occupation, rawQuery = STATE.search) {
   const normalizedQuery = normalizeSearchText(rawQuery);
   if (!normalizedQuery) return { matches: true, exact: false, score: 0 };
@@ -1773,6 +1850,49 @@ function searchMatch(occupation, rawQuery = STATE.search) {
   if (allTokensCovered) bestScore += 120;
 
   const threshold = normalizedQuery.length <= 2 ? 240 : normalizedQuery.length <= 4 ? 140 : 70;
+  const matches = exact || allTokensCovered || bestScore >= threshold || bestTokenCoverage >= Math.max(1, queryTokens.length - 1);
+  return { matches, exact, score: bestScore };
+}
+
+function childSearchMatch(child, rawQuery = STATE.search) {
+  const normalizedQuery = normalizeSearchText(rawQuery);
+  if (!normalizedQuery) return { matches: false, exact: false, score: 0 };
+
+  const queryTokens = tokenizeSearchText(rawQuery);
+  const queryPhrases = phraseVariants(rawQuery);
+  const profile = child.searchProfile || buildChildSearchProfile(child);
+  let bestScore = 0;
+  let exact = false;
+  let bestTokenCoverage = 0;
+
+  for (const field of profile.fields) {
+    let fieldScore = 0;
+
+    if (queryPhrases.includes(field.normalized)) {
+      fieldScore += field.weight * 12;
+      exact = true;
+    } else if (!field.exactOnly && queryPhrases.some((phrase) => field.normalized.startsWith(phrase))) {
+      fieldScore += field.weight * 8;
+    } else if (!field.exactOnly && queryPhrases.some((phrase) => field.normalized.includes(phrase))) {
+      fieldScore += field.weight * 6;
+    }
+
+    const tokenHits = queryTokens.filter((token) => field.tokens.has(token) || (!field.exactOnly && field.normalized.includes(token)));
+    bestTokenCoverage = Math.max(bestTokenCoverage, tokenHits.length);
+
+    if (tokenHits.length) {
+      fieldScore += tokenHits.length === queryTokens.length
+        ? field.weight * 4
+        : tokenHits.length * Math.max(18, Math.round(field.weight * 0.3));
+    }
+
+    if (fieldScore > bestScore) bestScore = fieldScore;
+  }
+
+  const allTokensCovered = queryTokens.length > 0 && queryTokens.every((token) => profile.tokenSet.has(token));
+  if (allTokensCovered) bestScore += 120;
+
+  const threshold = normalizedQuery.length <= 2 ? 260 : normalizedQuery.length <= 4 ? 150 : 80;
   const matches = exact || allTokensCovered || bestScore >= threshold || bestTokenCoverage >= Math.max(1, queryTokens.length - 1);
   return { matches, exact, score: bestScore };
 }
@@ -2495,6 +2615,57 @@ function childDetailsFor(code) {
   return occupation.details4d.slice().sort((a, b) => (b.contracts || 0) - (a.contracts || 0));
 }
 
+function rankedChildSearchResults(occupation, rawQuery = STATE.search) {
+  const query = normalizeSearchText(rawQuery);
+  if (!query || !occupation) return [];
+  return childDetailsFor(occupation.code)
+    .map((child) => ({ child, match: childSearchMatch(child, rawQuery) }))
+    .filter(({ match }) => match.matches && match.score > 0)
+    .sort((a, b) => (b.match.score - a.match.score) || ((b.child.contracts || 0) - (a.child.contracts || 0)));
+}
+
+function filteredChildSearchResults(occupation, rawQuery = STATE.search) {
+  const ranked = rankedChildSearchResults(occupation, rawQuery);
+  if (!ranked.length) return [];
+  const topScore = ranked[0].match.score;
+  const cutoff = ranked[0].match.exact
+    ? Math.max(220, topScore * 0.62)
+    : Math.max(120, topScore * 0.5);
+  return ranked.filter(({ match }) => match.exact || match.score >= cutoff).slice(0, 4);
+}
+
+function occupationScopeContext(occupation) {
+  const children = childDetailsFor(occupation.code);
+  const childCount = children.length;
+  const p10 = occupation.payPercentiles?.p10?.value ?? null;
+  const p90 = occupation.payPercentiles?.p90?.value ?? null;
+  const spread = Number.isFinite(p10) && Number.isFinite(p90) ? p90 - p10 : null;
+  const spreadRatio = Number.isFinite(p10) && Number.isFinite(p90) && p10 > 0 ? p90 / p10 : null;
+  const broad = childCount > 1;
+  const veryBroad = broad && (
+    childCount >= 8 ||
+    (Number.isFinite(spread) && spread >= 35000) ||
+    (Number.isFinite(spreadRatio) && spreadRatio >= 3.2)
+  );
+  const somewhatBroad = broad && !veryBroad && (
+    childCount >= 4 ||
+    (Number.isFinite(spread) && spread >= 20000) ||
+    (Number.isFinite(spreadRatio) && spreadRatio >= 2.2)
+  );
+
+  return {
+    childCount,
+    broad,
+    veryBroad,
+    somewhatBroad,
+    label: veryBroad ? "Grupo muy diverso" : somewhatBroad ? "Grupo bastante amplio" : broad ? "Grupo con varias subprofesiones" : "Grupo específico",
+    unitLabel: broad ? "familia" : "empleo",
+    spread,
+    spreadRatio,
+    previewChildren: children.slice(0, 6),
+  };
+}
+
 function ensureSelectedChild() {
   const children = childDetailsFor(STATE.selectedCode);
   if (!children.length) {
@@ -2730,6 +2901,32 @@ function renderDetailPanel() {
   ensureSelectedChild();
   const children = childDetailsFor(occupation.code);
   const selectedChild = children.find((child) => child.cno_4d === STATE.selectedChildCode) || null;
+  const scope = occupationScopeContext(occupation);
+  const activeQuery = STATE.search.trim();
+  const matchedChildResults = activeQuery ? filteredChildSearchResults(occupation, activeQuery) : [];
+  const matchedChildren = matchedChildResults.map((item) => item.child);
+  const searchContextNote = activeQuery && matchedChildren.length
+    ? `
+      <section class="context-note">
+        <p><strong>Has buscado “${activeQuery}”.</strong> La subprofesión más cercana dentro de este grupo es <strong>${matchedChildren[0].label}</strong>.</p>
+        <p>Los datos de salario, empleo y estudios que ves en la parte superior siguen siendo del grupo amplio <strong>${displayTitleForOccupation(occupation)}</strong>, no de esa subprofesión concreta.</p>
+        <div class="match-pill-row">
+          ${matchedChildren.map((child) => `<button class="match-pill" data-child-code="${child.cno_4d}">${child.label}</button>`).join("")}
+        </div>
+      </section>
+    `
+    : "";
+  const aggregateContextNote = scope.broad
+    ? `
+      <section class="context-note subtle">
+        <p><strong>${scope.label}.</strong> Esta ${scope.unitLabel} reúne ${scope.childCount} subprofesiones y mezcla perfiles distintos.</p>
+        <p>Cuando veas salario, empleo o estudios, léelos como una media del grupo completo${scope.veryBroad ? ", no como una cifra específica para cada subprofesión" : ""}.</p>
+        <div class="match-pill-row">
+          ${scope.previewChildren.map((child) => `<button class="match-pill" data-child-code="${child.cno_4d}">${shortenTitle(child.label, 34)}</button>`).join("")}
+        </div>
+      </section>
+    `
+    : "";
   const educationBars = (occupation.educationDistribution || [])
     .slice(0, 6)
     .map((item) => ({
@@ -2794,26 +2991,29 @@ function renderDetailPanel() {
       </div>
     </section>
 
+    ${searchContextNote}
+    ${aggregateContextNote}
+
     <section class="metric-grid">
       <article class="metric">
-        <span class="eyebrow">Personas que trabajan en este empleo</span>
+        <span class="eyebrow">Personas que trabajan en esta ${scope.unitLabel}</span>
         <span class="number">${formatInteger(occupation.jobs)}</span>
-        <span class="detail">Dato del INE ${occupation.jobsYear}</span>
+        <span class="detail">Dato del INE ${occupation.jobsYear}${scope.broad ? " para el grupo completo" : ""}</span>
       </article>
       <article class="metric">
-        <span class="eyebrow">Salario medio al año</span>
+        <span class="eyebrow">Salario medio al año de esta ${scope.unitLabel}</span>
         <span class="number">${occupation.pay == null ? "—" : formatCurrency(occupation.pay)}</span>
-        <span class="detail">${occupation.pay == null ? `No hay dato directo para este grupo.${occupation.payProxyMonth == null ? "" : ` Referencia aproximada: ${formatCurrency(occupation.payProxyMonth)} al mes en 2024.`}` : `Dato del INE ${occupation.salaryYear}`}</span>
+        <span class="detail">${occupation.pay == null ? `No hay dato directo para este grupo.${occupation.payProxyMonth == null ? "" : ` Referencia aproximada: ${formatCurrency(occupation.payProxyMonth)} al mes en 2024.`}` : `Dato del INE ${occupation.salaryYear}${scope.broad ? " para el grupo completo" : ""}`}</span>
       </article>
       <article class="metric">
         <span class="eyebrow">Contratos en el último año</span>
         <span class="number">${formatInteger(occupation.contracts)}</span>
-        <span class="detail">SEPE ${occupation.demandYear} · comparado con hace un año: ${formatPct(occupation.outlook, 2)}</span>
+        <span class="detail">SEPE ${occupation.demandYear} · comparado con hace un año: ${formatPct(occupation.outlook, 2)}${scope.broad ? " en el grupo completo" : ""}</span>
       </article>
       <article class="metric">
         <span class="eyebrow">Personas que buscan esta ocupación</span>
         <span class="number">${formatInteger(occupation.demandants)}</span>
-        <span class="detail">SEPE ${occupation.demandYear} · comparado con hace un año: ${formatPct(occupation.demandantsYoy, 2)}</span>
+        <span class="detail">SEPE ${occupation.demandYear} · comparado con hace un año: ${formatPct(occupation.demandantsYoy, 2)}${scope.broad ? " en el grupo completo" : ""}</span>
       </article>
       <article class="metric">
         <span class="eyebrow">Personas en paro que buscan este trabajo</span>
@@ -2821,9 +3021,9 @@ function renderDetailPanel() {
         <span class="detail">Parte de quienes buscan esta ocupación</span>
       </article>
       <article class="metric">
-        <span class="eyebrow">Estudios más habituales</span>
+        <span class="eyebrow">Estudios más habituales en esta ${scope.unitLabel}</span>
         <span class="number" style="font-size:1.05rem;line-height:1.25">${educationBucket(occupation.education)?.label || occupation.education || "—"}</span>
-        <span class="detail">Nivel de estudios más frecuente según el INE</span>
+        <span class="detail">Nivel de estudios más frecuente según el INE${scope.broad ? " para el grupo completo" : ""}</span>
       </article>
       <article class="metric">
         <span class="eyebrow">Automatizable por IA</span>
@@ -2984,6 +3184,7 @@ async function loadData() {
   STATE.meta = meta;
   STATE.canonicalByCode = new Map(canonical.map((row) => [row.id, row]));
   STATE.detailsBy2d = details4d.occupations.reduce((map, row) => {
+    row.searchProfile = buildChildSearchProfile(row);
     if (!map.has(row.cno_2d)) map.set(row.cno_2d, []);
     map.get(row.cno_2d).push(row);
     return map;
@@ -3010,6 +3211,8 @@ function updateSelectionFromSearch() {
   const firstMatch = rankedMatches[0]?.occupation || null;
   if (firstMatch) {
     STATE.selectedCode = firstMatch.code;
+    const topChildMatch = filteredChildSearchResults(firstMatch, STATE.search)[0];
+    STATE.selectedChildCode = topChildMatch ? topChildMatch.child.cno_4d : null;
     ensureSelectedChild();
   }
   renderEditorial();
