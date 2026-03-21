@@ -1,0 +1,123 @@
+{
+  "sepe": {
+    "catalog_4d_count": 502,
+    "catalog_2d_count": 62,
+    "report_index_example": {
+      "cno_4d": "4412",
+      "year": 2025,
+      "report_count": 13,
+      "reports": [
+        {
+          "month": "Anual",
+          "year": "2025",
+          "url": "https://www.sepe.es/HomeSepe/que-es-observatorio/informacion-mt-por-ocupacion/informacion-mercado-trabajo-por-ocupacion-anual~_anuales_2025_4412-Recepcionistas--excepto-de-hoteles-~.html"
+        },
+        {
+          "month": "Diciembre",
+          "year": "2025",
+          "url": "https://www.sepe.es/HomeSepe/que-es-observatorio/informacion-mt-por-ocupacion/informacion-mercado-trabajo-por-ocupacion~_mensuales_2025_12_4412-Recepcionistas--excepto-de-hoteles-~.html"
+        },
+        {
+          "month": "Noviembre",
+          "year": "2025",
+          "url": "https://www.sepe.es/HomeSepe/que-es-observatorio/informacion-mt-por-ocupacion/informacion-mercado-trabajo-por-ocupacion~_mensuales_2025_11_4412-Recepcionistas--excepto-de-hoteles-~.html"
+        },
+        {
+          "month": "Octubre",
+          "year": "2025",
+          "url": "https://www.sepe.es/HomeSepe/que-es-observatorio/informacion-mt-por-ocupacion/informacion-mercado-trabajo-por-ocupacion~_mensuales_2025_10_4412-Recepcionistas--excepto-de-hoteles-~.html"
+        },
+        {
+          "month": "Septiembre",
+          "year": "2025",
+          "url": "https://www.sepe.es/HomeSepe/que-es-observatorio/informacion-mt-por-ocupacion/informacion-mercado-trabajo-por-ocupacion~_mensuales_2025_09_4412-Recepcionistas--excepto-de-hoteles-~.html"
+        },
+        {
+          "month": "Agosto",
+          "year": "2025",
+          "url": "https://www.sepe.es/HomeSepe/que-es-observatorio/informacion-mt-por-ocupacion/informacion-mercado-trabajo-por-ocupacion~_mensuales_2025_08_4412-Recepcionistas--excepto-de-hoteles-~.html"
+        }
+      ]
+    }
+  },
+  "ine_employment_69953": {
+    "available_years_in_html": [
+      2021,
+      2022,
+      2023
+    ],
+    "occupation_option_count": 63,
+    "occupation_option_sample": [
+      "Total",
+      "11 Miembros del poder ejecutivo y de los cuerpos legislativos; directivos de la Administraci\u00f3n P\u00fablica y organizaciones de inter\u00e9s social; directores ejecutivos",
+      "12 Directores de departamentos administrativos y comerciales",
+      "13 Directores de producci\u00f3n y operaciones",
+      "14 Directores y gerentes de empresas de alojamiento, restauraci\u00f3n y comercio",
+      "15 Directores y gerentes de otras empresas de servicios no clasificados bajo otros ep\u00edgrafes",
+      "21 Profesionales de la salud",
+      "22 Profesionales de la ense\u00f1anza infantil, primaria, secundaria y postsecundaria",
+      "23 Otros profesionales de la ense\u00f1anza",
+      "24 Profesionales de la ciencias f\u00edsicas, qu\u00edmicas, matem\u00e1ticas y de las ingenier\u00edas"
+    ]
+  },
+  "ine_salary_66244": {
+    "available_years_in_html": [
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "occupation_option_count": 11,
+    "occupation_option_sample": [
+      "Total",
+      "1 Directores y gerentes",
+      "2 T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "3 T\u00e9cnicos; profesionales de apoyo",
+      "4 Empleados contables, administrativos y otros empleados de oficina",
+      "5 Trabajadores de los servicios de restauraci\u00f3n, personales, protecci\u00f3n y vendedores",
+      "6 Trabajadores cualificados en el sector agr\u00edcola, ganadero, forestal y pesquero",
+      "7 Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "8 Operadores de instalaciones y maquinaria, y montadores",
+      "9 Ocupaciones elementales",
+      "0 Ocupaciones militares"
+    ]
+  },
+  "ine_salary_70672": {
+    "available_years_in_html": [
+      2018
+    ],
+    "occupation_option_count": 80,
+    "occupation_option_sample": [
+      "Todas las ocupaciones",
+      "A Directores y gerentes",
+      "11 Miembros del poder ejecutivo y de los cuerpos legislativos; directivos de la Administraci\u00f3n P\u00fablica y organizaciones de inter\u00e9s social; directores ejecutivos",
+      "12 Directores de departamentos administrativos y comerciales",
+      "13 Directores de producci\u00f3n y operaciones",
+      "14 Directores y gerentes de empresas de alojamiento, restauraci\u00f3n y comercio",
+      "15 Directores y gerentes de otras empresas de servicios no clasificados bajo otros ep\u00edgrafes",
+      "B T\u00e9cnicos y profesionales cient\u00edficos e intelectuales de la salud y la ense\u00f1anza",
+      "21 Profesionales de la salud",
+      "22 Profesionales de la ense\u00f1anza infantil, primaria, secundaria y postsecundaria",
+      "23 Otros profesionales de la ense\u00f1anza",
+      "C Otros t\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "24 Profesionales de la ciencias f\u00edsicas, qu\u00edmicas, matem\u00e1ticas y de las ingenier\u00edas",
+      "25 Profesionales en derecho",
+      "26 Especialistas en organizaci\u00f3n de la Administraci\u00f3n P\u00fablica y de las empresas y en la comercializaci\u00f3n",
+      "27 Profesionales de las tecnolog\u00edas de la informaci\u00f3n",
+      "28 Profesionales en ciencias sociales",
+      "29 Profesionales de la cultura y el espect\u00e1culo",
+      "D T\u00e9cnicos; profesionales de apoyo",
+      "31 T\u00e9cnicos de las ciencias y de las ingenier\u00edas"
+    ]
+  }
+}

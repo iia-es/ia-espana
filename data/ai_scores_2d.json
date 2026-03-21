@@ -1,0 +1,2260 @@
+{
+  "occupations": [
+    {
+      "cno_2d": "00",
+      "source_id": "openrouter_llm",
+      "quality": "llm_derived_from_4d",
+      "weight_metric": "contracts_2025_fallback_demandants_2025",
+      "children_scored": 3,
+      "value": 3.55,
+      "confidence": 8.16,
+      "model": "google/gemini-3.1-pro-preview",
+      "top_weighted_children": [
+        {
+          "cno_4d": "0011",
+          "label": "Oficiales de las fuerzas armadas",
+          "weight": 201,
+          "exposure": 4.0
+        },
+        {
+          "cno_4d": "0020",
+          "label": "Tropa y mariner\u00eda de las fuerzas armadas",
+          "weight": 32,
+          "exposure": 1.0
+        },
+        {
+          "cno_4d": "0012",
+          "label": "Suboficiales de las fuerzas armadas",
+          "weight": 5,
+          "exposure": 2.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "11",
+      "source_id": "openrouter_llm",
+      "quality": "llm_derived_from_4d",
+      "weight_metric": "contracts_2025_fallback_demandants_2025",
+      "children_scored": 4,
+      "value": 4.76,
+      "confidence": 8.76,
+      "model": "google/gemini-3.1-pro-preview",
+      "top_weighted_children": [
+        {
+          "cno_4d": "1120",
+          "label": "Directores generales y presidentes ejecutivos",
+          "weight": 2321,
+          "exposure": 5.0
+        },
+        {
+          "cno_4d": "1113",
+          "label": "Directores de organizaciones de inter\u00e9s social",
+          "weight": 430,
+          "exposure": 3.0
+        },
+        {
+          "cno_4d": "1112",
+          "label": "Personal directivo de la administraci\u00f3n p\u00fablica",
+          "weight": 333,
+          "exposure": 6.0
+        },
+        {
+          "cno_4d": "1111",
+          "label": "Miembros del poder ejecutivo (nacional, auton\u00f3mico y local) y del poder legislativo",
+          "weight": 76,
+          "exposure": 2.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "12",
+      "source_id": "openrouter_llm",
+      "quality": "llm_derived_from_4d",
+      "weight_metric": "contracts_2025_fallback_demandants_2025",
+      "children_scored": 6,
+      "value": 6.22,
+      "confidence": 8.15,
+      "model": "google/gemini-3.1-pro-preview",
+      "top_weighted_children": [
+        {
+          "cno_4d": "1221",
+          "label": "Directores comerciales y de ventas",
+          "weight": 10026,
+          "exposure": 6.0
+        },
+        {
+          "cno_4d": "1219",
+          "label": "Directores de pol\u00edticas y planificaci\u00f3n y de otros departamentos administrativos no clasificados bajo otros ep\u00edgrafes",
+          "weight": 4985,
+          "exposure": 6.0
+        },
+        {
+          "cno_4d": "1211",
+          "label": "Directores financieros",
+          "weight": 3839,
+          "exposure": 7.0
+        },
+        {
+          "cno_4d": "1223",
+          "label": "Directores de investigaci\u00f3n y desarrollo",
+          "weight": 2592,
+          "exposure": 6.0
+        },
+        {
+          "cno_4d": "1212",
+          "label": "Directores de recursos humanos",
+          "weight": 1994,
+          "exposure": 6.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "13",
+      "source_id": "openrouter_llm",
+      "quality": "llm_derived_from_4d",
+      "weight_metric": "contracts_2025_fallback_demandants_2025",
+      "children_scored": 14,
+      "value": 5.71,
+      "confidence": 8.0,
+      "model": "google/gemini-3.1-pro-preview",
+      "top_weighted_children": [
+        {
+          "cno_4d": "1321",
+          "label": "Directores de servicios de tecnolog\u00edas de la informaci\u00f3n y las comunicaciones (tic)",
+          "weight": 2256,
+          "exposure": 7.0
+        },
+        {
+          "cno_4d": "1329",
+          "label": "Directores de otras empresas de servicios profesionales no clasificados bajo otros ep\u00edgrafes",
+          "weight": 2205,
+          "exposure": 5.0
+        },
+        {
+          "cno_4d": "1315",
+          "label": "Directores de empresas de abastecimiento, transporte, distribuci\u00f3n y afines",
+          "weight": 1883,
+          "exposure": 7.0
+        },
+        {
+          "cno_4d": "1313",
+          "label": "Directores de industrias manufactureras",
+          "weight": 1129,
+          "exposure": 5.0
+        },
+        {
+          "cno_4d": "1326",
+          "label": "Directores de servicios de educaci\u00f3n",
+          "weight": 1062,
+          "exposure": 5.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "14",
+      "source_id": "openrouter_llm",
+      "quality": "llm_derived_from_4d",
+      "weight_metric": "contracts_2025_fallback_demandants_2025",
+      "children_scored": 7,
+      "value": 4.12,
+      "confidence": 8.0,
+      "model": "google/gemini-3.1-pro-preview",
+      "top_weighted_children": [
+        {
+          "cno_4d": "1421",
+          "label": "Directores y gerentes de restaurantes",
+          "weight": 2253,
+          "exposure": 4.0
+        },
+        {
+          "cno_4d": "1411",
+          "label": "Directores y gerentes de hoteles",
+          "weight": 1523,
+          "exposure": 4.0
+        },
+        {
+          "cno_4d": "1422",
+          "label": "Directores y gerentes de bares, cafeter\u00edas y similares",
+          "weight": 914,
+          "exposure": 3.0
+        },
+        {
+          "cno_4d": "1432",
+          "label": "Directores y gerentes de empresas de comercio al por menor",
+          "weight": 699,
+          "exposure": 5.0
+        },
+        {
+          "cno_4d": "1431",
+          "label": "Directores y gerentes de empresas de comercio al por mayor",
+          "weight": 515,
+          "exposure": 6.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "15",
+      "source_id": "openrouter_llm",
+      "quality": "llm_derived_from_4d",
+      "weight_metric": "contracts_2025_fallback_demandants_2025",
+      "children_scored": 2,
+      "value": 4.93,
+      "confidence": 8.0,
+      "model": "google/gemini-3.1-pro-preview",
+      "top_weighted_children": [
+        {
+          "cno_4d": "1501",
+          "label": "Directores y gerentes de empresas de actividades recreativas, culturales y deportivas",
+          "weight": 1581,
+          "exposure": 4.0
+        },
+        {
+          "cno_4d": "1509",
+          "label": "Directores y gerentes de empresas de gesti\u00f3n de residuos y de otras empresas de servicios no clasificados bajo otros ep\u00edgrafes",
+          "weight": 1381,
+          "exposure": 6.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "21",
+      "source_id": "openrouter_llm",
+      "quality": "llm_derived_from_4d",
+      "weight_metric": "contracts_2025_fallback_demandants_2025",
+      "children_scored": 16,
+      "value": 2.88,
+      "confidence": 8.75,
+      "model": "google/gemini-3.1-pro-preview",
+      "top_weighted_children": [
+        {
+          "cno_4d": "2121",
+          "label": "Enfermeros no especializados",
+          "weight": 101672,
+          "exposure": 2.0
+        },
+        {
+          "cno_4d": "2112",
+          "label": "Otros m\u00e9dicos especialistas",
+          "weight": 35088,
+          "exposure": 5.0
+        },
+        {
+          "cno_4d": "2122",
+          "label": "Enfermeros especializados (excepto matronos)",
+          "weight": 26867,
+          "exposure": 2.0
+        },
+        {
+          "cno_4d": "2152",
+          "label": "Fisioterapeutas",
+          "weight": 25021,
+          "exposure": 2.0
+        },
+        {
+          "cno_4d": "2111",
+          "label": "M\u00e9dicos de familia",
+          "weight": 18355,
+          "exposure": 4.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "22",
+      "source_id": "openrouter_llm",
+      "quality": "llm_derived_from_4d",
+      "weight_metric": "contracts_2025_fallback_demandants_2025",
+      "children_scored": 6,
+      "value": 3.84,
+      "confidence": 8.82,
+      "model": "google/gemini-3.1-pro-preview",
+      "top_weighted_children": [
+        {
+          "cno_4d": "2252",
+          "label": "T\u00e9cnicos en educaci\u00f3n infantil",
+          "weight": 45395,
+          "exposure": 2.0
+        },
+        {
+          "cno_4d": "2210",
+          "label": "Profesores de universidades y otra ense\u00f1anza superior (excepto formaci\u00f3n profesional)",
+          "weight": 41289,
+          "exposure": 6.0
+        },
+        {
+          "cno_4d": "2240",
+          "label": "Profesores de ense\u00f1anza primaria",
+          "weight": 36308,
+          "exposure": 3.0
+        },
+        {
+          "cno_4d": "2230",
+          "label": "Profesores de ense\u00f1anza secundaria (excepto materias espec\u00edficas de formaci\u00f3n profesional)",
+          "weight": 28331,
+          "exposure": 5.0
+        },
+        {
+          "cno_4d": "2220",
+          "label": "Profesores de formaci\u00f3n profesional (materias espec\u00edficas)",
+          "weight": 16510,
+          "exposure": 5.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "23",
+      "source_id": "openrouter_llm",
+      "quality": "llm_derived_from_4d",
+      "weight_metric": "contracts_2025_fallback_demandants_2025",
+      "children_scored": 9,
+      "value": 5.42,
+      "confidence": 8.15,
+      "model": "google/gemini-3.1-pro-preview",
+      "top_weighted_children": [
+        {
+          "cno_4d": "2329",
+          "label": "Profesores y profesionales de la ense\u00f1anza no clasificados bajo otros ep\u00edgrafes",
+          "weight": 84468,
+          "exposure": 6.0
+        },
+        {
+          "cno_4d": "2322",
+          "label": "Profesores de ense\u00f1anza no reglada de idiomas",
+          "weight": 26151,
+          "exposure": 7.0
+        },
+        {
+          "cno_4d": "2312",
+          "label": "T\u00e9cnicos educadores de educaci\u00f3n especial",
+          "weight": 20419,
+          "exposure": 3.0
+        },
+        {
+          "cno_4d": "2323",
+          "label": "Profesores de ense\u00f1anza no reglada de m\u00fasica y danza",
+          "weight": 15498,
+          "exposure": 3.0
+        },
+        {
+          "cno_4d": "2321",
+          "label": "Especialistas en m\u00e9todos did\u00e1cticos y pedag\u00f3gicos",
+          "weight": 6444,
+          "exposure": 7.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "24",
+      "source_id": "openrouter_llm",
+      "quality": "llm_derived_from_4d",
+      "weight_metric": "contracts_2025_fallback_demandants_2025",
+      "children_scored": 42,
+      "value": 6.39,
+      "confidence": 8.07,
+      "model": "google/gemini-3.1-pro-preview",
+      "top_weighted_children": [
+        {
+          "cno_4d": "2439",
+          "label": "Ingenieros no clasificados bajo otros ep\u00edgrafes",
+          "weight": 20350,
+          "exposure": 6.0
+        },
+        {
+          "cno_4d": "2431",
+          "label": "Ingenieros industriales y de producci\u00f3n",
+          "weight": 9729,
+          "exposure": 7.0
+        },
+        {
+          "cno_4d": "2421",
+          "label": "Bi\u00f3logos, bot\u00e1nicos, zo\u00f3logos y afines",
+          "weight": 8681,
+          "exposure": 6.0
+        },
+        {
+          "cno_4d": "2469",
+          "label": "Ingenieros t\u00e9cnicos no clasificados bajo otros ep\u00edgrafes",
+          "weight": 6460,
+          "exposure": 6.0
+        },
+        {
+          "cno_4d": "2484",
+          "label": "Dise\u00f1adores gr\u00e1ficos y multimedia",
+          "weight": 6026,
+          "exposure": 9.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "25",
+      "source_id": "openrouter_llm",
+      "quality": "llm_derived_from_4d",
+      "weight_metric": "contracts_2025_fallback_demandants_2025",
+      "children_scored": 6,
+      "value": 7.26,
+      "confidence": 9.0,
+      "model": "google/gemini-3.1-pro-preview",
+      "top_weighted_children": [
+        {
+          "cno_4d": "2511",
+          "label": "Abogados",
+          "weight": 8968,
+          "exposure": 7.0
+        },
+        {
+          "cno_4d": "2599",
+          "label": "Profesionales del derecho no clasificados bajo otros ep\u00edgrafes",
+          "weight": 3221,
+          "exposure": 8.0
+        },
+        {
+          "cno_4d": "2512",
+          "label": "Fiscales",
+          "weight": 103,
+          "exposure": 7.0
+        },
+        {
+          "cno_4d": "2591",
+          "label": "Notarios y registradores",
+          "weight": 34,
+          "exposure": 7.0
+        },
+        {
+          "cno_4d": "2592",
+          "label": "Procuradores",
+          "weight": 32,
+          "exposure": 8.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "26",
+      "source_id": "openrouter_llm",
+      "quality": "llm_derived_from_4d",
+      "weight_metric": "contracts_2025_fallback_demandants_2025",
+      "children_scored": 13,
+      "value": 7.43,
+      "confidence": 8.65,
+      "model": "google/gemini-3.1-pro-preview",
+      "top_weighted_children": [
+        {
+          "cno_4d": "2651",
+          "label": "Profesionales de la publicidad y la comercializaci\u00f3n",
+          "weight": 24605,
+          "exposure": 8.0
+        },
+        {
+          "cno_4d": "2621",
+          "label": "Analistas de gesti\u00f3n y organizaci\u00f3n",
+          "weight": 14509,
+          "exposure": 7.0
+        },
+        {
+          "cno_4d": "2630",
+          "label": "T\u00e9cnicos de empresas y actividades tur\u00edsticas",
+          "weight": 8375,
+          "exposure": 7.0
+        },
+        {
+          "cno_4d": "2624",
+          "label": "Especialistas en pol\u00edticas y servicios de personal y afines",
+          "weight": 7959,
+          "exposure": 7.0
+        },
+        {
+          "cno_4d": "2611",
+          "label": "Especialistas en contabilidad",
+          "weight": 6778,
+          "exposure": 8.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "27",
+      "source_id": "openrouter_llm",
+      "quality": "llm_derived_from_4d",
+      "weight_metric": "contracts_2025_fallback_demandants_2025",
+      "children_scored": 8,
+      "value": 8.53,
+      "confidence": 9.0,
+      "model": "google/gemini-3.1-pro-preview",
+      "top_weighted_children": [
+        {
+          "cno_4d": "2713",
+          "label": "Analistas, programadores y dise\u00f1adores web y multimedia",
+          "weight": 17560,
+          "exposure": 9.0
+        },
+        {
+          "cno_4d": "2711",
+          "label": "Analistas de sistemas",
+          "weight": 12239,
+          "exposure": 8.0
+        },
+        {
+          "cno_4d": "2712",
+          "label": "Analistas y dise\u00f1adores de software",
+          "weight": 6597,
+          "exposure": 9.0
+        },
+        {
+          "cno_4d": "2729",
+          "label": "Especialistas en bases de datos y en redes inform\u00e1ticas no clasificados bajo otros ep\u00edgrafes",
+          "weight": 6582,
+          "exposure": 8.0
+        },
+        {
+          "cno_4d": "2722",
+          "label": "Administradores de sistemas y redes",
+          "weight": 4416,
+          "exposure": 8.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "28",
+      "source_id": "openrouter_llm",
+      "quality": "llm_derived_from_4d",
+      "weight_metric": "contracts_2025_fallback_demandants_2025",
+      "children_scored": 7,
+      "value": 3.59,
+      "confidence": 8.2,
+      "model": "google/gemini-3.1-pro-preview",
+      "top_weighted_children": [
+        {
+          "cno_4d": "2824",
+          "label": "Profesionales del trabajo y la educaci\u00f3n social",
+          "weight": 67857,
+          "exposure": 3.0
+        },
+        {
+          "cno_4d": "2823",
+          "label": "Psic\u00f3logos",
+          "weight": 16293,
+          "exposure": 5.0
+        },
+        {
+          "cno_4d": "2821",
+          "label": "Soci\u00f3logos, ge\u00f3grafos, antrop\u00f3logos, arque\u00f3logos y afines",
+          "weight": 2086,
+          "exposure": 6.0
+        },
+        {
+          "cno_4d": "2810",
+          "label": "Economistas",
+          "weight": 1722,
+          "exposure": 8.0
+        },
+        {
+          "cno_4d": "2822",
+          "label": "Fil\u00f3sofos, historiadores y profesionales en ciencias pol\u00edticas",
+          "weight": 763,
+          "exposure": 7.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "29",
+      "source_id": "openrouter_llm",
+      "quality": "llm_derived_from_4d",
+      "weight_metric": "contracts_2025_fallback_demandants_2025",
+      "children_scored": 13,
+      "value": 4.63,
+      "confidence": 8.3,
+      "model": "google/gemini-3.1-pro-preview",
+      "top_weighted_children": [
+        {
+          "cno_4d": "2935",
+          "label": "Actores",
+          "weight": 171865,
+          "exposure": 6.0
+        },
+        {
+          "cno_4d": "2932",
+          "label": "Compositores, m\u00fasicos y cantantes",
+          "weight": 152418,
+          "exposure": 5.0
+        },
+        {
+          "cno_4d": "2939",
+          "label": "Artistas creativos e interpretativos no clasificados bajo otros ep\u00edgrafes",
+          "weight": 122504,
+          "exposure": 1.0
+        },
+        {
+          "cno_4d": "2933",
+          "label": "Core\u00f3grafos y bailarines",
+          "weight": 31352,
+          "exposure": 5.0
+        },
+        {
+          "cno_4d": "2922",
+          "label": "Periodistas",
+          "weight": 19577,
+          "exposure": 7.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "31",
+      "source_id": "openrouter_llm",
+      "quality": "llm_derived_from_4d",
+      "weight_metric": "contracts_2025_fallback_demandants_2025",
+      "children_scored": 25,
+      "value": 4.83,
+      "confidence": 8.15,
+      "model": "google/gemini-3.1-pro-preview",
+      "top_weighted_children": [
+        {
+          "cno_4d": "3123",
+          "label": "T\u00e9cnicos en electricidad",
+          "weight": 22633,
+          "exposure": 5.0
+        },
+        {
+          "cno_4d": "3139",
+          "label": "T\u00e9cnicos en control de procesos no clasificados bajo otros ep\u00edgrafes",
+          "weight": 19788,
+          "exposure": 5.0
+        },
+        {
+          "cno_4d": "3151",
+          "label": "Jefes y oficiales de m\u00e1quinas",
+          "weight": 13624,
+          "exposure": 3.0
+        },
+        {
+          "cno_4d": "3160",
+          "label": "T\u00e9cnicos de control de calidad de las ciencias f\u00edsicas, qu\u00edmicas y de las ingenier\u00edas",
+          "weight": 12404,
+          "exposure": 4.0
+        },
+        {
+          "cno_4d": "3127",
+          "label": "T\u00e9cnicos y analistas de laboratorio en qu\u00edmica industrial",
+          "weight": 12261,
+          "exposure": 5.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "32",
+      "source_id": "openrouter_llm",
+      "quality": "llm_derived_from_4d",
+      "weight_metric": "contracts_2025_fallback_demandants_2025",
+      "children_scored": 8,
+      "value": 3.29,
+      "confidence": 8.6,
+      "model": "google/gemini-3.1-pro-preview",
+      "top_weighted_children": [
+        {
+          "cno_4d": "3202",
+          "label": "Supervisores de la construcci\u00f3n",
+          "weight": 12924,
+          "exposure": 3.0
+        },
+        {
+          "cno_4d": "3209",
+          "label": "Supervisores de otras industrias manufactureras",
+          "weight": 4165,
+          "exposure": 4.0
+        },
+        {
+          "cno_4d": "3203",
+          "label": "Supervisores de industrias alimenticias y del tabaco",
+          "weight": 2141,
+          "exposure": 4.0
+        },
+        {
+          "cno_4d": "3204",
+          "label": "Supervisores de industrias qu\u00edmica y farmac\u00e9utica",
+          "weight": 1384,
+          "exposure": 3.0
+        },
+        {
+          "cno_4d": "3207",
+          "label": "Supervisores de la producci\u00f3n en industrias de artes gr\u00e1ficas y en la fabricaci\u00f3n de productos de papel",
+          "weight": 579,
+          "exposure": 3.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "33",
+      "source_id": "openrouter_llm",
+      "quality": "llm_derived_from_4d",
+      "weight_metric": "contracts_2025_fallback_demandants_2025",
+      "children_scored": 17,
+      "value": 3.49,
+      "confidence": 8.29,
+      "model": "google/gemini-3.1-pro-preview",
+      "top_weighted_children": [
+        {
+          "cno_4d": "3326",
+          "label": "T\u00e9cnicos en prevenci\u00f3n de riesgos laborales y salud ambiental",
+          "weight": 14460,
+          "exposure": 4.0
+        },
+        {
+          "cno_4d": "3329",
+          "label": "T\u00e9cnicos de la sanidad no clasificados bajo otros ep\u00edgrafes",
+          "weight": 14174,
+          "exposure": 3.0
+        },
+        {
+          "cno_4d": "3321",
+          "label": "T\u00e9cnicos superiores en higiene bucodental",
+          "weight": 12499,
+          "exposure": 2.0
+        },
+        {
+          "cno_4d": "3314",
+          "label": "T\u00e9cnicos en laboratorio de diagn\u00f3stico cl\u00ednico",
+          "weight": 11706,
+          "exposure": 4.0
+        },
+        {
+          "cno_4d": "3312",
+          "label": "T\u00e9cnicos en imagen para el diagn\u00f3stico",
+          "weight": 11233,
+          "exposure": 5.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "34",
+      "source_id": "openrouter_llm",
+      "quality": "llm_derived_from_4d",
+      "weight_metric": "contracts_2025_fallback_demandants_2025",
+      "children_scored": 5,
+      "value": 8.4,
+      "confidence": 8.91,
+      "model": "google/gemini-3.1-pro-preview",
+      "top_weighted_children": [
+        {
+          "cno_4d": "3404",
+          "label": "Profesionales de apoyo en servicios estad\u00edsticos, matem\u00e1ticos y afines",
+          "weight": 1633,
+          "exposure": 9.0
+        },
+        {
+          "cno_4d": "3402",
+          "label": "Comerciales de pr\u00e9stamos y cr\u00e9ditos",
+          "weight": 876,
+          "exposure": 8.0
+        },
+        {
+          "cno_4d": "3401",
+          "label": "Profesionales de apoyo e intermediarios de cambio, bolsa y finanzas",
+          "weight": 782,
+          "exposure": 8.0
+        },
+        {
+          "cno_4d": "3405",
+          "label": "Tasadores",
+          "weight": 333,
+          "exposure": 7.0
+        },
+        {
+          "cno_4d": "3403",
+          "label": "Tenedores de libros",
+          "weight": 276,
+          "exposure": 9.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "35",
+      "source_id": "openrouter_llm",
+      "quality": "llm_derived_from_4d",
+      "weight_metric": "contracts_2025_fallback_demandants_2025",
+      "children_scored": 10,
+      "value": 5.95,
+      "confidence": 8.03,
+      "model": "google/gemini-3.1-pro-preview",
+      "top_weighted_children": [
+        {
+          "cno_4d": "3510",
+          "label": "Agentes y representantes comerciales",
+          "weight": 81426,
+          "exposure": 6.0
+        },
+        {
+          "cno_4d": "3532",
+          "label": "Organizadores de conferencias y eventos",
+          "weight": 8093,
+          "exposure": 5.0
+        },
+        {
+          "cno_4d": "3534",
+          "label": "Agentes y administradores de la propiedad inmobiliaria",
+          "weight": 7264,
+          "exposure": 5.0
+        },
+        {
+          "cno_4d": "3522",
+          "label": "Agentes de compras",
+          "weight": 4733,
+          "exposure": 7.0
+        },
+        {
+          "cno_4d": "3521",
+          "label": "Mediadores y agentes de seguros",
+          "weight": 2161,
+          "exposure": 7.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "36",
+      "source_id": "openrouter_llm",
+      "quality": "llm_derived_from_4d",
+      "weight_metric": "contracts_2025_fallback_demandants_2025",
+      "children_scored": 10,
+      "value": 7.84,
+      "confidence": 8.91,
+      "model": "google/gemini-3.1-pro-preview",
+      "top_weighted_children": [
+        {
+          "cno_4d": "3613",
+          "label": "Asistentes de direcci\u00f3n y administrativos",
+          "weight": 52678,
+          "exposure": 8.0
+        },
+        {
+          "cno_4d": "3629",
+          "label": "Otros profesionales de apoyo de la administraci\u00f3n p\u00fablica para tareas de inspecci\u00f3n y control y tareas similares",
+          "weight": 2295,
+          "exposure": 5.0
+        },
+        {
+          "cno_4d": "3612",
+          "label": "Asistentes jur\u00eddico-legales",
+          "weight": 1609,
+          "exposure": 8.0
+        },
+        {
+          "cno_4d": "3622",
+          "label": "Profesionales de apoyo de la administraci\u00f3n p\u00fablica de servicios sociales",
+          "weight": 1546,
+          "exposure": 7.0
+        },
+        {
+          "cno_4d": "3614",
+          "label": "Secretarios de centros m\u00e9dicos o cl\u00ednicas",
+          "weight": 830,
+          "exposure": 7.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "37",
+      "source_id": "openrouter_llm",
+      "quality": "llm_derived_from_4d",
+      "weight_metric": "contracts_2025_fallback_demandants_2025",
+      "children_scored": 15,
+      "value": 2.39,
+      "confidence": 8.65,
+      "model": "google/gemini-3.1-pro-preview",
+      "top_weighted_children": [
+        {
+          "cno_4d": "3724",
+          "label": "Monitores de actividades recreativas y de entretenimiento",
+          "weight": 306970,
+          "exposure": 2.0
+        },
+        {
+          "cno_4d": "3739",
+          "label": "Otros t\u00e9cnicos y profesionales de apoyo de actividades culturales y art\u00edsticas",
+          "weight": 153302,
+          "exposure": 3.0
+        },
+        {
+          "cno_4d": "3723",
+          "label": "Instructores de actividades deportivas",
+          "weight": 56799,
+          "exposure": 2.0
+        },
+        {
+          "cno_4d": "3713",
+          "label": "Profesionales de apoyo al trabajo y a la educaci\u00f3n social",
+          "weight": 46056,
+          "exposure": 3.0
+        },
+        {
+          "cno_4d": "3715",
+          "label": "Animadores comunitarios",
+          "weight": 28626,
+          "exposure": 2.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "38",
+      "source_id": "openrouter_llm",
+      "quality": "llm_derived_from_4d",
+      "weight_metric": "contracts_2025_fallback_demandants_2025",
+      "children_scored": 8,
+      "value": 6.75,
+      "confidence": 8.49,
+      "model": "google/gemini-3.1-pro-preview",
+      "top_weighted_children": [
+        {
+          "cno_4d": "3831",
+          "label": "T\u00e9cnicos de grabaci\u00f3n audiovisual",
+          "weight": 115547,
+          "exposure": 6.0
+        },
+        {
+          "cno_4d": "3820",
+          "label": "Programadores inform\u00e1ticos",
+          "weight": 27126,
+          "exposure": 9.0
+        },
+        {
+          "cno_4d": "3811",
+          "label": "T\u00e9cnicos en operaciones de sistemas inform\u00e1ticos",
+          "weight": 21700,
+          "exposure": 8.0
+        },
+        {
+          "cno_4d": "3812",
+          "label": "T\u00e9cnicos en asistencia al usuario de tecnolog\u00edas de la informaci\u00f3n",
+          "weight": 7644,
+          "exposure": 7.0
+        },
+        {
+          "cno_4d": "3813",
+          "label": "T\u00e9cnicos en redes",
+          "weight": 2993,
+          "exposure": 7.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "41",
+      "source_id": "openrouter_llm",
+      "quality": "llm_derived_from_4d",
+      "weight_metric": "contracts_2025_fallback_demandants_2025",
+      "children_scored": 6,
+      "value": 7.59,
+      "confidence": 8.46,
+      "model": "google/gemini-3.1-pro-preview",
+      "top_weighted_children": [
+        {
+          "cno_4d": "4123",
+          "label": "Empleados de log\u00edstica y transporte de pasajeros y mercanc\u00edas",
+          "weight": 57747,
+          "exposure": 7.0
+        },
+        {
+          "cno_4d": "4121",
+          "label": "Empleados de control de abastecimientos e inventario",
+          "weight": 25072,
+          "exposure": 5.0
+        },
+        {
+          "cno_4d": "4113",
+          "label": "Empleados de oficina de servicios estad\u00edsticos, financieros y bancarios",
+          "weight": 24216,
+          "exposure": 9.0
+        },
+        {
+          "cno_4d": "4122",
+          "label": "Empleados de oficina de servicios de apoyo a la producci\u00f3n",
+          "weight": 21587,
+          "exposure": 9.0
+        },
+        {
+          "cno_4d": "4111",
+          "label": "Empleados de contabilidad",
+          "weight": 18678,
+          "exposure": 9.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "42",
+      "source_id": "openrouter_llm",
+      "quality": "llm_derived_from_4d",
+      "weight_metric": "contracts_2025_fallback_demandants_2025",
+      "children_scored": 4,
+      "value": 3.52,
+      "confidence": 8.12,
+      "model": "google/gemini-3.1-pro-preview",
+      "top_weighted_children": [
+        {
+          "cno_4d": "4221",
+          "label": "Empleados de servicios de correos (excepto empleados de mostrador)",
+          "weight": 52946,
+          "exposure": 3.0
+        },
+        {
+          "cno_4d": "4223",
+          "label": "Empleados de servicio de personal",
+          "weight": 4004,
+          "exposure": 9.0
+        },
+        {
+          "cno_4d": "4210",
+          "label": "Empleados de bibliotecas y archivos",
+          "weight": 2882,
+          "exposure": 5.0
+        },
+        {
+          "cno_4d": "4222",
+          "label": "Codificadores y correctores de imprenta",
+          "weight": 229,
+          "exposure": 10.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "43",
+      "source_id": "openrouter_llm",
+      "quality": "llm_derived_from_4d",
+      "weight_metric": "contracts_2025_fallback_demandants_2025",
+      "children_scored": 2,
+      "value": 9.1,
+      "confidence": 9.1,
+      "model": "google/gemini-3.1-pro-preview",
+      "top_weighted_children": [
+        {
+          "cno_4d": "4309",
+          "label": "Empleados administrativos sin tareas de atenci\u00f3n al p\u00fablico no clasificados bajo otros ep\u00edgrafes",
+          "weight": 172234,
+          "exposure": 9.0
+        },
+        {
+          "cno_4d": "4301",
+          "label": "Grabadores de datos",
+          "weight": 18116,
+          "exposure": 10.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "44",
+      "source_id": "openrouter_llm",
+      "quality": "llm_derived_from_4d",
+      "weight_metric": "contracts_2025_fallback_demandants_2025",
+      "children_scored": 13,
+      "value": 7.35,
+      "confidence": 8.48,
+      "model": "google/gemini-3.1-pro-preview",
+      "top_weighted_children": [
+        {
+          "cno_4d": "4424",
+          "label": "Teleoperadores",
+          "weight": 79873,
+          "exposure": 9.0
+        },
+        {
+          "cno_4d": "4412",
+          "label": "Recepcionistas (excepto de hoteles)",
+          "weight": 55286,
+          "exposure": 6.0
+        },
+        {
+          "cno_4d": "4422",
+          "label": "Recepcionistas de hoteles",
+          "weight": 38287,
+          "exposure": 7.0
+        },
+        {
+          "cno_4d": "4411",
+          "label": "Empleados de informaci\u00f3n al usuario",
+          "weight": 24930,
+          "exposure": 7.0
+        },
+        {
+          "cno_4d": "4443",
+          "label": "Empleados de sala de juegos y afines",
+          "weight": 15003,
+          "exposure": 4.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "45",
+      "source_id": "openrouter_llm",
+      "quality": "llm_derived_from_4d",
+      "weight_metric": "contracts_2025_fallback_demandants_2025",
+      "children_scored": 1,
+      "value": 8.0,
+      "confidence": 9.0,
+      "model": "google/gemini-3.1-pro-preview",
+      "top_weighted_children": [
+        {
+          "cno_4d": "4500",
+          "label": "Empleados administrativos con tareas de atenci\u00f3n al p\u00fablico no clasificados bajo otros ep\u00edgrafes",
+          "weight": 298111,
+          "exposure": 8.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "50",
+      "source_id": "openrouter_llm",
+      "quality": "llm_derived_from_4d",
+      "weight_metric": "contracts_2025_fallback_demandants_2025",
+      "children_scored": 1,
+      "value": 1.0,
+      "confidence": 9.0,
+      "model": "google/gemini-3.1-pro-preview",
+      "top_weighted_children": [
+        {
+          "cno_4d": "5000",
+          "label": "Camareros y cocineros propietarios",
+          "weight": 2829,
+          "exposure": 1.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "51",
+      "source_id": "openrouter_llm",
+      "quality": "llm_derived_from_4d",
+      "weight_metric": "contracts_2025_fallback_demandants_2025",
+      "children_scored": 2,
+      "value": 1.16,
+      "confidence": 9.0,
+      "model": "google/gemini-3.1-pro-preview",
+      "top_weighted_children": [
+        {
+          "cno_4d": "5120",
+          "label": "Camareros asalariados",
+          "weight": 1558033,
+          "exposure": 1.0
+        },
+        {
+          "cno_4d": "5110",
+          "label": "Cocineros asalariados",
+          "weight": 288632,
+          "exposure": 2.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "52",
+      "source_id": "openrouter_llm",
+      "quality": "llm_derived_from_4d",
+      "weight_metric": "contracts_2025_fallback_demandants_2025",
+      "children_scored": 2,
+      "value": 3.02,
+      "confidence": 8.98,
+      "model": "google/gemini-3.1-pro-preview",
+      "top_weighted_children": [
+        {
+          "cno_4d": "5220",
+          "label": "Vendedores en tiendas y almacenes",
+          "weight": 795867,
+          "exposure": 3.0
+        },
+        {
+          "cno_4d": "5210",
+          "label": "Jefes de secci\u00f3n de tiendas y almacenes",
+          "weight": 14519,
+          "exposure": 4.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "53",
+      "source_id": "openrouter_llm",
+      "quality": "llm_derived_from_4d",
+      "weight_metric": "contracts_2025_fallback_demandants_2025",
+      "children_scored": 1,
+      "value": 4.0,
+      "confidence": 8.0,
+      "model": "google/gemini-3.1-pro-preview",
+      "top_weighted_children": [
+        {
+          "cno_4d": "5300",
+          "label": "Comerciantes propietarios de tiendas",
+          "weight": 114,
+          "exposure": 4.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "54",
+      "source_id": "openrouter_llm",
+      "quality": "llm_derived_from_4d",
+      "weight_metric": "contracts_2025_fallback_demandants_2025",
+      "children_scored": 8,
+      "value": 3.01,
+      "confidence": 8.66,
+      "model": "google/gemini-3.1-pro-preview",
+      "top_weighted_children": [
+        {
+          "cno_4d": "5492",
+          "label": "Promotores de venta",
+          "weight": 69867,
+          "exposure": 1.0
+        },
+        {
+          "cno_4d": "5430",
+          "label": "Expendedores de gasolineras",
+          "weight": 31575,
+          "exposure": 1.0
+        },
+        {
+          "cno_4d": "5499",
+          "label": "Vendedores no clasificados bajo otros ep\u00edgrafes",
+          "weight": 29578,
+          "exposure": 5.0
+        },
+        {
+          "cno_4d": "5420",
+          "label": "Operadores de telemarketing",
+          "weight": 23632,
+          "exposure": 9.0
+        },
+        {
+          "cno_4d": "5412",
+          "label": "Vendedores en mercados ocasionales y mercadillos",
+          "weight": 9604,
+          "exposure": 1.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "55",
+      "source_id": "openrouter_llm",
+      "quality": "llm_derived_from_4d",
+      "weight_metric": "contracts_2025_fallback_demandants_2025",
+      "children_scored": 1,
+      "value": 5.0,
+      "confidence": 8.0,
+      "model": "google/gemini-3.1-pro-preview",
+      "top_weighted_children": [
+        {
+          "cno_4d": "5500",
+          "label": "Cajeros y taquilleros (excepto bancos)",
+          "weight": 114471,
+          "exposure": 5.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "56",
+      "source_id": "openrouter_llm",
+      "quality": "llm_derived_from_4d",
+      "weight_metric": "contracts_2025_fallback_demandants_2025",
+      "children_scored": 5,
+      "value": 1.22,
+      "confidence": 9.41,
+      "model": "google/gemini-3.1-pro-preview",
+      "top_weighted_children": [
+        {
+          "cno_4d": "5611",
+          "label": "Auxiliares de enfermer\u00eda hospitalaria",
+          "weight": 212031,
+          "exposure": 1.0
+        },
+        {
+          "cno_4d": "5629",
+          "label": "Trabajadores de los cuidados a las personas en servicios de salud no clasificados bajo otros ep\u00edgrafes",
+          "weight": 149923,
+          "exposure": 1.0
+        },
+        {
+          "cno_4d": "5612",
+          "label": "Auxiliares de enfermer\u00eda de atenci\u00f3n primaria",
+          "weight": 40853,
+          "exposure": 1.0
+        },
+        {
+          "cno_4d": "5621",
+          "label": "T\u00e9cnicos auxiliares de farmacia",
+          "weight": 27569,
+          "exposure": 4.0
+        },
+        {
+          "cno_4d": "5622",
+          "label": "T\u00e9cnicos de emergencias sanitarias",
+          "weight": 17996,
+          "exposure": 2.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "57",
+      "source_id": "openrouter_llm",
+      "quality": "llm_derived_from_4d",
+      "weight_metric": "contracts_2025_fallback_demandants_2025",
+      "children_scored": 3,
+      "value": 1.0,
+      "confidence": 9.0,
+      "model": "google/gemini-3.1-pro-preview",
+      "top_weighted_children": [
+        {
+          "cno_4d": "5710",
+          "label": "Trabajadores de los cuidados personales a domicilio",
+          "weight": 179071,
+          "exposure": 1.0
+        },
+        {
+          "cno_4d": "5721",
+          "label": "Cuidadores de ni\u00f1os en guarder\u00edas y centros educativos",
+          "weight": 160116,
+          "exposure": 1.0
+        },
+        {
+          "cno_4d": "5722",
+          "label": "Cuidadores de ni\u00f1os en domicilios",
+          "weight": 1005,
+          "exposure": 0.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "58",
+      "source_id": "openrouter_llm",
+      "quality": "llm_derived_from_4d",
+      "weight_metric": "contracts_2025_fallback_demandants_2025",
+      "children_scored": 17,
+      "value": 1.88,
+      "confidence": 8.9,
+      "model": "google/gemini-3.1-pro-preview",
+      "top_weighted_children": [
+        {
+          "cno_4d": "5833",
+          "label": "Conserjes de edificios",
+          "weight": 61775,
+          "exposure": 1.0
+        },
+        {
+          "cno_4d": "5824",
+          "label": "Azafatos de tierra",
+          "weight": 51553,
+          "exposure": 4.0
+        },
+        {
+          "cno_4d": "5812",
+          "label": "Especialistas en tratamientos de est\u00e9tica, bienestar y afines",
+          "weight": 41252,
+          "exposure": 2.0
+        },
+        {
+          "cno_4d": "5899",
+          "label": "Trabajadores de servicios personales no clasificados bajo otros ep\u00edgrafes",
+          "weight": 35693,
+          "exposure": 1.0
+        },
+        {
+          "cno_4d": "5811",
+          "label": "Peluqueros",
+          "weight": 34328,
+          "exposure": 1.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "59",
+      "source_id": "openrouter_llm",
+      "quality": "llm_derived_from_4d",
+      "weight_metric": "contracts_2025_fallback_demandants_2025",
+      "children_scored": 12,
+      "value": 2.13,
+      "confidence": 8.92,
+      "model": "google/gemini-3.1-pro-preview",
+      "top_weighted_children": [
+        {
+          "cno_4d": "5941",
+          "label": "Vigilantes de seguridad y similares habilitados para ir armados",
+          "weight": 90534,
+          "exposure": 2.0
+        },
+        {
+          "cno_4d": "5942",
+          "label": "Auxiliares de vigilante de seguridad y similares no habilitados para ir armados",
+          "weight": 67038,
+          "exposure": 3.0
+        },
+        {
+          "cno_4d": "5992",
+          "label": "Ba\u00f1istas-socorristas",
+          "weight": 52292,
+          "exposure": 1.0
+        },
+        {
+          "cno_4d": "5999",
+          "label": "Trabajadores de los servicios de protecci\u00f3n y seguridad no clasificados bajo otros ep\u00edgrafes",
+          "weight": 22379,
+          "exposure": 3.0
+        },
+        {
+          "cno_4d": "5932",
+          "label": "Bomberos forestales",
+          "weight": 4341,
+          "exposure": 1.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "61",
+      "source_id": "openrouter_llm",
+      "quality": "llm_derived_from_4d",
+      "weight_metric": "contracts_2025_fallback_demandants_2025",
+      "children_scored": 2,
+      "value": 2.0,
+      "confidence": 9.0,
+      "model": "google/gemini-3.1-pro-preview",
+      "top_weighted_children": [
+        {
+          "cno_4d": "6110",
+          "label": "Trabajadores cualificados en actividades agr\u00edcolas (excepto en huertas, invernaderos, viveros y jardines)",
+          "weight": 115129,
+          "exposure": 2.0
+        },
+        {
+          "cno_4d": "6120",
+          "label": "Trabajadores cualificados en huertas, invernaderos, viveros y jardines",
+          "weight": 34367,
+          "exposure": 2.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "62",
+      "source_id": "openrouter_llm",
+      "quality": "llm_derived_from_4d",
+      "weight_metric": "contracts_2025_fallback_demandants_2025",
+      "children_scored": 6,
+      "value": 2.0,
+      "confidence": 9.0,
+      "model": "google/gemini-3.1-pro-preview",
+      "top_weighted_children": [
+        {
+          "cno_4d": "6205",
+          "label": "Trabajadores cualificados en la avicultura y la cunicultura",
+          "weight": 2395,
+          "exposure": 2.0
+        },
+        {
+          "cno_4d": "6203",
+          "label": "Trabajadores cualificados en actividades ganaderas de porcino",
+          "weight": 1906,
+          "exposure": 2.0
+        },
+        {
+          "cno_4d": "6202",
+          "label": "Trabajadores cualificados en actividades ganaderas de ovino y caprino",
+          "weight": 1565,
+          "exposure": 2.0
+        },
+        {
+          "cno_4d": "6201",
+          "label": "Trabajadores cualificados en actividades ganaderas de vacuno",
+          "weight": 1151,
+          "exposure": 2.0
+        },
+        {
+          "cno_4d": "6209",
+          "label": "Trabajadores cualificados en actividades ganaderas no clasificados bajo otros ep\u00edgrafes",
+          "weight": 1023,
+          "exposure": 2.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "63",
+      "source_id": "openrouter_llm",
+      "quality": "llm_derived_from_4d",
+      "weight_metric": "contracts_2025_fallback_demandants_2025",
+      "children_scored": 1,
+      "value": 2.0,
+      "confidence": 9.0,
+      "model": "google/gemini-3.1-pro-preview",
+      "top_weighted_children": [
+        {
+          "cno_4d": "6300",
+          "label": "Trabajadores cualificados en actividades agropecuarias mixtas",
+          "weight": 3853,
+          "exposure": 2.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "64",
+      "source_id": "openrouter_llm",
+      "quality": "llm_derived_from_4d",
+      "weight_metric": "contracts_2025_fallback_demandants_2025",
+      "children_scored": 5,
+      "value": 1.2,
+      "confidence": 9.06,
+      "model": "google/gemini-3.1-pro-preview",
+      "top_weighted_children": [
+        {
+          "cno_4d": "6410",
+          "label": "Trabajadores cualificados en actividades forestales y del medio natural",
+          "weight": 14661,
+          "exposure": 1.0
+        },
+        {
+          "cno_4d": "6422",
+          "label": "Pescadores de aguas costeras y aguas dulces",
+          "weight": 4976,
+          "exposure": 1.0
+        },
+        {
+          "cno_4d": "6423",
+          "label": "Pescadores de altura",
+          "weight": 4213,
+          "exposure": 2.0
+        },
+        {
+          "cno_4d": "6430",
+          "label": "Trabajadores cualificados en actividades cineg\u00e9ticas",
+          "weight": 1516,
+          "exposure": 1.0
+        },
+        {
+          "cno_4d": "6421",
+          "label": "Trabajadores cualificados en la acuicultura",
+          "weight": 965,
+          "exposure": 2.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "71",
+      "source_id": "openrouter_llm",
+      "quality": "llm_derived_from_4d",
+      "weight_metric": "contracts_2025_fallback_demandants_2025",
+      "children_scored": 10,
+      "value": 1.04,
+      "confidence": 9.04,
+      "model": "google/gemini-3.1-pro-preview",
+      "top_weighted_children": [
+        {
+          "cno_4d": "7121",
+          "label": "Alba\u00f1iles",
+          "weight": 244912,
+          "exposure": 1.0
+        },
+        {
+          "cno_4d": "7199",
+          "label": "Otros trabajadores de las obras estructurales de construcci\u00f3n no clasificados bajo otros ep\u00edgrafes",
+          "weight": 42434,
+          "exposure": 1.0
+        },
+        {
+          "cno_4d": "7191",
+          "label": "Mantenedores de edificios",
+          "weight": 36923,
+          "exposure": 1.0
+        },
+        {
+          "cno_4d": "7111",
+          "label": "Encofradores y operarios de puesta en obra de hormig\u00f3n",
+          "weight": 22459,
+          "exposure": 1.0
+        },
+        {
+          "cno_4d": "7131",
+          "label": "Carpinteros (excepto ebanistas)",
+          "weight": 14979,
+          "exposure": 1.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "72",
+      "source_id": "openrouter_llm",
+      "quality": "llm_derived_from_4d",
+      "weight_metric": "contracts_2025_fallback_demandants_2025",
+      "children_scored": 14,
+      "value": 1.0,
+      "confidence": 9.62,
+      "model": "google/gemini-3.1-pro-preview",
+      "top_weighted_children": [
+        {
+          "cno_4d": "7231",
+          "label": "Pintores y empapeladores",
+          "weight": 23782,
+          "exposure": 1.0
+        },
+        {
+          "cno_4d": "7221",
+          "label": "Fontaneros",
+          "weight": 16468,
+          "exposure": 1.0
+        },
+        {
+          "cno_4d": "7250",
+          "label": "Mec\u00e1nicos-instaladores de refrigeraci\u00f3n y climatizaci\u00f3n",
+          "weight": 11479,
+          "exposure": 1.0
+        },
+        {
+          "cno_4d": "7294",
+          "label": "Montadores-instaladores de placas de energ\u00eda solar",
+          "weight": 8617,
+          "exposure": 1.0
+        },
+        {
+          "cno_4d": "7232",
+          "label": "Pintores en las industrias manufactureras",
+          "weight": 7509,
+          "exposure": 1.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "73",
+      "source_id": "openrouter_llm",
+      "quality": "llm_derived_from_4d",
+      "weight_metric": "contracts_2025_fallback_demandants_2025",
+      "children_scored": 9,
+      "value": 1.24,
+      "confidence": 9.0,
+      "model": "google/gemini-3.1-pro-preview",
+      "top_weighted_children": [
+        {
+          "cno_4d": "7314",
+          "label": "Montadores de estructuras met\u00e1licas",
+          "weight": 47164,
+          "exposure": 1.0
+        },
+        {
+          "cno_4d": "7312",
+          "label": "Soldadores y oxicortadores",
+          "weight": 28461,
+          "exposure": 1.0
+        },
+        {
+          "cno_4d": "7323",
+          "label": "Ajustadores y operadores de m\u00e1quinas-herramienta",
+          "weight": 24434,
+          "exposure": 2.0
+        },
+        {
+          "cno_4d": "7313",
+          "label": "Chapistas y caldereros",
+          "weight": 12770,
+          "exposure": 1.0
+        },
+        {
+          "cno_4d": "7322",
+          "label": "Trabajadores de la fabricaci\u00f3n de herramientas, mec\u00e1nico-ajustadores, modelistas, matriceros y afines",
+          "weight": 5477,
+          "exposure": 2.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "74",
+      "source_id": "openrouter_llm",
+      "quality": "llm_derived_from_4d",
+      "weight_metric": "contracts_2025_fallback_demandants_2025",
+      "children_scored": 5,
+      "value": 1.93,
+      "confidence": 9.02,
+      "model": "google/gemini-3.1-pro-preview",
+      "top_weighted_children": [
+        {
+          "cno_4d": "7401",
+          "label": "Mec\u00e1nicos y ajustadores de veh\u00edculos de motor",
+          "weight": 47564,
+          "exposure": 2.0
+        },
+        {
+          "cno_4d": "7403",
+          "label": "Mec\u00e1nicos y ajustadores de maquinaria agr\u00edcola e industrial",
+          "weight": 20681,
+          "exposure": 2.0
+        },
+        {
+          "cno_4d": "7404",
+          "label": "Mec\u00e1nicos y ajustadores de maquinaria naval y ferroviaria",
+          "weight": 3573,
+          "exposure": 1.0
+        },
+        {
+          "cno_4d": "7405",
+          "label": "Reparadores de bicicletas y afines",
+          "weight": 1614,
+          "exposure": 1.0
+        },
+        {
+          "cno_4d": "7402",
+          "label": "Mec\u00e1nicos y ajustadores de motores de avi\u00f3n",
+          "weight": 1110,
+          "exposure": 2.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "75",
+      "source_id": "openrouter_llm",
+      "quality": "llm_derived_from_4d",
+      "weight_metric": "contracts_2025_fallback_demandants_2025",
+      "children_scored": 6,
+      "value": 1.89,
+      "confidence": 9.11,
+      "model": "google/gemini-3.1-pro-preview",
+      "top_weighted_children": [
+        {
+          "cno_4d": "7510",
+          "label": "Electricistas de la construcci\u00f3n y afines",
+          "weight": 41212,
+          "exposure": 2.0
+        },
+        {
+          "cno_4d": "7521",
+          "label": "Mec\u00e1nicos y reparadores de equipos el\u00e9ctricos",
+          "weight": 13606,
+          "exposure": 2.0
+        },
+        {
+          "cno_4d": "7533",
+          "label": "Instaladores y reparadores en tecnolog\u00edas de la informaci\u00f3n y las comunicaciones",
+          "weight": 10697,
+          "exposure": 2.0
+        },
+        {
+          "cno_4d": "7522",
+          "label": "Instaladores y reparadores de l\u00edneas el\u00e9ctricas",
+          "weight": 8762,
+          "exposure": 1.0
+        },
+        {
+          "cno_4d": "7531",
+          "label": "Mec\u00e1nicos y reparadores de equipos electr\u00f3nicos",
+          "weight": 7103,
+          "exposure": 2.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "76",
+      "source_id": "openrouter_llm",
+      "quality": "llm_derived_from_4d",
+      "weight_metric": "contracts_2025_fallback_demandants_2025",
+      "children_scored": 12,
+      "value": 1.9,
+      "confidence": 8.86,
+      "model": "google/gemini-3.1-pro-preview",
+      "top_weighted_children": [
+        {
+          "cno_4d": "7622",
+          "label": "Trabajadores de procesos de impresi\u00f3n",
+          "weight": 5741,
+          "exposure": 2.0
+        },
+        {
+          "cno_4d": "7618",
+          "label": "Artesanos en tejidos, cueros y materiales similares, preparadores de fibra y tejedores con telares artesanos o de tejidos de punto y afines",
+          "weight": 2921,
+          "exposure": 1.0
+        },
+        {
+          "cno_4d": "7619",
+          "label": "Artesanos no clasificados bajo otros ep\u00edgrafes",
+          "weight": 2489,
+          "exposure": 1.0
+        },
+        {
+          "cno_4d": "7614",
+          "label": "Trabajadores de la cer\u00e1mica, alfareros y afines",
+          "weight": 1436,
+          "exposure": 1.0
+        },
+        {
+          "cno_4d": "7621",
+          "label": "Trabajadores de procesos de preimpresi\u00f3n",
+          "weight": 1413,
+          "exposure": 5.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "77",
+      "source_id": "openrouter_llm",
+      "quality": "llm_derived_from_4d",
+      "weight_metric": "contracts_2025_fallback_demandants_2025",
+      "children_scored": 9,
+      "value": 1.07,
+      "confidence": 9.32,
+      "model": "google/gemini-3.1-pro-preview",
+      "top_weighted_children": [
+        {
+          "cno_4d": "7701",
+          "label": "Matarifes y trabajadores de las industrias c\u00e1rnicas",
+          "weight": 49620,
+          "exposure": 1.0
+        },
+        {
+          "cno_4d": "7705",
+          "label": "Trabajadores conserveros de frutas y hortalizas y trabajadores de la elaboraci\u00f3n de bebidas no alcoh\u00f3licas",
+          "weight": 37563,
+          "exposure": 1.0
+        },
+        {
+          "cno_4d": "7703",
+          "label": "Panaderos, pasteleros y confiteros",
+          "weight": 32424,
+          "exposure": 1.0
+        },
+        {
+          "cno_4d": "7702",
+          "label": "Trabajadores de las industrias del pescado",
+          "weight": 14559,
+          "exposure": 1.0
+        },
+        {
+          "cno_4d": "7704",
+          "label": "Trabajadores del tratamiento de la leche y elaboraci\u00f3n de productos l\u00e1cteos (incluidos helados)",
+          "weight": 8295,
+          "exposure": 1.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "78",
+      "source_id": "openrouter_llm",
+      "quality": "llm_derived_from_4d",
+      "weight_metric": "contracts_2025_fallback_demandants_2025",
+      "children_scored": 15,
+      "value": 1.05,
+      "confidence": 9.04,
+      "model": "google/gemini-3.1-pro-preview",
+      "top_weighted_children": [
+        {
+          "cno_4d": "7899",
+          "label": "Oficiales, operarios y artesanos de otros oficios no clasificados bajo otros ep\u00edgrafes",
+          "weight": 154738,
+          "exposure": 1.0
+        },
+        {
+          "cno_4d": "7837",
+          "label": "Zapateros y afines",
+          "weight": 5680,
+          "exposure": 1.0
+        },
+        {
+          "cno_4d": "7811",
+          "label": "Trabajadores del tratamiento de la madera",
+          "weight": 4598,
+          "exposure": 1.0
+        },
+        {
+          "cno_4d": "7831",
+          "label": "Sastres, modistos, peleteros y sombrereros",
+          "weight": 3448,
+          "exposure": 1.0
+        },
+        {
+          "cno_4d": "7834",
+          "label": "Costureros a mano, bordadores y afines",
+          "weight": 3142,
+          "exposure": 1.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "81",
+      "source_id": "openrouter_llm",
+      "quality": "llm_derived_from_4d",
+      "weight_metric": "contracts_2025_fallback_demandants_2025",
+      "children_scored": 27,
+      "value": 1.78,
+      "confidence": 8.86,
+      "model": "google/gemini-3.1-pro-preview",
+      "top_weighted_children": [
+        {
+          "cno_4d": "8121",
+          "label": "Operadores en instalaciones para la obtenci\u00f3n y transformaci\u00f3n de metales",
+          "weight": 68474,
+          "exposure": 2.0
+        },
+        {
+          "cno_4d": "8160",
+          "label": "Operadores de m\u00e1quinas para elaborar productos alimenticios, bebidas y tabaco",
+          "weight": 44399,
+          "exposure": 2.0
+        },
+        {
+          "cno_4d": "8143",
+          "label": "Operadores de m\u00e1quinas para fabricar productos de papel y cart\u00f3n",
+          "weight": 27220,
+          "exposure": 1.0
+        },
+        {
+          "cno_4d": "8193",
+          "label": "Operadores de m\u00e1quinas de embalaje, embotellamiento y etiquetado",
+          "weight": 24307,
+          "exposure": 1.0
+        },
+        {
+          "cno_4d": "8199",
+          "label": "Operadores de instalaciones y maquinaria fijas no clasificados bajo otros ep\u00edgrafes",
+          "weight": 19340,
+          "exposure": 2.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "82",
+      "source_id": "openrouter_llm",
+      "quality": "llm_derived_from_4d",
+      "weight_metric": "contracts_2025_fallback_demandants_2025",
+      "children_scored": 3,
+      "value": 2.0,
+      "confidence": 9.0,
+      "model": "google/gemini-3.1-pro-preview",
+      "top_weighted_children": [
+        {
+          "cno_4d": "8209",
+          "label": "Montadores y ensambladores no clasificados en otros ep\u00edgrafes",
+          "weight": 55131,
+          "exposure": 2.0
+        },
+        {
+          "cno_4d": "8201",
+          "label": "Ensambladores de maquinaria mec\u00e1nica",
+          "weight": 11856,
+          "exposure": 2.0
+        },
+        {
+          "cno_4d": "8202",
+          "label": "Ensambladores de equipos el\u00e9ctricos y electr\u00f3nicos",
+          "weight": 8518,
+          "exposure": 2.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "83",
+      "source_id": "openrouter_llm",
+      "quality": "llm_derived_from_4d",
+      "weight_metric": "contracts_2025_fallback_demandants_2025",
+      "children_scored": 8,
+      "value": 1.95,
+      "confidence": 8.77,
+      "model": "google/gemini-3.1-pro-preview",
+      "top_weighted_children": [
+        {
+          "cno_4d": "8333",
+          "label": "Operadores de carretillas elevadoras",
+          "weight": 72231,
+          "exposure": 2.0
+        },
+        {
+          "cno_4d": "8321",
+          "label": "Operadores de maquinaria agr\u00edcola m\u00f3vil",
+          "weight": 36490,
+          "exposure": 2.0
+        },
+        {
+          "cno_4d": "8332",
+          "label": "Operadores de gr\u00faas, montacargas y de maquinaria similar de movimiento de materiales",
+          "weight": 27647,
+          "exposure": 2.0
+        },
+        {
+          "cno_4d": "8331",
+          "label": "Operadores de maquinaria de movimientos de tierras y equipos similares",
+          "weight": 17207,
+          "exposure": 2.0
+        },
+        {
+          "cno_4d": "8340",
+          "label": "Marineros de puente, marineros de m\u00e1quinas y afines",
+          "weight": 9582,
+          "exposure": 1.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "84",
+      "source_id": "openrouter_llm",
+      "quality": "llm_derived_from_4d",
+      "weight_metric": "contracts_2025_fallback_demandants_2025",
+      "children_scored": 6,
+      "value": 2.05,
+      "confidence": 8.58,
+      "model": "google/gemini-3.1-pro-preview",
+      "top_weighted_children": [
+        {
+          "cno_4d": "8412",
+          "label": "Conductores asalariados de autom\u00f3viles, taxis y furgonetas",
+          "weight": 195324,
+          "exposure": 2.0
+        },
+        {
+          "cno_4d": "8432",
+          "label": "Conductores asalariados de camiones",
+          "weight": 189890,
+          "exposure": 2.0
+        },
+        {
+          "cno_4d": "8420",
+          "label": "Conductores de autobuses y tranv\u00edas",
+          "weight": 63302,
+          "exposure": 3.0
+        },
+        {
+          "cno_4d": "8440",
+          "label": "Conductores de motocicletas y ciclomotores",
+          "weight": 38406,
+          "exposure": 1.0
+        },
+        {
+          "cno_4d": "8431",
+          "label": "Conductores propietarios de camiones",
+          "weight": 11246,
+          "exposure": 2.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "91",
+      "source_id": "openrouter_llm",
+      "quality": "llm_derived_from_4d",
+      "weight_metric": "contracts_2025_fallback_demandants_2025",
+      "children_scored": 1,
+      "value": 0.0,
+      "confidence": 10.0,
+      "model": "google/gemini-3.1-pro-preview",
+      "top_weighted_children": [
+        {
+          "cno_4d": "9100",
+          "label": "Empleados dom\u00e9sticos",
+          "weight": 188252,
+          "exposure": 0.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "92",
+      "source_id": "openrouter_llm",
+      "quality": "llm_derived_from_4d",
+      "weight_metric": "contracts_2025_fallback_demandants_2025",
+      "children_scored": 5,
+      "value": 1.0,
+      "confidence": 10.0,
+      "model": "google/gemini-3.1-pro-preview",
+      "top_weighted_children": [
+        {
+          "cno_4d": "9210",
+          "label": "Personal de limpieza de oficinas, hoteles y otros establecimientos similares",
+          "weight": 892551,
+          "exposure": 1.0
+        },
+        {
+          "cno_4d": "9229",
+          "label": "Otro personal de limpieza",
+          "weight": 153521,
+          "exposure": 1.0
+        },
+        {
+          "cno_4d": "9221",
+          "label": "Limpiadores en seco a mano y afines",
+          "weight": 15361,
+          "exposure": 1.0
+        },
+        {
+          "cno_4d": "9222",
+          "label": "Limpiadores de veh\u00edculos",
+          "weight": 13181,
+          "exposure": 1.0
+        },
+        {
+          "cno_4d": "9223",
+          "label": "Limpiadores de ventanas",
+          "weight": 761,
+          "exposure": 0.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "93",
+      "source_id": "openrouter_llm",
+      "quality": "llm_derived_from_4d",
+      "weight_metric": "contracts_2025_fallback_demandants_2025",
+      "children_scored": 2,
+      "value": 1.07,
+      "confidence": 9.93,
+      "model": "google/gemini-3.1-pro-preview",
+      "top_weighted_children": [
+        {
+          "cno_4d": "9310",
+          "label": "Ayudantes de cocina",
+          "weight": 314013,
+          "exposure": 1.0
+        },
+        {
+          "cno_4d": "9320",
+          "label": "Preparadores de comidas r\u00e1pidas",
+          "weight": 23805,
+          "exposure": 2.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "94",
+      "source_id": "openrouter_llm",
+      "quality": "llm_derived_from_4d",
+      "weight_metric": "contracts_2025_fallback_demandants_2025",
+      "children_scored": 10,
+      "value": 0.99,
+      "confidence": 9.24,
+      "model": "google/gemini-3.1-pro-preview",
+      "top_weighted_children": [
+        {
+          "cno_4d": "9490",
+          "label": "Otras ocupaciones elementales",
+          "weight": 111484,
+          "exposure": 1.0
+        },
+        {
+          "cno_4d": "9432",
+          "label": "Mozos de equipaje y afines",
+          "weight": 73370,
+          "exposure": 1.0
+        },
+        {
+          "cno_4d": "9443",
+          "label": "Barrenderos y afines",
+          "weight": 62047,
+          "exposure": 1.0
+        },
+        {
+          "cno_4d": "9433",
+          "label": "Repartidores, recadistas y mensajeros a pie",
+          "weight": 53567,
+          "exposure": 1.0
+        },
+        {
+          "cno_4d": "9431",
+          "label": "Ordenanzas",
+          "weight": 30999,
+          "exposure": 1.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "95",
+      "source_id": "openrouter_llm",
+      "quality": "llm_derived_from_4d",
+      "weight_metric": "contracts_2025_fallback_demandants_2025",
+      "children_scored": 7,
+      "value": 0.23,
+      "confidence": 9.99,
+      "model": "google/gemini-3.1-pro-preview",
+      "top_weighted_children": [
+        {
+          "cno_4d": "9511",
+          "label": "Peones agr\u00edcolas (excepto en huertas, invernaderos, viveros y jardines)",
+          "weight": 979642,
+          "exposure": 0.0
+        },
+        {
+          "cno_4d": "9512",
+          "label": "Peones agr\u00edcolas en huertas, invernaderos, viveros y jardines",
+          "weight": 279060,
+          "exposure": 1.0
+        },
+        {
+          "cno_4d": "9530",
+          "label": "Peones agropecuarios",
+          "weight": 137226,
+          "exposure": 0.0
+        },
+        {
+          "cno_4d": "9543",
+          "label": "Peones forestales y de la caza",
+          "weight": 23364,
+          "exposure": 1.0
+        },
+        {
+          "cno_4d": "9520",
+          "label": "Peones ganaderos",
+          "weight": 18588,
+          "exposure": 1.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "96",
+      "source_id": "openrouter_llm",
+      "quality": "llm_derived_from_4d",
+      "weight_metric": "contracts_2025_fallback_demandants_2025",
+      "children_scored": 3,
+      "value": 0.38,
+      "confidence": 10.0,
+      "model": "google/gemini-3.1-pro-preview",
+      "top_weighted_children": [
+        {
+          "cno_4d": "9602",
+          "label": "Peones de la construcci\u00f3n de edificios",
+          "weight": 176757,
+          "exposure": 0.0
+        },
+        {
+          "cno_4d": "9601",
+          "label": "Peones de obras p\u00fablicas",
+          "weight": 110357,
+          "exposure": 1.0
+        },
+        {
+          "cno_4d": "9603",
+          "label": "Peones de la miner\u00eda, canteras y otras industrias extractivas",
+          "weight": 2402,
+          "exposure": 0.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "97",
+      "source_id": "openrouter_llm",
+      "quality": "llm_derived_from_4d",
+      "weight_metric": "contracts_2025_fallback_demandants_2025",
+      "children_scored": 1,
+      "value": 1.0,
+      "confidence": 9.0,
+      "model": "google/gemini-3.1-pro-preview",
+      "top_weighted_children": [
+        {
+          "cno_4d": "9700",
+          "label": "Peones de las industrias manufactureras",
+          "weight": 1084500,
+          "exposure": 1.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "98",
+      "source_id": "openrouter_llm",
+      "quality": "llm_derived_from_4d",
+      "weight_metric": "contracts_2025_fallback_demandants_2025",
+      "children_scored": 3,
+      "value": 1.0,
+      "confidence": 9.0,
+      "model": "google/gemini-3.1-pro-preview",
+      "top_weighted_children": [
+        {
+          "cno_4d": "9811",
+          "label": "Peones del transporte de mercanc\u00edas y descargadores",
+          "weight": 392759,
+          "exposure": 1.0
+        },
+        {
+          "cno_4d": "9820",
+          "label": "Reponedores",
+          "weight": 76013,
+          "exposure": 1.0
+        },
+        {
+          "cno_4d": "9812",
+          "label": "Conductores de veh\u00edculos de tracci\u00f3n animal para el transporte de personas y similares",
+          "weight": 466,
+          "exposure": 0.0
+        }
+      ]
+    }
+  ]
+}

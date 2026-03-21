@@ -1,0 +1,3603 @@
+{
+  "occupations": [
+    {
+      "cno_2d": "11",
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official",
+      "dominant_level": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+      "distribution": [
+        {
+          "label": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+          "value": 18315,
+          "share": 0.408307
+        },
+        {
+          "label": "Grados universitarios de hasta 240 cr\u00e9ditos ECTS, diplomados universitarios y equivalentes",
+          "value": 7549,
+          "share": 0.168294
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria, con orientaci\u00f3n general",
+          "value": 4276,
+          "share": 0.095327
+        },
+        {
+          "label": "M\u00e1steres, especialidades en Ciencias de la Salud por el sistema de residencia y similares",
+          "value": 3914,
+          "share": 0.087257
+        },
+        {
+          "label": "Doctorado universitario",
+          "value": 2958,
+          "share": 0.065944
+        },
+        {
+          "label": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+          "value": 2888,
+          "share": 0.064384
+        },
+        {
+          "label": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+          "value": 2888,
+          "share": 0.064384
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria con orientaci\u00f3n profesional; Educaci\u00f3n postsecundaria no superior",
+          "value": 1523,
+          "share": 0.033953
+        },
+        {
+          "label": "Educaci\u00f3n primaria",
+          "value": 545,
+          "share": 0.01215
+        },
+        {
+          "label": "Sin estudios",
+          "value": 0,
+          "share": 0.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "12",
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official",
+      "dominant_level": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+      "distribution": [
+        {
+          "label": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+          "value": 94026,
+          "share": 0.361612
+        },
+        {
+          "label": "Grados universitarios de hasta 240 cr\u00e9ditos ECTS, diplomados universitarios y equivalentes",
+          "value": 53921,
+          "share": 0.207373
+        },
+        {
+          "label": "M\u00e1steres, especialidades en Ciencias de la Salud por el sistema de residencia y similares",
+          "value": 34718,
+          "share": 0.133521
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria, con orientaci\u00f3n general",
+          "value": 22526,
+          "share": 0.086632
+        },
+        {
+          "label": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+          "value": 21734,
+          "share": 0.083586
+        },
+        {
+          "label": "Doctorado universitario",
+          "value": 17442,
+          "share": 0.06708
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria con orientaci\u00f3n profesional; Educaci\u00f3n postsecundaria no superior",
+          "value": 8857,
+          "share": 0.034063
+        },
+        {
+          "label": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+          "value": 5925,
+          "share": 0.022787
+        },
+        {
+          "label": "Educaci\u00f3n primaria",
+          "value": 870,
+          "share": 0.003346
+        },
+        {
+          "label": "Sin estudios",
+          "value": 0,
+          "share": 0.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "13",
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official",
+      "dominant_level": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+      "distribution": [
+        {
+          "label": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+          "value": 43627,
+          "share": 0.234556
+        },
+        {
+          "label": "Grados universitarios de hasta 240 cr\u00e9ditos ECTS, diplomados universitarios y equivalentes",
+          "value": 32519,
+          "share": 0.174835
+        },
+        {
+          "label": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+          "value": 30871,
+          "share": 0.165975
+        },
+        {
+          "label": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+          "value": 25276,
+          "share": 0.135894
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria, con orientaci\u00f3n general",
+          "value": 19532,
+          "share": 0.105012
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria con orientaci\u00f3n profesional; Educaci\u00f3n postsecundaria no superior",
+          "value": 12008,
+          "share": 0.06456
+        },
+        {
+          "label": "M\u00e1steres, especialidades en Ciencias de la Salud por el sistema de residencia y similares",
+          "value": 11409,
+          "share": 0.061339
+        },
+        {
+          "label": "Educaci\u00f3n primaria",
+          "value": 7047,
+          "share": 0.037888
+        },
+        {
+          "label": "Doctorado universitario",
+          "value": 3708,
+          "share": 0.019936
+        },
+        {
+          "label": "Sin estudios",
+          "value": 1,
+          "share": 5e-06
+        }
+      ]
+    },
+    {
+      "cno_2d": "14",
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official",
+      "dominant_level": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+      "distribution": [
+        {
+          "label": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+          "value": 29323,
+          "share": 0.212258
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria, con orientaci\u00f3n general",
+          "value": 23765,
+          "share": 0.172026
+        },
+        {
+          "label": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+          "value": 21263,
+          "share": 0.153915
+        },
+        {
+          "label": "Grados universitarios de hasta 240 cr\u00e9ditos ECTS, diplomados universitarios y equivalentes",
+          "value": 20108,
+          "share": 0.145554
+        },
+        {
+          "label": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+          "value": 17488,
+          "share": 0.126589
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria con orientaci\u00f3n profesional; Educaci\u00f3n postsecundaria no superior",
+          "value": 11868,
+          "share": 0.085908
+        },
+        {
+          "label": "Educaci\u00f3n primaria",
+          "value": 8431,
+          "share": 0.061029
+        },
+        {
+          "label": "M\u00e1steres, especialidades en Ciencias de la Salud por el sistema de residencia y similares",
+          "value": 4109,
+          "share": 0.029743
+        },
+        {
+          "label": "Doctorado universitario",
+          "value": 1792,
+          "share": 0.012972
+        },
+        {
+          "label": "Sin estudios",
+          "value": 1,
+          "share": 7e-06
+        }
+      ]
+    },
+    {
+      "cno_2d": "15",
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official",
+      "dominant_level": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+      "distribution": [
+        {
+          "label": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+          "value": 20435,
+          "share": 0.193268
+        },
+        {
+          "label": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+          "value": 19595,
+          "share": 0.185324
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria, con orientaci\u00f3n general",
+          "value": 17102,
+          "share": 0.161746
+        },
+        {
+          "label": "Grados universitarios de hasta 240 cr\u00e9ditos ECTS, diplomados universitarios y equivalentes",
+          "value": 16307,
+          "share": 0.154227
+        },
+        {
+          "label": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+          "value": 11592,
+          "share": 0.109634
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria con orientaci\u00f3n profesional; Educaci\u00f3n postsecundaria no superior",
+          "value": 8855,
+          "share": 0.083748
+        },
+        {
+          "label": "Educaci\u00f3n primaria",
+          "value": 5673,
+          "share": 0.053654
+        },
+        {
+          "label": "M\u00e1steres, especialidades en Ciencias de la Salud por el sistema de residencia y similares",
+          "value": 4097,
+          "share": 0.038748
+        },
+        {
+          "label": "Doctorado universitario",
+          "value": 2077,
+          "share": 0.019644
+        },
+        {
+          "label": "Sin estudios",
+          "value": 1,
+          "share": 9e-06
+        }
+      ]
+    },
+    {
+      "cno_2d": "21",
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official",
+      "dominant_level": "Grados universitarios de hasta 240 cr\u00e9ditos ECTS, diplomados universitarios y equivalentes",
+      "distribution": [
+        {
+          "label": "Grados universitarios de hasta 240 cr\u00e9ditos ECTS, diplomados universitarios y equivalentes",
+          "value": 277328,
+          "share": 0.351579
+        },
+        {
+          "label": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+          "value": 209063,
+          "share": 0.265037
+        },
+        {
+          "label": "M\u00e1steres, especialidades en Ciencias de la Salud por el sistema de residencia y similares",
+          "value": 201059,
+          "share": 0.25489
+        },
+        {
+          "label": "Doctorado universitario",
+          "value": 49227,
+          "share": 0.062407
+        },
+        {
+          "label": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+          "value": 25195,
+          "share": 0.031941
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria con orientaci\u00f3n profesional; Educaci\u00f3n postsecundaria no superior",
+          "value": 22487,
+          "share": 0.028508
+        },
+        {
+          "label": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+          "value": 2397,
+          "share": 0.003039
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria, con orientaci\u00f3n general",
+          "value": 2044,
+          "share": 0.002591
+        },
+        {
+          "label": "Educaci\u00f3n primaria",
+          "value": 8,
+          "share": 1e-05
+        },
+        {
+          "label": "Sin estudios",
+          "value": 0,
+          "share": 0.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "22",
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official",
+      "dominant_level": "Grados universitarios de hasta 240 cr\u00e9ditos ECTS, diplomados universitarios y equivalentes",
+      "distribution": [
+        {
+          "label": "Grados universitarios de hasta 240 cr\u00e9ditos ECTS, diplomados universitarios y equivalentes",
+          "value": 309900,
+          "share": 0.314985
+        },
+        {
+          "label": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+          "value": 306418,
+          "share": 0.311446
+        },
+        {
+          "label": "M\u00e1steres, especialidades en Ciencias de la Salud por el sistema de residencia y similares",
+          "value": 177373,
+          "share": 0.180283
+        },
+        {
+          "label": "Doctorado universitario",
+          "value": 122355,
+          "share": 0.124363
+        },
+        {
+          "label": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+          "value": 35347,
+          "share": 0.035927
+        },
+        {
+          "label": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+          "value": 12546,
+          "share": 0.012752
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria, con orientaci\u00f3n general",
+          "value": 11463,
+          "share": 0.011651
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria con orientaci\u00f3n profesional; Educaci\u00f3n postsecundaria no superior",
+          "value": 8216,
+          "share": 0.008351
+        },
+        {
+          "label": "Educaci\u00f3n primaria",
+          "value": 239,
+          "share": 0.000243
+        },
+        {
+          "label": "Sin estudios",
+          "value": 0,
+          "share": 0.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "23",
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official",
+      "dominant_level": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+      "distribution": [
+        {
+          "label": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+          "value": 70844,
+          "share": 0.272351
+        },
+        {
+          "label": "Grados universitarios de hasta 240 cr\u00e9ditos ECTS, diplomados universitarios y equivalentes",
+          "value": 67194,
+          "share": 0.258319
+        },
+        {
+          "label": "M\u00e1steres, especialidades en Ciencias de la Salud por el sistema de residencia y similares",
+          "value": 43411,
+          "share": 0.166888
+        },
+        {
+          "label": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+          "value": 26437,
+          "share": 0.101634
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria, con orientaci\u00f3n general",
+          "value": 18292,
+          "share": 0.070321
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria con orientaci\u00f3n profesional; Educaci\u00f3n postsecundaria no superior",
+          "value": 12137,
+          "share": 0.046659
+        },
+        {
+          "label": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+          "value": 10056,
+          "share": 0.038659
+        },
+        {
+          "label": "Doctorado universitario",
+          "value": 9007,
+          "share": 0.034626
+        },
+        {
+          "label": "Educaci\u00f3n primaria",
+          "value": 2742,
+          "share": 0.010541
+        },
+        {
+          "label": "Sin estudios",
+          "value": 0,
+          "share": 0.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "24",
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official",
+      "dominant_level": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+      "distribution": [
+        {
+          "label": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+          "value": 178684,
+          "share": 0.385298
+        },
+        {
+          "label": "Grados universitarios de hasta 240 cr\u00e9ditos ECTS, diplomados universitarios y equivalentes",
+          "value": 145040,
+          "share": 0.312751
+        },
+        {
+          "label": "M\u00e1steres, especialidades en Ciencias de la Salud por el sistema de residencia y similares",
+          "value": 80980,
+          "share": 0.174618
+        },
+        {
+          "label": "Doctorado universitario",
+          "value": 25500,
+          "share": 0.054986
+        },
+        {
+          "label": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+          "value": 20579,
+          "share": 0.044375
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria con orientaci\u00f3n profesional; Educaci\u00f3n postsecundaria no superior",
+          "value": 7496,
+          "share": 0.016164
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria, con orientaci\u00f3n general",
+          "value": 4135,
+          "share": 0.008916
+        },
+        {
+          "label": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+          "value": 1118,
+          "share": 0.002411
+        },
+        {
+          "label": "Educaci\u00f3n primaria",
+          "value": 223,
+          "share": 0.000481
+        },
+        {
+          "label": "Sin estudios",
+          "value": 0,
+          "share": 0.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "25",
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official",
+      "dominant_level": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+      "distribution": [
+        {
+          "label": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+          "value": 118596,
+          "share": 0.628703
+        },
+        {
+          "label": "M\u00e1steres, especialidades en Ciencias de la Salud por el sistema de residencia y similares",
+          "value": 31030,
+          "share": 0.164497
+        },
+        {
+          "label": "Grados universitarios de hasta 240 cr\u00e9ditos ECTS, diplomados universitarios y equivalentes",
+          "value": 25017,
+          "share": 0.13262
+        },
+        {
+          "label": "Doctorado universitario",
+          "value": 9786,
+          "share": 0.051878
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria, con orientaci\u00f3n general",
+          "value": 1923,
+          "share": 0.010194
+        },
+        {
+          "label": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+          "value": 1841,
+          "share": 0.00976
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria con orientaci\u00f3n profesional; Educaci\u00f3n postsecundaria no superior",
+          "value": 284,
+          "share": 0.001506
+        },
+        {
+          "label": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+          "value": 89,
+          "share": 0.000472
+        },
+        {
+          "label": "Educaci\u00f3n primaria",
+          "value": 66,
+          "share": 0.00035
+        },
+        {
+          "label": "Sin estudios",
+          "value": 4,
+          "share": 2.1e-05
+        }
+      ]
+    },
+    {
+      "cno_2d": "26",
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official",
+      "dominant_level": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+      "distribution": [
+        {
+          "label": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+          "value": 186488,
+          "share": 0.405182
+        },
+        {
+          "label": "Grados universitarios de hasta 240 cr\u00e9ditos ECTS, diplomados universitarios y equivalentes",
+          "value": 109788,
+          "share": 0.238536
+        },
+        {
+          "label": "M\u00e1steres, especialidades en Ciencias de la Salud por el sistema de residencia y similares",
+          "value": 64114,
+          "share": 0.1393
+        },
+        {
+          "label": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+          "value": 35405,
+          "share": 0.076924
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria, con orientaci\u00f3n general",
+          "value": 30447,
+          "share": 0.066152
+        },
+        {
+          "label": "Doctorado universitario",
+          "value": 16268,
+          "share": 0.035345
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria con orientaci\u00f3n profesional; Educaci\u00f3n postsecundaria no superior",
+          "value": 10289,
+          "share": 0.022355
+        },
+        {
+          "label": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+          "value": 6967,
+          "share": 0.015137
+        },
+        {
+          "label": "Educaci\u00f3n primaria",
+          "value": 487,
+          "share": 0.001058
+        },
+        {
+          "label": "Sin estudios",
+          "value": 4,
+          "share": 9e-06
+        }
+      ]
+    },
+    {
+      "cno_2d": "27",
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official",
+      "dominant_level": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+      "distribution": [
+        {
+          "label": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+          "value": 67064,
+          "share": 0.306435
+        },
+        {
+          "label": "Grados universitarios de hasta 240 cr\u00e9ditos ECTS, diplomados universitarios y equivalentes",
+          "value": 65399,
+          "share": 0.298828
+        },
+        {
+          "label": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+          "value": 38238,
+          "share": 0.174721
+        },
+        {
+          "label": "M\u00e1steres, especialidades en Ciencias de la Salud por el sistema de residencia y similares",
+          "value": 24291,
+          "share": 0.110993
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria, con orientaci\u00f3n general",
+          "value": 10463,
+          "share": 0.047809
+        },
+        {
+          "label": "Doctorado universitario",
+          "value": 7080,
+          "share": 0.032351
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria con orientaci\u00f3n profesional; Educaci\u00f3n postsecundaria no superior",
+          "value": 5144,
+          "share": 0.023504
+        },
+        {
+          "label": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+          "value": 1172,
+          "share": 0.005355
+        },
+        {
+          "label": "Educaci\u00f3n primaria",
+          "value": 1,
+          "share": 5e-06
+        },
+        {
+          "label": "Sin estudios",
+          "value": 0,
+          "share": 0.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "28",
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official",
+      "dominant_level": "Grados universitarios de hasta 240 cr\u00e9ditos ECTS, diplomados universitarios y equivalentes",
+      "distribution": [
+        {
+          "label": "Grados universitarios de hasta 240 cr\u00e9ditos ECTS, diplomados universitarios y equivalentes",
+          "value": 81624,
+          "share": 0.381963
+        },
+        {
+          "label": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+          "value": 70768,
+          "share": 0.331162
+        },
+        {
+          "label": "M\u00e1steres, especialidades en Ciencias de la Salud por el sistema de residencia y similares",
+          "value": 41446,
+          "share": 0.193948
+        },
+        {
+          "label": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+          "value": 9054,
+          "share": 0.042369
+        },
+        {
+          "label": "Doctorado universitario",
+          "value": 6875,
+          "share": 0.032172
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria con orientaci\u00f3n profesional; Educaci\u00f3n postsecundaria no superior",
+          "value": 3364,
+          "share": 0.015742
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria, con orientaci\u00f3n general",
+          "value": 330,
+          "share": 0.001544
+        },
+        {
+          "label": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+          "value": 161,
+          "share": 0.000753
+        },
+        {
+          "label": "Educaci\u00f3n primaria",
+          "value": 74,
+          "share": 0.000346
+        },
+        {
+          "label": "Sin estudios",
+          "value": 0,
+          "share": 0.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "29",
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official",
+      "dominant_level": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+      "distribution": [
+        {
+          "label": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+          "value": 57295,
+          "share": 0.318341
+        },
+        {
+          "label": "Grados universitarios de hasta 240 cr\u00e9ditos ECTS, diplomados universitarios y equivalentes",
+          "value": 35352,
+          "share": 0.196422
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria, con orientaci\u00f3n general",
+          "value": 19195,
+          "share": 0.106651
+        },
+        {
+          "label": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+          "value": 19033,
+          "share": 0.105751
+        },
+        {
+          "label": "M\u00e1steres, especialidades en Ciencias de la Salud por el sistema de residencia y similares",
+          "value": 18362,
+          "share": 0.102022
+        },
+        {
+          "label": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+          "value": 12738,
+          "share": 0.070775
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria con orientaci\u00f3n profesional; Educaci\u00f3n postsecundaria no superior",
+          "value": 10102,
+          "share": 0.056128
+        },
+        {
+          "label": "Doctorado universitario",
+          "value": 6099,
+          "share": 0.033887
+        },
+        {
+          "label": "Educaci\u00f3n primaria",
+          "value": 1804,
+          "share": 0.010023
+        },
+        {
+          "label": "Sin estudios",
+          "value": 0,
+          "share": 0.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "31",
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official",
+      "dominant_level": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+      "distribution": [
+        {
+          "label": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+          "value": 111140,
+          "share": 0.343638
+        },
+        {
+          "label": "Grados universitarios de hasta 240 cr\u00e9ditos ECTS, diplomados universitarios y equivalentes",
+          "value": 47935,
+          "share": 0.148212
+        },
+        {
+          "label": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+          "value": 43352,
+          "share": 0.134042
+        },
+        {
+          "label": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+          "value": 37707,
+          "share": 0.116588
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria con orientaci\u00f3n profesional; Educaci\u00f3n postsecundaria no superior",
+          "value": 33007,
+          "share": 0.102056
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria, con orientaci\u00f3n general",
+          "value": 23763,
+          "share": 0.073474
+        },
+        {
+          "label": "M\u00e1steres, especialidades en Ciencias de la Salud por el sistema de residencia y similares",
+          "value": 18606,
+          "share": 0.057529
+        },
+        {
+          "label": "Doctorado universitario",
+          "value": 4940,
+          "share": 0.015274
+        },
+        {
+          "label": "Educaci\u00f3n primaria",
+          "value": 2594,
+          "share": 0.00802
+        },
+        {
+          "label": "Sin estudios",
+          "value": 378,
+          "share": 0.001169
+        }
+      ]
+    },
+    {
+      "cno_2d": "32",
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official",
+      "dominant_level": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+      "distribution": [
+        {
+          "label": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+          "value": 30630,
+          "share": 0.362764
+        },
+        {
+          "label": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+          "value": 14220,
+          "share": 0.168414
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria, con orientaci\u00f3n general",
+          "value": 10858,
+          "share": 0.128596
+        },
+        {
+          "label": "Grados universitarios de hasta 240 cr\u00e9ditos ECTS, diplomados universitarios y equivalentes",
+          "value": 9602,
+          "share": 0.113721
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria con orientaci\u00f3n profesional; Educaci\u00f3n postsecundaria no superior",
+          "value": 7111,
+          "share": 0.084219
+        },
+        {
+          "label": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+          "value": 6979,
+          "share": 0.082655
+        },
+        {
+          "label": "M\u00e1steres, especialidades en Ciencias de la Salud por el sistema de residencia y similares",
+          "value": 2296,
+          "share": 0.027193
+        },
+        {
+          "label": "Educaci\u00f3n primaria",
+          "value": 1636,
+          "share": 0.019376
+        },
+        {
+          "label": "Sin estudios",
+          "value": 649,
+          "share": 0.007686
+        },
+        {
+          "label": "Doctorado universitario",
+          "value": 454,
+          "share": 0.005377
+        }
+      ]
+    },
+    {
+      "cno_2d": "33",
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official",
+      "dominant_level": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+      "distribution": [
+        {
+          "label": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+          "value": 69075,
+          "share": 0.470897
+        },
+        {
+          "label": "Grados universitarios de hasta 240 cr\u00e9ditos ECTS, diplomados universitarios y equivalentes",
+          "value": 22908,
+          "share": 0.156168
+        },
+        {
+          "label": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+          "value": 16150,
+          "share": 0.110098
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria con orientaci\u00f3n profesional; Educaci\u00f3n postsecundaria no superior",
+          "value": 11013,
+          "share": 0.075078
+        },
+        {
+          "label": "M\u00e1steres, especialidades en Ciencias de la Salud por el sistema de residencia y similares",
+          "value": 9439,
+          "share": 0.064347
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria, con orientaci\u00f3n general",
+          "value": 8210,
+          "share": 0.055969
+        },
+        {
+          "label": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+          "value": 7592,
+          "share": 0.051756
+        },
+        {
+          "label": "Doctorado universitario",
+          "value": 1748,
+          "share": 0.011916
+        },
+        {
+          "label": "Educaci\u00f3n primaria",
+          "value": 457,
+          "share": 0.003115
+        },
+        {
+          "label": "Sin estudios",
+          "value": 96,
+          "share": 0.000654
+        }
+      ]
+    },
+    {
+      "cno_2d": "34",
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official",
+      "dominant_level": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+      "distribution": [
+        {
+          "label": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+          "value": 6567,
+          "share": 0.310761
+        },
+        {
+          "label": "Grados universitarios de hasta 240 cr\u00e9ditos ECTS, diplomados universitarios y equivalentes",
+          "value": 4468,
+          "share": 0.211433
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria, con orientaci\u00f3n general",
+          "value": 3047,
+          "share": 0.144189
+        },
+        {
+          "label": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+          "value": 2996,
+          "share": 0.141776
+        },
+        {
+          "label": "M\u00e1steres, especialidades en Ciencias de la Salud por el sistema de residencia y similares",
+          "value": 1454,
+          "share": 0.068806
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria con orientaci\u00f3n profesional; Educaci\u00f3n postsecundaria no superior",
+          "value": 1291,
+          "share": 0.061092
+        },
+        {
+          "label": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+          "value": 834,
+          "share": 0.039466
+        },
+        {
+          "label": "Doctorado universitario",
+          "value": 454,
+          "share": 0.021484
+        },
+        {
+          "label": "Educaci\u00f3n primaria",
+          "value": 21,
+          "share": 0.000994
+        },
+        {
+          "label": "Sin estudios",
+          "value": 0,
+          "share": 0.0
+        }
+      ]
+    },
+    {
+      "cno_2d": "35",
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official",
+      "dominant_level": "Segunda etapa de educaci\u00f3n secundaria, con orientaci\u00f3n general",
+      "distribution": [
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria, con orientaci\u00f3n general",
+          "value": 109108,
+          "share": 0.196718
+        },
+        {
+          "label": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+          "value": 101486,
+          "share": 0.182975
+        },
+        {
+          "label": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+          "value": 100409,
+          "share": 0.181034
+        },
+        {
+          "label": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+          "value": 83399,
+          "share": 0.150365
+        },
+        {
+          "label": "Grados universitarios de hasta 240 cr\u00e9ditos ECTS, diplomados universitarios y equivalentes",
+          "value": 81712,
+          "share": 0.147324
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria con orientaci\u00f3n profesional; Educaci\u00f3n postsecundaria no superior",
+          "value": 46645,
+          "share": 0.084099
+        },
+        {
+          "label": "M\u00e1steres, especialidades en Ciencias de la Salud por el sistema de residencia y similares",
+          "value": 16745,
+          "share": 0.030191
+        },
+        {
+          "label": "Doctorado universitario",
+          "value": 6725,
+          "share": 0.012125
+        },
+        {
+          "label": "Educaci\u00f3n primaria",
+          "value": 6703,
+          "share": 0.012085
+        },
+        {
+          "label": "Sin estudios",
+          "value": 1711,
+          "share": 0.003085
+        }
+      ]
+    },
+    {
+      "cno_2d": "36",
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official",
+      "dominant_level": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+      "distribution": [
+        {
+          "label": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+          "value": 80393,
+          "share": 0.237681
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria, con orientaci\u00f3n general",
+          "value": 59681,
+          "share": 0.176446
+        },
+        {
+          "label": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+          "value": 58301,
+          "share": 0.172366
+        },
+        {
+          "label": "Grados universitarios de hasta 240 cr\u00e9ditos ECTS, diplomados universitarios y equivalentes",
+          "value": 58227,
+          "share": 0.172148
+        },
+        {
+          "label": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+          "value": 43821,
+          "share": 0.129556
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria con orientaci\u00f3n profesional; Educaci\u00f3n postsecundaria no superior",
+          "value": 20219,
+          "share": 0.059777
+        },
+        {
+          "label": "M\u00e1steres, especialidades en Ciencias de la Salud por el sistema de residencia y similares",
+          "value": 12656,
+          "share": 0.037417
+        },
+        {
+          "label": "Doctorado universitario",
+          "value": 3472,
+          "share": 0.010265
+        },
+        {
+          "label": "Sin estudios",
+          "value": 842,
+          "share": 0.002489
+        },
+        {
+          "label": "Educaci\u00f3n primaria",
+          "value": 627,
+          "share": 0.001854
+        }
+      ]
+    },
+    {
+      "cno_2d": "37",
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official",
+      "dominant_level": "Grados universitarios de hasta 240 cr\u00e9ditos ECTS, diplomados universitarios y equivalentes",
+      "distribution": [
+        {
+          "label": "Grados universitarios de hasta 240 cr\u00e9ditos ECTS, diplomados universitarios y equivalentes",
+          "value": 79213,
+          "share": 0.211624
+        },
+        {
+          "label": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+          "value": 76849,
+          "share": 0.205308
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria, con orientaci\u00f3n general",
+          "value": 58518,
+          "share": 0.156336
+        },
+        {
+          "label": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+          "value": 47551,
+          "share": 0.127036
+        },
+        {
+          "label": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+          "value": 40501,
+          "share": 0.108202
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria con orientaci\u00f3n profesional; Educaci\u00f3n postsecundaria no superior",
+          "value": 35424,
+          "share": 0.094638
+        },
+        {
+          "label": "M\u00e1steres, especialidades en Ciencias de la Salud por el sistema de residencia y similares",
+          "value": 29217,
+          "share": 0.078056
+        },
+        {
+          "label": "Doctorado universitario",
+          "value": 3376,
+          "share": 0.009019
+        },
+        {
+          "label": "Educaci\u00f3n primaria",
+          "value": 3370,
+          "share": 0.009003
+        },
+        {
+          "label": "Sin estudios",
+          "value": 291,
+          "share": 0.000777
+        }
+      ]
+    },
+    {
+      "cno_2d": "38",
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official",
+      "dominant_level": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+      "distribution": [
+        {
+          "label": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+          "value": 83303,
+          "share": 0.345875
+        },
+        {
+          "label": "Grados universitarios de hasta 240 cr\u00e9ditos ECTS, diplomados universitarios y equivalentes",
+          "value": 51485,
+          "share": 0.213766
+        },
+        {
+          "label": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+          "value": 42619,
+          "share": 0.176955
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria, con orientaci\u00f3n general",
+          "value": 22337,
+          "share": 0.092744
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria con orientaci\u00f3n profesional; Educaci\u00f3n postsecundaria no superior",
+          "value": 14991,
+          "share": 0.062243
+        },
+        {
+          "label": "M\u00e1steres, especialidades en Ciencias de la Salud por el sistema de residencia y similares",
+          "value": 14530,
+          "share": 0.060329
+        },
+        {
+          "label": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+          "value": 7656,
+          "share": 0.031788
+        },
+        {
+          "label": "Doctorado universitario",
+          "value": 3484,
+          "share": 0.014466
+        },
+        {
+          "label": "Educaci\u00f3n primaria",
+          "value": 415,
+          "share": 0.001723
+        },
+        {
+          "label": "Sin estudios",
+          "value": 27,
+          "share": 0.000112
+        }
+      ]
+    },
+    {
+      "cno_2d": "41",
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official",
+      "dominant_level": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+      "distribution": [
+        {
+          "label": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+          "value": 81206,
+          "share": 0.200676
+        },
+        {
+          "label": "Grados universitarios de hasta 240 cr\u00e9ditos ECTS, diplomados universitarios y equivalentes",
+          "value": 70788,
+          "share": 0.174931
+        },
+        {
+          "label": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+          "value": 67022,
+          "share": 0.165625
+        },
+        {
+          "label": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+          "value": 63867,
+          "share": 0.157828
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria, con orientaci\u00f3n general",
+          "value": 49384,
+          "share": 0.122038
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria con orientaci\u00f3n profesional; Educaci\u00f3n postsecundaria no superior",
+          "value": 41235,
+          "share": 0.1019
+        },
+        {
+          "label": "M\u00e1steres, especialidades en Ciencias de la Salud por el sistema de residencia y similares",
+          "value": 22526,
+          "share": 0.055666
+        },
+        {
+          "label": "Doctorado universitario",
+          "value": 4911,
+          "share": 0.012136
+        },
+        {
+          "label": "Educaci\u00f3n primaria",
+          "value": 3461,
+          "share": 0.008553
+        },
+        {
+          "label": "Sin estudios",
+          "value": 262,
+          "share": 0.000647
+        }
+      ]
+    },
+    {
+      "cno_2d": "42",
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official",
+      "dominant_level": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+      "distribution": [
+        {
+          "label": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+          "value": 14482,
+          "share": 0.191159
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria, con orientaci\u00f3n general",
+          "value": 14040,
+          "share": 0.185325
+        },
+        {
+          "label": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+          "value": 13503,
+          "share": 0.178236
+        },
+        {
+          "label": "Grados universitarios de hasta 240 cr\u00e9ditos ECTS, diplomados universitarios y equivalentes",
+          "value": 11023,
+          "share": 0.145501
+        },
+        {
+          "label": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+          "value": 10064,
+          "share": 0.132842
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria con orientaci\u00f3n profesional; Educaci\u00f3n postsecundaria no superior",
+          "value": 9314,
+          "share": 0.122942
+        },
+        {
+          "label": "M\u00e1steres, especialidades en Ciencias de la Salud por el sistema de residencia y similares",
+          "value": 2452,
+          "share": 0.032366
+        },
+        {
+          "label": "Doctorado universitario",
+          "value": 460,
+          "share": 0.006072
+        },
+        {
+          "label": "Educaci\u00f3n primaria",
+          "value": 393,
+          "share": 0.005188
+        },
+        {
+          "label": "Sin estudios",
+          "value": 28,
+          "share": 0.00037
+        }
+      ]
+    },
+    {
+      "cno_2d": "43",
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official",
+      "dominant_level": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+      "distribution": [
+        {
+          "label": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+          "value": 140832,
+          "share": 0.229871
+        },
+        {
+          "label": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+          "value": 129441,
+          "share": 0.211278
+        },
+        {
+          "label": "Grados universitarios de hasta 240 cr\u00e9ditos ECTS, diplomados universitarios y equivalentes",
+          "value": 124674,
+          "share": 0.203497
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria, con orientaci\u00f3n general",
+          "value": 80013,
+          "share": 0.1306
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria con orientaci\u00f3n profesional; Educaci\u00f3n postsecundaria no superior",
+          "value": 59560,
+          "share": 0.097216
+        },
+        {
+          "label": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+          "value": 42152,
+          "share": 0.068802
+        },
+        {
+          "label": "M\u00e1steres, especialidades en Ciencias de la Salud por el sistema de residencia y similares",
+          "value": 26840,
+          "share": 0.043809
+        },
+        {
+          "label": "Doctorado universitario",
+          "value": 6471,
+          "share": 0.010562
+        },
+        {
+          "label": "Educaci\u00f3n primaria",
+          "value": 2504,
+          "share": 0.004087
+        },
+        {
+          "label": "Sin estudios",
+          "value": 170,
+          "share": 0.000277
+        }
+      ]
+    },
+    {
+      "cno_2d": "44",
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official",
+      "dominant_level": "Grados universitarios de hasta 240 cr\u00e9ditos ECTS, diplomados universitarios y equivalentes",
+      "distribution": [
+        {
+          "label": "Grados universitarios de hasta 240 cr\u00e9ditos ECTS, diplomados universitarios y equivalentes",
+          "value": 59994,
+          "share": 0.208478
+        },
+        {
+          "label": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+          "value": 47281,
+          "share": 0.164301
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria, con orientaci\u00f3n general",
+          "value": 44634,
+          "share": 0.155102
+        },
+        {
+          "label": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+          "value": 39503,
+          "share": 0.137272
+        },
+        {
+          "label": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+          "value": 39407,
+          "share": 0.136939
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria con orientaci\u00f3n profesional; Educaci\u00f3n postsecundaria no superior",
+          "value": 38872,
+          "share": 0.13508
+        },
+        {
+          "label": "M\u00e1steres, especialidades en Ciencias de la Salud por el sistema de residencia y similares",
+          "value": 11401,
+          "share": 0.039618
+        },
+        {
+          "label": "Educaci\u00f3n primaria",
+          "value": 3772,
+          "share": 0.013108
+        },
+        {
+          "label": "Doctorado universitario",
+          "value": 2670,
+          "share": 0.009278
+        },
+        {
+          "label": "Sin estudios",
+          "value": 237,
+          "share": 0.000824
+        }
+      ]
+    },
+    {
+      "cno_2d": "45",
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official",
+      "dominant_level": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+      "distribution": [
+        {
+          "label": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+          "value": 132863,
+          "share": 0.241473
+        },
+        {
+          "label": "Grados universitarios de hasta 240 cr\u00e9ditos ECTS, diplomados universitarios y equivalentes",
+          "value": 107994,
+          "share": 0.196274
+        },
+        {
+          "label": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+          "value": 81470,
+          "share": 0.148068
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria, con orientaci\u00f3n general",
+          "value": 76762,
+          "share": 0.139511
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria con orientaci\u00f3n profesional; Educaci\u00f3n postsecundaria no superior",
+          "value": 65044,
+          "share": 0.118215
+        },
+        {
+          "label": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+          "value": 48520,
+          "share": 0.088183
+        },
+        {
+          "label": "M\u00e1steres, especialidades en Ciencias de la Salud por el sistema de residencia y similares",
+          "value": 28417,
+          "share": 0.051647
+        },
+        {
+          "label": "Doctorado universitario",
+          "value": 5368,
+          "share": 0.009756
+        },
+        {
+          "label": "Educaci\u00f3n primaria",
+          "value": 3555,
+          "share": 0.006461
+        },
+        {
+          "label": "Sin estudios",
+          "value": 227,
+          "share": 0.000413
+        }
+      ]
+    },
+    {
+      "cno_2d": "50",
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official",
+      "dominant_level": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+      "distribution": [
+        {
+          "label": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+          "value": 108556,
+          "share": 0.376702
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria, con orientaci\u00f3n general",
+          "value": 50892,
+          "share": 0.176601
+        },
+        {
+          "label": "Educaci\u00f3n primaria",
+          "value": 32352,
+          "share": 0.112265
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria con orientaci\u00f3n profesional; Educaci\u00f3n postsecundaria no superior",
+          "value": 30942,
+          "share": 0.107372
+        },
+        {
+          "label": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+          "value": 24564,
+          "share": 0.08524
+        },
+        {
+          "label": "Grados universitarios de hasta 240 cr\u00e9ditos ECTS, diplomados universitarios y equivalentes",
+          "value": 18752,
+          "share": 0.065072
+        },
+        {
+          "label": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+          "value": 14030,
+          "share": 0.048686
+        },
+        {
+          "label": "Sin estudios",
+          "value": 5439,
+          "share": 0.018874
+        },
+        {
+          "label": "M\u00e1steres, especialidades en Ciencias de la Salud por el sistema de residencia y similares",
+          "value": 1948,
+          "share": 0.00676
+        },
+        {
+          "label": "Doctorado universitario",
+          "value": 700,
+          "share": 0.002429
+        }
+      ]
+    },
+    {
+      "cno_2d": "51",
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official",
+      "dominant_level": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+      "distribution": [
+        {
+          "label": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+          "value": 319141,
+          "share": 0.366839
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria, con orientaci\u00f3n general",
+          "value": 173644,
+          "share": 0.199597
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria con orientaci\u00f3n profesional; Educaci\u00f3n postsecundaria no superior",
+          "value": 124730,
+          "share": 0.143372
+        },
+        {
+          "label": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+          "value": 91474,
+          "share": 0.105146
+        },
+        {
+          "label": "Grados universitarios de hasta 240 cr\u00e9ditos ECTS, diplomados universitarios y equivalentes",
+          "value": 59366,
+          "share": 0.068239
+        },
+        {
+          "label": "Educaci\u00f3n primaria",
+          "value": 52725,
+          "share": 0.060605
+        },
+        {
+          "label": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+          "value": 31405,
+          "share": 0.036099
+        },
+        {
+          "label": "M\u00e1steres, especialidades en Ciencias de la Salud por el sistema de residencia y similares",
+          "value": 9301,
+          "share": 0.010691
+        },
+        {
+          "label": "Sin estudios",
+          "value": 6177,
+          "share": 0.0071
+        },
+        {
+          "label": "Doctorado universitario",
+          "value": 2012,
+          "share": 0.002313
+        }
+      ]
+    },
+    {
+      "cno_2d": "52",
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official",
+      "dominant_level": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+      "distribution": [
+        {
+          "label": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+          "value": 307370,
+          "share": 0.314652
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria, con orientaci\u00f3n general",
+          "value": 180815,
+          "share": 0.185099
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria con orientaci\u00f3n profesional; Educaci\u00f3n postsecundaria no superior",
+          "value": 152433,
+          "share": 0.156044
+        },
+        {
+          "label": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+          "value": 144231,
+          "share": 0.147648
+        },
+        {
+          "label": "Grados universitarios de hasta 240 cr\u00e9ditos ECTS, diplomados universitarios y equivalentes",
+          "value": 92065,
+          "share": 0.094246
+        },
+        {
+          "label": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+          "value": 47629,
+          "share": 0.048757
+        },
+        {
+          "label": "Educaci\u00f3n primaria",
+          "value": 29909,
+          "share": 0.030618
+        },
+        {
+          "label": "M\u00e1steres, especialidades en Ciencias de la Salud por el sistema de residencia y similares",
+          "value": 16334,
+          "share": 0.016721
+        },
+        {
+          "label": "Sin estudios",
+          "value": 3484,
+          "share": 0.003567
+        },
+        {
+          "label": "Doctorado universitario",
+          "value": 2588,
+          "share": 0.002649
+        }
+      ]
+    },
+    {
+      "cno_2d": "53",
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official",
+      "dominant_level": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+      "distribution": [
+        {
+          "label": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+          "value": 109621,
+          "share": 0.319216
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria, con orientaci\u00f3n general",
+          "value": 59676,
+          "share": 0.173776
+        },
+        {
+          "label": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+          "value": 38153,
+          "share": 0.111101
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria con orientaci\u00f3n profesional; Educaci\u00f3n postsecundaria no superior",
+          "value": 35707,
+          "share": 0.103979
+        },
+        {
+          "label": "Educaci\u00f3n primaria",
+          "value": 33869,
+          "share": 0.098626
+        },
+        {
+          "label": "Grados universitarios de hasta 240 cr\u00e9ditos ECTS, diplomados universitarios y equivalentes",
+          "value": 31740,
+          "share": 0.092427
+        },
+        {
+          "label": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+          "value": 23248,
+          "share": 0.067698
+        },
+        {
+          "label": "Sin estudios",
+          "value": 6643,
+          "share": 0.019344
+        },
+        {
+          "label": "M\u00e1steres, especialidades en Ciencias de la Salud por el sistema de residencia y similares",
+          "value": 3413,
+          "share": 0.009939
+        },
+        {
+          "label": "Doctorado universitario",
+          "value": 1337,
+          "share": 0.003893
+        }
+      ]
+    },
+    {
+      "cno_2d": "54",
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official",
+      "dominant_level": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+      "distribution": [
+        {
+          "label": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+          "value": 48778,
+          "share": 0.296835
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria, con orientaci\u00f3n general",
+          "value": 27148,
+          "share": 0.165207
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria con orientaci\u00f3n profesional; Educaci\u00f3n postsecundaria no superior",
+          "value": 21337,
+          "share": 0.129845
+        },
+        {
+          "label": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+          "value": 20093,
+          "share": 0.122274
+        },
+        {
+          "label": "Grados universitarios de hasta 240 cr\u00e9ditos ECTS, diplomados universitarios y equivalentes",
+          "value": 17697,
+          "share": 0.107694
+        },
+        {
+          "label": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+          "value": 12650,
+          "share": 0.076981
+        },
+        {
+          "label": "Educaci\u00f3n primaria",
+          "value": 9467,
+          "share": 0.057611
+        },
+        {
+          "label": "M\u00e1steres, especialidades en Ciencias de la Salud por el sistema de residencia y similares",
+          "value": 3993,
+          "share": 0.024299
+        },
+        {
+          "label": "Sin estudios",
+          "value": 2236,
+          "share": 0.013607
+        },
+        {
+          "label": "Doctorado universitario",
+          "value": 928,
+          "share": 0.005647
+        }
+      ]
+    },
+    {
+      "cno_2d": "55",
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official",
+      "dominant_level": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+      "distribution": [
+        {
+          "label": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+          "value": 35392,
+          "share": 0.302856
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria, con orientaci\u00f3n general",
+          "value": 21349,
+          "share": 0.182687
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria con orientaci\u00f3n profesional; Educaci\u00f3n postsecundaria no superior",
+          "value": 20230,
+          "share": 0.173112
+        },
+        {
+          "label": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+          "value": 19489,
+          "share": 0.166771
+        },
+        {
+          "label": "Grados universitarios de hasta 240 cr\u00e9ditos ECTS, diplomados universitarios y equivalentes",
+          "value": 10739,
+          "share": 0.091895
+        },
+        {
+          "label": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+          "value": 5118,
+          "share": 0.043796
+        },
+        {
+          "label": "Educaci\u00f3n primaria",
+          "value": 2431,
+          "share": 0.020802
+        },
+        {
+          "label": "M\u00e1steres, especialidades en Ciencias de la Salud por el sistema de residencia y similares",
+          "value": 1742,
+          "share": 0.014907
+        },
+        {
+          "label": "Doctorado universitario",
+          "value": 209,
+          "share": 0.001788
+        },
+        {
+          "label": "Sin estudios",
+          "value": 162,
+          "share": 0.001386
+        }
+      ]
+    },
+    {
+      "cno_2d": "56",
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official",
+      "dominant_level": "Segunda etapa de educaci\u00f3n secundaria con orientaci\u00f3n profesional; Educaci\u00f3n postsecundaria no superior",
+      "distribution": [
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria con orientaci\u00f3n profesional; Educaci\u00f3n postsecundaria no superior",
+          "value": 199472,
+          "share": 0.389003
+        },
+        {
+          "label": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+          "value": 114794,
+          "share": 0.223867
+        },
+        {
+          "label": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+          "value": 69258,
+          "share": 0.135065
+        },
+        {
+          "label": "Grados universitarios de hasta 240 cr\u00e9ditos ECTS, diplomados universitarios y equivalentes",
+          "value": 54354,
+          "share": 0.105999
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria, con orientaci\u00f3n general",
+          "value": 34841,
+          "share": 0.067946
+        },
+        {
+          "label": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+          "value": 24780,
+          "share": 0.048325
+        },
+        {
+          "label": "M\u00e1steres, especialidades en Ciencias de la Salud por el sistema de residencia y similares",
+          "value": 7546,
+          "share": 0.014716
+        },
+        {
+          "label": "Educaci\u00f3n primaria",
+          "value": 6196,
+          "share": 0.012083
+        },
+        {
+          "label": "Doctorado universitario",
+          "value": 1273,
+          "share": 0.002483
+        },
+        {
+          "label": "Sin estudios",
+          "value": 263,
+          "share": 0.000513
+        }
+      ]
+    },
+    {
+      "cno_2d": "57",
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official",
+      "dominant_level": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+      "distribution": [
+        {
+          "label": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+          "value": 61174,
+          "share": 0.318942
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria con orientaci\u00f3n profesional; Educaci\u00f3n postsecundaria no superior",
+          "value": 40643,
+          "share": 0.2119
+        },
+        {
+          "label": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+          "value": 29428,
+          "share": 0.153428
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria, con orientaci\u00f3n general",
+          "value": 22204,
+          "share": 0.115765
+        },
+        {
+          "label": "Grados universitarios de hasta 240 cr\u00e9ditos ECTS, diplomados universitarios y equivalentes",
+          "value": 19690,
+          "share": 0.102657
+        },
+        {
+          "label": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+          "value": 8087,
+          "share": 0.042163
+        },
+        {
+          "label": "Educaci\u00f3n primaria",
+          "value": 5581,
+          "share": 0.029098
+        },
+        {
+          "label": "M\u00e1steres, especialidades en Ciencias de la Salud por el sistema de residencia y similares",
+          "value": 3855,
+          "share": 0.020099
+        },
+        {
+          "label": "Sin estudios",
+          "value": 712,
+          "share": 0.003712
+        },
+        {
+          "label": "Doctorado universitario",
+          "value": 429,
+          "share": 0.002237
+        }
+      ]
+    },
+    {
+      "cno_2d": "58",
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official",
+      "dominant_level": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+      "distribution": [
+        {
+          "label": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+          "value": 122958,
+          "share": 0.291203
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria con orientaci\u00f3n profesional; Educaci\u00f3n postsecundaria no superior",
+          "value": 86129,
+          "share": 0.20398
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria, con orientaci\u00f3n general",
+          "value": 62276,
+          "share": 0.147489
+        },
+        {
+          "label": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+          "value": 61121,
+          "share": 0.144753
+        },
+        {
+          "label": "Grados universitarios de hasta 240 cr\u00e9ditos ECTS, diplomados universitarios y equivalentes",
+          "value": 34207,
+          "share": 0.081013
+        },
+        {
+          "label": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+          "value": 23524,
+          "share": 0.055712
+        },
+        {
+          "label": "Educaci\u00f3n primaria",
+          "value": 21295,
+          "share": 0.050433
+        },
+        {
+          "label": "M\u00e1steres, especialidades en Ciencias de la Salud por el sistema de residencia y similares",
+          "value": 6143,
+          "share": 0.014549
+        },
+        {
+          "label": "Sin estudios",
+          "value": 2795,
+          "share": 0.006619
+        },
+        {
+          "label": "Doctorado universitario",
+          "value": 1794,
+          "share": 0.004249
+        }
+      ]
+    },
+    {
+      "cno_2d": "59",
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official",
+      "dominant_level": "Segunda etapa de educaci\u00f3n secundaria, con orientaci\u00f3n general",
+      "distribution": [
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria, con orientaci\u00f3n general",
+          "value": 126089,
+          "share": 0.27188
+        },
+        {
+          "label": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+          "value": 96072,
+          "share": 0.207156
+        },
+        {
+          "label": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+          "value": 74687,
+          "share": 0.161044
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria con orientaci\u00f3n profesional; Educaci\u00f3n postsecundaria no superior",
+          "value": 69233,
+          "share": 0.149284
+        },
+        {
+          "label": "Grados universitarios de hasta 240 cr\u00e9ditos ECTS, diplomados universitarios y equivalentes",
+          "value": 49804,
+          "share": 0.10739
+        },
+        {
+          "label": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+          "value": 31216,
+          "share": 0.06731
+        },
+        {
+          "label": "M\u00e1steres, especialidades en Ciencias de la Salud por el sistema de residencia y similares",
+          "value": 9512,
+          "share": 0.02051
+        },
+        {
+          "label": "Educaci\u00f3n primaria",
+          "value": 5086,
+          "share": 0.010967
+        },
+        {
+          "label": "Doctorado universitario",
+          "value": 1633,
+          "share": 0.003521
+        },
+        {
+          "label": "Sin estudios",
+          "value": 435,
+          "share": 0.000938
+        }
+      ]
+    },
+    {
+      "cno_2d": "61",
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official",
+      "dominant_level": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+      "distribution": [
+        {
+          "label": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+          "value": 125640,
+          "share": 0.481512
+        },
+        {
+          "label": "Educaci\u00f3n primaria",
+          "value": 30385,
+          "share": 0.11645
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria con orientaci\u00f3n profesional; Educaci\u00f3n postsecundaria no superior",
+          "value": 27642,
+          "share": 0.105937
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria, con orientaci\u00f3n general",
+          "value": 27146,
+          "share": 0.104036
+        },
+        {
+          "label": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+          "value": 20364,
+          "share": 0.078045
+        },
+        {
+          "label": "Grados universitarios de hasta 240 cr\u00e9ditos ECTS, diplomados universitarios y equivalentes",
+          "value": 12014,
+          "share": 0.046043
+        },
+        {
+          "label": "Sin estudios",
+          "value": 8311,
+          "share": 0.031852
+        },
+        {
+          "label": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+          "value": 8141,
+          "share": 0.0312
+        },
+        {
+          "label": "M\u00e1steres, especialidades en Ciencias de la Salud por el sistema de residencia y similares",
+          "value": 1018,
+          "share": 0.003901
+        },
+        {
+          "label": "Doctorado universitario",
+          "value": 267,
+          "share": 0.001023
+        }
+      ]
+    },
+    {
+      "cno_2d": "62",
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official",
+      "dominant_level": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+      "distribution": [
+        {
+          "label": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+          "value": 37483,
+          "share": 0.464295
+        },
+        {
+          "label": "Educaci\u00f3n primaria",
+          "value": 11637,
+          "share": 0.144145
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria con orientaci\u00f3n profesional; Educaci\u00f3n postsecundaria no superior",
+          "value": 8301,
+          "share": 0.102823
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria, con orientaci\u00f3n general",
+          "value": 8162,
+          "share": 0.101101
+        },
+        {
+          "label": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+          "value": 6836,
+          "share": 0.084676
+        },
+        {
+          "label": "Grados universitarios de hasta 240 cr\u00e9ditos ECTS, diplomados universitarios y equivalentes",
+          "value": 3057,
+          "share": 0.037866
+        },
+        {
+          "label": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+          "value": 2413,
+          "share": 0.029889
+        },
+        {
+          "label": "Sin estudios",
+          "value": 2354,
+          "share": 0.029159
+        },
+        {
+          "label": "M\u00e1steres, especialidades en Ciencias de la Salud por el sistema de residencia y similares",
+          "value": 388,
+          "share": 0.004806
+        },
+        {
+          "label": "Doctorado universitario",
+          "value": 100,
+          "share": 0.001239
+        }
+      ]
+    },
+    {
+      "cno_2d": "63",
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official",
+      "dominant_level": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+      "distribution": [
+        {
+          "label": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+          "value": 9914,
+          "share": 0.435799
+        },
+        {
+          "label": "Educaci\u00f3n primaria",
+          "value": 3257,
+          "share": 0.143171
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria con orientaci\u00f3n profesional; Educaci\u00f3n postsecundaria no superior",
+          "value": 2348,
+          "share": 0.103213
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria, con orientaci\u00f3n general",
+          "value": 2313,
+          "share": 0.101675
+        },
+        {
+          "label": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+          "value": 2002,
+          "share": 0.088004
+        },
+        {
+          "label": "Grados universitarios de hasta 240 cr\u00e9ditos ECTS, diplomados universitarios y equivalentes",
+          "value": 1136,
+          "share": 0.049936
+        },
+        {
+          "label": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+          "value": 996,
+          "share": 0.043782
+        },
+        {
+          "label": "Sin estudios",
+          "value": 587,
+          "share": 0.025803
+        },
+        {
+          "label": "M\u00e1steres, especialidades en Ciencias de la Salud por el sistema de residencia y similares",
+          "value": 134,
+          "share": 0.00589
+        },
+        {
+          "label": "Doctorado universitario",
+          "value": 62,
+          "share": 0.002725
+        }
+      ]
+    },
+    {
+      "cno_2d": "64",
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official",
+      "dominant_level": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+      "distribution": [
+        {
+          "label": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+          "value": 18198,
+          "share": 0.486552
+        },
+        {
+          "label": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+          "value": 4368,
+          "share": 0.116785
+        },
+        {
+          "label": "Educaci\u00f3n primaria",
+          "value": 4272,
+          "share": 0.114218
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria con orientaci\u00f3n profesional; Educaci\u00f3n postsecundaria no superior",
+          "value": 4116,
+          "share": 0.110048
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria, con orientaci\u00f3n general",
+          "value": 2903,
+          "share": 0.077616
+        },
+        {
+          "label": "Grados universitarios de hasta 240 cr\u00e9ditos ECTS, diplomados universitarios y equivalentes",
+          "value": 1149,
+          "share": 0.03072
+        },
+        {
+          "label": "Sin estudios",
+          "value": 1013,
+          "share": 0.027084
+        },
+        {
+          "label": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+          "value": 999,
+          "share": 0.02671
+        },
+        {
+          "label": "M\u00e1steres, especialidades en Ciencias de la Salud por el sistema de residencia y similares",
+          "value": 296,
+          "share": 0.007914
+        },
+        {
+          "label": "Doctorado universitario",
+          "value": 88,
+          "share": 0.002353
+        }
+      ]
+    },
+    {
+      "cno_2d": "71",
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official",
+      "dominant_level": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+      "distribution": [
+        {
+          "label": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+          "value": 335347,
+          "share": 0.555452
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria con orientaci\u00f3n profesional; Educaci\u00f3n postsecundaria no superior",
+          "value": 68651,
+          "share": 0.11371
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria, con orientaci\u00f3n general",
+          "value": 67506,
+          "share": 0.111814
+        },
+        {
+          "label": "Educaci\u00f3n primaria",
+          "value": 58920,
+          "share": 0.097592
+        },
+        {
+          "label": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+          "value": 36257,
+          "share": 0.060054
+        },
+        {
+          "label": "Grados universitarios de hasta 240 cr\u00e9ditos ECTS, diplomados universitarios y equivalentes",
+          "value": 14728,
+          "share": 0.024395
+        },
+        {
+          "label": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+          "value": 10628,
+          "share": 0.017604
+        },
+        {
+          "label": "Sin estudios",
+          "value": 9479,
+          "share": 0.015701
+        },
+        {
+          "label": "M\u00e1steres, especialidades en Ciencias de la Salud por el sistema de residencia y similares",
+          "value": 1594,
+          "share": 0.00264
+        },
+        {
+          "label": "Doctorado universitario",
+          "value": 627,
+          "share": 0.001039
+        }
+      ]
+    },
+    {
+      "cno_2d": "72",
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official",
+      "dominant_level": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+      "distribution": [
+        {
+          "label": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+          "value": 113479,
+          "share": 0.490773
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria con orientaci\u00f3n profesional; Educaci\u00f3n postsecundaria no superior",
+          "value": 36136,
+          "share": 0.156281
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria, con orientaci\u00f3n general",
+          "value": 27092,
+          "share": 0.117167
+        },
+        {
+          "label": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+          "value": 24452,
+          "share": 0.10575
+        },
+        {
+          "label": "Educaci\u00f3n primaria",
+          "value": 17078,
+          "share": 0.073859
+        },
+        {
+          "label": "Grados universitarios de hasta 240 cr\u00e9ditos ECTS, diplomados universitarios y equivalentes",
+          "value": 6154,
+          "share": 0.026615
+        },
+        {
+          "label": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+          "value": 4208,
+          "share": 0.018199
+        },
+        {
+          "label": "Sin estudios",
+          "value": 1887,
+          "share": 0.008161
+        },
+        {
+          "label": "M\u00e1steres, especialidades en Ciencias de la Salud por el sistema de residencia y similares",
+          "value": 505,
+          "share": 0.002184
+        },
+        {
+          "label": "Doctorado universitario",
+          "value": 234,
+          "share": 0.001012
+        }
+      ]
+    },
+    {
+      "cno_2d": "73",
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official",
+      "dominant_level": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+      "distribution": [
+        {
+          "label": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+          "value": 90212,
+          "share": 0.400908
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria con orientaci\u00f3n profesional; Educaci\u00f3n postsecundaria no superior",
+          "value": 46990,
+          "share": 0.208827
+        },
+        {
+          "label": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+          "value": 44521,
+          "share": 0.197854
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria, con orientaci\u00f3n general",
+          "value": 21812,
+          "share": 0.096934
+        },
+        {
+          "label": "Educaci\u00f3n primaria",
+          "value": 9765,
+          "share": 0.043396
+        },
+        {
+          "label": "Grados universitarios de hasta 240 cr\u00e9ditos ECTS, diplomados universitarios y equivalentes",
+          "value": 6027,
+          "share": 0.026784
+        },
+        {
+          "label": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+          "value": 3715,
+          "share": 0.01651
+        },
+        {
+          "label": "Sin estudios",
+          "value": 1262,
+          "share": 0.005608
+        },
+        {
+          "label": "M\u00e1steres, especialidades en Ciencias de la Salud por el sistema de residencia y similares",
+          "value": 513,
+          "share": 0.00228
+        },
+        {
+          "label": "Doctorado universitario",
+          "value": 202,
+          "share": 0.000898
+        }
+      ]
+    },
+    {
+      "cno_2d": "74",
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official",
+      "dominant_level": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+      "distribution": [
+        {
+          "label": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+          "value": 92388,
+          "share": 0.315796
+        },
+        {
+          "label": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+          "value": 75096,
+          "share": 0.256689
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria con orientaci\u00f3n profesional; Educaci\u00f3n postsecundaria no superior",
+          "value": 64944,
+          "share": 0.221988
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria, con orientaci\u00f3n general",
+          "value": 26291,
+          "share": 0.089867
+        },
+        {
+          "label": "Educaci\u00f3n primaria",
+          "value": 15088,
+          "share": 0.051573
+        },
+        {
+          "label": "Grados universitarios de hasta 240 cr\u00e9ditos ECTS, diplomados universitarios y equivalentes",
+          "value": 9743,
+          "share": 0.033303
+        },
+        {
+          "label": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+          "value": 5807,
+          "share": 0.019849
+        },
+        {
+          "label": "Sin estudios",
+          "value": 2088,
+          "share": 0.007137
+        },
+        {
+          "label": "M\u00e1steres, especialidades en Ciencias de la Salud por el sistema de residencia y similares",
+          "value": 827,
+          "share": 0.002827
+        },
+        {
+          "label": "Doctorado universitario",
+          "value": 284,
+          "share": 0.000971
+        }
+      ]
+    },
+    {
+      "cno_2d": "75",
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official",
+      "dominant_level": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+      "distribution": [
+        {
+          "label": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+          "value": 76851,
+          "share": 0.277277
+        },
+        {
+          "label": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+          "value": 73839,
+          "share": 0.26641
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria con orientaci\u00f3n profesional; Educaci\u00f3n postsecundaria no superior",
+          "value": 60402,
+          "share": 0.21793
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria, con orientaci\u00f3n general",
+          "value": 27714,
+          "share": 0.099992
+        },
+        {
+          "label": "Grados universitarios de hasta 240 cr\u00e9ditos ECTS, diplomados universitarios y equivalentes",
+          "value": 14056,
+          "share": 0.050714
+        },
+        {
+          "label": "Educaci\u00f3n primaria",
+          "value": 12020,
+          "share": 0.043368
+        },
+        {
+          "label": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+          "value": 9132,
+          "share": 0.032948
+        },
+        {
+          "label": "Sin estudios",
+          "value": 1379,
+          "share": 0.004975
+        },
+        {
+          "label": "M\u00e1steres, especialidades en Ciencias de la Salud por el sistema de residencia y similares",
+          "value": 1340,
+          "share": 0.004835
+        },
+        {
+          "label": "Doctorado universitario",
+          "value": 430,
+          "share": 0.001551
+        }
+      ]
+    },
+    {
+      "cno_2d": "76",
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official",
+      "dominant_level": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+      "distribution": [
+        {
+          "label": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+          "value": 26812,
+          "share": 0.404136
+        },
+        {
+          "label": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+          "value": 10405,
+          "share": 0.156834
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria con orientaci\u00f3n profesional; Educaci\u00f3n postsecundaria no superior",
+          "value": 10248,
+          "share": 0.154468
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria, con orientaci\u00f3n general",
+          "value": 9505,
+          "share": 0.143268
+        },
+        {
+          "label": "Grados universitarios de hasta 240 cr\u00e9ditos ECTS, diplomados universitarios y equivalentes",
+          "value": 3130,
+          "share": 0.047178
+        },
+        {
+          "label": "Educaci\u00f3n primaria",
+          "value": 3062,
+          "share": 0.046153
+        },
+        {
+          "label": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+          "value": 2320,
+          "share": 0.034969
+        },
+        {
+          "label": "M\u00e1steres, especialidades en Ciencias de la Salud por el sistema de residencia y similares",
+          "value": 450,
+          "share": 0.006783
+        },
+        {
+          "label": "Sin estudios",
+          "value": 238,
+          "share": 0.003587
+        },
+        {
+          "label": "Doctorado universitario",
+          "value": 174,
+          "share": 0.002623
+        }
+      ]
+    },
+    {
+      "cno_2d": "77",
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official",
+      "dominant_level": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+      "distribution": [
+        {
+          "label": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+          "value": 90915,
+          "share": 0.467038
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria con orientaci\u00f3n profesional; Educaci\u00f3n postsecundaria no superior",
+          "value": 26531,
+          "share": 0.136292
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria, con orientaci\u00f3n general",
+          "value": 23979,
+          "share": 0.123182
+        },
+        {
+          "label": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+          "value": 18902,
+          "share": 0.097101
+        },
+        {
+          "label": "Educaci\u00f3n primaria",
+          "value": 15814,
+          "share": 0.081238
+        },
+        {
+          "label": "Grados universitarios de hasta 240 cr\u00e9ditos ECTS, diplomados universitarios y equivalentes",
+          "value": 7757,
+          "share": 0.039848
+        },
+        {
+          "label": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+          "value": 5328,
+          "share": 0.02737
+        },
+        {
+          "label": "Sin estudios",
+          "value": 3777,
+          "share": 0.019403
+        },
+        {
+          "label": "M\u00e1steres, especialidades en Ciencias de la Salud por el sistema de residencia y similares",
+          "value": 1337,
+          "share": 0.006868
+        },
+        {
+          "label": "Doctorado universitario",
+          "value": 323,
+          "share": 0.001659
+        }
+      ]
+    },
+    {
+      "cno_2d": "78",
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official",
+      "dominant_level": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+      "distribution": [
+        {
+          "label": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+          "value": 67560,
+          "share": 0.482502
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria con orientaci\u00f3n profesional; Educaci\u00f3n postsecundaria no superior",
+          "value": 21472,
+          "share": 0.15335
+        },
+        {
+          "label": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+          "value": 15903,
+          "share": 0.113577
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria, con orientaci\u00f3n general",
+          "value": 15073,
+          "share": 0.107649
+        },
+        {
+          "label": "Educaci\u00f3n primaria",
+          "value": 8621,
+          "share": 0.06157
+        },
+        {
+          "label": "Grados universitarios de hasta 240 cr\u00e9ditos ECTS, diplomados universitarios y equivalentes",
+          "value": 5506,
+          "share": 0.039323
+        },
+        {
+          "label": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+          "value": 3808,
+          "share": 0.027196
+        },
+        {
+          "label": "Sin estudios",
+          "value": 1054,
+          "share": 0.007527
+        },
+        {
+          "label": "M\u00e1steres, especialidades en Ciencias de la Salud por el sistema de residencia y similares",
+          "value": 796,
+          "share": 0.005685
+        },
+        {
+          "label": "Doctorado universitario",
+          "value": 227,
+          "share": 0.001621
+        }
+      ]
+    },
+    {
+      "cno_2d": "81",
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official",
+      "dominant_level": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+      "distribution": [
+        {
+          "label": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+          "value": 113489,
+          "share": 0.395847
+        },
+        {
+          "label": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+          "value": 55161,
+          "share": 0.1924
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria con orientaci\u00f3n profesional; Educaci\u00f3n postsecundaria no superior",
+          "value": 48031,
+          "share": 0.167531
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria, con orientaci\u00f3n general",
+          "value": 31066,
+          "share": 0.108358
+        },
+        {
+          "label": "Educaci\u00f3n primaria",
+          "value": 13536,
+          "share": 0.047213
+        },
+        {
+          "label": "Grados universitarios de hasta 240 cr\u00e9ditos ECTS, diplomados universitarios y equivalentes",
+          "value": 13143,
+          "share": 0.045843
+        },
+        {
+          "label": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+          "value": 7763,
+          "share": 0.027077
+        },
+        {
+          "label": "M\u00e1steres, especialidades en Ciencias de la Salud por el sistema de residencia y similares",
+          "value": 2327,
+          "share": 0.008117
+        },
+        {
+          "label": "Sin estudios",
+          "value": 1743,
+          "share": 0.00608
+        },
+        {
+          "label": "Doctorado universitario",
+          "value": 440,
+          "share": 0.001535
+        }
+      ]
+    },
+    {
+      "cno_2d": "82",
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official",
+      "dominant_level": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+      "distribution": [
+        {
+          "label": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+          "value": 23075,
+          "share": 0.366241
+        },
+        {
+          "label": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+          "value": 13660,
+          "share": 0.216808
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria con orientaci\u00f3n profesional; Educaci\u00f3n postsecundaria no superior",
+          "value": 11591,
+          "share": 0.18397
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria, con orientaci\u00f3n general",
+          "value": 6631,
+          "share": 0.105246
+        },
+        {
+          "label": "Grados universitarios de hasta 240 cr\u00e9ditos ECTS, diplomados universitarios y equivalentes",
+          "value": 3219,
+          "share": 0.051091
+        },
+        {
+          "label": "Educaci\u00f3n primaria",
+          "value": 2447,
+          "share": 0.038838
+        },
+        {
+          "label": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+          "value": 1744,
+          "share": 0.02768
+        },
+        {
+          "label": "M\u00e1steres, especialidades en Ciencias de la Salud por el sistema de residencia y similares",
+          "value": 318,
+          "share": 0.005047
+        },
+        {
+          "label": "Sin estudios",
+          "value": 251,
+          "share": 0.003984
+        },
+        {
+          "label": "Doctorado universitario",
+          "value": 69,
+          "share": 0.001095
+        }
+      ]
+    },
+    {
+      "cno_2d": "83",
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official",
+      "dominant_level": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+      "distribution": [
+        {
+          "label": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+          "value": 66074,
+          "share": 0.513475
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria con orientaci\u00f3n profesional; Educaci\u00f3n postsecundaria no superior",
+          "value": 17098,
+          "share": 0.132872
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria, con orientaci\u00f3n general",
+          "value": 12890,
+          "share": 0.100171
+        },
+        {
+          "label": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+          "value": 12670,
+          "share": 0.098461
+        },
+        {
+          "label": "Educaci\u00f3n primaria",
+          "value": 9942,
+          "share": 0.077261
+        },
+        {
+          "label": "Grados universitarios de hasta 240 cr\u00e9ditos ECTS, diplomados universitarios y equivalentes",
+          "value": 4581,
+          "share": 0.0356
+        },
+        {
+          "label": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+          "value": 2982,
+          "share": 0.023174
+        },
+        {
+          "label": "Sin estudios",
+          "value": 1638,
+          "share": 0.012729
+        },
+        {
+          "label": "M\u00e1steres, especialidades en Ciencias de la Salud por el sistema de residencia y similares",
+          "value": 658,
+          "share": 0.005113
+        },
+        {
+          "label": "Doctorado universitario",
+          "value": 147,
+          "share": 0.001142
+        }
+      ]
+    },
+    {
+      "cno_2d": "84",
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official",
+      "dominant_level": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+      "distribution": [
+        {
+          "label": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+          "value": 334661,
+          "share": 0.468378
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria con orientaci\u00f3n profesional; Educaci\u00f3n postsecundaria no superior",
+          "value": 109658,
+          "share": 0.153473
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria, con orientaci\u00f3n general",
+          "value": 103356,
+          "share": 0.144653
+        },
+        {
+          "label": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+          "value": 66992,
+          "share": 0.093759
+        },
+        {
+          "label": "Educaci\u00f3n primaria",
+          "value": 47468,
+          "share": 0.066434
+        },
+        {
+          "label": "Grados universitarios de hasta 240 cr\u00e9ditos ECTS, diplomados universitarios y equivalentes",
+          "value": 24918,
+          "share": 0.034874
+        },
+        {
+          "label": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+          "value": 17926,
+          "share": 0.025088
+        },
+        {
+          "label": "Sin estudios",
+          "value": 6209,
+          "share": 0.00869
+        },
+        {
+          "label": "M\u00e1steres, especialidades en Ciencias de la Salud por el sistema de residencia y similares",
+          "value": 2173,
+          "share": 0.003041
+        },
+        {
+          "label": "Doctorado universitario",
+          "value": 1150,
+          "share": 0.001609
+        }
+      ]
+    },
+    {
+      "cno_2d": "91",
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official",
+      "dominant_level": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+      "distribution": [
+        {
+          "label": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+          "value": 109083,
+          "share": 0.329503
+        },
+        {
+          "label": "Educaci\u00f3n primaria",
+          "value": 69029,
+          "share": 0.208513
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria, con orientaci\u00f3n general",
+          "value": 62583,
+          "share": 0.189042
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria con orientaci\u00f3n profesional; Educaci\u00f3n postsecundaria no superior",
+          "value": 27929,
+          "share": 0.084364
+        },
+        {
+          "label": "Grados universitarios de hasta 240 cr\u00e9ditos ECTS, diplomados universitarios y equivalentes",
+          "value": 19754,
+          "share": 0.05967
+        },
+        {
+          "label": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+          "value": 16006,
+          "share": 0.048349
+        },
+        {
+          "label": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+          "value": 13533,
+          "share": 0.040879
+        },
+        {
+          "label": "Sin estudios",
+          "value": 11310,
+          "share": 0.034164
+        },
+        {
+          "label": "M\u00e1steres, especialidades en Ciencias de la Salud por el sistema de residencia y similares",
+          "value": 915,
+          "share": 0.002764
+        },
+        {
+          "label": "Doctorado universitario",
+          "value": 911,
+          "share": 0.002752
+        }
+      ]
+    },
+    {
+      "cno_2d": "92",
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official",
+      "dominant_level": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+      "distribution": [
+        {
+          "label": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+          "value": 352894,
+          "share": 0.503674
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria, con orientaci\u00f3n general",
+          "value": 95516,
+          "share": 0.136327
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria con orientaci\u00f3n profesional; Educaci\u00f3n postsecundaria no superior",
+          "value": 87645,
+          "share": 0.125093
+        },
+        {
+          "label": "Educaci\u00f3n primaria",
+          "value": 57532,
+          "share": 0.082113
+        },
+        {
+          "label": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+          "value": 49586,
+          "share": 0.070772
+        },
+        {
+          "label": "Grados universitarios de hasta 240 cr\u00e9ditos ECTS, diplomados universitarios y equivalentes",
+          "value": 27897,
+          "share": 0.039816
+        },
+        {
+          "label": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+          "value": 18108,
+          "share": 0.025845
+        },
+        {
+          "label": "Sin estudios",
+          "value": 7941,
+          "share": 0.011334
+        },
+        {
+          "label": "M\u00e1steres, especialidades en Ciencias de la Salud por el sistema de residencia y similares",
+          "value": 2477,
+          "share": 0.003535
+        },
+        {
+          "label": "Doctorado universitario",
+          "value": 1044,
+          "share": 0.00149
+        }
+      ]
+    },
+    {
+      "cno_2d": "93",
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official",
+      "dominant_level": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+      "distribution": [
+        {
+          "label": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+          "value": 43498,
+          "share": 0.368552
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria, con orientaci\u00f3n general",
+          "value": 22962,
+          "share": 0.194554
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria con orientaci\u00f3n profesional; Educaci\u00f3n postsecundaria no superior",
+          "value": 17108,
+          "share": 0.144954
+        },
+        {
+          "label": "Educaci\u00f3n primaria",
+          "value": 11144,
+          "share": 0.094421
+        },
+        {
+          "label": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+          "value": 10201,
+          "share": 0.086432
+        },
+        {
+          "label": "Grados universitarios de hasta 240 cr\u00e9ditos ECTS, diplomados universitarios y equivalentes",
+          "value": 6399,
+          "share": 0.054218
+        },
+        {
+          "label": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+          "value": 4004,
+          "share": 0.033925
+        },
+        {
+          "label": "Sin estudios",
+          "value": 1636,
+          "share": 0.013862
+        },
+        {
+          "label": "M\u00e1steres, especialidades en Ciencias de la Salud por el sistema de residencia y similares",
+          "value": 803,
+          "share": 0.006804
+        },
+        {
+          "label": "Doctorado universitario",
+          "value": 269,
+          "share": 0.002279
+        }
+      ]
+    },
+    {
+      "cno_2d": "94",
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official",
+      "dominant_level": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+      "distribution": [
+        {
+          "label": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+          "value": 70627,
+          "share": 0.394045
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria con orientaci\u00f3n profesional; Educaci\u00f3n postsecundaria no superior",
+          "value": 26799,
+          "share": 0.149518
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria, con orientaci\u00f3n general",
+          "value": 24858,
+          "share": 0.138689
+        },
+        {
+          "label": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+          "value": 20066,
+          "share": 0.111953
+        },
+        {
+          "label": "Grados universitarios de hasta 240 cr\u00e9ditos ECTS, diplomados universitarios y equivalentes",
+          "value": 13483,
+          "share": 0.075225
+        },
+        {
+          "label": "Educaci\u00f3n primaria",
+          "value": 9746,
+          "share": 0.054375
+        },
+        {
+          "label": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+          "value": 8852,
+          "share": 0.049387
+        },
+        {
+          "label": "M\u00e1steres, especialidades en Ciencias de la Salud por el sistema de residencia y similares",
+          "value": 2572,
+          "share": 0.01435
+        },
+        {
+          "label": "Sin estudios",
+          "value": 1681,
+          "share": 0.009379
+        },
+        {
+          "label": "Doctorado universitario",
+          "value": 552,
+          "share": 0.00308
+        }
+      ]
+    },
+    {
+      "cno_2d": "95",
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official",
+      "dominant_level": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+      "distribution": [
+        {
+          "label": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+          "value": 207707,
+          "share": 0.501951
+        },
+        {
+          "label": "Educaci\u00f3n primaria",
+          "value": 68071,
+          "share": 0.164503
+        },
+        {
+          "label": "Sin estudios",
+          "value": 45888,
+          "share": 0.110894
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria con orientaci\u00f3n profesional; Educaci\u00f3n postsecundaria no superior",
+          "value": 31220,
+          "share": 0.075447
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria, con orientaci\u00f3n general",
+          "value": 28629,
+          "share": 0.069186
+        },
+        {
+          "label": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+          "value": 17092,
+          "share": 0.041305
+        },
+        {
+          "label": "Grados universitarios de hasta 240 cr\u00e9ditos ECTS, diplomados universitarios y equivalentes",
+          "value": 8308,
+          "share": 0.020077
+        },
+        {
+          "label": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+          "value": 5077,
+          "share": 0.012269
+        },
+        {
+          "label": "M\u00e1steres, especialidades en Ciencias de la Salud por el sistema de residencia y similares",
+          "value": 1426,
+          "share": 0.003446
+        },
+        {
+          "label": "Doctorado universitario",
+          "value": 381,
+          "share": 0.000921
+        }
+      ]
+    },
+    {
+      "cno_2d": "96",
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official",
+      "dominant_level": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+      "distribution": [
+        {
+          "label": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+          "value": 56604,
+          "share": 0.523297
+        },
+        {
+          "label": "Educaci\u00f3n primaria",
+          "value": 12492,
+          "share": 0.115487
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria, con orientaci\u00f3n general",
+          "value": 12351,
+          "share": 0.114183
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria con orientaci\u00f3n profesional; Educaci\u00f3n postsecundaria no superior",
+          "value": 11503,
+          "share": 0.106344
+        },
+        {
+          "label": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+          "value": 6070,
+          "share": 0.056116
+        },
+        {
+          "label": "Grados universitarios de hasta 240 cr\u00e9ditos ECTS, diplomados universitarios y equivalentes",
+          "value": 3405,
+          "share": 0.031479
+        },
+        {
+          "label": "Sin estudios",
+          "value": 2634,
+          "share": 0.024351
+        },
+        {
+          "label": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+          "value": 2578,
+          "share": 0.023833
+        },
+        {
+          "label": "M\u00e1steres, especialidades en Ciencias de la Salud por el sistema de residencia y similares",
+          "value": 373,
+          "share": 0.003448
+        },
+        {
+          "label": "Doctorado universitario",
+          "value": 158,
+          "share": 0.001461
+        }
+      ]
+    },
+    {
+      "cno_2d": "97",
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official",
+      "dominant_level": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+      "distribution": [
+        {
+          "label": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+          "value": 168504,
+          "share": 0.429927
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria con orientaci\u00f3n profesional; Educaci\u00f3n postsecundaria no superior",
+          "value": 60858,
+          "share": 0.155275
+        },
+        {
+          "label": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+          "value": 51106,
+          "share": 0.130394
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria, con orientaci\u00f3n general",
+          "value": 44411,
+          "share": 0.113312
+        },
+        {
+          "label": "Grados universitarios de hasta 240 cr\u00e9ditos ECTS, diplomados universitarios y equivalentes",
+          "value": 22509,
+          "share": 0.05743
+        },
+        {
+          "label": "Educaci\u00f3n primaria",
+          "value": 20334,
+          "share": 0.051881
+        },
+        {
+          "label": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+          "value": 14849,
+          "share": 0.037886
+        },
+        {
+          "label": "Sin estudios",
+          "value": 5609,
+          "share": 0.014311
+        },
+        {
+          "label": "M\u00e1steres, especialidades en Ciencias de la Salud por el sistema de residencia y similares",
+          "value": 3019,
+          "share": 0.007703
+        },
+        {
+          "label": "Doctorado universitario",
+          "value": 737,
+          "share": 0.00188
+        }
+      ]
+    },
+    {
+      "cno_2d": "98",
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official",
+      "dominant_level": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+      "distribution": [
+        {
+          "label": "Primera etapa de Educaci\u00f3n Secundaria y similar",
+          "value": 102635,
+          "share": 0.402768
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria con orientaci\u00f3n profesional; Educaci\u00f3n postsecundaria no superior",
+          "value": 42364,
+          "share": 0.166248
+        },
+        {
+          "label": "Segunda etapa de educaci\u00f3n secundaria, con orientaci\u00f3n general",
+          "value": 39432,
+          "share": 0.154742
+        },
+        {
+          "label": "Ense\u00f1anzas de formaci\u00f3n profesional, artes pl\u00e1sticas y dise\u00f1o y deportivas de grado superior y equivalentes",
+          "value": 30394,
+          "share": 0.119274
+        },
+        {
+          "label": "Grados universitarios de hasta 240 cr\u00e9ditos ECTS, diplomados universitarios y equivalentes",
+          "value": 15237,
+          "share": 0.059794
+        },
+        {
+          "label": "Educaci\u00f3n primaria",
+          "value": 11422,
+          "share": 0.044823
+        },
+        {
+          "label": "Grados universitarios de m\u00e1s de 240 cr\u00e9ditos ECTS, licenciados y equivalentes",
+          "value": 9176,
+          "share": 0.036009
+        },
+        {
+          "label": "M\u00e1steres, especialidades en Ciencias de la Salud por el sistema de residencia y similares",
+          "value": 2071,
+          "share": 0.008127
+        },
+        {
+          "label": "Sin estudios",
+          "value": 1596,
+          "share": 0.006263
+        },
+        {
+          "label": "Doctorado universitario",
+          "value": 497,
+          "share": 0.00195
+        }
+      ]
+    }
+  ]
+}

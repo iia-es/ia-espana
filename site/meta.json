@@ -1,0 +1,11 @@
+{
+  "employment_reference_year": 2023,
+  "salary_reference_year": 2018,
+  "major_group_salary_reference_year": 2024,
+  "sepe_reference_year": 2025,
+  "occupation_2d_count": 62,
+  "occupation_4d_count": 502,
+  "sepe_failure_count": 0,
+  "ai_scores_4d_count": 502,
+  "ai_scores_2d_count": 62
+}

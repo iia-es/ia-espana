@@ -1,0 +1,3074 @@
+{
+  "source_id": "sepe_occupation_pages",
+  "reference_year": 2025,
+  "groups": [
+    {
+      "cno_2d": "00",
+      "label": "Ocupaciones militares",
+      "label_full": "Ocupaciones militares",
+      "grand_group_id": "0",
+      "grand_group_name": "Ocupaciones militares",
+      "children": [
+        {
+          "cno_4d": "0011",
+          "label": "Oficiales de las fuerzas armadas",
+          "label_full": "Oficiales de las fuerzas armadas"
+        },
+        {
+          "cno_4d": "0012",
+          "label": "Suboficiales de las fuerzas armadas",
+          "label_full": "Suboficiales de las fuerzas armadas"
+        },
+        {
+          "cno_4d": "0020",
+          "label": "Tropa y mariner\u00eda de las fuerzas armadas",
+          "label_full": "Tropa y mariner\u00eda de las fuerzas armadas"
+        }
+      ]
+    },
+    {
+      "cno_2d": "11",
+      "label": "Miembros del poder ejecutivo y de los cuerpos legislativos; directivos de la Administraci\u00f3n P\u00fablica y organizaciones de inter\u00e9s social; directores ejecutivos",
+      "label_full": "Miembros del poder ejecutivo y de los cuerpos legislativos; directivos de la Administraci\u00f3n P\u00fablica y organizaciones de inter\u00e9s social; directores ejecutivos",
+      "grand_group_id": "1",
+      "grand_group_name": "Directores y gerentes",
+      "children": [
+        {
+          "cno_4d": "1111",
+          "label": "Miembros del poder ejecutivo (nacional, auton\u00f3mico y local) y del poder legislativo",
+          "label_full": "Miembros del poder ejecutivo (nacional, auton\u00f3mico y local) y del poder legislativo"
+        },
+        {
+          "cno_4d": "1112",
+          "label": "Personal directivo de la administraci\u00f3n p\u00fablica",
+          "label_full": "Personal directivo de la administraci\u00f3n p\u00fablica"
+        },
+        {
+          "cno_4d": "1113",
+          "label": "Directores de organizaciones de inter\u00e9s social",
+          "label_full": "Directores de organizaciones de inter\u00e9s social"
+        },
+        {
+          "cno_4d": "1120",
+          "label": "Directores generales y presidentes ejecutivos",
+          "label_full": "Directores generales y presidentes ejecutivos"
+        }
+      ]
+    },
+    {
+      "cno_2d": "12",
+      "label": "Directores de departamentos administrativos y comerciales",
+      "label_full": "Directores de departamentos administrativos y comerciales",
+      "grand_group_id": "1",
+      "grand_group_name": "Directores y gerentes",
+      "children": [
+        {
+          "cno_4d": "1211",
+          "label": "Directores financieros",
+          "label_full": "Directores financieros"
+        },
+        {
+          "cno_4d": "1212",
+          "label": "Directores de recursos humanos",
+          "label_full": "Directores de recursos humanos"
+        },
+        {
+          "cno_4d": "1219",
+          "label": "Directores de pol\u00edticas y planificaci\u00f3n y de otros departamentos administrativos no clasificados bajo otros ep\u00edgrafes",
+          "label_full": "Directores de pol\u00edticas y planificaci\u00f3n y de otros departamentos administrativos no clasificados bajo otros ep\u00edgrafes"
+        },
+        {
+          "cno_4d": "1221",
+          "label": "Directores comerciales y de ventas",
+          "label_full": "Directores comerciales y de ventas"
+        },
+        {
+          "cno_4d": "1222",
+          "label": "Directores de publicidad y relaciones p\u00fablicas",
+          "label_full": "Directores de publicidad y relaciones p\u00fablicas"
+        },
+        {
+          "cno_4d": "1223",
+          "label": "Directores de investigaci\u00f3n y desarrollo",
+          "label_full": "Directores de investigaci\u00f3n y desarrollo"
+        }
+      ]
+    },
+    {
+      "cno_2d": "13",
+      "label": "Directores de producci\u00f3n y operaciones",
+      "label_full": "Directores de producci\u00f3n y operaciones",
+      "grand_group_id": "1",
+      "grand_group_name": "Directores y gerentes",
+      "children": [
+        {
+          "cno_4d": "1311",
+          "label": "Directores de producci\u00f3n de explotaciones agropecuarias y forestales",
+          "label_full": "Directores de producci\u00f3n de explotaciones agropecuarias y forestales"
+        },
+        {
+          "cno_4d": "1312",
+          "label": "Directores de producci\u00f3n de explotaciones pesqueras y acu\u00edcolas",
+          "label_full": "Directores de producci\u00f3n de explotaciones pesqueras y acu\u00edcolas"
+        },
+        {
+          "cno_4d": "1313",
+          "label": "Directores de industrias manufactureras",
+          "label_full": "Directores de industrias manufactureras"
+        },
+        {
+          "cno_4d": "1314",
+          "label": "Directores de explotaciones mineras",
+          "label_full": "Directores de explotaciones mineras"
+        },
+        {
+          "cno_4d": "1315",
+          "label": "Directores de empresas de abastecimiento, transporte, distribuci\u00f3n y afines",
+          "label_full": "Directores de empresas de abastecimiento, transporte, distribuci\u00f3n y afines"
+        },
+        {
+          "cno_4d": "1316",
+          "label": "Directores de empresas de construcci\u00f3n",
+          "label_full": "Directores de empresas de construcci\u00f3n"
+        },
+        {
+          "cno_4d": "1321",
+          "label": "Directores de servicios de tecnolog\u00edas de la informaci\u00f3n y las comunicaciones (tic)",
+          "label_full": "Directores de servicios de tecnolog\u00edas de la informaci\u00f3n y las comunicaciones (tic)"
+        },
+        {
+          "cno_4d": "1322",
+          "label": "Directores de servicios sociales para ni\u00f1os",
+          "label_full": "Directores de servicios sociales para ni\u00f1os"
+        },
+        {
+          "cno_4d": "1323",
+          "label": "Directores-gerentes de centros sanitarios",
+          "label_full": "Directores-gerentes de centros sanitarios"
+        },
+        {
+          "cno_4d": "1324",
+          "label": "Directores de servicios sociales para personas mayores",
+          "label_full": "Directores de servicios sociales para personas mayores"
+        },
+        {
+          "cno_4d": "1325",
+          "label": "Directores de otros servicios sociales",
+          "label_full": "Directores de otros servicios sociales"
+        },
+        {
+          "cno_4d": "1326",
+          "label": "Directores de servicios de educaci\u00f3n",
+          "label_full": "Directores de servicios de educaci\u00f3n"
+        },
+        {
+          "cno_4d": "1327",
+          "label": "Directores de sucursales de bancos, de servicios financieros y de seguros",
+          "label_full": "Directores de sucursales de bancos, de servicios financieros y de seguros"
+        },
+        {
+          "cno_4d": "1329",
+          "label": "Directores de otras empresas de servicios profesionales no clasificados bajo otros ep\u00edgrafes",
+          "label_full": "Directores de otras empresas de servicios profesionales no clasificados bajo otros ep\u00edgrafes"
+        }
+      ]
+    },
+    {
+      "cno_2d": "14",
+      "label": "Directores y gerentes de empresas de alojamiento, restauraci\u00f3n y comercio",
+      "label_full": "Directores y gerentes de empresas de alojamiento, restauraci\u00f3n y comercio",
+      "grand_group_id": "1",
+      "grand_group_name": "Directores y gerentes",
+      "children": [
+        {
+          "cno_4d": "1411",
+          "label": "Directores y gerentes de hoteles",
+          "label_full": "Directores y gerentes de hoteles"
+        },
+        {
+          "cno_4d": "1419",
+          "label": "Directores y gerentes de otras empresas de servicios de alojamiento",
+          "label_full": "Directores y gerentes de otras empresas de servicios de alojamiento"
+        },
+        {
+          "cno_4d": "1421",
+          "label": "Directores y gerentes de restaurantes",
+          "label_full": "Directores y gerentes de restaurantes"
+        },
+        {
+          "cno_4d": "1422",
+          "label": "Directores y gerentes de bares, cafeter\u00edas y similares",
+          "label_full": "Directores y gerentes de bares, cafeter\u00edas y similares"
+        },
+        {
+          "cno_4d": "1429",
+          "label": "Directores y gerentes de empresas de catering y otras empresas de restauraci\u00f3n",
+          "label_full": "Directores y gerentes de empresas de catering y otras empresas de restauraci\u00f3n"
+        },
+        {
+          "cno_4d": "1431",
+          "label": "Directores y gerentes de empresas de comercio al por mayor",
+          "label_full": "Directores y gerentes de empresas de comercio al por mayor"
+        },
+        {
+          "cno_4d": "1432",
+          "label": "Directores y gerentes de empresas de comercio al por menor",
+          "label_full": "Directores y gerentes de empresas de comercio al por menor"
+        }
+      ]
+    },
+    {
+      "cno_2d": "15",
+      "label": "Directores y gerentes de otras empresas de servicios no clasificados bajo otros ep\u00edgrafes",
+      "label_full": "Directores y gerentes de otras empresas de servicios no clasificados bajo otros ep\u00edgrafes",
+      "grand_group_id": "1",
+      "grand_group_name": "Directores y gerentes",
+      "children": [
+        {
+          "cno_4d": "1501",
+          "label": "Directores y gerentes de empresas de actividades recreativas, culturales y deportivas",
+          "label_full": "Directores y gerentes de empresas de actividades recreativas, culturales y deportivas"
+        },
+        {
+          "cno_4d": "1509",
+          "label": "Directores y gerentes de empresas de gesti\u00f3n de residuos y de otras empresas de servicios no clasificados bajo otros ep\u00edgrafes",
+          "label_full": "Directores y gerentes de empresas de gesti\u00f3n de residuos y de otras empresas de servicios no clasificados bajo otros ep\u00edgrafes"
+        }
+      ]
+    },
+    {
+      "cno_2d": "21",
+      "label": "Profesionales de la salud",
+      "label_full": "Profesionales de la salud",
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "children": [
+        {
+          "cno_4d": "2111",
+          "label": "M\u00e9dicos de familia",
+          "label_full": "M\u00e9dicos de familia"
+        },
+        {
+          "cno_4d": "2112",
+          "label": "Otros m\u00e9dicos especialistas",
+          "label_full": "Otros m\u00e9dicos especialistas"
+        },
+        {
+          "cno_4d": "2121",
+          "label": "Enfermeros no especializados",
+          "label_full": "Enfermeros no especializados"
+        },
+        {
+          "cno_4d": "2122",
+          "label": "Enfermeros especializados (excepto matronos)",
+          "label_full": "Enfermeros especializados (excepto matronos)"
+        },
+        {
+          "cno_4d": "2123",
+          "label": "Matronos",
+          "label_full": "Matronos"
+        },
+        {
+          "cno_4d": "2130",
+          "label": "Veterinarios",
+          "label_full": "Veterinarios"
+        },
+        {
+          "cno_4d": "2140",
+          "label": "Farmac\u00e9uticos",
+          "label_full": "Farmac\u00e9uticos"
+        },
+        {
+          "cno_4d": "2151",
+          "label": "Odont\u00f3logos y estomat\u00f3logos",
+          "label_full": "Odont\u00f3logos y estomat\u00f3logos"
+        },
+        {
+          "cno_4d": "2152",
+          "label": "Fisioterapeutas",
+          "label_full": "Fisioterapeutas"
+        },
+        {
+          "cno_4d": "2153",
+          "label": "Dietistas y nutricionistas",
+          "label_full": "Dietistas y nutricionistas"
+        },
+        {
+          "cno_4d": "2154",
+          "label": "Logopedas",
+          "label_full": "Logopedas"
+        },
+        {
+          "cno_4d": "2155",
+          "label": "\u00d3pticos-optometristas",
+          "label_full": "\u00d3pticos-optometristas"
+        },
+        {
+          "cno_4d": "2156",
+          "label": "Terapeutas ocupacionales",
+          "label_full": "Terapeutas ocupacionales"
+        },
+        {
+          "cno_4d": "2157",
+          "label": "Pod\u00f3logos",
+          "label_full": "Pod\u00f3logos"
+        },
+        {
+          "cno_4d": "2158",
+          "label": "Profesionales de la salud y la higiene laboral y ambiental",
+          "label_full": "Profesionales de la salud y la higiene laboral y ambiental"
+        },
+        {
+          "cno_4d": "2159",
+          "label": "Profesionales de la salud no clasificados bajo otros ep\u00edgrafes",
+          "label_full": "Profesionales de la salud no clasificados bajo otros ep\u00edgrafes"
+        }
+      ]
+    },
+    {
+      "cno_2d": "22",
+      "label": "Profesionales de la ense\u00f1anza infantil, primaria, secundaria y postsecundaria",
+      "label_full": "Profesionales de la ense\u00f1anza infantil, primaria, secundaria y postsecundaria",
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "children": [
+        {
+          "cno_4d": "2210",
+          "label": "Profesores de universidades y otra ense\u00f1anza superior (excepto formaci\u00f3n profesional)",
+          "label_full": "Profesores de universidades y otra ense\u00f1anza superior (excepto formaci\u00f3n profesional)"
+        },
+        {
+          "cno_4d": "2220",
+          "label": "Profesores de formaci\u00f3n profesional (materias espec\u00edficas)",
+          "label_full": "Profesores de formaci\u00f3n profesional (materias espec\u00edficas)"
+        },
+        {
+          "cno_4d": "2230",
+          "label": "Profesores de ense\u00f1anza secundaria (excepto materias espec\u00edficas de formaci\u00f3n profesional)",
+          "label_full": "Profesores de ense\u00f1anza secundaria (excepto materias espec\u00edficas de formaci\u00f3n profesional)"
+        },
+        {
+          "cno_4d": "2240",
+          "label": "Profesores de ense\u00f1anza primaria",
+          "label_full": "Profesores de ense\u00f1anza primaria"
+        },
+        {
+          "cno_4d": "2251",
+          "label": "Maestros de educaci\u00f3n infantil",
+          "label_full": "Maestros de educaci\u00f3n infantil"
+        },
+        {
+          "cno_4d": "2252",
+          "label": "T\u00e9cnicos en educaci\u00f3n infantil",
+          "label_full": "T\u00e9cnicos en educaci\u00f3n infantil"
+        }
+      ]
+    },
+    {
+      "cno_2d": "23",
+      "label": "Otros profesionales de la ense\u00f1anza",
+      "label_full": "Otros profesionales de la ense\u00f1anza",
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "children": [
+        {
+          "cno_4d": "2311",
+          "label": "Profesores de educaci\u00f3n especial",
+          "label_full": "Profesores de educaci\u00f3n especial"
+        },
+        {
+          "cno_4d": "2312",
+          "label": "T\u00e9cnicos educadores de educaci\u00f3n especial",
+          "label_full": "T\u00e9cnicos educadores de educaci\u00f3n especial"
+        },
+        {
+          "cno_4d": "2321",
+          "label": "Especialistas en m\u00e9todos did\u00e1cticos y pedag\u00f3gicos",
+          "label_full": "Especialistas en m\u00e9todos did\u00e1cticos y pedag\u00f3gicos"
+        },
+        {
+          "cno_4d": "2322",
+          "label": "Profesores de ense\u00f1anza no reglada de idiomas",
+          "label_full": "Profesores de ense\u00f1anza no reglada de idiomas"
+        },
+        {
+          "cno_4d": "2323",
+          "label": "Profesores de ense\u00f1anza no reglada de m\u00fasica y danza",
+          "label_full": "Profesores de ense\u00f1anza no reglada de m\u00fasica y danza"
+        },
+        {
+          "cno_4d": "2324",
+          "label": "Profesores de ense\u00f1anza no reglada de artes",
+          "label_full": "Profesores de ense\u00f1anza no reglada de artes"
+        },
+        {
+          "cno_4d": "2325",
+          "label": "Instructores en tecnolog\u00edas de la informaci\u00f3n en ense\u00f1anza no reglada",
+          "label_full": "Instructores en tecnolog\u00edas de la informaci\u00f3n en ense\u00f1anza no reglada"
+        },
+        {
+          "cno_4d": "2326",
+          "label": "Profesionales de la educaci\u00f3n ambiental",
+          "label_full": "Profesionales de la educaci\u00f3n ambiental"
+        },
+        {
+          "cno_4d": "2329",
+          "label": "Profesores y profesionales de la ense\u00f1anza no clasificados bajo otros ep\u00edgrafes",
+          "label_full": "Profesores y profesionales de la ense\u00f1anza no clasificados bajo otros ep\u00edgrafes"
+        }
+      ]
+    },
+    {
+      "cno_2d": "24",
+      "label": "Profesionales de la ciencias f\u00edsicas, qu\u00edmicas, matem\u00e1ticas y de las ingenier\u00edas",
+      "label_full": "Profesionales de la ciencias f\u00edsicas, qu\u00edmicas, matem\u00e1ticas y de las ingenier\u00edas",
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "children": [
+        {
+          "cno_4d": "2411",
+          "label": "F\u00edsicos y astr\u00f3nomos",
+          "label_full": "F\u00edsicos y astr\u00f3nomos"
+        },
+        {
+          "cno_4d": "2412",
+          "label": "Meteor\u00f3logos",
+          "label_full": "Meteor\u00f3logos"
+        },
+        {
+          "cno_4d": "2413",
+          "label": "Qu\u00edmicos",
+          "label_full": "Qu\u00edmicos"
+        },
+        {
+          "cno_4d": "2414",
+          "label": "Ge\u00f3logos y geof\u00edsicos",
+          "label_full": "Ge\u00f3logos y geof\u00edsicos"
+        },
+        {
+          "cno_4d": "2415",
+          "label": "Matem\u00e1ticos y actuarios",
+          "label_full": "Matem\u00e1ticos y actuarios"
+        },
+        {
+          "cno_4d": "2416",
+          "label": "Estad\u00edsticos",
+          "label_full": "Estad\u00edsticos"
+        },
+        {
+          "cno_4d": "2421",
+          "label": "Bi\u00f3logos, bot\u00e1nicos, zo\u00f3logos y afines",
+          "label_full": "Bi\u00f3logos, bot\u00e1nicos, zo\u00f3logos y afines"
+        },
+        {
+          "cno_4d": "2422",
+          "label": "Ingenieros agr\u00f3nomos",
+          "label_full": "Ingenieros agr\u00f3nomos"
+        },
+        {
+          "cno_4d": "2423",
+          "label": "Ingenieros de montes",
+          "label_full": "Ingenieros de montes"
+        },
+        {
+          "cno_4d": "2424",
+          "label": "Ingenieros t\u00e9cnicos agr\u00edcolas",
+          "label_full": "Ingenieros t\u00e9cnicos agr\u00edcolas"
+        },
+        {
+          "cno_4d": "2425",
+          "label": "Ingenieros t\u00e9cnicos forestales y del medio natural",
+          "label_full": "Ingenieros t\u00e9cnicos forestales y del medio natural"
+        },
+        {
+          "cno_4d": "2426",
+          "label": "Profesionales de la protecci\u00f3n ambiental",
+          "label_full": "Profesionales de la protecci\u00f3n ambiental"
+        },
+        {
+          "cno_4d": "2427",
+          "label": "En\u00f3logos",
+          "label_full": "En\u00f3logos"
+        },
+        {
+          "cno_4d": "2431",
+          "label": "Ingenieros industriales y de producci\u00f3n",
+          "label_full": "Ingenieros industriales y de producci\u00f3n"
+        },
+        {
+          "cno_4d": "2432",
+          "label": "Ingenieros en construcci\u00f3n y obra civil",
+          "label_full": "Ingenieros en construcci\u00f3n y obra civil"
+        },
+        {
+          "cno_4d": "2433",
+          "label": "Ingenieros mec\u00e1nicos",
+          "label_full": "Ingenieros mec\u00e1nicos"
+        },
+        {
+          "cno_4d": "2434",
+          "label": "Ingenieros aeron\u00e1uticos",
+          "label_full": "Ingenieros aeron\u00e1uticos"
+        },
+        {
+          "cno_4d": "2435",
+          "label": "Ingenieros qu\u00edmicos",
+          "label_full": "Ingenieros qu\u00edmicos"
+        },
+        {
+          "cno_4d": "2436",
+          "label": "Ingenieros de minas, metal\u00fargicos y afines",
+          "label_full": "Ingenieros de minas, metal\u00fargicos y afines"
+        },
+        {
+          "cno_4d": "2437",
+          "label": "Ingenieros ambientales",
+          "label_full": "Ingenieros ambientales"
+        },
+        {
+          "cno_4d": "2439",
+          "label": "Ingenieros no clasificados bajo otros ep\u00edgrafes",
+          "label_full": "Ingenieros no clasificados bajo otros ep\u00edgrafes"
+        },
+        {
+          "cno_4d": "2441",
+          "label": "Ingenieros en electricidad",
+          "label_full": "Ingenieros en electricidad"
+        },
+        {
+          "cno_4d": "2442",
+          "label": "Ingenieros electr\u00f3nicos",
+          "label_full": "Ingenieros electr\u00f3nicos"
+        },
+        {
+          "cno_4d": "2443",
+          "label": "Ingenieros en telecomunicaciones",
+          "label_full": "Ingenieros en telecomunicaciones"
+        },
+        {
+          "cno_4d": "2451",
+          "label": "Arquitectos (excepto arquitectos paisajistas y urbanistas)",
+          "label_full": "Arquitectos (excepto arquitectos paisajistas y urbanistas)"
+        },
+        {
+          "cno_4d": "2452",
+          "label": "Arquitectos paisajistas",
+          "label_full": "Arquitectos paisajistas"
+        },
+        {
+          "cno_4d": "2453",
+          "label": "Urbanistas e ingenieros de tr\u00e1fico",
+          "label_full": "Urbanistas e ingenieros de tr\u00e1fico"
+        },
+        {
+          "cno_4d": "2454",
+          "label": "Ingenieros ge\u00f3grafos y cart\u00f3grafos",
+          "label_full": "Ingenieros ge\u00f3grafos y cart\u00f3grafos"
+        },
+        {
+          "cno_4d": "2461",
+          "label": "Ingenieros t\u00e9cnicos industriales y de producci\u00f3n",
+          "label_full": "Ingenieros t\u00e9cnicos industriales y de producci\u00f3n"
+        },
+        {
+          "cno_4d": "2462",
+          "label": "Ingenieros t\u00e9cnicos de obras p\u00fablicas",
+          "label_full": "Ingenieros t\u00e9cnicos de obras p\u00fablicas"
+        },
+        {
+          "cno_4d": "2463",
+          "label": "Ingenieros t\u00e9cnicos mec\u00e1nicos",
+          "label_full": "Ingenieros t\u00e9cnicos mec\u00e1nicos"
+        },
+        {
+          "cno_4d": "2464",
+          "label": "Ingenieros t\u00e9cnicos aeron\u00e1uticos",
+          "label_full": "Ingenieros t\u00e9cnicos aeron\u00e1uticos"
+        },
+        {
+          "cno_4d": "2465",
+          "label": "Ingenieros t\u00e9cnicos qu\u00edmicos",
+          "label_full": "Ingenieros t\u00e9cnicos qu\u00edmicos"
+        },
+        {
+          "cno_4d": "2466",
+          "label": "Ingenieros t\u00e9cnicos de minas, metal\u00fargicos y afines",
+          "label_full": "Ingenieros t\u00e9cnicos de minas, metal\u00fargicos y afines"
+        },
+        {
+          "cno_4d": "2469",
+          "label": "Ingenieros t\u00e9cnicos no clasificados bajo otros ep\u00edgrafes",
+          "label_full": "Ingenieros t\u00e9cnicos no clasificados bajo otros ep\u00edgrafes"
+        },
+        {
+          "cno_4d": "2471",
+          "label": "Ingenieros t\u00e9cnicos en electricidad",
+          "label_full": "Ingenieros t\u00e9cnicos en electricidad"
+        },
+        {
+          "cno_4d": "2472",
+          "label": "Ingenieros t\u00e9cnicos en electr\u00f3nica",
+          "label_full": "Ingenieros t\u00e9cnicos en electr\u00f3nica"
+        },
+        {
+          "cno_4d": "2473",
+          "label": "Ingenieros t\u00e9cnicos en telecomunicaciones",
+          "label_full": "Ingenieros t\u00e9cnicos en telecomunicaciones"
+        },
+        {
+          "cno_4d": "2481",
+          "label": "Arquitectos t\u00e9cnicos y t\u00e9cnicos urbanistas",
+          "label_full": "Arquitectos t\u00e9cnicos y t\u00e9cnicos urbanistas"
+        },
+        {
+          "cno_4d": "2482",
+          "label": "Dise\u00f1adores de productos y de prendas",
+          "label_full": "Dise\u00f1adores de productos y de prendas"
+        },
+        {
+          "cno_4d": "2483",
+          "label": "Ingenieros t\u00e9cnicos en topograf\u00eda",
+          "label_full": "Ingenieros t\u00e9cnicos en topograf\u00eda"
+        },
+        {
+          "cno_4d": "2484",
+          "label": "Dise\u00f1adores gr\u00e1ficos y multimedia",
+          "label_full": "Dise\u00f1adores gr\u00e1ficos y multimedia"
+        }
+      ]
+    },
+    {
+      "cno_2d": "25",
+      "label": "Profesionales en derecho",
+      "label_full": "Profesionales en derecho",
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "children": [
+        {
+          "cno_4d": "2511",
+          "label": "Abogados",
+          "label_full": "Abogados"
+        },
+        {
+          "cno_4d": "2512",
+          "label": "Fiscales",
+          "label_full": "Fiscales"
+        },
+        {
+          "cno_4d": "2513",
+          "label": "Jueces y magistrados",
+          "label_full": "Jueces y magistrados"
+        },
+        {
+          "cno_4d": "2591",
+          "label": "Notarios y registradores",
+          "label_full": "Notarios y registradores"
+        },
+        {
+          "cno_4d": "2592",
+          "label": "Procuradores",
+          "label_full": "Procuradores"
+        },
+        {
+          "cno_4d": "2599",
+          "label": "Profesionales del derecho no clasificados bajo otros ep\u00edgrafes",
+          "label_full": "Profesionales del derecho no clasificados bajo otros ep\u00edgrafes"
+        }
+      ]
+    },
+    {
+      "cno_2d": "26",
+      "label": "Especialistas en organizaci\u00f3n de la Administraci\u00f3n P\u00fablica y de las empresas y en la comercializaci\u00f3n",
+      "label_full": "Especialistas en organizaci\u00f3n de la Administraci\u00f3n P\u00fablica y de las empresas y en la comercializaci\u00f3n",
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "children": [
+        {
+          "cno_4d": "2611",
+          "label": "Especialistas en contabilidad",
+          "label_full": "Especialistas en contabilidad"
+        },
+        {
+          "cno_4d": "2612",
+          "label": "Asesores financieros y en inversiones",
+          "label_full": "Asesores financieros y en inversiones"
+        },
+        {
+          "cno_4d": "2613",
+          "label": "Analistas financieros",
+          "label_full": "Analistas financieros"
+        },
+        {
+          "cno_4d": "2621",
+          "label": "Analistas de gesti\u00f3n y organizaci\u00f3n",
+          "label_full": "Analistas de gesti\u00f3n y organizaci\u00f3n"
+        },
+        {
+          "cno_4d": "2622",
+          "label": "Especialistas en administraci\u00f3n de pol\u00edtica de empresas",
+          "label_full": "Especialistas en administraci\u00f3n de pol\u00edtica de empresas"
+        },
+        {
+          "cno_4d": "2623",
+          "label": "Especialistas de la administraci\u00f3n p\u00fablica",
+          "label_full": "Especialistas de la administraci\u00f3n p\u00fablica"
+        },
+        {
+          "cno_4d": "2624",
+          "label": "Especialistas en pol\u00edticas y servicios de personal y afines",
+          "label_full": "Especialistas en pol\u00edticas y servicios de personal y afines"
+        },
+        {
+          "cno_4d": "2625",
+          "label": "Especialistas en formaci\u00f3n de personal",
+          "label_full": "Especialistas en formaci\u00f3n de personal"
+        },
+        {
+          "cno_4d": "2630",
+          "label": "T\u00e9cnicos de empresas y actividades tur\u00edsticas",
+          "label_full": "T\u00e9cnicos de empresas y actividades tur\u00edsticas"
+        },
+        {
+          "cno_4d": "2640",
+          "label": "Profesionales de ventas t\u00e9cnicas y m\u00e9dicas (excepto las tic)",
+          "label_full": "Profesionales de ventas t\u00e9cnicas y m\u00e9dicas (excepto las tic)"
+        },
+        {
+          "cno_4d": "2651",
+          "label": "Profesionales de la publicidad y la comercializaci\u00f3n",
+          "label_full": "Profesionales de la publicidad y la comercializaci\u00f3n"
+        },
+        {
+          "cno_4d": "2652",
+          "label": "Profesionales de relaciones p\u00fablicas",
+          "label_full": "Profesionales de relaciones p\u00fablicas"
+        },
+        {
+          "cno_4d": "2653",
+          "label": "Profesionales de la venta de tecnolog\u00edas de la informaci\u00f3n y las comunicaciones",
+          "label_full": "Profesionales de la venta de tecnolog\u00edas de la informaci\u00f3n y las comunicaciones"
+        }
+      ]
+    },
+    {
+      "cno_2d": "27",
+      "label": "Profesionales de las tecnolog\u00edas de la informaci\u00f3n",
+      "label_full": "Profesionales de las tecnolog\u00edas de la informaci\u00f3n",
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "children": [
+        {
+          "cno_4d": "2711",
+          "label": "Analistas de sistemas",
+          "label_full": "Analistas de sistemas"
+        },
+        {
+          "cno_4d": "2712",
+          "label": "Analistas y dise\u00f1adores de software",
+          "label_full": "Analistas y dise\u00f1adores de software"
+        },
+        {
+          "cno_4d": "2713",
+          "label": "Analistas, programadores y dise\u00f1adores web y multimedia",
+          "label_full": "Analistas, programadores y dise\u00f1adores web y multimedia"
+        },
+        {
+          "cno_4d": "2719",
+          "label": "Analistas y dise\u00f1adores de software y multimedia no clasificados bajo otros ep\u00edgrafes",
+          "label_full": "Analistas y dise\u00f1adores de software y multimedia no clasificados bajo otros ep\u00edgrafes"
+        },
+        {
+          "cno_4d": "2721",
+          "label": "Dise\u00f1adores y administradores de bases de datos",
+          "label_full": "Dise\u00f1adores y administradores de bases de datos"
+        },
+        {
+          "cno_4d": "2722",
+          "label": "Administradores de sistemas y redes",
+          "label_full": "Administradores de sistemas y redes"
+        },
+        {
+          "cno_4d": "2723",
+          "label": "Analistas de redes inform\u00e1ticas",
+          "label_full": "Analistas de redes inform\u00e1ticas"
+        },
+        {
+          "cno_4d": "2729",
+          "label": "Especialistas en bases de datos y en redes inform\u00e1ticas no clasificados bajo otros ep\u00edgrafes",
+          "label_full": "Especialistas en bases de datos y en redes inform\u00e1ticas no clasificados bajo otros ep\u00edgrafes"
+        }
+      ]
+    },
+    {
+      "cno_2d": "28",
+      "label": "Profesionales en ciencias sociales",
+      "label_full": "Profesionales en ciencias sociales",
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "children": [
+        {
+          "cno_4d": "2810",
+          "label": "Economistas",
+          "label_full": "Economistas"
+        },
+        {
+          "cno_4d": "2821",
+          "label": "Soci\u00f3logos, ge\u00f3grafos, antrop\u00f3logos, arque\u00f3logos y afines",
+          "label_full": "Soci\u00f3logos, ge\u00f3grafos, antrop\u00f3logos, arque\u00f3logos y afines"
+        },
+        {
+          "cno_4d": "2822",
+          "label": "Fil\u00f3sofos, historiadores y profesionales en ciencias pol\u00edticas",
+          "label_full": "Fil\u00f3sofos, historiadores y profesionales en ciencias pol\u00edticas"
+        },
+        {
+          "cno_4d": "2823",
+          "label": "Psic\u00f3logos",
+          "label_full": "Psic\u00f3logos"
+        },
+        {
+          "cno_4d": "2824",
+          "label": "Profesionales del trabajo y la educaci\u00f3n social",
+          "label_full": "Profesionales del trabajo y la educaci\u00f3n social"
+        },
+        {
+          "cno_4d": "2825",
+          "label": "Agentes de igualdad de oportunidades entre mujeres y hombres",
+          "label_full": "Agentes de igualdad de oportunidades entre mujeres y hombres"
+        },
+        {
+          "cno_4d": "2830",
+          "label": "Sacerdotes de las distintas religiones",
+          "label_full": "Sacerdotes de las distintas religiones"
+        }
+      ]
+    },
+    {
+      "cno_2d": "29",
+      "label": "Profesionales de la cultura y el espect\u00e1culo",
+      "label_full": "Profesionales de la cultura y el espect\u00e1culo",
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "children": [
+        {
+          "cno_4d": "2911",
+          "label": "Archivistas y conservadores de museos",
+          "label_full": "Archivistas y conservadores de museos"
+        },
+        {
+          "cno_4d": "2912",
+          "label": "Bibliotecarios, documentalistas y afines",
+          "label_full": "Bibliotecarios, documentalistas y afines"
+        },
+        {
+          "cno_4d": "2921",
+          "label": "Escritores",
+          "label_full": "Escritores"
+        },
+        {
+          "cno_4d": "2922",
+          "label": "Periodistas",
+          "label_full": "Periodistas"
+        },
+        {
+          "cno_4d": "2923",
+          "label": "Fil\u00f3logos, int\u00e9rpretes y traductores",
+          "label_full": "Fil\u00f3logos, int\u00e9rpretes y traductores"
+        },
+        {
+          "cno_4d": "2931",
+          "label": "Artistas de artes pl\u00e1sticas y visuales",
+          "label_full": "Artistas de artes pl\u00e1sticas y visuales"
+        },
+        {
+          "cno_4d": "2932",
+          "label": "Compositores, m\u00fasicos y cantantes",
+          "label_full": "Compositores, m\u00fasicos y cantantes"
+        },
+        {
+          "cno_4d": "2933",
+          "label": "Core\u00f3grafos y bailarines",
+          "label_full": "Core\u00f3grafos y bailarines"
+        },
+        {
+          "cno_4d": "2934",
+          "label": "Directores de cine, de teatro y afines",
+          "label_full": "Directores de cine, de teatro y afines"
+        },
+        {
+          "cno_4d": "2935",
+          "label": "Actores",
+          "label_full": "Actores"
+        },
+        {
+          "cno_4d": "2936",
+          "label": "Locutores de radio, televisi\u00f3n y otros presentadores",
+          "label_full": "Locutores de radio, televisi\u00f3n y otros presentadores"
+        },
+        {
+          "cno_4d": "2937",
+          "label": "Profesionales de espect\u00e1culos taurinos",
+          "label_full": "Profesionales de espect\u00e1culos taurinos"
+        },
+        {
+          "cno_4d": "2939",
+          "label": "Artistas creativos e interpretativos no clasificados bajo otros ep\u00edgrafes",
+          "label_full": "Artistas creativos e interpretativos no clasificados bajo otros ep\u00edgrafes"
+        }
+      ]
+    },
+    {
+      "cno_2d": "31",
+      "label": "T\u00e9cnicos de las ciencias y de las ingenier\u00edas",
+      "label_full": "T\u00e9cnicos de las ciencias y de las ingenier\u00edas",
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "children": [
+        {
+          "cno_4d": "3110",
+          "label": "Delineantes y dibujantes t\u00e9cnicos",
+          "label_full": "Delineantes y dibujantes t\u00e9cnicos"
+        },
+        {
+          "cno_4d": "3121",
+          "label": "T\u00e9cnicos en ciencias f\u00edsicas y qu\u00edmicas",
+          "label_full": "T\u00e9cnicos en ciencias f\u00edsicas y qu\u00edmicas"
+        },
+        {
+          "cno_4d": "3122",
+          "label": "T\u00e9cnicos en construcci\u00f3n",
+          "label_full": "T\u00e9cnicos en construcci\u00f3n"
+        },
+        {
+          "cno_4d": "3123",
+          "label": "T\u00e9cnicos en electricidad",
+          "label_full": "T\u00e9cnicos en electricidad"
+        },
+        {
+          "cno_4d": "3124",
+          "label": "T\u00e9cnicos en electr\u00f3nica (excepto electro medicina)",
+          "label_full": "T\u00e9cnicos en electr\u00f3nica (excepto electro medicina)"
+        },
+        {
+          "cno_4d": "3125",
+          "label": "T\u00e9cnicos en electr\u00f3nica, especialidad en electro medicina",
+          "label_full": "T\u00e9cnicos en electr\u00f3nica, especialidad en electro medicina"
+        },
+        {
+          "cno_4d": "3126",
+          "label": "T\u00e9cnicos en mec\u00e1nica",
+          "label_full": "T\u00e9cnicos en mec\u00e1nica"
+        },
+        {
+          "cno_4d": "3127",
+          "label": "T\u00e9cnicos y analistas de laboratorio en qu\u00edmica industrial",
+          "label_full": "T\u00e9cnicos y analistas de laboratorio en qu\u00edmica industrial"
+        },
+        {
+          "cno_4d": "3128",
+          "label": "T\u00e9cnicos en metalurgia y minas",
+          "label_full": "T\u00e9cnicos en metalurgia y minas"
+        },
+        {
+          "cno_4d": "3129",
+          "label": "Otros t\u00e9cnicos de las ciencias f\u00edsicas, qu\u00edmicas, medioambientales y de las ingenier\u00edas",
+          "label_full": "Otros t\u00e9cnicos de las ciencias f\u00edsicas, qu\u00edmicas, medioambientales y de las ingenier\u00edas"
+        },
+        {
+          "cno_4d": "3131",
+          "label": "T\u00e9cnicos en instalaciones de producci\u00f3n de energ\u00eda",
+          "label_full": "T\u00e9cnicos en instalaciones de producci\u00f3n de energ\u00eda"
+        },
+        {
+          "cno_4d": "3132",
+          "label": "T\u00e9cnicos en instalaciones de tratamiento de residuos, de aguas y otros operadores en plantas similares",
+          "label_full": "T\u00e9cnicos en instalaciones de tratamiento de residuos, de aguas y otros operadores en plantas similares"
+        },
+        {
+          "cno_4d": "3133",
+          "label": "T\u00e9cnicos en control de instalaciones de procesamiento de productos qu\u00edmicos",
+          "label_full": "T\u00e9cnicos en control de instalaciones de procesamiento de productos qu\u00edmicos"
+        },
+        {
+          "cno_4d": "3134",
+          "label": "T\u00e9cnicos de refiner\u00edas de petr\u00f3leo y gas natural",
+          "label_full": "T\u00e9cnicos de refiner\u00edas de petr\u00f3leo y gas natural"
+        },
+        {
+          "cno_4d": "3135",
+          "label": "T\u00e9cnicos en control de procesos de producci\u00f3n de metales",
+          "label_full": "T\u00e9cnicos en control de procesos de producci\u00f3n de metales"
+        },
+        {
+          "cno_4d": "3139",
+          "label": "T\u00e9cnicos en control de procesos no clasificados bajo otros ep\u00edgrafes",
+          "label_full": "T\u00e9cnicos en control de procesos no clasificados bajo otros ep\u00edgrafes"
+        },
+        {
+          "cno_4d": "3141",
+          "label": "T\u00e9cnicos en ciencias biol\u00f3gicas (excepto en \u00e1reas sanitarias)",
+          "label_full": "T\u00e9cnicos en ciencias biol\u00f3gicas (excepto en \u00e1reas sanitarias)"
+        },
+        {
+          "cno_4d": "3142",
+          "label": "T\u00e9cnicos agropecuarios",
+          "label_full": "T\u00e9cnicos agropecuarios"
+        },
+        {
+          "cno_4d": "3143",
+          "label": "T\u00e9cnicos forestales y del medio natural",
+          "label_full": "T\u00e9cnicos forestales y del medio natural"
+        },
+        {
+          "cno_4d": "3151",
+          "label": "Jefes y oficiales de m\u00e1quinas",
+          "label_full": "Jefes y oficiales de m\u00e1quinas"
+        },
+        {
+          "cno_4d": "3152",
+          "label": "Capitanes y oficiales de puente",
+          "label_full": "Capitanes y oficiales de puente"
+        },
+        {
+          "cno_4d": "3153",
+          "label": "Pilotos de aviaci\u00f3n y profesionales afines",
+          "label_full": "Pilotos de aviaci\u00f3n y profesionales afines"
+        },
+        {
+          "cno_4d": "3154",
+          "label": "Controladores de tr\u00e1fico a\u00e9reo",
+          "label_full": "Controladores de tr\u00e1fico a\u00e9reo"
+        },
+        {
+          "cno_4d": "3155",
+          "label": "T\u00e9cnicos en seguridad aeron\u00e1utica",
+          "label_full": "T\u00e9cnicos en seguridad aeron\u00e1utica"
+        },
+        {
+          "cno_4d": "3160",
+          "label": "T\u00e9cnicos de control de calidad de las ciencias f\u00edsicas, qu\u00edmicas y de las ingenier\u00edas",
+          "label_full": "T\u00e9cnicos de control de calidad de las ciencias f\u00edsicas, qu\u00edmicas y de las ingenier\u00edas"
+        }
+      ]
+    },
+    {
+      "cno_2d": "32",
+      "label": "Supervisores en ingenier\u00eda de minas, de industrias manufactureras y de la construcci\u00f3n",
+      "label_full": "Supervisores en ingenier\u00eda de minas, de industrias manufactureras y de la construcci\u00f3n",
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "children": [
+        {
+          "cno_4d": "3201",
+          "label": "Supervisores en ingenier\u00eda de minas",
+          "label_full": "Supervisores en ingenier\u00eda de minas"
+        },
+        {
+          "cno_4d": "3202",
+          "label": "Supervisores de la construcci\u00f3n",
+          "label_full": "Supervisores de la construcci\u00f3n"
+        },
+        {
+          "cno_4d": "3203",
+          "label": "Supervisores de industrias alimenticias y del tabaco",
+          "label_full": "Supervisores de industrias alimenticias y del tabaco"
+        },
+        {
+          "cno_4d": "3204",
+          "label": "Supervisores de industrias qu\u00edmica y farmac\u00e9utica",
+          "label_full": "Supervisores de industrias qu\u00edmica y farmac\u00e9utica"
+        },
+        {
+          "cno_4d": "3205",
+          "label": "Supervisores de industrias de transformaci\u00f3n de pl\u00e1sticos, caucho y resinas naturales",
+          "label_full": "Supervisores de industrias de transformaci\u00f3n de pl\u00e1sticos, caucho y resinas naturales"
+        },
+        {
+          "cno_4d": "3206",
+          "label": "Supervisores de industrias de la madera y pastero papeleras",
+          "label_full": "Supervisores de industrias de la madera y pastero papeleras"
+        },
+        {
+          "cno_4d": "3207",
+          "label": "Supervisores de la producci\u00f3n en industrias de artes gr\u00e1ficas y en la fabricaci\u00f3n de productos de papel",
+          "label_full": "Supervisores de la producci\u00f3n en industrias de artes gr\u00e1ficas y en la fabricaci\u00f3n de productos de papel"
+        },
+        {
+          "cno_4d": "3209",
+          "label": "Supervisores de otras industrias manufactureras",
+          "label_full": "Supervisores de otras industrias manufactureras"
+        }
+      ]
+    },
+    {
+      "cno_2d": "33",
+      "label": "T\u00e9cnicos sanitarios y profesionales de las terapias alternativas",
+      "label_full": "T\u00e9cnicos sanitarios y profesionales de las terapias alternativas",
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "children": [
+        {
+          "cno_4d": "3311",
+          "label": "T\u00e9cnicos en radioterapia",
+          "label_full": "T\u00e9cnicos en radioterapia"
+        },
+        {
+          "cno_4d": "3312",
+          "label": "T\u00e9cnicos en imagen para el diagn\u00f3stico",
+          "label_full": "T\u00e9cnicos en imagen para el diagn\u00f3stico"
+        },
+        {
+          "cno_4d": "3313",
+          "label": "T\u00e9cnicos en anatom\u00eda patol\u00f3gica y citolog\u00eda",
+          "label_full": "T\u00e9cnicos en anatom\u00eda patol\u00f3gica y citolog\u00eda"
+        },
+        {
+          "cno_4d": "3314",
+          "label": "T\u00e9cnicos en laboratorio de diagn\u00f3stico cl\u00ednico",
+          "label_full": "T\u00e9cnicos en laboratorio de diagn\u00f3stico cl\u00ednico"
+        },
+        {
+          "cno_4d": "3315",
+          "label": "T\u00e9cnicos en ortopr\u00f3tesis",
+          "label_full": "T\u00e9cnicos en ortopr\u00f3tesis"
+        },
+        {
+          "cno_4d": "3316",
+          "label": "T\u00e9cnicos en pr\u00f3tesis dentales",
+          "label_full": "T\u00e9cnicos en pr\u00f3tesis dentales"
+        },
+        {
+          "cno_4d": "3317",
+          "label": "T\u00e9cnicos en audiopr\u00f3tesis",
+          "label_full": "T\u00e9cnicos en audiopr\u00f3tesis"
+        },
+        {
+          "cno_4d": "3321",
+          "label": "T\u00e9cnicos superiores en higiene bucodental",
+          "label_full": "T\u00e9cnicos superiores en higiene bucodental"
+        },
+        {
+          "cno_4d": "3322",
+          "label": "T\u00e9cnicos superiores en documentaci\u00f3n sanitaria",
+          "label_full": "T\u00e9cnicos superiores en documentaci\u00f3n sanitaria"
+        },
+        {
+          "cno_4d": "3323",
+          "label": "T\u00e9cnicos superiores en diet\u00e9tica",
+          "label_full": "T\u00e9cnicos superiores en diet\u00e9tica"
+        },
+        {
+          "cno_4d": "3324",
+          "label": "T\u00e9cnicos en optometr\u00eda",
+          "label_full": "T\u00e9cnicos en optometr\u00eda"
+        },
+        {
+          "cno_4d": "3325",
+          "label": "Ayudantes fisioterapeutas",
+          "label_full": "Ayudantes fisioterapeutas"
+        },
+        {
+          "cno_4d": "3326",
+          "label": "T\u00e9cnicos en prevenci\u00f3n de riesgos laborales y salud ambiental",
+          "label_full": "T\u00e9cnicos en prevenci\u00f3n de riesgos laborales y salud ambiental"
+        },
+        {
+          "cno_4d": "3327",
+          "label": "Ayudantes de veterinaria",
+          "label_full": "Ayudantes de veterinaria"
+        },
+        {
+          "cno_4d": "3329",
+          "label": "T\u00e9cnicos de la sanidad no clasificados bajo otros ep\u00edgrafes",
+          "label_full": "T\u00e9cnicos de la sanidad no clasificados bajo otros ep\u00edgrafes"
+        },
+        {
+          "cno_4d": "3331",
+          "label": "Profesionales de la acupuntura, la naturopat\u00eda, la homeopat\u00eda, la medicina tradicional china y la ayurveda",
+          "label_full": "Profesionales de la acupuntura, la naturopat\u00eda, la homeopat\u00eda, la medicina tradicional china y la ayurveda"
+        },
+        {
+          "cno_4d": "3339",
+          "label": "Otros profesionales de las terapias alternativas",
+          "label_full": "Otros profesionales de las terapias alternativas"
+        }
+      ]
+    },
+    {
+      "cno_2d": "34",
+      "label": "Profesionales de apoyo en finanzas y matem\u00e1ticas",
+      "label_full": "Profesionales de apoyo en finanzas y matem\u00e1ticas",
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "children": [
+        {
+          "cno_4d": "3401",
+          "label": "Profesionales de apoyo e intermediarios de cambio, bolsa y finanzas",
+          "label_full": "Profesionales de apoyo e intermediarios de cambio, bolsa y finanzas"
+        },
+        {
+          "cno_4d": "3402",
+          "label": "Comerciales de pr\u00e9stamos y cr\u00e9ditos",
+          "label_full": "Comerciales de pr\u00e9stamos y cr\u00e9ditos"
+        },
+        {
+          "cno_4d": "3403",
+          "label": "Tenedores de libros",
+          "label_full": "Tenedores de libros"
+        },
+        {
+          "cno_4d": "3404",
+          "label": "Profesionales de apoyo en servicios estad\u00edsticos, matem\u00e1ticos y afines",
+          "label_full": "Profesionales de apoyo en servicios estad\u00edsticos, matem\u00e1ticos y afines"
+        },
+        {
+          "cno_4d": "3405",
+          "label": "Tasadores",
+          "label_full": "Tasadores"
+        }
+      ]
+    },
+    {
+      "cno_2d": "35",
+      "label": "Representantes, agentes comerciales y afines",
+      "label_full": "Representantes, agentes comerciales y afines",
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "children": [
+        {
+          "cno_4d": "3510",
+          "label": "Agentes y representantes comerciales",
+          "label_full": "Agentes y representantes comerciales"
+        },
+        {
+          "cno_4d": "3521",
+          "label": "Mediadores y agentes de seguros",
+          "label_full": "Mediadores y agentes de seguros"
+        },
+        {
+          "cno_4d": "3522",
+          "label": "Agentes de compras",
+          "label_full": "Agentes de compras"
+        },
+        {
+          "cno_4d": "3523",
+          "label": "Consignatarios",
+          "label_full": "Consignatarios"
+        },
+        {
+          "cno_4d": "3531",
+          "label": "Representantes de aduanas",
+          "label_full": "Representantes de aduanas"
+        },
+        {
+          "cno_4d": "3532",
+          "label": "Organizadores de conferencias y eventos",
+          "label_full": "Organizadores de conferencias y eventos"
+        },
+        {
+          "cno_4d": "3533",
+          "label": "Agentes o intermediarios en la contrataci\u00f3n de la mano de obra (excepto representantes de espect\u00e1culos)",
+          "label_full": "Agentes o intermediarios en la contrataci\u00f3n de la mano de obra (excepto representantes de espect\u00e1culos)"
+        },
+        {
+          "cno_4d": "3534",
+          "label": "Agentes y administradores de la propiedad inmobiliaria",
+          "label_full": "Agentes y administradores de la propiedad inmobiliaria"
+        },
+        {
+          "cno_4d": "3535",
+          "label": "Portavoces y agentes de relaciones p\u00fablicas",
+          "label_full": "Portavoces y agentes de relaciones p\u00fablicas"
+        },
+        {
+          "cno_4d": "3539",
+          "label": "Representantes art\u00edsticos y deportivos y otros agentes de servicios comerciales no clasificados bajo otros ep\u00edgrafes",
+          "label_full": "Representantes art\u00edsticos y deportivos y otros agentes de servicios comerciales no clasificados bajo otros ep\u00edgrafes"
+        }
+      ]
+    },
+    {
+      "cno_2d": "36",
+      "label": "Profesionales de apoyo a la gesti\u00f3n administrativa; t\u00e9cnicos de las fuerzas y cuerpos de seguridad",
+      "label_full": "Profesionales de apoyo a la gesti\u00f3n administrativa; t\u00e9cnicos de las fuerzas y cuerpos de seguridad",
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "children": [
+        {
+          "cno_4d": "3611",
+          "label": "Supervisores de secretar\u00eda",
+          "label_full": "Supervisores de secretar\u00eda"
+        },
+        {
+          "cno_4d": "3612",
+          "label": "Asistentes jur\u00eddico-legales",
+          "label_full": "Asistentes jur\u00eddico-legales"
+        },
+        {
+          "cno_4d": "3613",
+          "label": "Asistentes de direcci\u00f3n y administrativos",
+          "label_full": "Asistentes de direcci\u00f3n y administrativos"
+        },
+        {
+          "cno_4d": "3614",
+          "label": "Secretarios de centros m\u00e9dicos o cl\u00ednicas",
+          "label_full": "Secretarios de centros m\u00e9dicos o cl\u00ednicas"
+        },
+        {
+          "cno_4d": "3621",
+          "label": "Profesionales de apoyo de la administraci\u00f3n p\u00fablica de tributos",
+          "label_full": "Profesionales de apoyo de la administraci\u00f3n p\u00fablica de tributos"
+        },
+        {
+          "cno_4d": "3622",
+          "label": "Profesionales de apoyo de la administraci\u00f3n p\u00fablica de servicios sociales",
+          "label_full": "Profesionales de apoyo de la administraci\u00f3n p\u00fablica de servicios sociales"
+        },
+        {
+          "cno_4d": "3623",
+          "label": "Profesionales de apoyo de la administraci\u00f3n p\u00fablica de servicios de expedici\u00f3n de licencias",
+          "label_full": "Profesionales de apoyo de la administraci\u00f3n p\u00fablica de servicios de expedici\u00f3n de licencias"
+        },
+        {
+          "cno_4d": "3629",
+          "label": "Otros profesionales de apoyo de la administraci\u00f3n p\u00fablica para tareas de inspecci\u00f3n y control y tareas similares",
+          "label_full": "Otros profesionales de apoyo de la administraci\u00f3n p\u00fablica para tareas de inspecci\u00f3n y control y tareas similares"
+        },
+        {
+          "cno_4d": "3631",
+          "label": "T\u00e9cnicos de la polic\u00eda nacional, auton\u00f3mica y local",
+          "label_full": "T\u00e9cnicos de la polic\u00eda nacional, auton\u00f3mica y local"
+        },
+        {
+          "cno_4d": "3632",
+          "label": "Suboficiales de la guardia civil",
+          "label_full": "Suboficiales de la guardia civil"
+        }
+      ]
+    },
+    {
+      "cno_2d": "37",
+      "label": "Profesionales de apoyo de servicios jur\u00eddicos, sociales, culturales, deportivos y afines",
+      "label_full": "Profesionales de apoyo de servicios jur\u00eddicos, sociales, culturales, deportivos y afines",
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "children": [
+        {
+          "cno_4d": "3711",
+          "label": "Profesionales de apoyo de servicios jur\u00eddicos y servicios similares",
+          "label_full": "Profesionales de apoyo de servicios jur\u00eddicos y servicios similares"
+        },
+        {
+          "cno_4d": "3712",
+          "label": "Detectives privados",
+          "label_full": "Detectives privados"
+        },
+        {
+          "cno_4d": "3713",
+          "label": "Profesionales de apoyo al trabajo y a la educaci\u00f3n social",
+          "label_full": "Profesionales de apoyo al trabajo y a la educaci\u00f3n social"
+        },
+        {
+          "cno_4d": "3714",
+          "label": "Promotores de igualdad de oportunidades entre mujeres y hombres",
+          "label_full": "Promotores de igualdad de oportunidades entre mujeres y hombres"
+        },
+        {
+          "cno_4d": "3715",
+          "label": "Animadores comunitarios",
+          "label_full": "Animadores comunitarios"
+        },
+        {
+          "cno_4d": "3716",
+          "label": "Auxiliares laicos de las religiones",
+          "label_full": "Auxiliares laicos de las religiones"
+        },
+        {
+          "cno_4d": "3721",
+          "label": "Atletas y deportistas",
+          "label_full": "Atletas y deportistas"
+        },
+        {
+          "cno_4d": "3722",
+          "label": "Entrenadores y \u00e1rbitros de actividades deportivas",
+          "label_full": "Entrenadores y \u00e1rbitros de actividades deportivas"
+        },
+        {
+          "cno_4d": "3723",
+          "label": "Instructores de actividades deportivas",
+          "label_full": "Instructores de actividades deportivas"
+        },
+        {
+          "cno_4d": "3724",
+          "label": "Monitores de actividades recreativas y de entretenimiento",
+          "label_full": "Monitores de actividades recreativas y de entretenimiento"
+        },
+        {
+          "cno_4d": "3731",
+          "label": "Fot\u00f3grafos",
+          "label_full": "Fot\u00f3grafos"
+        },
+        {
+          "cno_4d": "3732",
+          "label": "Dise\u00f1adores y decoradores de interior",
+          "label_full": "Dise\u00f1adores y decoradores de interior"
+        },
+        {
+          "cno_4d": "3733",
+          "label": "T\u00e9cnicos en galer\u00edas de arte, museos y bibliotecas",
+          "label_full": "T\u00e9cnicos en galer\u00edas de arte, museos y bibliotecas"
+        },
+        {
+          "cno_4d": "3734",
+          "label": "Chefs",
+          "label_full": "Chefs"
+        },
+        {
+          "cno_4d": "3739",
+          "label": "Otros t\u00e9cnicos y profesionales de apoyo de actividades culturales y art\u00edsticas",
+          "label_full": "Otros t\u00e9cnicos y profesionales de apoyo de actividades culturales y art\u00edsticas"
+        }
+      ]
+    },
+    {
+      "cno_2d": "38",
+      "label": "T\u00e9cnicos de las tecnolog\u00edas de la informaci\u00f3n y las comunicaciones (TIC)",
+      "label_full": "T\u00e9cnicos de las tecnolog\u00edas de la informaci\u00f3n y las comunicaciones (TIC)",
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "children": [
+        {
+          "cno_4d": "3811",
+          "label": "T\u00e9cnicos en operaciones de sistemas inform\u00e1ticos",
+          "label_full": "T\u00e9cnicos en operaciones de sistemas inform\u00e1ticos"
+        },
+        {
+          "cno_4d": "3812",
+          "label": "T\u00e9cnicos en asistencia al usuario de tecnolog\u00edas de la informaci\u00f3n",
+          "label_full": "T\u00e9cnicos en asistencia al usuario de tecnolog\u00edas de la informaci\u00f3n"
+        },
+        {
+          "cno_4d": "3813",
+          "label": "T\u00e9cnicos en redes",
+          "label_full": "T\u00e9cnicos en redes"
+        },
+        {
+          "cno_4d": "3814",
+          "label": "T\u00e9cnicos de la web",
+          "label_full": "T\u00e9cnicos de la web"
+        },
+        {
+          "cno_4d": "3820",
+          "label": "Programadores inform\u00e1ticos",
+          "label_full": "Programadores inform\u00e1ticos"
+        },
+        {
+          "cno_4d": "3831",
+          "label": "T\u00e9cnicos de grabaci\u00f3n audiovisual",
+          "label_full": "T\u00e9cnicos de grabaci\u00f3n audiovisual"
+        },
+        {
+          "cno_4d": "3832",
+          "label": "T\u00e9cnicos de radiodifusi\u00f3n",
+          "label_full": "T\u00e9cnicos de radiodifusi\u00f3n"
+        },
+        {
+          "cno_4d": "3833",
+          "label": "T\u00e9cnicos de ingenier\u00eda de las telecomunicaciones",
+          "label_full": "T\u00e9cnicos de ingenier\u00eda de las telecomunicaciones"
+        }
+      ]
+    },
+    {
+      "cno_2d": "41",
+      "label": "Empleados en servicios contables, financieros, y de servicios de apoyo a la producci\u00f3n y al transporte",
+      "label_full": "Empleados en servicios contables, financieros, y de servicios de apoyo a la producci\u00f3n y al transporte",
+      "grand_group_id": "4",
+      "grand_group_name": "Empleados contables, adminstrativos y otros empleados de oficina",
+      "children": [
+        {
+          "cno_4d": "4111",
+          "label": "Empleados de contabilidad",
+          "label_full": "Empleados de contabilidad"
+        },
+        {
+          "cno_4d": "4112",
+          "label": "Empleados de control de personal y n\u00f3minas",
+          "label_full": "Empleados de control de personal y n\u00f3minas"
+        },
+        {
+          "cno_4d": "4113",
+          "label": "Empleados de oficina de servicios estad\u00edsticos, financieros y bancarios",
+          "label_full": "Empleados de oficina de servicios estad\u00edsticos, financieros y bancarios"
+        },
+        {
+          "cno_4d": "4121",
+          "label": "Empleados de control de abastecimientos e inventario",
+          "label_full": "Empleados de control de abastecimientos e inventario"
+        },
+        {
+          "cno_4d": "4122",
+          "label": "Empleados de oficina de servicios de apoyo a la producci\u00f3n",
+          "label_full": "Empleados de oficina de servicios de apoyo a la producci\u00f3n"
+        },
+        {
+          "cno_4d": "4123",
+          "label": "Empleados de log\u00edstica y transporte de pasajeros y mercanc\u00edas",
+          "label_full": "Empleados de log\u00edstica y transporte de pasajeros y mercanc\u00edas"
+        }
+      ]
+    },
+    {
+      "cno_2d": "42",
+      "label": "Empleados de bibliotecas, servicios de correos y afines",
+      "label_full": "Empleados de bibliotecas, servicios de correos y afines",
+      "grand_group_id": "4",
+      "grand_group_name": "Empleados contables, adminstrativos y otros empleados de oficina",
+      "children": [
+        {
+          "cno_4d": "4210",
+          "label": "Empleados de bibliotecas y archivos",
+          "label_full": "Empleados de bibliotecas y archivos"
+        },
+        {
+          "cno_4d": "4221",
+          "label": "Empleados de servicios de correos (excepto empleados de mostrador)",
+          "label_full": "Empleados de servicios de correos (excepto empleados de mostrador)"
+        },
+        {
+          "cno_4d": "4222",
+          "label": "Codificadores y correctores de imprenta",
+          "label_full": "Codificadores y correctores de imprenta"
+        },
+        {
+          "cno_4d": "4223",
+          "label": "Empleados de servicio de personal",
+          "label_full": "Empleados de servicio de personal"
+        }
+      ]
+    },
+    {
+      "cno_2d": "43",
+      "label": "Otros empleados administrativos sin tareas de atenci\u00f3n al p\u00fablico",
+      "label_full": "Otros empleados administrativos sin tareas de atenci\u00f3n al p\u00fablico",
+      "grand_group_id": "4",
+      "grand_group_name": "Empleados contables, adminstrativos y otros empleados de oficina",
+      "children": [
+        {
+          "cno_4d": "4301",
+          "label": "Grabadores de datos",
+          "label_full": "Grabadores de datos"
+        },
+        {
+          "cno_4d": "4309",
+          "label": "Empleados administrativos sin tareas de atenci\u00f3n al p\u00fablico no clasificados bajo otros ep\u00edgrafes",
+          "label_full": "Empleados administrativos sin tareas de atenci\u00f3n al p\u00fablico no clasificados bajo otros ep\u00edgrafes"
+        }
+      ]
+    },
+    {
+      "cno_2d": "44",
+      "label": "Empleados de agencias de viajes, recepcionistas y telefonistas; empleados de ventanilla y afines (excepto taquilleros)",
+      "label_full": "Empleados de agencias de viajes, recepcionistas y telefonistas; empleados de ventanilla y afines (excepto taquilleros)",
+      "grand_group_id": "4",
+      "grand_group_name": "Empleados contables, adminstrativos y otros empleados de oficina",
+      "children": [
+        {
+          "cno_4d": "4411",
+          "label": "Empleados de informaci\u00f3n al usuario",
+          "label_full": "Empleados de informaci\u00f3n al usuario"
+        },
+        {
+          "cno_4d": "4412",
+          "label": "Recepcionistas (excepto de hoteles)",
+          "label_full": "Recepcionistas (excepto de hoteles)"
+        },
+        {
+          "cno_4d": "4421",
+          "label": "Empleados de agencias de viajes",
+          "label_full": "Empleados de agencias de viajes"
+        },
+        {
+          "cno_4d": "4422",
+          "label": "Recepcionistas de hoteles",
+          "label_full": "Recepcionistas de hoteles"
+        },
+        {
+          "cno_4d": "4423",
+          "label": "Telefonistas",
+          "label_full": "Telefonistas"
+        },
+        {
+          "cno_4d": "4424",
+          "label": "Teleoperadores",
+          "label_full": "Teleoperadores"
+        },
+        {
+          "cno_4d": "4430",
+          "label": "Agentes de encuestas",
+          "label_full": "Agentes de encuestas"
+        },
+        {
+          "cno_4d": "4441",
+          "label": "Cajeros de bancos y afines",
+          "label_full": "Cajeros de bancos y afines"
+        },
+        {
+          "cno_4d": "4442",
+          "label": "Empleados de venta de apuestas",
+          "label_full": "Empleados de venta de apuestas"
+        },
+        {
+          "cno_4d": "4443",
+          "label": "Empleados de sala de juegos y afines",
+          "label_full": "Empleados de sala de juegos y afines"
+        },
+        {
+          "cno_4d": "4444",
+          "label": "Empleados de casas de empe\u00f1o y de pr\u00e9stamos",
+          "label_full": "Empleados de casas de empe\u00f1o y de pr\u00e9stamos"
+        },
+        {
+          "cno_4d": "4445",
+          "label": "Cobradores de facturas, deudas y empleados afines",
+          "label_full": "Cobradores de facturas, deudas y empleados afines"
+        },
+        {
+          "cno_4d": "4446",
+          "label": "Empleados de mostrador de correos",
+          "label_full": "Empleados de mostrador de correos"
+        }
+      ]
+    },
+    {
+      "cno_2d": "45",
+      "label": "Empleados administrativos con tareas de atenci\u00f3n al p\u00fablico no clasificados bajo otros ep\u00edgrafes",
+      "label_full": "Empleados administrativos con tareas de atenci\u00f3n al p\u00fablico no clasificados bajo otros ep\u00edgrafes",
+      "grand_group_id": "4",
+      "grand_group_name": "Empleados contables, adminstrativos y otros empleados de oficina",
+      "children": [
+        {
+          "cno_4d": "4500",
+          "label": "Empleados administrativos con tareas de atenci\u00f3n al p\u00fablico no clasificados bajo otros ep\u00edgrafes",
+          "label_full": "Empleados administrativos con tareas de atenci\u00f3n al p\u00fablico no clasificados bajo otros ep\u00edgrafes"
+        }
+      ]
+    },
+    {
+      "cno_2d": "50",
+      "label": "Camareros y cocineros propietarios",
+      "label_full": "Camareros y cocineros propietarios",
+      "grand_group_id": "5",
+      "grand_group_name": "Trabajadores de los servicios de restauraci\u00f3n, personales, protecci\u00f3n y vendedores",
+      "children": [
+        {
+          "cno_4d": "5000",
+          "label": "Camareros y cocineros propietarios",
+          "label_full": "Camareros y cocineros propietarios"
+        }
+      ]
+    },
+    {
+      "cno_2d": "51",
+      "label": "Trabajadores asalariados de los servicios de restauraci\u00f3n",
+      "label_full": "Trabajadores asalariados de los servicios de restauraci\u00f3n",
+      "grand_group_id": "5",
+      "grand_group_name": "Trabajadores de los servicios de restauraci\u00f3n, personales, protecci\u00f3n y vendedores",
+      "children": [
+        {
+          "cno_4d": "5110",
+          "label": "Cocineros asalariados",
+          "label_full": "Cocineros asalariados"
+        },
+        {
+          "cno_4d": "5120",
+          "label": "Camareros asalariados",
+          "label_full": "Camareros asalariados"
+        }
+      ]
+    },
+    {
+      "cno_2d": "52",
+      "label": "Dependientes en tiendas y almacenes",
+      "label_full": "Dependientes en tiendas y almacenes",
+      "grand_group_id": "5",
+      "grand_group_name": "Trabajadores de los servicios de restauraci\u00f3n, personales, protecci\u00f3n y vendedores",
+      "children": [
+        {
+          "cno_4d": "5210",
+          "label": "Jefes de secci\u00f3n de tiendas y almacenes",
+          "label_full": "Jefes de secci\u00f3n de tiendas y almacenes"
+        },
+        {
+          "cno_4d": "5220",
+          "label": "Vendedores en tiendas y almacenes",
+          "label_full": "Vendedores en tiendas y almacenes"
+        }
+      ]
+    },
+    {
+      "cno_2d": "53",
+      "label": "Comerciantes propietarios de tiendas",
+      "label_full": "Comerciantes propietarios de tiendas",
+      "grand_group_id": "5",
+      "grand_group_name": "Trabajadores de los servicios de restauraci\u00f3n, personales, protecci\u00f3n y vendedores",
+      "children": [
+        {
+          "cno_4d": "5300",
+          "label": "Comerciantes propietarios de tiendas",
+          "label_full": "Comerciantes propietarios de tiendas"
+        }
+      ]
+    },
+    {
+      "cno_2d": "54",
+      "label": "Vendedores (excepto en tiendas y almacenes)",
+      "label_full": "Vendedores (excepto en tiendas y almacenes)",
+      "grand_group_id": "5",
+      "grand_group_name": "Trabajadores de los servicios de restauraci\u00f3n, personales, protecci\u00f3n y vendedores",
+      "children": [
+        {
+          "cno_4d": "5411",
+          "label": "Vendedores en quioscos",
+          "label_full": "Vendedores en quioscos"
+        },
+        {
+          "cno_4d": "5412",
+          "label": "Vendedores en mercados ocasionales y mercadillos",
+          "label_full": "Vendedores en mercados ocasionales y mercadillos"
+        },
+        {
+          "cno_4d": "5420",
+          "label": "Operadores de telemarketing",
+          "label_full": "Operadores de telemarketing"
+        },
+        {
+          "cno_4d": "5430",
+          "label": "Expendedores de gasolineras",
+          "label_full": "Expendedores de gasolineras"
+        },
+        {
+          "cno_4d": "5491",
+          "label": "Vendedores a domicilio",
+          "label_full": "Vendedores a domicilio"
+        },
+        {
+          "cno_4d": "5492",
+          "label": "Promotores de venta",
+          "label_full": "Promotores de venta"
+        },
+        {
+          "cno_4d": "5493",
+          "label": "Modelos de moda, arte y publicidad",
+          "label_full": "Modelos de moda, arte y publicidad"
+        },
+        {
+          "cno_4d": "5499",
+          "label": "Vendedores no clasificados bajo otros ep\u00edgrafes",
+          "label_full": "Vendedores no clasificados bajo otros ep\u00edgrafes"
+        }
+      ]
+    },
+    {
+      "cno_2d": "55",
+      "label": "Cajeros y taquilleros (excepto bancos)",
+      "label_full": "Cajeros y taquilleros (excepto bancos)",
+      "grand_group_id": "5",
+      "grand_group_name": "Trabajadores de los servicios de restauraci\u00f3n, personales, protecci\u00f3n y vendedores",
+      "children": [
+        {
+          "cno_4d": "5500",
+          "label": "Cajeros y taquilleros (excepto bancos)",
+          "label_full": "Cajeros y taquilleros (excepto bancos)"
+        }
+      ]
+    },
+    {
+      "cno_2d": "56",
+      "label": "Trabajadores de los cuidados a las personas en servicios de salud",
+      "label_full": "Trabajadores de los cuidados a las personas en servicios de salud",
+      "grand_group_id": "5",
+      "grand_group_name": "Trabajadores de los servicios de restauraci\u00f3n, personales, protecci\u00f3n y vendedores",
+      "children": [
+        {
+          "cno_4d": "5611",
+          "label": "Auxiliares de enfermer\u00eda hospitalaria",
+          "label_full": "Auxiliares de enfermer\u00eda hospitalaria"
+        },
+        {
+          "cno_4d": "5612",
+          "label": "Auxiliares de enfermer\u00eda de atenci\u00f3n primaria",
+          "label_full": "Auxiliares de enfermer\u00eda de atenci\u00f3n primaria"
+        },
+        {
+          "cno_4d": "5621",
+          "label": "T\u00e9cnicos auxiliares de farmacia",
+          "label_full": "T\u00e9cnicos auxiliares de farmacia"
+        },
+        {
+          "cno_4d": "5622",
+          "label": "T\u00e9cnicos de emergencias sanitarias",
+          "label_full": "T\u00e9cnicos de emergencias sanitarias"
+        },
+        {
+          "cno_4d": "5629",
+          "label": "Trabajadores de los cuidados a las personas en servicios de salud no clasificados bajo otros ep\u00edgrafes",
+          "label_full": "Trabajadores de los cuidados a las personas en servicios de salud no clasificados bajo otros ep\u00edgrafes"
+        }
+      ]
+    },
+    {
+      "cno_2d": "57",
+      "label": "Otros trabajadores de los cuidados a las personas",
+      "label_full": "Otros trabajadores de los cuidados a las personas",
+      "grand_group_id": "5",
+      "grand_group_name": "Trabajadores de los servicios de restauraci\u00f3n, personales, protecci\u00f3n y vendedores",
+      "children": [
+        {
+          "cno_4d": "5710",
+          "label": "Trabajadores de los cuidados personales a domicilio",
+          "label_full": "Trabajadores de los cuidados personales a domicilio"
+        },
+        {
+          "cno_4d": "5721",
+          "label": "Cuidadores de ni\u00f1os en guarder\u00edas y centros educativos",
+          "label_full": "Cuidadores de ni\u00f1os en guarder\u00edas y centros educativos"
+        },
+        {
+          "cno_4d": "5722",
+          "label": "Cuidadores de ni\u00f1os en domicilios",
+          "label_full": "Cuidadores de ni\u00f1os en domicilios"
+        }
+      ]
+    },
+    {
+      "cno_2d": "58",
+      "label": "Trabajadores de los servicios personales",
+      "label_full": "Trabajadores de los servicios personales",
+      "grand_group_id": "5",
+      "grand_group_name": "Trabajadores de los servicios de restauraci\u00f3n, personales, protecci\u00f3n y vendedores",
+      "children": [
+        {
+          "cno_4d": "5811",
+          "label": "Peluqueros",
+          "label_full": "Peluqueros"
+        },
+        {
+          "cno_4d": "5812",
+          "label": "Especialistas en tratamientos de est\u00e9tica, bienestar y afines",
+          "label_full": "Especialistas en tratamientos de est\u00e9tica, bienestar y afines"
+        },
+        {
+          "cno_4d": "5821",
+          "label": "Auxiliares de vuelo y camareros de avi\u00f3n, barco y tren",
+          "label_full": "Auxiliares de vuelo y camareros de avi\u00f3n, barco y tren"
+        },
+        {
+          "cno_4d": "5822",
+          "label": "Revisores y cobradores de transporte terrestre",
+          "label_full": "Revisores y cobradores de transporte terrestre"
+        },
+        {
+          "cno_4d": "5823",
+          "label": "Acompa\u00f1antes tur\u00edsticos",
+          "label_full": "Acompa\u00f1antes tur\u00edsticos"
+        },
+        {
+          "cno_4d": "5824",
+          "label": "Azafatos de tierra",
+          "label_full": "Azafatos de tierra"
+        },
+        {
+          "cno_4d": "5825",
+          "label": "Gu\u00edas de turismo",
+          "label_full": "Gu\u00edas de turismo"
+        },
+        {
+          "cno_4d": "5831",
+          "label": "Supervisores de mantenimiento y limpieza en oficinas, hoteles y otros establecimientos",
+          "label_full": "Supervisores de mantenimiento y limpieza en oficinas, hoteles y otros establecimientos"
+        },
+        {
+          "cno_4d": "5832",
+          "label": "Mayordomos del servicio dom\u00e9stico",
+          "label_full": "Mayordomos del servicio dom\u00e9stico"
+        },
+        {
+          "cno_4d": "5833",
+          "label": "Conserjes de edificios",
+          "label_full": "Conserjes de edificios"
+        },
+        {
+          "cno_4d": "5840",
+          "label": "Trabajadores propietarios de peque\u00f1os alojamientos",
+          "label_full": "Trabajadores propietarios de peque\u00f1os alojamientos"
+        },
+        {
+          "cno_4d": "5891",
+          "label": "Asistentes personales o personas de compa\u00f1\u00eda",
+          "label_full": "Asistentes personales o personas de compa\u00f1\u00eda"
+        },
+        {
+          "cno_4d": "5892",
+          "label": "Empleados de pompas f\u00fanebres y embalsamadores",
+          "label_full": "Empleados de pompas f\u00fanebres y embalsamadores"
+        },
+        {
+          "cno_4d": "5893",
+          "label": "Cuidadores de animales y adiestradores",
+          "label_full": "Cuidadores de animales y adiestradores"
+        },
+        {
+          "cno_4d": "5894",
+          "label": "Instructores de autoescuela",
+          "label_full": "Instructores de autoescuela"
+        },
+        {
+          "cno_4d": "5895",
+          "label": "Astr\u00f3logos, adivinadores y afines",
+          "label_full": "Astr\u00f3logos, adivinadores y afines"
+        },
+        {
+          "cno_4d": "5899",
+          "label": "Trabajadores de servicios personales no clasificados bajo otros ep\u00edgrafes",
+          "label_full": "Trabajadores de servicios personales no clasificados bajo otros ep\u00edgrafes"
+        }
+      ]
+    },
+    {
+      "cno_2d": "59",
+      "label": "Trabajadores de los servicios de protecci\u00f3n y seguridad",
+      "label_full": "Trabajadores de los servicios de protecci\u00f3n y seguridad",
+      "grand_group_id": "5",
+      "grand_group_name": "Trabajadores de los servicios de restauraci\u00f3n, personales, protecci\u00f3n y vendedores",
+      "children": [
+        {
+          "cno_4d": "5910",
+          "label": "Guardias civiles",
+          "label_full": "Guardias civiles"
+        },
+        {
+          "cno_4d": "5921",
+          "label": "Polic\u00edas nacionales",
+          "label_full": "Polic\u00edas nacionales"
+        },
+        {
+          "cno_4d": "5922",
+          "label": "Polic\u00edas auton\u00f3micos",
+          "label_full": "Polic\u00edas auton\u00f3micos"
+        },
+        {
+          "cno_4d": "5923",
+          "label": "Polic\u00edas locales",
+          "label_full": "Polic\u00edas locales"
+        },
+        {
+          "cno_4d": "5931",
+          "label": "Bomberos (excepto forestales)",
+          "label_full": "Bomberos (excepto forestales)"
+        },
+        {
+          "cno_4d": "5932",
+          "label": "Bomberos forestales",
+          "label_full": "Bomberos forestales"
+        },
+        {
+          "cno_4d": "5941",
+          "label": "Vigilantes de seguridad y similares habilitados para ir armados",
+          "label_full": "Vigilantes de seguridad y similares habilitados para ir armados"
+        },
+        {
+          "cno_4d": "5942",
+          "label": "Auxiliares de vigilante de seguridad y similares no habilitados para ir armados",
+          "label_full": "Auxiliares de vigilante de seguridad y similares no habilitados para ir armados"
+        },
+        {
+          "cno_4d": "5991",
+          "label": "Vigilantes de prisiones",
+          "label_full": "Vigilantes de prisiones"
+        },
+        {
+          "cno_4d": "5992",
+          "label": "Ba\u00f1istas-socorristas",
+          "label_full": "Ba\u00f1istas-socorristas"
+        },
+        {
+          "cno_4d": "5993",
+          "label": "Agentes forestales y medioambientales",
+          "label_full": "Agentes forestales y medioambientales"
+        },
+        {
+          "cno_4d": "5999",
+          "label": "Trabajadores de los servicios de protecci\u00f3n y seguridad no clasificados bajo otros ep\u00edgrafes",
+          "label_full": "Trabajadores de los servicios de protecci\u00f3n y seguridad no clasificados bajo otros ep\u00edgrafes"
+        }
+      ]
+    },
+    {
+      "cno_2d": "61",
+      "label": "Trabajadores cualificados en actividades agr\u00edcolas",
+      "label_full": "Trabajadores cualificados en actividades agr\u00edcolas",
+      "grand_group_id": "6",
+      "grand_group_name": "Trabajadores cualificados en el sector agr\u00edcola, ganadero, forestal y pesquero",
+      "children": [
+        {
+          "cno_4d": "6110",
+          "label": "Trabajadores cualificados en actividades agr\u00edcolas (excepto en huertas, invernaderos, viveros y jardines)",
+          "label_full": "Trabajadores cualificados en actividades agr\u00edcolas (excepto en huertas, invernaderos, viveros y jardines)"
+        },
+        {
+          "cno_4d": "6120",
+          "label": "Trabajadores cualificados en huertas, invernaderos, viveros y jardines",
+          "label_full": "Trabajadores cualificados en huertas, invernaderos, viveros y jardines"
+        }
+      ]
+    },
+    {
+      "cno_2d": "62",
+      "label": "Trabajadores cualificados en actividades ganaderas, (incluidas av\u00edcolas, ap\u00edcolas y similares)",
+      "label_full": "Trabajadores cualificados en actividades ganaderas, (incluidas av\u00edcolas, ap\u00edcolas y similares)",
+      "grand_group_id": "6",
+      "grand_group_name": "Trabajadores cualificados en el sector agr\u00edcola, ganadero, forestal y pesquero",
+      "children": [
+        {
+          "cno_4d": "6201",
+          "label": "Trabajadores cualificados en actividades ganaderas de vacuno",
+          "label_full": "Trabajadores cualificados en actividades ganaderas de vacuno"
+        },
+        {
+          "cno_4d": "6202",
+          "label": "Trabajadores cualificados en actividades ganaderas de ovino y caprino",
+          "label_full": "Trabajadores cualificados en actividades ganaderas de ovino y caprino"
+        },
+        {
+          "cno_4d": "6203",
+          "label": "Trabajadores cualificados en actividades ganaderas de porcino",
+          "label_full": "Trabajadores cualificados en actividades ganaderas de porcino"
+        },
+        {
+          "cno_4d": "6204",
+          "label": "Trabajadores cualificados en apicultura y sericicultura",
+          "label_full": "Trabajadores cualificados en apicultura y sericicultura"
+        },
+        {
+          "cno_4d": "6205",
+          "label": "Trabajadores cualificados en la avicultura y la cunicultura",
+          "label_full": "Trabajadores cualificados en la avicultura y la cunicultura"
+        },
+        {
+          "cno_4d": "6209",
+          "label": "Trabajadores cualificados en actividades ganaderas no clasificados bajo otros ep\u00edgrafes",
+          "label_full": "Trabajadores cualificados en actividades ganaderas no clasificados bajo otros ep\u00edgrafes"
+        }
+      ]
+    },
+    {
+      "cno_2d": "63",
+      "label": "Trabajadores cualificados en actividades agropecuarias mixtas",
+      "label_full": "Trabajadores cualificados en actividades agropecuarias mixtas",
+      "grand_group_id": "6",
+      "grand_group_name": "Trabajadores cualificados en el sector agr\u00edcola, ganadero, forestal y pesquero",
+      "children": [
+        {
+          "cno_4d": "6300",
+          "label": "Trabajadores cualificados en actividades agropecuarias mixtas",
+          "label_full": "Trabajadores cualificados en actividades agropecuarias mixtas"
+        }
+      ]
+    },
+    {
+      "cno_2d": "64",
+      "label": "Trabajadores cualificados en actividades forestales, pesqueras y cineg\u00e9ticas",
+      "label_full": "Trabajadores cualificados en actividades forestales, pesqueras y cineg\u00e9ticas",
+      "grand_group_id": "6",
+      "grand_group_name": "Trabajadores cualificados en el sector agr\u00edcola, ganadero, forestal y pesquero",
+      "children": [
+        {
+          "cno_4d": "6410",
+          "label": "Trabajadores cualificados en actividades forestales y del medio natural",
+          "label_full": "Trabajadores cualificados en actividades forestales y del medio natural"
+        },
+        {
+          "cno_4d": "6421",
+          "label": "Trabajadores cualificados en la acuicultura",
+          "label_full": "Trabajadores cualificados en la acuicultura"
+        },
+        {
+          "cno_4d": "6422",
+          "label": "Pescadores de aguas costeras y aguas dulces",
+          "label_full": "Pescadores de aguas costeras y aguas dulces"
+        },
+        {
+          "cno_4d": "6423",
+          "label": "Pescadores de altura",
+          "label_full": "Pescadores de altura"
+        },
+        {
+          "cno_4d": "6430",
+          "label": "Trabajadores cualificados en actividades cineg\u00e9ticas",
+          "label_full": "Trabajadores cualificados en actividades cineg\u00e9ticas"
+        }
+      ]
+    },
+    {
+      "cno_2d": "71",
+      "label": "Trabajadores en obras estructurales de construcci\u00f3n y afines",
+      "label_full": "Trabajadores en obras estructurales de construcci\u00f3n y afines",
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "children": [
+        {
+          "cno_4d": "7111",
+          "label": "Encofradores y operarios de puesta en obra de hormig\u00f3n",
+          "label_full": "Encofradores y operarios de puesta en obra de hormig\u00f3n"
+        },
+        {
+          "cno_4d": "7112",
+          "label": "Montadores de prefabricados estructurales (s\u00f3lo hormig\u00f3n)",
+          "label_full": "Montadores de prefabricados estructurales (s\u00f3lo hormig\u00f3n)"
+        },
+        {
+          "cno_4d": "7121",
+          "label": "Alba\u00f1iles",
+          "label_full": "Alba\u00f1iles"
+        },
+        {
+          "cno_4d": "7122",
+          "label": "Canteros, tronzadores, labrantes y grabadores de piedras",
+          "label_full": "Canteros, tronzadores, labrantes y grabadores de piedras"
+        },
+        {
+          "cno_4d": "7131",
+          "label": "Carpinteros (excepto ebanistas)",
+          "label_full": "Carpinteros (excepto ebanistas)"
+        },
+        {
+          "cno_4d": "7132",
+          "label": "Instaladores de cerramientos met\u00e1licos y carpinteros met\u00e1licos (excepto montadores de estructuras met\u00e1licas)",
+          "label_full": "Instaladores de cerramientos met\u00e1licos y carpinteros met\u00e1licos (excepto montadores de estructuras met\u00e1licas)"
+        },
+        {
+          "cno_4d": "7191",
+          "label": "Mantenedores de edificios",
+          "label_full": "Mantenedores de edificios"
+        },
+        {
+          "cno_4d": "7192",
+          "label": "Instaladores de fachadas t\u00e9cnicas",
+          "label_full": "Instaladores de fachadas t\u00e9cnicas"
+        },
+        {
+          "cno_4d": "7193",
+          "label": "Instaladores de sistemas de impermeabilizaci\u00f3n en edificios",
+          "label_full": "Instaladores de sistemas de impermeabilizaci\u00f3n en edificios"
+        },
+        {
+          "cno_4d": "7199",
+          "label": "Otros trabajadores de las obras estructurales de construcci\u00f3n no clasificados bajo otros ep\u00edgrafes",
+          "label_full": "Otros trabajadores de las obras estructurales de construcci\u00f3n no clasificados bajo otros ep\u00edgrafes"
+        }
+      ]
+    },
+    {
+      "cno_2d": "72",
+      "label": "Trabajadores de acabado de construcciones e instalaciones (excepto electricistas), pintores y afines",
+      "label_full": "Trabajadores de acabado de construcciones e instalaciones (excepto electricistas), pintores y afines",
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "children": [
+        {
+          "cno_4d": "7211",
+          "label": "Escayolistas",
+          "label_full": "Escayolistas"
+        },
+        {
+          "cno_4d": "7212",
+          "label": "Aplicadores de revestimientos de pasta y mortero",
+          "label_full": "Aplicadores de revestimientos de pasta y mortero"
+        },
+        {
+          "cno_4d": "7221",
+          "label": "Fontaneros",
+          "label_full": "Fontaneros"
+        },
+        {
+          "cno_4d": "7222",
+          "label": "Montadores-instaladores de gas en edificios",
+          "label_full": "Montadores-instaladores de gas en edificios"
+        },
+        {
+          "cno_4d": "7223",
+          "label": "Instaladores de conductos en obra p\u00fablica",
+          "label_full": "Instaladores de conductos en obra p\u00fablica"
+        },
+        {
+          "cno_4d": "7231",
+          "label": "Pintores y empapeladores",
+          "label_full": "Pintores y empapeladores"
+        },
+        {
+          "cno_4d": "7232",
+          "label": "Pintores en las industrias manufactureras",
+          "label_full": "Pintores en las industrias manufactureras"
+        },
+        {
+          "cno_4d": "7240",
+          "label": "Soladores, colocadores de parquet y afines",
+          "label_full": "Soladores, colocadores de parquet y afines"
+        },
+        {
+          "cno_4d": "7250",
+          "label": "Mec\u00e1nicos-instaladores de refrigeraci\u00f3n y climatizaci\u00f3n",
+          "label_full": "Mec\u00e1nicos-instaladores de refrigeraci\u00f3n y climatizaci\u00f3n"
+        },
+        {
+          "cno_4d": "7291",
+          "label": "Montadores de cubiertas",
+          "label_full": "Montadores de cubiertas"
+        },
+        {
+          "cno_4d": "7292",
+          "label": "Instaladores de material aislante t\u00e9rmico y de insonorizaci\u00f3n",
+          "label_full": "Instaladores de material aislante t\u00e9rmico y de insonorizaci\u00f3n"
+        },
+        {
+          "cno_4d": "7293",
+          "label": "Cristaleros",
+          "label_full": "Cristaleros"
+        },
+        {
+          "cno_4d": "7294",
+          "label": "Montadores-instaladores de placas de energ\u00eda solar",
+          "label_full": "Montadores-instaladores de placas de energ\u00eda solar"
+        },
+        {
+          "cno_4d": "7295",
+          "label": "Personal de limpieza de fachadas de edificios y chimeneas",
+          "label_full": "Personal de limpieza de fachadas de edificios y chimeneas"
+        }
+      ]
+    },
+    {
+      "cno_2d": "73",
+      "label": "Soldadores, chapistas, montadores de estructuras met\u00e1licas, herreros, elaboradores de herramientas y afines",
+      "label_full": "Soldadores, chapistas, montadores de estructuras met\u00e1licas, herreros, elaboradores de herramientas y afines",
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "children": [
+        {
+          "cno_4d": "7311",
+          "label": "Moldeadores y macheros",
+          "label_full": "Moldeadores y macheros"
+        },
+        {
+          "cno_4d": "7312",
+          "label": "Soldadores y oxicortadores",
+          "label_full": "Soldadores y oxicortadores"
+        },
+        {
+          "cno_4d": "7313",
+          "label": "Chapistas y caldereros",
+          "label_full": "Chapistas y caldereros"
+        },
+        {
+          "cno_4d": "7314",
+          "label": "Montadores de estructuras met\u00e1licas",
+          "label_full": "Montadores de estructuras met\u00e1licas"
+        },
+        {
+          "cno_4d": "7315",
+          "label": "Montadores de estructuras cableadas y empalmadores de cables",
+          "label_full": "Montadores de estructuras cableadas y empalmadores de cables"
+        },
+        {
+          "cno_4d": "7321",
+          "label": "Herreros y forjadores",
+          "label_full": "Herreros y forjadores"
+        },
+        {
+          "cno_4d": "7322",
+          "label": "Trabajadores de la fabricaci\u00f3n de herramientas, mec\u00e1nico-ajustadores, modelistas, matriceros y afines",
+          "label_full": "Trabajadores de la fabricaci\u00f3n de herramientas, mec\u00e1nico-ajustadores, modelistas, matriceros y afines"
+        },
+        {
+          "cno_4d": "7323",
+          "label": "Ajustadores y operadores de m\u00e1quinas-herramienta",
+          "label_full": "Ajustadores y operadores de m\u00e1quinas-herramienta"
+        },
+        {
+          "cno_4d": "7324",
+          "label": "Pulidores de metales y afiladores de herramientas",
+          "label_full": "Pulidores de metales y afiladores de herramientas"
+        }
+      ]
+    },
+    {
+      "cno_2d": "74",
+      "label": "Mec\u00e1nicos y ajustadores de maquinaria",
+      "label_full": "Mec\u00e1nicos y ajustadores de maquinaria",
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "children": [
+        {
+          "cno_4d": "7401",
+          "label": "Mec\u00e1nicos y ajustadores de veh\u00edculos de motor",
+          "label_full": "Mec\u00e1nicos y ajustadores de veh\u00edculos de motor"
+        },
+        {
+          "cno_4d": "7402",
+          "label": "Mec\u00e1nicos y ajustadores de motores de avi\u00f3n",
+          "label_full": "Mec\u00e1nicos y ajustadores de motores de avi\u00f3n"
+        },
+        {
+          "cno_4d": "7403",
+          "label": "Mec\u00e1nicos y ajustadores de maquinaria agr\u00edcola e industrial",
+          "label_full": "Mec\u00e1nicos y ajustadores de maquinaria agr\u00edcola e industrial"
+        },
+        {
+          "cno_4d": "7404",
+          "label": "Mec\u00e1nicos y ajustadores de maquinaria naval y ferroviaria",
+          "label_full": "Mec\u00e1nicos y ajustadores de maquinaria naval y ferroviaria"
+        },
+        {
+          "cno_4d": "7405",
+          "label": "Reparadores de bicicletas y afines",
+          "label_full": "Reparadores de bicicletas y afines"
+        }
+      ]
+    },
+    {
+      "cno_2d": "75",
+      "label": "Trabajadores especializados en electricidad y electrotecnolog\u00eda",
+      "label_full": "Trabajadores especializados en electricidad y electrotecnolog\u00eda",
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "children": [
+        {
+          "cno_4d": "7510",
+          "label": "Electricistas de la construcci\u00f3n y afines",
+          "label_full": "Electricistas de la construcci\u00f3n y afines"
+        },
+        {
+          "cno_4d": "7521",
+          "label": "Mec\u00e1nicos y reparadores de equipos el\u00e9ctricos",
+          "label_full": "Mec\u00e1nicos y reparadores de equipos el\u00e9ctricos"
+        },
+        {
+          "cno_4d": "7522",
+          "label": "Instaladores y reparadores de l\u00edneas el\u00e9ctricas",
+          "label_full": "Instaladores y reparadores de l\u00edneas el\u00e9ctricas"
+        },
+        {
+          "cno_4d": "7531",
+          "label": "Mec\u00e1nicos y reparadores de equipos electr\u00f3nicos",
+          "label_full": "Mec\u00e1nicos y reparadores de equipos electr\u00f3nicos"
+        },
+        {
+          "cno_4d": "7532",
+          "label": "Instaladores y reparadores en electro medicina",
+          "label_full": "Instaladores y reparadores en electro medicina"
+        },
+        {
+          "cno_4d": "7533",
+          "label": "Instaladores y reparadores en tecnolog\u00edas de la informaci\u00f3n y las comunicaciones",
+          "label_full": "Instaladores y reparadores en tecnolog\u00edas de la informaci\u00f3n y las comunicaciones"
+        }
+      ]
+    },
+    {
+      "cno_2d": "76",
+      "label": "Mec\u00e1nicos de precisi\u00f3n en metales, ceramistas, vidrieros, artesanos y trabajadores de artes gr\u00e1ficas.",
+      "label_full": "Mec\u00e1nicos de precisi\u00f3n en metales, ceramistas, vidrieros, artesanos y trabajadores de artes gr\u00e1ficas.",
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "children": [
+        {
+          "cno_4d": "7611",
+          "label": "Relojeros y mec\u00e1nicos de instrumentos de precisi\u00f3n",
+          "label_full": "Relojeros y mec\u00e1nicos de instrumentos de precisi\u00f3n"
+        },
+        {
+          "cno_4d": "7612",
+          "label": "Lutieres y similares; afinadores de instrumentos musicales",
+          "label_full": "Lutieres y similares; afinadores de instrumentos musicales"
+        },
+        {
+          "cno_4d": "7613",
+          "label": "Joyeros, orfebres y plateros",
+          "label_full": "Joyeros, orfebres y plateros"
+        },
+        {
+          "cno_4d": "7614",
+          "label": "Trabajadores de la cer\u00e1mica, alfareros y afines",
+          "label_full": "Trabajadores de la cer\u00e1mica, alfareros y afines"
+        },
+        {
+          "cno_4d": "7615",
+          "label": "Sopladores, modeladores, laminadores, cortadores y pulidores de vidrio",
+          "label_full": "Sopladores, modeladores, laminadores, cortadores y pulidores de vidrio"
+        },
+        {
+          "cno_4d": "7616",
+          "label": "Rotulistas, grabadores de vidrio, pintores decorativos de art\u00edculos diversos",
+          "label_full": "Rotulistas, grabadores de vidrio, pintores decorativos de art\u00edculos diversos"
+        },
+        {
+          "cno_4d": "7617",
+          "label": "Artesanos en madera y materiales similares",
+          "label_full": "Artesanos en madera y materiales similares"
+        },
+        {
+          "cno_4d": "7618",
+          "label": "Artesanos en tejidos, cueros y materiales similares, preparadores de fibra y tejedores con telares artesanos o de tejidos de punto y afines",
+          "label_full": "Artesanos en tejidos, cueros y materiales similares, preparadores de fibra y tejedores con telares artesanos o de tejidos de punto y afines"
+        },
+        {
+          "cno_4d": "7619",
+          "label": "Artesanos no clasificados bajo otros ep\u00edgrafes",
+          "label_full": "Artesanos no clasificados bajo otros ep\u00edgrafes"
+        },
+        {
+          "cno_4d": "7621",
+          "label": "Trabajadores de procesos de preimpresi\u00f3n",
+          "label_full": "Trabajadores de procesos de preimpresi\u00f3n"
+        },
+        {
+          "cno_4d": "7622",
+          "label": "Trabajadores de procesos de impresi\u00f3n",
+          "label_full": "Trabajadores de procesos de impresi\u00f3n"
+        },
+        {
+          "cno_4d": "7623",
+          "label": "Trabajadores de procesos de encuadernaci\u00f3n",
+          "label_full": "Trabajadores de procesos de encuadernaci\u00f3n"
+        }
+      ]
+    },
+    {
+      "cno_2d": "77",
+      "label": "Trabajadores de la industria de la alimentaci\u00f3n, bebidas y tabaco",
+      "label_full": "Trabajadores de la industria de la alimentaci\u00f3n, bebidas y tabaco",
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "children": [
+        {
+          "cno_4d": "7701",
+          "label": "Matarifes y trabajadores de las industrias c\u00e1rnicas",
+          "label_full": "Matarifes y trabajadores de las industrias c\u00e1rnicas"
+        },
+        {
+          "cno_4d": "7702",
+          "label": "Trabajadores de las industrias del pescado",
+          "label_full": "Trabajadores de las industrias del pescado"
+        },
+        {
+          "cno_4d": "7703",
+          "label": "Panaderos, pasteleros y confiteros",
+          "label_full": "Panaderos, pasteleros y confiteros"
+        },
+        {
+          "cno_4d": "7704",
+          "label": "Trabajadores del tratamiento de la leche y elaboraci\u00f3n de productos l\u00e1cteos (incluidos helados)",
+          "label_full": "Trabajadores del tratamiento de la leche y elaboraci\u00f3n de productos l\u00e1cteos (incluidos helados)"
+        },
+        {
+          "cno_4d": "7705",
+          "label": "Trabajadores conserveros de frutas y hortalizas y trabajadores de la elaboraci\u00f3n de bebidas no alcoh\u00f3licas",
+          "label_full": "Trabajadores conserveros de frutas y hortalizas y trabajadores de la elaboraci\u00f3n de bebidas no alcoh\u00f3licas"
+        },
+        {
+          "cno_4d": "7706",
+          "label": "Trabajadores de la elaboraci\u00f3n de bebidas alcoh\u00f3licas distintas del vino",
+          "label_full": "Trabajadores de la elaboraci\u00f3n de bebidas alcoh\u00f3licas distintas del vino"
+        },
+        {
+          "cno_4d": "7707",
+          "label": "Trabajadores de la elaboraci\u00f3n del vino",
+          "label_full": "Trabajadores de la elaboraci\u00f3n del vino"
+        },
+        {
+          "cno_4d": "7708",
+          "label": "Preparadores y elaboradores del tabaco y sus productos",
+          "label_full": "Preparadores y elaboradores del tabaco y sus productos"
+        },
+        {
+          "cno_4d": "7709",
+          "label": "Catadores y clasificadores de alimentos y bebidas",
+          "label_full": "Catadores y clasificadores de alimentos y bebidas"
+        }
+      ]
+    },
+    {
+      "cno_2d": "78",
+      "label": "Trabajadores de la madera, textil, confecci\u00f3n, piel, cuero, calzado y otros operarios en oficios",
+      "label_full": "Trabajadores de la madera, textil, confecci\u00f3n, piel, cuero, calzado y otros operarios en oficios",
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "children": [
+        {
+          "cno_4d": "7811",
+          "label": "Trabajadores del tratamiento de la madera",
+          "label_full": "Trabajadores del tratamiento de la madera"
+        },
+        {
+          "cno_4d": "7812",
+          "label": "Ajustadores y operadores de m\u00e1quinas para trabajar la madera",
+          "label_full": "Ajustadores y operadores de m\u00e1quinas para trabajar la madera"
+        },
+        {
+          "cno_4d": "7820",
+          "label": "Ebanistas y trabajadores afines",
+          "label_full": "Ebanistas y trabajadores afines"
+        },
+        {
+          "cno_4d": "7831",
+          "label": "Sastres, modistos, peleteros y sombrereros",
+          "label_full": "Sastres, modistos, peleteros y sombrereros"
+        },
+        {
+          "cno_4d": "7832",
+          "label": "Patronistas para productos en textil y piel",
+          "label_full": "Patronistas para productos en textil y piel"
+        },
+        {
+          "cno_4d": "7833",
+          "label": "Cortadores de tejidos, cuero, piel y otros materiales",
+          "label_full": "Cortadores de tejidos, cuero, piel y otros materiales"
+        },
+        {
+          "cno_4d": "7834",
+          "label": "Costureros a mano, bordadores y afines",
+          "label_full": "Costureros a mano, bordadores y afines"
+        },
+        {
+          "cno_4d": "7835",
+          "label": "Tapiceros, colchoneros y afines",
+          "label_full": "Tapiceros, colchoneros y afines"
+        },
+        {
+          "cno_4d": "7836",
+          "label": "Curtidores y preparadores de pieles",
+          "label_full": "Curtidores y preparadores de pieles"
+        },
+        {
+          "cno_4d": "7837",
+          "label": "Zapateros y afines",
+          "label_full": "Zapateros y afines"
+        },
+        {
+          "cno_4d": "7891",
+          "label": "Buceadores",
+          "label_full": "Buceadores"
+        },
+        {
+          "cno_4d": "7892",
+          "label": "Pegadores",
+          "label_full": "Pegadores"
+        },
+        {
+          "cno_4d": "7893",
+          "label": "Clasificadores y probadores de productos (excepto alimentos, bebidas y tabaco)",
+          "label_full": "Clasificadores y probadores de productos (excepto alimentos, bebidas y tabaco)"
+        },
+        {
+          "cno_4d": "7894",
+          "label": "Fumigadores y otros controladores de plagas y malas hierbas",
+          "label_full": "Fumigadores y otros controladores de plagas y malas hierbas"
+        },
+        {
+          "cno_4d": "7899",
+          "label": "Oficiales, operarios y artesanos de otros oficios no clasificados bajo otros ep\u00edgrafes",
+          "label_full": "Oficiales, operarios y artesanos de otros oficios no clasificados bajo otros ep\u00edgrafes"
+        }
+      ]
+    },
+    {
+      "cno_2d": "81",
+      "label": "Operadores de instalaciones y maquinaria fijas",
+      "label_full": "Operadores de instalaciones y maquinaria fijas",
+      "grand_group_id": "8",
+      "grand_group_name": "Operadores de instalaciones y maquinaria, y montadores",
+      "children": [
+        {
+          "cno_4d": "8111",
+          "label": "Mineros y otros operadores en instalaciones mineras",
+          "label_full": "Mineros y otros operadores en instalaciones mineras"
+        },
+        {
+          "cno_4d": "8112",
+          "label": "Operadores en instalaciones para la preparaci\u00f3n de minerales y rocas",
+          "label_full": "Operadores en instalaciones para la preparaci\u00f3n de minerales y rocas"
+        },
+        {
+          "cno_4d": "8113",
+          "label": "Sondistas y trabajadores afines",
+          "label_full": "Sondistas y trabajadores afines"
+        },
+        {
+          "cno_4d": "8114",
+          "label": "Operadores de maquinaria para fabricar productos derivados de minerales no met\u00e1licos",
+          "label_full": "Operadores de maquinaria para fabricar productos derivados de minerales no met\u00e1licos"
+        },
+        {
+          "cno_4d": "8121",
+          "label": "Operadores en instalaciones para la obtenci\u00f3n y transformaci\u00f3n de metales",
+          "label_full": "Operadores en instalaciones para la obtenci\u00f3n y transformaci\u00f3n de metales"
+        },
+        {
+          "cno_4d": "8122",
+          "label": "Operadores de m\u00e1quinas pulidoras, galvanizadoras y recubridoras de metales",
+          "label_full": "Operadores de m\u00e1quinas pulidoras, galvanizadoras y recubridoras de metales"
+        },
+        {
+          "cno_4d": "8131",
+          "label": "Operadores en plantas industriales qu\u00edmicas",
+          "label_full": "Operadores en plantas industriales qu\u00edmicas"
+        },
+        {
+          "cno_4d": "8132",
+          "label": "Operadores de m\u00e1quinas para fabricar productos farmac\u00e9uticos, cosm\u00e9ticos y afines",
+          "label_full": "Operadores de m\u00e1quinas para fabricar productos farmac\u00e9uticos, cosm\u00e9ticos y afines"
+        },
+        {
+          "cno_4d": "8133",
+          "label": "Operadores de laboratorios fotogr\u00e1ficos y afines",
+          "label_full": "Operadores de laboratorios fotogr\u00e1ficos y afines"
+        },
+        {
+          "cno_4d": "8141",
+          "label": "Operadores de m\u00e1quinas para fabricar productos de caucho y derivados de resinas naturales",
+          "label_full": "Operadores de m\u00e1quinas para fabricar productos de caucho y derivados de resinas naturales"
+        },
+        {
+          "cno_4d": "8142",
+          "label": "Operadores de m\u00e1quinas para fabricar productos de material pl\u00e1stico",
+          "label_full": "Operadores de m\u00e1quinas para fabricar productos de material pl\u00e1stico"
+        },
+        {
+          "cno_4d": "8143",
+          "label": "Operadores de m\u00e1quinas para fabricar productos de papel y cart\u00f3n",
+          "label_full": "Operadores de m\u00e1quinas para fabricar productos de papel y cart\u00f3n"
+        },
+        {
+          "cno_4d": "8144",
+          "label": "Operadores de serrer\u00edas, de m\u00e1quinas de fabricaci\u00f3n de tableros y de instalaciones afines para el tratamiento de la madera y el corcho",
+          "label_full": "Operadores de serrer\u00edas, de m\u00e1quinas de fabricaci\u00f3n de tableros y de instalaciones afines para el tratamiento de la madera y el corcho"
+        },
+        {
+          "cno_4d": "8145",
+          "label": "Operadores en instalaciones para la preparaci\u00f3n de pasta de papel y fabricaci\u00f3n de papel",
+          "label_full": "Operadores en instalaciones para la preparaci\u00f3n de pasta de papel y fabricaci\u00f3n de papel"
+        },
+        {
+          "cno_4d": "8151",
+          "label": "Operadores de m\u00e1quinas para preparar fibras, hilar y devanar",
+          "label_full": "Operadores de m\u00e1quinas para preparar fibras, hilar y devanar"
+        },
+        {
+          "cno_4d": "8152",
+          "label": "Operadores de telares y otras m\u00e1quinas tejedoras",
+          "label_full": "Operadores de telares y otras m\u00e1quinas tejedoras"
+        },
+        {
+          "cno_4d": "8153",
+          "label": "Operadores de m\u00e1quinas de coser y bordar",
+          "label_full": "Operadores de m\u00e1quinas de coser y bordar"
+        },
+        {
+          "cno_4d": "8154",
+          "label": "Operadores de m\u00e1quinas de blanquear, te\u00f1ir, estampar y acabar textiles",
+          "label_full": "Operadores de m\u00e1quinas de blanquear, te\u00f1ir, estampar y acabar textiles"
+        },
+        {
+          "cno_4d": "8155",
+          "label": "Operadores de m\u00e1quinas para tratar pieles y cuero",
+          "label_full": "Operadores de m\u00e1quinas para tratar pieles y cuero"
+        },
+        {
+          "cno_4d": "8156",
+          "label": "Operadores de m\u00e1quinas para la fabricaci\u00f3n del calzado, marroquiner\u00eda y guanter\u00eda de piel",
+          "label_full": "Operadores de m\u00e1quinas para la fabricaci\u00f3n del calzado, marroquiner\u00eda y guanter\u00eda de piel"
+        },
+        {
+          "cno_4d": "8159",
+          "label": "Operadores de m\u00e1quinas para fabricar productos textiles no clasificados bajo otros ep\u00edgrafes",
+          "label_full": "Operadores de m\u00e1quinas para fabricar productos textiles no clasificados bajo otros ep\u00edgrafes"
+        },
+        {
+          "cno_4d": "8160",
+          "label": "Operadores de m\u00e1quinas para elaborar productos alimenticios, bebidas y tabaco",
+          "label_full": "Operadores de m\u00e1quinas para elaborar productos alimenticios, bebidas y tabaco"
+        },
+        {
+          "cno_4d": "8170",
+          "label": "Operadores de m\u00e1quinas de lavander\u00eda y tintorer\u00eda",
+          "label_full": "Operadores de m\u00e1quinas de lavander\u00eda y tintorer\u00eda"
+        },
+        {
+          "cno_4d": "8191",
+          "label": "Operadores de hornos e instalaciones de vidrier\u00eda y cer\u00e1mica",
+          "label_full": "Operadores de hornos e instalaciones de vidrier\u00eda y cer\u00e1mica"
+        },
+        {
+          "cno_4d": "8192",
+          "label": "Operadores de calderas y m\u00e1quinas de vapor",
+          "label_full": "Operadores de calderas y m\u00e1quinas de vapor"
+        },
+        {
+          "cno_4d": "8193",
+          "label": "Operadores de m\u00e1quinas de embalaje, embotellamiento y etiquetado",
+          "label_full": "Operadores de m\u00e1quinas de embalaje, embotellamiento y etiquetado"
+        },
+        {
+          "cno_4d": "8199",
+          "label": "Operadores de instalaciones y maquinaria fijas no clasificados bajo otros ep\u00edgrafes",
+          "label_full": "Operadores de instalaciones y maquinaria fijas no clasificados bajo otros ep\u00edgrafes"
+        }
+      ]
+    },
+    {
+      "cno_2d": "82",
+      "label": "Montadores y ensambladores en f\u00e1bricas",
+      "label_full": "Montadores y ensambladores en f\u00e1bricas",
+      "grand_group_id": "8",
+      "grand_group_name": "Operadores de instalaciones y maquinaria, y montadores",
+      "children": [
+        {
+          "cno_4d": "8201",
+          "label": "Ensambladores de maquinaria mec\u00e1nica",
+          "label_full": "Ensambladores de maquinaria mec\u00e1nica"
+        },
+        {
+          "cno_4d": "8202",
+          "label": "Ensambladores de equipos el\u00e9ctricos y electr\u00f3nicos",
+          "label_full": "Ensambladores de equipos el\u00e9ctricos y electr\u00f3nicos"
+        },
+        {
+          "cno_4d": "8209",
+          "label": "Montadores y ensambladores no clasificados en otros ep\u00edgrafes",
+          "label_full": "Montadores y ensambladores no clasificados en otros ep\u00edgrafes"
+        }
+      ]
+    },
+    {
+      "cno_2d": "83",
+      "label": "Maquinistas de locomotoras, operadores de maquinaria agr\u00edcola y de equipos pesados m\u00f3viles, y marineros",
+      "label_full": "Maquinistas de locomotoras, operadores de maquinaria agr\u00edcola y de equipos pesados m\u00f3viles, y marineros",
+      "grand_group_id": "8",
+      "grand_group_name": "Operadores de instalaciones y maquinaria, y montadores",
+      "children": [
+        {
+          "cno_4d": "8311",
+          "label": "Maquinistas de locomotoras",
+          "label_full": "Maquinistas de locomotoras"
+        },
+        {
+          "cno_4d": "8312",
+          "label": "Agentes de maniobras ferroviarias",
+          "label_full": "Agentes de maniobras ferroviarias"
+        },
+        {
+          "cno_4d": "8321",
+          "label": "Operadores de maquinaria agr\u00edcola m\u00f3vil",
+          "label_full": "Operadores de maquinaria agr\u00edcola m\u00f3vil"
+        },
+        {
+          "cno_4d": "8322",
+          "label": "Operadores de maquinaria forestal m\u00f3vil",
+          "label_full": "Operadores de maquinaria forestal m\u00f3vil"
+        },
+        {
+          "cno_4d": "8331",
+          "label": "Operadores de maquinaria de movimientos de tierras y equipos similares",
+          "label_full": "Operadores de maquinaria de movimientos de tierras y equipos similares"
+        },
+        {
+          "cno_4d": "8332",
+          "label": "Operadores de gr\u00faas, montacargas y de maquinaria similar de movimiento de materiales",
+          "label_full": "Operadores de gr\u00faas, montacargas y de maquinaria similar de movimiento de materiales"
+        },
+        {
+          "cno_4d": "8333",
+          "label": "Operadores de carretillas elevadoras",
+          "label_full": "Operadores de carretillas elevadoras"
+        },
+        {
+          "cno_4d": "8340",
+          "label": "Marineros de puente, marineros de m\u00e1quinas y afines",
+          "label_full": "Marineros de puente, marineros de m\u00e1quinas y afines"
+        }
+      ]
+    },
+    {
+      "cno_2d": "84",
+      "label": "Conductores de veh\u00edculos para el transporte urbano o por carretera",
+      "label_full": "Conductores de veh\u00edculos para el transporte urbano o por carretera",
+      "grand_group_id": "8",
+      "grand_group_name": "Operadores de instalaciones y maquinaria, y montadores",
+      "children": [
+        {
+          "cno_4d": "8411",
+          "label": "Conductores propietarios de autom\u00f3viles, taxis y furgonetas",
+          "label_full": "Conductores propietarios de autom\u00f3viles, taxis y furgonetas"
+        },
+        {
+          "cno_4d": "8412",
+          "label": "Conductores asalariados de autom\u00f3viles, taxis y furgonetas",
+          "label_full": "Conductores asalariados de autom\u00f3viles, taxis y furgonetas"
+        },
+        {
+          "cno_4d": "8420",
+          "label": "Conductores de autobuses y tranv\u00edas",
+          "label_full": "Conductores de autobuses y tranv\u00edas"
+        },
+        {
+          "cno_4d": "8431",
+          "label": "Conductores propietarios de camiones",
+          "label_full": "Conductores propietarios de camiones"
+        },
+        {
+          "cno_4d": "8432",
+          "label": "Conductores asalariados de camiones",
+          "label_full": "Conductores asalariados de camiones"
+        },
+        {
+          "cno_4d": "8440",
+          "label": "Conductores de motocicletas y ciclomotores",
+          "label_full": "Conductores de motocicletas y ciclomotores"
+        }
+      ]
+    },
+    {
+      "cno_2d": "91",
+      "label": "Empleados dom\u00e9sticos",
+      "label_full": "Empleados dom\u00e9sticos",
+      "grand_group_id": "9",
+      "grand_group_name": "Ocupaciones elementales",
+      "children": [
+        {
+          "cno_4d": "9100",
+          "label": "Empleados dom\u00e9sticos",
+          "label_full": "Empleados dom\u00e9sticos"
+        }
+      ]
+    },
+    {
+      "cno_2d": "92",
+      "label": "Otro personal de limpieza",
+      "label_full": "Otro personal de limpieza",
+      "grand_group_id": "9",
+      "grand_group_name": "Ocupaciones elementales",
+      "children": [
+        {
+          "cno_4d": "9210",
+          "label": "Personal de limpieza de oficinas, hoteles y otros establecimientos similares",
+          "label_full": "Personal de limpieza de oficinas, hoteles y otros establecimientos similares"
+        },
+        {
+          "cno_4d": "9221",
+          "label": "Limpiadores en seco a mano y afines",
+          "label_full": "Limpiadores en seco a mano y afines"
+        },
+        {
+          "cno_4d": "9222",
+          "label": "Limpiadores de veh\u00edculos",
+          "label_full": "Limpiadores de veh\u00edculos"
+        },
+        {
+          "cno_4d": "9223",
+          "label": "Limpiadores de ventanas",
+          "label_full": "Limpiadores de ventanas"
+        },
+        {
+          "cno_4d": "9229",
+          "label": "Otro personal de limpieza",
+          "label_full": "Otro personal de limpieza"
+        }
+      ]
+    },
+    {
+      "cno_2d": "93",
+      "label": "Ayudantes de preparaci\u00f3n de alimentos",
+      "label_full": "Ayudantes de preparaci\u00f3n de alimentos",
+      "grand_group_id": "9",
+      "grand_group_name": "Ocupaciones elementales",
+      "children": [
+        {
+          "cno_4d": "9310",
+          "label": "Ayudantes de cocina",
+          "label_full": "Ayudantes de cocina"
+        },
+        {
+          "cno_4d": "9320",
+          "label": "Preparadores de comidas r\u00e1pidas",
+          "label_full": "Preparadores de comidas r\u00e1pidas"
+        }
+      ]
+    },
+    {
+      "cno_2d": "94",
+      "label": "Recogedores de residuos urbanos, vendedores callejeros y otras ocupaciones elementales en servicios",
+      "label_full": "Recogedores de residuos urbanos, vendedores callejeros y otras ocupaciones elementales en servicios",
+      "grand_group_id": "9",
+      "grand_group_name": "Ocupaciones elementales",
+      "children": [
+        {
+          "cno_4d": "9410",
+          "label": "Vendedores callejeros",
+          "label_full": "Vendedores callejeros"
+        },
+        {
+          "cno_4d": "9420",
+          "label": "Repartidores de publicidad, limpiabotas y otros trabajadores de oficios callejeros",
+          "label_full": "Repartidores de publicidad, limpiabotas y otros trabajadores de oficios callejeros"
+        },
+        {
+          "cno_4d": "9431",
+          "label": "Ordenanzas",
+          "label_full": "Ordenanzas"
+        },
+        {
+          "cno_4d": "9432",
+          "label": "Mozos de equipaje y afines",
+          "label_full": "Mozos de equipaje y afines"
+        },
+        {
+          "cno_4d": "9433",
+          "label": "Repartidores, recadistas y mensajeros a pie",
+          "label_full": "Repartidores, recadistas y mensajeros a pie"
+        },
+        {
+          "cno_4d": "9434",
+          "label": "Lectores de contadores y recaudadores de m\u00e1quinas recreativas y expendedoras",
+          "label_full": "Lectores de contadores y recaudadores de m\u00e1quinas recreativas y expendedoras"
+        },
+        {
+          "cno_4d": "9441",
+          "label": "Recogedores de residuos",
+          "label_full": "Recogedores de residuos"
+        },
+        {
+          "cno_4d": "9442",
+          "label": "Clasificadores de desechos, operarios de punto limpio y recogedores de chatarra",
+          "label_full": "Clasificadores de desechos, operarios de punto limpio y recogedores de chatarra"
+        },
+        {
+          "cno_4d": "9443",
+          "label": "Barrenderos y afines",
+          "label_full": "Barrenderos y afines"
+        },
+        {
+          "cno_4d": "9490",
+          "label": "Otras ocupaciones elementales",
+          "label_full": "Otras ocupaciones elementales"
+        }
+      ]
+    },
+    {
+      "cno_2d": "95",
+      "label": "Peones agrarios, forestales y de la pesca",
+      "label_full": "Peones agrarios, forestales y de la pesca",
+      "grand_group_id": "9",
+      "grand_group_name": "Ocupaciones elementales",
+      "children": [
+        {
+          "cno_4d": "9511",
+          "label": "Peones agr\u00edcolas (excepto en huertas, invernaderos, viveros y jardines)",
+          "label_full": "Peones agr\u00edcolas (excepto en huertas, invernaderos, viveros y jardines)"
+        },
+        {
+          "cno_4d": "9512",
+          "label": "Peones agr\u00edcolas en huertas, invernaderos, viveros y jardines",
+          "label_full": "Peones agr\u00edcolas en huertas, invernaderos, viveros y jardines"
+        },
+        {
+          "cno_4d": "9520",
+          "label": "Peones ganaderos",
+          "label_full": "Peones ganaderos"
+        },
+        {
+          "cno_4d": "9530",
+          "label": "Peones agropecuarios",
+          "label_full": "Peones agropecuarios"
+        },
+        {
+          "cno_4d": "9541",
+          "label": "Peones de la pesca",
+          "label_full": "Peones de la pesca"
+        },
+        {
+          "cno_4d": "9542",
+          "label": "Peones de la acuicultura",
+          "label_full": "Peones de la acuicultura"
+        },
+        {
+          "cno_4d": "9543",
+          "label": "Peones forestales y de la caza",
+          "label_full": "Peones forestales y de la caza"
+        }
+      ]
+    },
+    {
+      "cno_2d": "96",
+      "label": "Peones de la construcci\u00f3n y de la miner\u00eda",
+      "label_full": "Peones de la construcci\u00f3n y de la miner\u00eda",
+      "grand_group_id": "9",
+      "grand_group_name": "Ocupaciones elementales",
+      "children": [
+        {
+          "cno_4d": "9601",
+          "label": "Peones de obras p\u00fablicas",
+          "label_full": "Peones de obras p\u00fablicas"
+        },
+        {
+          "cno_4d": "9602",
+          "label": "Peones de la construcci\u00f3n de edificios",
+          "label_full": "Peones de la construcci\u00f3n de edificios"
+        },
+        {
+          "cno_4d": "9603",
+          "label": "Peones de la miner\u00eda, canteras y otras industrias extractivas",
+          "label_full": "Peones de la miner\u00eda, canteras y otras industrias extractivas"
+        }
+      ]
+    },
+    {
+      "cno_2d": "97",
+      "label": "Peones de las industrias manufactureras",
+      "label_full": "Peones de las industrias manufactureras",
+      "grand_group_id": "9",
+      "grand_group_name": "Ocupaciones elementales",
+      "children": [
+        {
+          "cno_4d": "9700",
+          "label": "Peones de las industrias manufactureras",
+          "label_full": "Peones de las industrias manufactureras"
+        }
+      ]
+    },
+    {
+      "cno_2d": "98",
+      "label": "Peones del transporte, descargadores y reponedores",
+      "label_full": "Peones del transporte, descargadores y reponedores",
+      "grand_group_id": "9",
+      "grand_group_name": "Ocupaciones elementales",
+      "children": [
+        {
+          "cno_4d": "9811",
+          "label": "Peones del transporte de mercanc\u00edas y descargadores",
+          "label_full": "Peones del transporte de mercanc\u00edas y descargadores"
+        },
+        {
+          "cno_4d": "9812",
+          "label": "Conductores de veh\u00edculos de tracci\u00f3n animal para el transporte de personas y similares",
+          "label_full": "Conductores de veh\u00edculos de tracci\u00f3n animal para el transporte de personas y similares"
+        },
+        {
+          "cno_4d": "9820",
+          "label": "Reponedores",
+          "label_full": "Reponedores"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1306 @@
+{
+  "occupations": [
+    {
+      "cno_2d": "00",
+      "reference_year": 2025,
+      "source_id": "sepe_occupation_pages",
+      "quality": "official_proxy",
+      "children_4d_covered": 3,
+      "demandants": 2032,
+      "demandants_yoy_pct": -7.79,
+      "demandants_yoy_coverage": {
+        "matched_children": 3,
+        "total_children": 3
+      },
+      "unemployed": 1278,
+      "contracts": 238,
+      "contracts_yoy_pct": -4.03,
+      "contracts_yoy_coverage": {
+        "matched_children": 3,
+        "total_children": 3
+      },
+      "contract_persons": 228
+    },
+    {
+      "cno_2d": "11",
+      "reference_year": 2025,
+      "source_id": "sepe_occupation_pages",
+      "quality": "official_proxy",
+      "children_4d_covered": 4,
+      "demandants": 2191,
+      "demandants_yoy_pct": -3.12,
+      "demandants_yoy_coverage": {
+        "matched_children": 4,
+        "total_children": 4
+      },
+      "unemployed": 1364,
+      "contracts": 3160,
+      "contracts_yoy_pct": 2.2,
+      "contracts_yoy_coverage": {
+        "matched_children": 4,
+        "total_children": 4
+      },
+      "contract_persons": 3030
+    },
+    {
+      "cno_2d": "12",
+      "reference_year": 2025,
+      "source_id": "sepe_occupation_pages",
+      "quality": "official_proxy",
+      "children_4d_covered": 6,
+      "demandants": 17630,
+      "demandants_yoy_pct": 0.25,
+      "demandants_yoy_coverage": {
+        "matched_children": 6,
+        "total_children": 6
+      },
+      "unemployed": 12251,
+      "contracts": 25076,
+      "contracts_yoy_pct": 1.33,
+      "contracts_yoy_coverage": {
+        "matched_children": 6,
+        "total_children": 6
+      },
+      "contract_persons": 23797
+    },
+    {
+      "cno_2d": "13",
+      "reference_year": 2025,
+      "source_id": "sepe_occupation_pages",
+      "quality": "official_proxy",
+      "children_4d_covered": 14,
+      "demandants": 8831,
+      "demandants_yoy_pct": -3.05,
+      "demandants_yoy_coverage": {
+        "matched_children": 14,
+        "total_children": 14
+      },
+      "unemployed": 5077,
+      "contracts": 11362,
+      "contracts_yoy_pct": -3.58,
+      "contracts_yoy_coverage": {
+        "matched_children": 14,
+        "total_children": 14
+      },
+      "contract_persons": 10467
+    },
+    {
+      "cno_2d": "14",
+      "reference_year": 2025,
+      "source_id": "sepe_occupation_pages",
+      "quality": "official_proxy",
+      "children_4d_covered": 7,
+      "demandants": 5662,
+      "demandants_yoy_pct": 0.01,
+      "demandants_yoy_coverage": {
+        "matched_children": 7,
+        "total_children": 7
+      },
+      "unemployed": 3466,
+      "contracts": 6740,
+      "contracts_yoy_pct": -0.92,
+      "contracts_yoy_coverage": {
+        "matched_children": 7,
+        "total_children": 7
+      },
+      "contract_persons": 6123
+    },
+    {
+      "cno_2d": "15",
+      "reference_year": 2025,
+      "source_id": "sepe_occupation_pages",
+      "quality": "official_proxy",
+      "children_4d_covered": 2,
+      "demandants": 2385,
+      "demandants_yoy_pct": -6.49,
+      "demandants_yoy_coverage": {
+        "matched_children": 2,
+        "total_children": 2
+      },
+      "unemployed": 1445,
+      "contracts": 2962,
+      "contracts_yoy_pct": -2.08,
+      "contracts_yoy_coverage": {
+        "matched_children": 2,
+        "total_children": 2
+      },
+      "contract_persons": 2773
+    },
+    {
+      "cno_2d": "21",
+      "reference_year": 2025,
+      "source_id": "sepe_occupation_pages",
+      "quality": "official_proxy",
+      "children_4d_covered": 16,
+      "demandants": 25384,
+      "demandants_yoy_pct": -1.79,
+      "demandants_yoy_coverage": {
+        "matched_children": 16,
+        "total_children": 16
+      },
+      "unemployed": 14175,
+      "contracts": 262155,
+      "contracts_yoy_pct": 6.67,
+      "contracts_yoy_coverage": {
+        "matched_children": 16,
+        "total_children": 16
+      },
+      "contract_persons": 119779
+    },
+    {
+      "cno_2d": "22",
+      "reference_year": 2025,
+      "source_id": "sepe_occupation_pages",
+      "quality": "official_proxy",
+      "children_4d_covered": 6,
+      "demandants": 63963,
+      "demandants_yoy_pct": -6.96,
+      "demandants_yoy_coverage": {
+        "matched_children": 6,
+        "total_children": 6
+      },
+      "unemployed": 31257,
+      "contracts": 182878,
+      "contracts_yoy_pct": -0.46,
+      "contracts_yoy_coverage": {
+        "matched_children": 6,
+        "total_children": 6
+      },
+      "contract_persons": 118452
+    },
+    {
+      "cno_2d": "23",
+      "reference_year": 2025,
+      "source_id": "sepe_occupation_pages",
+      "quality": "official_proxy",
+      "children_4d_covered": 9,
+      "demandants": 32209,
+      "demandants_yoy_pct": -4.43,
+      "demandants_yoy_coverage": {
+        "matched_children": 9,
+        "total_children": 9
+      },
+      "unemployed": 14710,
+      "contracts": 164009,
+      "contracts_yoy_pct": 1.61,
+      "contracts_yoy_coverage": {
+        "matched_children": 9,
+        "total_children": 9
+      },
+      "contract_persons": 104788
+    },
+    {
+      "cno_2d": "24",
+      "reference_year": 2025,
+      "source_id": "sepe_occupation_pages",
+      "quality": "official_proxy",
+      "children_4d_covered": 42,
+      "demandants": 63941,
+      "demandants_yoy_pct": -0.44,
+      "demandants_yoy_coverage": {
+        "matched_children": 42,
+        "total_children": 42
+      },
+      "unemployed": 38849,
+      "contracts": 99919,
+      "contracts_yoy_pct": -6.33,
+      "contracts_yoy_coverage": {
+        "matched_children": 42,
+        "total_children": 42
+      },
+      "contract_persons": 93060
+    },
+    {
+      "cno_2d": "25",
+      "reference_year": 2025,
+      "source_id": "sepe_occupation_pages",
+      "quality": "official_proxy",
+      "children_4d_covered": 6,
+      "demandants": 15517,
+      "demandants_yoy_pct": -3.74,
+      "demandants_yoy_coverage": {
+        "matched_children": 6,
+        "total_children": 6
+      },
+      "unemployed": 9300,
+      "contracts": 12373,
+      "contracts_yoy_pct": 1.93,
+      "contracts_yoy_coverage": {
+        "matched_children": 6,
+        "total_children": 6
+      },
+      "contract_persons": 10500
+    },
+    {
+      "cno_2d": "26",
+      "reference_year": 2025,
+      "source_id": "sepe_occupation_pages",
+      "quality": "official_proxy",
+      "children_4d_covered": 13,
+      "demandants": 60451,
+      "demandants_yoy_pct": 0.08,
+      "demandants_yoy_coverage": {
+        "matched_children": 13,
+        "total_children": 13
+      },
+      "unemployed": 36153,
+      "contracts": 91234,
+      "contracts_yoy_pct": 3.87,
+      "contracts_yoy_coverage": {
+        "matched_children": 13,
+        "total_children": 13
+      },
+      "contract_persons": 78854
+    },
+    {
+      "cno_2d": "27",
+      "reference_year": 2025,
+      "source_id": "sepe_occupation_pages",
+      "quality": "official_proxy",
+      "children_4d_covered": 8,
+      "demandants": 19808,
+      "demandants_yoy_pct": 11.66,
+      "demandants_yoy_coverage": {
+        "matched_children": 8,
+        "total_children": 8
+      },
+      "unemployed": 13560,
+      "contracts": 54596,
+      "contracts_yoy_pct": 4.41,
+      "contracts_yoy_coverage": {
+        "matched_children": 8,
+        "total_children": 8
+      },
+      "contract_persons": 52709
+    },
+    {
+      "cno_2d": "28",
+      "reference_year": 2025,
+      "source_id": "sepe_occupation_pages",
+      "quality": "official_proxy",
+      "children_4d_covered": 7,
+      "demandants": 46435,
+      "demandants_yoy_pct": -4.16,
+      "demandants_yoy_coverage": {
+        "matched_children": 7,
+        "total_children": 7
+      },
+      "unemployed": 21567,
+      "contracts": 89521,
+      "contracts_yoy_pct": 5.69,
+      "contracts_yoy_coverage": {
+        "matched_children": 7,
+        "total_children": 7
+      },
+      "contract_persons": 53032
+    },
+    {
+      "cno_2d": "29",
+      "reference_year": 2025,
+      "source_id": "sepe_occupation_pages",
+      "quality": "official_proxy",
+      "children_4d_covered": 13,
+      "demandants": 41274,
+      "demandants_yoy_pct": -1.96,
+      "demandants_yoy_coverage": {
+        "matched_children": 13,
+        "total_children": 13
+      },
+      "unemployed": 25038,
+      "contracts": 552403,
+      "contracts_yoy_pct": 2.44,
+      "contracts_yoy_coverage": {
+        "matched_children": 13,
+        "total_children": 13
+      },
+      "contract_persons": 153790
+    },
+    {
+      "cno_2d": "31",
+      "reference_year": 2025,
+      "source_id": "sepe_occupation_pages",
+      "quality": "official_proxy",
+      "children_4d_covered": 25,
+      "demandants": 68365,
+      "demandants_yoy_pct": -2.1,
+      "demandants_yoy_coverage": {
+        "matched_children": 25,
+        "total_children": 25
+      },
+      "unemployed": 37425,
+      "contracts": 169286,
+      "contracts_yoy_pct": 3.16,
+      "contracts_yoy_coverage": {
+        "matched_children": 25,
+        "total_children": 25
+      },
+      "contract_persons": 116352
+    },
+    {
+      "cno_2d": "32",
+      "reference_year": 2025,
+      "source_id": "sepe_occupation_pages",
+      "quality": "official_proxy",
+      "children_4d_covered": 8,
+      "demandants": 7433,
+      "demandants_yoy_pct": -9.88,
+      "demandants_yoy_coverage": {
+        "matched_children": 8,
+        "total_children": 8
+      },
+      "unemployed": 4558,
+      "contracts": 21907,
+      "contracts_yoy_pct": 6.1,
+      "contracts_yoy_coverage": {
+        "matched_children": 8,
+        "total_children": 8
+      },
+      "contract_persons": 19146
+    },
+    {
+      "cno_2d": "33",
+      "reference_year": 2025,
+      "source_id": "sepe_occupation_pages",
+      "quality": "official_proxy",
+      "children_4d_covered": 17,
+      "demandants": 29108,
+      "demandants_yoy_pct": -0.89,
+      "demandants_yoy_coverage": {
+        "matched_children": 17,
+        "total_children": 17
+      },
+      "unemployed": 17949,
+      "contracts": 79957,
+      "contracts_yoy_pct": 7.36,
+      "contracts_yoy_coverage": {
+        "matched_children": 17,
+        "total_children": 17
+      },
+      "contract_persons": 45163
+    },
+    {
+      "cno_2d": "34",
+      "reference_year": 2025,
+      "source_id": "sepe_occupation_pages",
+      "quality": "official_proxy",
+      "children_4d_covered": 5,
+      "demandants": 6294,
+      "demandants_yoy_pct": -0.23,
+      "demandants_yoy_coverage": {
+        "matched_children": 5,
+        "total_children": 5
+      },
+      "unemployed": 3470,
+      "contracts": 3900,
+      "contracts_yoy_pct": 4.36,
+      "contracts_yoy_coverage": {
+        "matched_children": 5,
+        "total_children": 5
+      },
+      "contract_persons": 3640
+    },
+    {
+      "cno_2d": "35",
+      "reference_year": 2025,
+      "source_id": "sepe_occupation_pages",
+      "quality": "official_proxy",
+      "children_4d_covered": 10,
+      "demandants": 60376,
+      "demandants_yoy_pct": -4.0,
+      "demandants_yoy_coverage": {
+        "matched_children": 10,
+        "total_children": 10
+      },
+      "unemployed": 39474,
+      "contracts": 106530,
+      "contracts_yoy_pct": 0.37,
+      "contracts_yoy_coverage": {
+        "matched_children": 10,
+        "total_children": 10
+      },
+      "contract_persons": 93246
+    },
+    {
+      "cno_2d": "36",
+      "reference_year": 2025,
+      "source_id": "sepe_occupation_pages",
+      "quality": "official_proxy",
+      "children_4d_covered": 10,
+      "demandants": 46344,
+      "demandants_yoy_pct": -0.02,
+      "demandants_yoy_coverage": {
+        "matched_children": 10,
+        "total_children": 10
+      },
+      "unemployed": 27008,
+      "contracts": 60003,
+      "contracts_yoy_pct": 0.89,
+      "contracts_yoy_coverage": {
+        "matched_children": 10,
+        "total_children": 10
+      },
+      "contract_persons": 42841
+    },
+    {
+      "cno_2d": "37",
+      "reference_year": 2025,
+      "source_id": "sepe_occupation_pages",
+      "quality": "official_proxy",
+      "children_4d_covered": 15,
+      "demandants": 82273,
+      "demandants_yoy_pct": -3.44,
+      "demandants_yoy_coverage": {
+        "matched_children": 15,
+        "total_children": 15
+      },
+      "unemployed": 39419,
+      "contracts": 640500,
+      "contracts_yoy_pct": 3.72,
+      "contracts_yoy_coverage": {
+        "matched_children": 15,
+        "total_children": 15
+      },
+      "contract_persons": 371634
+    },
+    {
+      "cno_2d": "38",
+      "reference_year": 2025,
+      "source_id": "sepe_occupation_pages",
+      "quality": "official_proxy",
+      "children_4d_covered": 8,
+      "demandants": 41983,
+      "demandants_yoy_pct": 6.16,
+      "demandants_yoy_coverage": {
+        "matched_children": 8,
+        "total_children": 8
+      },
+      "unemployed": 27589,
+      "contracts": 181379,
+      "contracts_yoy_pct": -0.37,
+      "contracts_yoy_coverage": {
+        "matched_children": 8,
+        "total_children": 8
+      },
+      "contract_persons": 95521
+    },
+    {
+      "cno_2d": "41",
+      "reference_year": 2025,
+      "source_id": "sepe_occupation_pages",
+      "quality": "official_proxy",
+      "children_4d_covered": 6,
+      "demandants": 44023,
+      "demandants_yoy_pct": 0.01,
+      "demandants_yoy_coverage": {
+        "matched_children": 6,
+        "total_children": 6
+      },
+      "unemployed": 24800,
+      "contracts": 153537,
+      "contracts_yoy_pct": -1.58,
+      "contracts_yoy_coverage": {
+        "matched_children": 6,
+        "total_children": 6
+      },
+      "contract_persons": 117651
+    },
+    {
+      "cno_2d": "42",
+      "reference_year": 2025,
+      "source_id": "sepe_occupation_pages",
+      "quality": "official_proxy",
+      "children_4d_covered": 4,
+      "demandants": 9649,
+      "demandants_yoy_pct": 1.63,
+      "demandants_yoy_coverage": {
+        "matched_children": 4,
+        "total_children": 4
+      },
+      "unemployed": 6065,
+      "contracts": 60061,
+      "contracts_yoy_pct": -21.21,
+      "contracts_yoy_coverage": {
+        "matched_children": 4,
+        "total_children": 4
+      },
+      "contract_persons": 23465
+    },
+    {
+      "cno_2d": "43",
+      "reference_year": 2025,
+      "source_id": "sepe_occupation_pages",
+      "quality": "official_proxy",
+      "children_4d_covered": 2,
+      "demandants": 287436,
+      "demandants_yoy_pct": -5.1,
+      "demandants_yoy_coverage": {
+        "matched_children": 2,
+        "total_children": 2
+      },
+      "unemployed": 178280,
+      "contracts": 190350,
+      "contracts_yoy_pct": 1.73,
+      "contracts_yoy_coverage": {
+        "matched_children": 2,
+        "total_children": 2
+      },
+      "contract_persons": 154075
+    },
+    {
+      "cno_2d": "44",
+      "reference_year": 2025,
+      "source_id": "sepe_occupation_pages",
+      "quality": "official_proxy",
+      "children_4d_covered": 13,
+      "demandants": 108095,
+      "demandants_yoy_pct": -2.22,
+      "demandants_yoy_coverage": {
+        "matched_children": 13,
+        "total_children": 13
+      },
+      "unemployed": 59678,
+      "contracts": 266587,
+      "contracts_yoy_pct": -1.36,
+      "contracts_yoy_coverage": {
+        "matched_children": 13,
+        "total_children": 13
+      },
+      "contract_persons": 188247
+    },
+    {
+      "cno_2d": "45",
+      "reference_year": 2025,
+      "source_id": "sepe_occupation_pages",
+      "quality": "official_proxy",
+      "children_4d_covered": 1,
+      "demandants": 4816,
+      "demandants_yoy_pct": 5.86,
+      "demandants_yoy_coverage": {
+        "matched_children": 1,
+        "total_children": 1
+      },
+      "unemployed": 2997,
+      "contracts": 298111,
+      "contracts_yoy_pct": 2.01,
+      "contracts_yoy_coverage": {
+        "matched_children": 1,
+        "total_children": 1
+      },
+      "contract_persons": 239023
+    },
+    {
+      "cno_2d": "50",
+      "reference_year": 2025,
+      "source_id": "sepe_occupation_pages",
+      "quality": "official_proxy",
+      "children_4d_covered": 1,
+      "demandants": 1173,
+      "demandants_yoy_pct": -0.6,
+      "demandants_yoy_coverage": {
+        "matched_children": 1,
+        "total_children": 1
+      },
+      "unemployed": 668,
+      "contracts": 2829,
+      "contracts_yoy_pct": -8.24,
+      "contracts_yoy_coverage": {
+        "matched_children": 1,
+        "total_children": 1
+      },
+      "contract_persons": 2629
+    },
+    {
+      "cno_2d": "51",
+      "reference_year": 2025,
+      "source_id": "sepe_occupation_pages",
+      "quality": "official_proxy",
+      "children_4d_covered": 2,
+      "demandants": 269080,
+      "demandants_yoy_pct": -6.17,
+      "demandants_yoy_coverage": {
+        "matched_children": 2,
+        "total_children": 2
+      },
+      "unemployed": 128313,
+      "contracts": 1846665,
+      "contracts_yoy_pct": -1.26,
+      "contracts_yoy_coverage": {
+        "matched_children": 2,
+        "total_children": 2
+      },
+      "contract_persons": 1015279
+    },
+    {
+      "cno_2d": "52",
+      "reference_year": 2025,
+      "source_id": "sepe_occupation_pages",
+      "quality": "official_proxy",
+      "children_4d_covered": 2,
+      "demandants": 441983,
+      "demandants_yoy_pct": -6.09,
+      "demandants_yoy_coverage": {
+        "matched_children": 2,
+        "total_children": 2
+      },
+      "unemployed": 274493,
+      "contracts": 810386,
+      "contracts_yoy_pct": -0.84,
+      "contracts_yoy_coverage": {
+        "matched_children": 2,
+        "total_children": 2
+      },
+      "contract_persons": 545532
+    },
+    {
+      "cno_2d": "53",
+      "reference_year": 2025,
+      "source_id": "sepe_occupation_pages",
+      "quality": "official_proxy",
+      "children_4d_covered": 1,
+      "demandants": 690,
+      "demandants_yoy_pct": -6.43,
+      "demandants_yoy_coverage": {
+        "matched_children": 1,
+        "total_children": 1
+      },
+      "unemployed": 451,
+      "contracts": 114,
+      "contracts_yoy_pct": -20.83,
+      "contracts_yoy_coverage": {
+        "matched_children": 1,
+        "total_children": 1
+      },
+      "contract_persons": 112
+    },
+    {
+      "cno_2d": "54",
+      "reference_year": 2025,
+      "source_id": "sepe_occupation_pages",
+      "quality": "official_proxy",
+      "children_4d_covered": 8,
+      "demandants": 14119,
+      "demandants_yoy_pct": -6.71,
+      "demandants_yoy_coverage": {
+        "matched_children": 8,
+        "total_children": 8
+      },
+      "unemployed": 9068,
+      "contracts": 176056,
+      "contracts_yoy_pct": -4.18,
+      "contracts_yoy_coverage": {
+        "matched_children": 8,
+        "total_children": 8
+      },
+      "contract_persons": 129139
+    },
+    {
+      "cno_2d": "55",
+      "reference_year": 2025,
+      "source_id": "sepe_occupation_pages",
+      "quality": "official_proxy",
+      "children_4d_covered": 1,
+      "demandants": 53191,
+      "demandants_yoy_pct": -2.91,
+      "demandants_yoy_coverage": {
+        "matched_children": 1,
+        "total_children": 1
+      },
+      "unemployed": 32049,
+      "contracts": 114471,
+      "contracts_yoy_pct": 6.09,
+      "contracts_yoy_coverage": {
+        "matched_children": 1,
+        "total_children": 1
+      },
+      "contract_persons": 82991
+    },
+    {
+      "cno_2d": "56",
+      "reference_year": 2025,
+      "source_id": "sepe_occupation_pages",
+      "quality": "official_proxy",
+      "children_4d_covered": 5,
+      "demandants": 78284,
+      "demandants_yoy_pct": -5.23,
+      "demandants_yoy_coverage": {
+        "matched_children": 5,
+        "total_children": 5
+      },
+      "unemployed": 45037,
+      "contracts": 448372,
+      "contracts_yoy_pct": 4.31,
+      "contracts_yoy_coverage": {
+        "matched_children": 5,
+        "total_children": 5
+      },
+      "contract_persons": 201760
+    },
+    {
+      "cno_2d": "57",
+      "reference_year": 2025,
+      "source_id": "sepe_occupation_pages",
+      "quality": "official_proxy",
+      "children_4d_covered": 3,
+      "demandants": 80069,
+      "demandants_yoy_pct": -7.72,
+      "demandants_yoy_coverage": {
+        "matched_children": 3,
+        "total_children": 3
+      },
+      "unemployed": 42484,
+      "contracts": 340192,
+      "contracts_yoy_pct": 4.26,
+      "contracts_yoy_coverage": {
+        "matched_children": 3,
+        "total_children": 3
+      },
+      "contract_persons": 160923
+    },
+    {
+      "cno_2d": "58",
+      "reference_year": 2025,
+      "source_id": "sepe_occupation_pages",
+      "quality": "official_proxy",
+      "children_4d_covered": 17,
+      "demandants": 147490,
+      "demandants_yoy_pct": -3.07,
+      "demandants_yoy_coverage": {
+        "matched_children": 17,
+        "total_children": 17
+      },
+      "unemployed": 84985,
+      "contracts": 287605,
+      "contracts_yoy_pct": -3.08,
+      "contracts_yoy_coverage": {
+        "matched_children": 17,
+        "total_children": 17
+      },
+      "contract_persons": 193722
+    },
+    {
+      "cno_2d": "59",
+      "reference_year": 2025,
+      "source_id": "sepe_occupation_pages",
+      "quality": "official_proxy",
+      "children_4d_covered": 12,
+      "demandants": 43857,
+      "demandants_yoy_pct": -5.85,
+      "demandants_yoy_coverage": {
+        "matched_children": 12,
+        "total_children": 12
+      },
+      "unemployed": 21444,
+      "contracts": 240545,
+      "contracts_yoy_pct": 4.33,
+      "contracts_yoy_coverage": {
+        "matched_children": 11,
+        "total_children": 12
+      },
+      "contract_persons": 141890
+    },
+    {
+      "cno_2d": "61",
+      "reference_year": 2025,
+      "source_id": "sepe_occupation_pages",
+      "quality": "official_proxy",
+      "children_4d_covered": 2,
+      "demandants": 124611,
+      "demandants_yoy_pct": -10.57,
+      "demandants_yoy_coverage": {
+        "matched_children": 2,
+        "total_children": 2
+      },
+      "unemployed": 39180,
+      "contracts": 149496,
+      "contracts_yoy_pct": -2.11,
+      "contracts_yoy_coverage": {
+        "matched_children": 2,
+        "total_children": 2
+      },
+      "contract_persons": 101339
+    },
+    {
+      "cno_2d": "62",
+      "reference_year": 2025,
+      "source_id": "sepe_occupation_pages",
+      "quality": "official_proxy",
+      "children_4d_covered": 6,
+      "demandants": 2770,
+      "demandants_yoy_pct": -10.75,
+      "demandants_yoy_coverage": {
+        "matched_children": 6,
+        "total_children": 6
+      },
+      "unemployed": 1496,
+      "contracts": 8552,
+      "contracts_yoy_pct": -5.01,
+      "contracts_yoy_coverage": {
+        "matched_children": 6,
+        "total_children": 6
+      },
+      "contract_persons": 6965
+    },
+    {
+      "cno_2d": "63",
+      "reference_year": 2025,
+      "source_id": "sepe_occupation_pages",
+      "quality": "official_proxy",
+      "children_4d_covered": 1,
+      "demandants": 636,
+      "demandants_yoy_pct": -5.84,
+      "demandants_yoy_coverage": {
+        "matched_children": 1,
+        "total_children": 1
+      },
+      "unemployed": 129,
+      "contracts": 3853,
+      "contracts_yoy_pct": 1.34,
+      "contracts_yoy_coverage": {
+        "matched_children": 1,
+        "total_children": 1
+      },
+      "contract_persons": 2980
+    },
+    {
+      "cno_2d": "64",
+      "reference_year": 2025,
+      "source_id": "sepe_occupation_pages",
+      "quality": "official_proxy",
+      "children_4d_covered": 5,
+      "demandants": 9252,
+      "demandants_yoy_pct": -10.94,
+      "demandants_yoy_coverage": {
+        "matched_children": 5,
+        "total_children": 5
+      },
+      "unemployed": 3041,
+      "contracts": 26331,
+      "contracts_yoy_pct": -1.28,
+      "contracts_yoy_coverage": {
+        "matched_children": 5,
+        "total_children": 5
+      },
+      "contract_persons": 19690
+    },
+    {
+      "cno_2d": "71",
+      "reference_year": 2025,
+      "source_id": "sepe_occupation_pages",
+      "quality": "official_proxy",
+      "children_4d_covered": 10,
+      "demandants": 121183,
+      "demandants_yoy_pct": -11.99,
+      "demandants_yoy_coverage": {
+        "matched_children": 10,
+        "total_children": 10
+      },
+      "unemployed": 76372,
+      "contracts": 378918,
+      "contracts_yoy_pct": -0.12,
+      "contracts_yoy_coverage": {
+        "matched_children": 10,
+        "total_children": 10
+      },
+      "contract_persons": 286238
+    },
+    {
+      "cno_2d": "72",
+      "reference_year": 2025,
+      "source_id": "sepe_occupation_pages",
+      "quality": "official_proxy",
+      "children_4d_covered": 14,
+      "demandants": 66475,
+      "demandants_yoy_pct": -10.09,
+      "demandants_yoy_coverage": {
+        "matched_children": 14,
+        "total_children": 14
+      },
+      "unemployed": 41985,
+      "contracts": 91921,
+      "contracts_yoy_pct": -1.53,
+      "contracts_yoy_coverage": {
+        "matched_children": 14,
+        "total_children": 14
+      },
+      "contract_persons": 73677
+    },
+    {
+      "cno_2d": "73",
+      "reference_year": 2025,
+      "source_id": "sepe_occupation_pages",
+      "quality": "official_proxy",
+      "children_4d_covered": 9,
+      "demandants": 38496,
+      "demandants_yoy_pct": -6.76,
+      "demandants_yoy_coverage": {
+        "matched_children": 9,
+        "total_children": 9
+      },
+      "unemployed": 21192,
+      "contracts": 125702,
+      "contracts_yoy_pct": 4.41,
+      "contracts_yoy_coverage": {
+        "matched_children": 9,
+        "total_children": 9
+      },
+      "contract_persons": 84565
+    },
+    {
+      "cno_2d": "74",
+      "reference_year": 2025,
+      "source_id": "sepe_occupation_pages",
+      "quality": "official_proxy",
+      "children_4d_covered": 5,
+      "demandants": 31409,
+      "demandants_yoy_pct": -5.75,
+      "demandants_yoy_coverage": {
+        "matched_children": 5,
+        "total_children": 5
+      },
+      "unemployed": 18715,
+      "contracts": 74542,
+      "contracts_yoy_pct": 4.05,
+      "contracts_yoy_coverage": {
+        "matched_children": 5,
+        "total_children": 5
+      },
+      "contract_persons": 61246
+    },
+    {
+      "cno_2d": "75",
+      "reference_year": 2025,
+      "source_id": "sepe_occupation_pages",
+      "quality": "official_proxy",
+      "children_4d_covered": 6,
+      "demandants": 39294,
+      "demandants_yoy_pct": -7.59,
+      "demandants_yoy_coverage": {
+        "matched_children": 6,
+        "total_children": 6
+      },
+      "unemployed": 22923,
+      "contracts": 81743,
+      "contracts_yoy_pct": 2.64,
+      "contracts_yoy_coverage": {
+        "matched_children": 6,
+        "total_children": 6
+      },
+      "contract_persons": 67238
+    },
+    {
+      "cno_2d": "76",
+      "reference_year": 2025,
+      "source_id": "sepe_occupation_pages",
+      "quality": "official_proxy",
+      "children_4d_covered": 12,
+      "demandants": 12175,
+      "demandants_yoy_pct": -8.61,
+      "demandants_yoy_coverage": {
+        "matched_children": 12,
+        "total_children": 12
+      },
+      "unemployed": 7729,
+      "contracts": 17729,
+      "contracts_yoy_pct": 1.59,
+      "contracts_yoy_coverage": {
+        "matched_children": 12,
+        "total_children": 12
+      },
+      "contract_persons": 13698
+    },
+    {
+      "cno_2d": "77",
+      "reference_year": 2025,
+      "source_id": "sepe_occupation_pages",
+      "quality": "official_proxy",
+      "children_4d_covered": 9,
+      "demandants": 38375,
+      "demandants_yoy_pct": -6.99,
+      "demandants_yoy_coverage": {
+        "matched_children": 9,
+        "total_children": 9
+      },
+      "unemployed": 17955,
+      "contracts": 153447,
+      "contracts_yoy_pct": 1.92,
+      "contracts_yoy_coverage": {
+        "matched_children": 9,
+        "total_children": 9
+      },
+      "contract_persons": 113434
+    },
+    {
+      "cno_2d": "78",
+      "reference_year": 2025,
+      "source_id": "sepe_occupation_pages",
+      "quality": "official_proxy",
+      "children_4d_covered": 15,
+      "demandants": 27321,
+      "demandants_yoy_pct": -10.92,
+      "demandants_yoy_coverage": {
+        "matched_children": 15,
+        "total_children": 15
+      },
+      "unemployed": 15240,
+      "contracts": 187476,
+      "contracts_yoy_pct": -2.72,
+      "contracts_yoy_coverage": {
+        "matched_children": 15,
+        "total_children": 15
+      },
+      "contract_persons": 126281
+    },
+    {
+      "cno_2d": "81",
+      "reference_year": 2025,
+      "source_id": "sepe_occupation_pages",
+      "quality": "official_proxy",
+      "children_4d_covered": 27,
+      "demandants": 59101,
+      "demandants_yoy_pct": -11.81,
+      "demandants_yoy_coverage": {
+        "matched_children": 27,
+        "total_children": 27
+      },
+      "unemployed": 31784,
+      "contracts": 267131,
+      "contracts_yoy_pct": 5.44,
+      "contracts_yoy_coverage": {
+        "matched_children": 27,
+        "total_children": 27
+      },
+      "contract_persons": 145151
+    },
+    {
+      "cno_2d": "82",
+      "reference_year": 2025,
+      "source_id": "sepe_occupation_pages",
+      "quality": "official_proxy",
+      "children_4d_covered": 3,
+      "demandants": 18373,
+      "demandants_yoy_pct": -9.31,
+      "demandants_yoy_coverage": {
+        "matched_children": 3,
+        "total_children": 3
+      },
+      "unemployed": 9653,
+      "contracts": 75505,
+      "contracts_yoy_pct": 4.65,
+      "contracts_yoy_coverage": {
+        "matched_children": 3,
+        "total_children": 3
+      },
+      "contract_persons": 46494
+    },
+    {
+      "cno_2d": "83",
+      "reference_year": 2025,
+      "source_id": "sepe_occupation_pages",
+      "quality": "official_proxy",
+      "children_4d_covered": 8,
+      "demandants": 28573,
+      "demandants_yoy_pct": -6.59,
+      "demandants_yoy_coverage": {
+        "matched_children": 8,
+        "total_children": 8
+      },
+      "unemployed": 14323,
+      "contracts": 167395,
+      "contracts_yoy_pct": 0.74,
+      "contracts_yoy_coverage": {
+        "matched_children": 8,
+        "total_children": 8
+      },
+      "contract_persons": 91044
+    },
+    {
+      "cno_2d": "84",
+      "reference_year": 2025,
+      "source_id": "sepe_occupation_pages",
+      "quality": "official_proxy",
+      "children_4d_covered": 6,
+      "demandants": 73831,
+      "demandants_yoy_pct": -7.72,
+      "demandants_yoy_coverage": {
+        "matched_children": 6,
+        "total_children": 6
+      },
+      "unemployed": 41566,
+      "contracts": 503276,
+      "contracts_yoy_pct": 2.41,
+      "contracts_yoy_coverage": {
+        "matched_children": 6,
+        "total_children": 6
+      },
+      "contract_persons": 327396
+    },
+    {
+      "cno_2d": "91",
+      "reference_year": 2025,
+      "source_id": "sepe_occupation_pages",
+      "quality": "official_proxy",
+      "children_4d_covered": 1,
+      "demandants": 46129,
+      "demandants_yoy_pct": -4.06,
+      "demandants_yoy_coverage": {
+        "matched_children": 1,
+        "total_children": 1
+      },
+      "unemployed": 26492,
+      "contracts": 188252,
+      "contracts_yoy_pct": 25.45,
+      "contracts_yoy_coverage": {
+        "matched_children": 1,
+        "total_children": 1
+      },
+      "contract_persons": 139622
+    },
+    {
+      "cno_2d": "92",
+      "reference_year": 2025,
+      "source_id": "sepe_occupation_pages",
+      "quality": "official_proxy",
+      "children_4d_covered": 5,
+      "demandants": 450489,
+      "demandants_yoy_pct": -8.16,
+      "demandants_yoy_coverage": {
+        "matched_children": 5,
+        "total_children": 5
+      },
+      "unemployed": 270217,
+      "contracts": 1075375,
+      "contracts_yoy_pct": 2.36,
+      "contracts_yoy_coverage": {
+        "matched_children": 5,
+        "total_children": 5
+      },
+      "contract_persons": 590855
+    },
+    {
+      "cno_2d": "93",
+      "reference_year": 2025,
+      "source_id": "sepe_occupation_pages",
+      "quality": "official_proxy",
+      "children_4d_covered": 2,
+      "demandants": 48614,
+      "demandants_yoy_pct": -6.47,
+      "demandants_yoy_coverage": {
+        "matched_children": 2,
+        "total_children": 2
+      },
+      "unemployed": 24784,
+      "contracts": 337818,
+      "contracts_yoy_pct": 0.41,
+      "contracts_yoy_coverage": {
+        "matched_children": 2,
+        "total_children": 2
+      },
+      "contract_persons": 236103
+    },
+    {
+      "cno_2d": "94",
+      "reference_year": 2025,
+      "source_id": "sepe_occupation_pages",
+      "quality": "official_proxy",
+      "children_4d_covered": 10,
+      "demandants": 61374,
+      "demandants_yoy_pct": -3.08,
+      "demandants_yoy_coverage": {
+        "matched_children": 10,
+        "total_children": 10
+      },
+      "unemployed": 33839,
+      "contracts": 387984,
+      "contracts_yoy_pct": 8.58,
+      "contracts_yoy_coverage": {
+        "matched_children": 10,
+        "total_children": 10
+      },
+      "contract_persons": 250200
+    },
+    {
+      "cno_2d": "95",
+      "reference_year": 2025,
+      "source_id": "sepe_occupation_pages",
+      "quality": "official_proxy",
+      "children_4d_covered": 7,
+      "demandants": 140214,
+      "demandants_yoy_pct": -8.54,
+      "demandants_yoy_coverage": {
+        "matched_children": 7,
+        "total_children": 7
+      },
+      "unemployed": 50819,
+      "contracts": 1441574,
+      "contracts_yoy_pct": -3.54,
+      "contracts_yoy_coverage": {
+        "matched_children": 7,
+        "total_children": 7
+      },
+      "contract_persons": 708904
+    },
+    {
+      "cno_2d": "96",
+      "reference_year": 2025,
+      "source_id": "sepe_occupation_pages",
+      "quality": "official_proxy",
+      "children_4d_covered": 3,
+      "demandants": 135283,
+      "demandants_yoy_pct": -11.09,
+      "demandants_yoy_coverage": {
+        "matched_children": 3,
+        "total_children": 3
+      },
+      "unemployed": 73951,
+      "contracts": 289516,
+      "contracts_yoy_pct": 1.73,
+      "contracts_yoy_coverage": {
+        "matched_children": 3,
+        "total_children": 3
+      },
+      "contract_persons": 237088
+    },
+    {
+      "cno_2d": "97",
+      "reference_year": 2025,
+      "source_id": "sepe_occupation_pages",
+      "quality": "official_proxy",
+      "children_4d_covered": 1,
+      "demandants": 265199,
+      "demandants_yoy_pct": -8.38,
+      "demandants_yoy_coverage": {
+        "matched_children": 1,
+        "total_children": 1
+      },
+      "unemployed": 151363,
+      "contracts": 1084500,
+      "contracts_yoy_pct": 4.18,
+      "contracts_yoy_coverage": {
+        "matched_children": 1,
+        "total_children": 1
+      },
+      "contract_persons": 477865
+    },
+    {
+      "cno_2d": "98",
+      "reference_year": 2025,
+      "source_id": "sepe_occupation_pages",
+      "quality": "official_proxy",
+      "children_4d_covered": 3,
+      "demandants": 128783,
+      "demandants_yoy_pct": -4.07,
+      "demandants_yoy_coverage": {
+        "matched_children": 3,
+        "total_children": 3
+      },
+      "unemployed": 76728,
+      "contracts": 469238,
+      "contracts_yoy_pct": 10.16,
+      "contracts_yoy_coverage": {
+        "matched_children": 3,
+        "total_children": 3
+      },
+      "contract_persons": 275219
+    }
+  ]
+}

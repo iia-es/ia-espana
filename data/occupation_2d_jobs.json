@@ -1,0 +1,553 @@
+{
+  "occupations": [
+    {
+      "cno_2d": "11",
+      "label": "Miembros del poder ejecutivo y de los cuerpos legislativos; directivos de la Administraci\u00f3n P\u00fablica y organizaciones de inter\u00e9s social; directores ejecutivos",
+      "label_full": "11 Miembros del poder ejecutivo y de los cuerpos legislativos; directivos de la Administraci\u00f3n P\u00fablica y organizaciones de inter\u00e9s social; directores ejecutivos",
+      "jobs_stock": 44856,
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official"
+    },
+    {
+      "cno_2d": "12",
+      "label": "Directores de departamentos administrativos y comerciales",
+      "label_full": "12 Directores de departamentos administrativos y comerciales",
+      "jobs_stock": 260019,
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official"
+    },
+    {
+      "cno_2d": "13",
+      "label": "Directores de producci\u00f3n y operaciones",
+      "label_full": "13 Directores de producci\u00f3n y operaciones",
+      "jobs_stock": 185998,
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official"
+    },
+    {
+      "cno_2d": "14",
+      "label": "Directores y gerentes de empresas de alojamiento, restauraci\u00f3n y comercio",
+      "label_full": "14 Directores y gerentes de empresas de alojamiento, restauraci\u00f3n y comercio",
+      "jobs_stock": 138148,
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official"
+    },
+    {
+      "cno_2d": "15",
+      "label": "Directores y gerentes de otras empresas de servicios no clasificados bajo otros ep\u00edgrafes",
+      "label_full": "15 Directores y gerentes de otras empresas de servicios no clasificados bajo otros ep\u00edgrafes",
+      "jobs_stock": 105734,
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official"
+    },
+    {
+      "cno_2d": "21",
+      "label": "Profesionales de la salud",
+      "label_full": "21 Profesionales de la salud",
+      "jobs_stock": 788808,
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official"
+    },
+    {
+      "cno_2d": "22",
+      "label": "Profesionales de la ense\u00f1anza infantil, primaria, secundaria y postsecundaria",
+      "label_full": "22 Profesionales de la ense\u00f1anza infantil, primaria, secundaria y postsecundaria",
+      "jobs_stock": 983857,
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official"
+    },
+    {
+      "cno_2d": "23",
+      "label": "Otros profesionales de la ense\u00f1anza",
+      "label_full": "23 Otros profesionales de la ense\u00f1anza",
+      "jobs_stock": 260120,
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official"
+    },
+    {
+      "cno_2d": "24",
+      "label": "Profesionales de la ciencias f\u00edsicas, qu\u00edmicas, matem\u00e1ticas y de las ingenier\u00edas",
+      "label_full": "24 Profesionales de la ciencias f\u00edsicas, qu\u00edmicas, matem\u00e1ticas y de las ingenier\u00edas",
+      "jobs_stock": 463755,
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official"
+    },
+    {
+      "cno_2d": "25",
+      "label": "Profesionales en derecho",
+      "label_full": "25 Profesionales en derecho",
+      "jobs_stock": 188636,
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official"
+    },
+    {
+      "cno_2d": "26",
+      "label": "Especialistas en organizaci\u00f3n de la Administraci\u00f3n P\u00fablica y de las empresas y en la comercializaci\u00f3n",
+      "label_full": "26 Especialistas en organizaci\u00f3n de la Administraci\u00f3n P\u00fablica y de las empresas y en la comercializaci\u00f3n",
+      "jobs_stock": 460257,
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official"
+    },
+    {
+      "cno_2d": "27",
+      "label": "Profesionales de las tecnolog\u00edas de la informaci\u00f3n",
+      "label_full": "27 Profesionales de las tecnolog\u00edas de la informaci\u00f3n",
+      "jobs_stock": 218852,
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official"
+    },
+    {
+      "cno_2d": "28",
+      "label": "Profesionales en ciencias sociales",
+      "label_full": "28 Profesionales en ciencias sociales",
+      "jobs_stock": 213696,
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official"
+    },
+    {
+      "cno_2d": "29",
+      "label": "Profesionales de la cultura y el espect\u00e1culo",
+      "label_full": "29 Profesionales de la cultura y el espect\u00e1culo",
+      "jobs_stock": 179980,
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official"
+    },
+    {
+      "cno_2d": "31",
+      "label": "T\u00e9cnicos de las ciencias y de las ingenier\u00edas",
+      "label_full": "31 T\u00e9cnicos de las ciencias y de las ingenier\u00edas",
+      "jobs_stock": 323422,
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official"
+    },
+    {
+      "cno_2d": "32",
+      "label": "Supervisores en ingenier\u00eda de minas, de industrias manufactureras y de la construcci\u00f3n",
+      "label_full": "32 Supervisores en ingenier\u00eda de minas, de industrias manufactureras y de la construcci\u00f3n",
+      "jobs_stock": 84435,
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official"
+    },
+    {
+      "cno_2d": "33",
+      "label": "T\u00e9cnicos sanitarios y profesionales de las terapias alternativas",
+      "label_full": "33 T\u00e9cnicos sanitarios y profesionales de las terapias alternativas",
+      "jobs_stock": 146688,
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official"
+    },
+    {
+      "cno_2d": "34",
+      "label": "Profesionales de apoyo en finanzas y matem\u00e1ticas",
+      "label_full": "34 Profesionales de apoyo en finanzas y matem\u00e1ticas",
+      "jobs_stock": 21132,
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official"
+    },
+    {
+      "cno_2d": "35",
+      "label": "Representantes, agentes comerciales y afines",
+      "label_full": "35 Representantes, agentes comerciales y afines",
+      "jobs_stock": 554643,
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official"
+    },
+    {
+      "cno_2d": "36",
+      "label": "Profesionales de apoyo a la gesti\u00f3n administrativa; t\u00e9cnicos de las fuerzas y cuerpos de seguridad",
+      "label_full": "36 Profesionales de apoyo a la gesti\u00f3n administrativa; t\u00e9cnicos de las fuerzas y cuerpos de seguridad",
+      "jobs_stock": 338239,
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official"
+    },
+    {
+      "cno_2d": "37",
+      "label": "Profesionales de apoyo de servicios jur\u00eddicos, sociales, culturales, deportivos y afines",
+      "label_full": "37 Profesionales de apoyo de servicios jur\u00eddicos, sociales, culturales, deportivos y afines",
+      "jobs_stock": 374310,
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official"
+    },
+    {
+      "cno_2d": "38",
+      "label": "T\u00e9cnicos de las tecnolog\u00edas de la informaci\u00f3n y las comunicaciones (TIC)",
+      "label_full": "38 T\u00e9cnicos de las tecnolog\u00edas de la informaci\u00f3n y las comunicaciones (TIC)",
+      "jobs_stock": 240847,
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official"
+    },
+    {
+      "cno_2d": "41",
+      "label": "Empleados en servicios contables, financieros, y de servicios de apoyo a la producci\u00f3n y al transporte",
+      "label_full": "41 Empleados en servicios contables, financieros, y de servicios de apoyo a la producci\u00f3n y al transporte",
+      "jobs_stock": 404662,
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official"
+    },
+    {
+      "cno_2d": "42",
+      "label": "Empleados de bibliotecas, servicios de correos y afines",
+      "label_full": "42 Empleados de bibliotecas, servicios de correos y afines",
+      "jobs_stock": 75759,
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official"
+    },
+    {
+      "cno_2d": "43",
+      "label": "Otros empleados administrativos sin tareas de atenci\u00f3n al p\u00fablico",
+      "label_full": "43 Otros empleados administrativos sin tareas de atenci\u00f3n al p\u00fablico",
+      "jobs_stock": 612657,
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official"
+    },
+    {
+      "cno_2d": "44",
+      "label": "Empleados de agencias de viajes, recepcionistas y telefonistas; empleados de ventanilla y afines (excepto taquilleros)",
+      "label_full": "44 Empleados de agencias de viajes, recepcionistas y telefonistas; empleados de ventanilla y afines (excepto taquilleros)",
+      "jobs_stock": 287771,
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official"
+    },
+    {
+      "cno_2d": "45",
+      "label": "Empleados administrativos con tareas de atenci\u00f3n al p\u00fablico no clasificados bajo otros ep\u00edgrafes",
+      "label_full": "45 Empleados administrativos con tareas de atenci\u00f3n al p\u00fablico no clasificados bajo otros ep\u00edgrafes",
+      "jobs_stock": 550220,
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official"
+    },
+    {
+      "cno_2d": "50",
+      "label": "Camareros y cocineros propietarios",
+      "label_full": "50 Camareros y cocineros propietarios",
+      "jobs_stock": 288175,
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official"
+    },
+    {
+      "cno_2d": "51",
+      "label": "Trabajadores asalariados de los servicios de restauraci\u00f3n",
+      "label_full": "51 Trabajadores asalariados de los servicios de restauraci\u00f3n",
+      "jobs_stock": 869975,
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official"
+    },
+    {
+      "cno_2d": "52",
+      "label": "Dependientes en tiendas y almacenes",
+      "label_full": "52 Dependientes en tiendas y almacenes",
+      "jobs_stock": 976858,
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official"
+    },
+    {
+      "cno_2d": "53",
+      "label": "Comerciantes propietarios de tiendas",
+      "label_full": "53 Comerciantes propietarios de tiendas",
+      "jobs_stock": 343407,
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official"
+    },
+    {
+      "cno_2d": "54",
+      "label": "Vendedores (excepto en tiendas y almacenes)",
+      "label_full": "54 Vendedores (excepto en tiendas y almacenes)",
+      "jobs_stock": 164327,
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official"
+    },
+    {
+      "cno_2d": "55",
+      "label": "Cajeros y taquilleros (excepto bancos)",
+      "label_full": "55 Cajeros y taquilleros (excepto bancos)",
+      "jobs_stock": 116861,
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official"
+    },
+    {
+      "cno_2d": "56",
+      "label": "Trabajadores de los cuidados a las personas en servicios de salud",
+      "label_full": "56 Trabajadores de los cuidados a las personas en servicios de salud",
+      "jobs_stock": 512777,
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official"
+    },
+    {
+      "cno_2d": "57",
+      "label": "Otros trabajadores de los cuidados a las personas",
+      "label_full": "57 Otros trabajadores de los cuidados a las personas",
+      "jobs_stock": 191803,
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official"
+    },
+    {
+      "cno_2d": "58",
+      "label": "Trabajadores de los servicios personales",
+      "label_full": "58 Trabajadores de los servicios personales",
+      "jobs_stock": 422242,
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official"
+    },
+    {
+      "cno_2d": "59",
+      "label": "Trabajadores de los servicios de protecci\u00f3n y seguridad",
+      "label_full": "59 Trabajadores de los servicios de protecci\u00f3n y seguridad",
+      "jobs_stock": 463767,
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official"
+    },
+    {
+      "cno_2d": "61",
+      "label": "Trabajadores cualificados en actividades agr\u00edcolas",
+      "label_full": "61 Trabajadores cualificados en actividades agr\u00edcolas",
+      "jobs_stock": 260928,
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official"
+    },
+    {
+      "cno_2d": "62",
+      "label": "Trabajadores cualificados en actividades ganaderas, (incluidas av\u00edcolas, ap\u00edcolas y similares)",
+      "label_full": "62 Trabajadores cualificados en actividades ganaderas, (incluidas av\u00edcolas, ap\u00edcolas y similares)",
+      "jobs_stock": 80731,
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official"
+    },
+    {
+      "cno_2d": "63",
+      "label": "Trabajadores cualificados en actividades agropecuarias mixtas",
+      "label_full": "63 Trabajadores cualificados en actividades agropecuarias mixtas",
+      "jobs_stock": 22749,
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official"
+    },
+    {
+      "cno_2d": "64",
+      "label": "Trabajadores cualificados en actividades forestales, pesqueras y cineg\u00e9ticas",
+      "label_full": "64 Trabajadores cualificados en actividades forestales, pesqueras y cineg\u00e9ticas",
+      "jobs_stock": 37402,
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official"
+    },
+    {
+      "cno_2d": "71",
+      "label": "Trabajadores en obras estructurales de construcci\u00f3n y afines",
+      "label_full": "71 Trabajadores en obras estructurales de construcci\u00f3n y afines",
+      "jobs_stock": 603737,
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official"
+    },
+    {
+      "cno_2d": "72",
+      "label": "Trabajadores de acabado de construcciones e instalaciones (excepto electricistas), pintores y afines",
+      "label_full": "72 Trabajadores de acabado de construcciones e instalaciones (excepto electricistas), pintores y afines",
+      "jobs_stock": 231225,
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official"
+    },
+    {
+      "cno_2d": "73",
+      "label": "Soldadores, chapistas, montadores de estructuras met\u00e1licas, herreros, elaboradores de herramientas y afines",
+      "label_full": "73 Soldadores, chapistas, montadores de estructuras met\u00e1licas, herreros, elaboradores de herramientas y afines",
+      "jobs_stock": 225019,
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official"
+    },
+    {
+      "cno_2d": "74",
+      "label": "Mec\u00e1nicos y ajustadores de maquinaria",
+      "label_full": "74 Mec\u00e1nicos y ajustadores de maquinaria",
+      "jobs_stock": 292556,
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official"
+    },
+    {
+      "cno_2d": "75",
+      "label": "Trabajadores especializados en electricidad y electrotecnolog\u00eda",
+      "label_full": "75 Trabajadores especializados en electricidad y electrotecnolog\u00eda",
+      "jobs_stock": 277163,
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official"
+    },
+    {
+      "cno_2d": "76",
+      "label": "Mec\u00e1nicos de precisi\u00f3n en metales, ceramistas, vidrieros, artesanos y trabajadores de artes gr\u00e1ficas",
+      "label_full": "76 Mec\u00e1nicos de precisi\u00f3n en metales, ceramistas, vidrieros, artesanos y trabajadores de artes gr\u00e1ficas",
+      "jobs_stock": 66344,
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official"
+    },
+    {
+      "cno_2d": "77",
+      "label": "Trabajadores de la industria de la alimentaci\u00f3n, bebidas y tabaco",
+      "label_full": "77 Trabajadores de la industria de la alimentaci\u00f3n, bebidas y tabaco",
+      "jobs_stock": 194663,
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official"
+    },
+    {
+      "cno_2d": "78",
+      "label": "Trabajadores de la madera, textil, confecci\u00f3n, piel, cuero, calzado y otros operarios en oficios",
+      "label_full": "78 Trabajadores de la madera, textil, confecci\u00f3n, piel, cuero, calzado y otros operarios en oficios",
+      "jobs_stock": 140020,
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official"
+    },
+    {
+      "cno_2d": "81",
+      "label": "Operadores de instalaciones y maquinaria fijas",
+      "label_full": "81 Operadores de instalaciones y maquinaria fijas",
+      "jobs_stock": 286699,
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official"
+    },
+    {
+      "cno_2d": "82",
+      "label": "Montadores y ensambladores en f\u00e1bricas",
+      "label_full": "82 Montadores y ensambladores en f\u00e1bricas",
+      "jobs_stock": 63005,
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official"
+    },
+    {
+      "cno_2d": "83",
+      "label": "Maquinistas de locomotoras, operadores de maquinaria agr\u00edcola y de equipos pesados m\u00f3viles, y marineros",
+      "label_full": "83 Maquinistas de locomotoras, operadores de maquinaria agr\u00edcola y de equipos pesados m\u00f3viles, y marineros",
+      "jobs_stock": 128680,
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official"
+    },
+    {
+      "cno_2d": "84",
+      "label": "Conductores de veh\u00edculos para el transporte urbano o por carretera",
+      "label_full": "84 Conductores de veh\u00edculos para el transporte urbano o por carretera",
+      "jobs_stock": 714511,
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official"
+    },
+    {
+      "cno_2d": "91",
+      "label": "Empleados dom\u00e9sticos",
+      "label_full": "91 Empleados dom\u00e9sticos",
+      "jobs_stock": 331053,
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official"
+    },
+    {
+      "cno_2d": "92",
+      "label": "Otro personal de limpieza",
+      "label_full": "92 Otro personal de limpieza",
+      "jobs_stock": 700640,
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official"
+    },
+    {
+      "cno_2d": "93",
+      "label": "Ayudantes de preparaci\u00f3n de alimentos",
+      "label_full": "93 Ayudantes de preparaci\u00f3n de alimentos",
+      "jobs_stock": 118024,
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official"
+    },
+    {
+      "cno_2d": "94",
+      "label": "Recogedores de residuos urbanos, vendedores callejeros y otras ocupaciones elementales en servicios",
+      "label_full": "94 Recogedores de residuos urbanos, vendedores callejeros y otras ocupaciones elementales en servicios",
+      "jobs_stock": 179236,
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official"
+    },
+    {
+      "cno_2d": "95",
+      "label": "Peones agrarios, forestales y de la pesca",
+      "label_full": "95 Peones agrarios, forestales y de la pesca",
+      "jobs_stock": 413799,
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official"
+    },
+    {
+      "cno_2d": "96",
+      "label": "Peones de la construcci\u00f3n y de la miner\u00eda",
+      "label_full": "96 Peones de la construcci\u00f3n y de la miner\u00eda",
+      "jobs_stock": 108168,
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official"
+    },
+    {
+      "cno_2d": "97",
+      "label": "Peones de las industrias manufactureras",
+      "label_full": "97 Peones de las industrias manufactureras",
+      "jobs_stock": 391936,
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official"
+    },
+    {
+      "cno_2d": "98",
+      "label": "Peones del transporte, descargadores y reponedores",
+      "label_full": "98 Peones del transporte, descargadores y reponedores",
+      "jobs_stock": 254824,
+      "reference_year": 2023,
+      "source_id": "ine_employment_69953",
+      "quality": "official"
+    }
+  ]
+}

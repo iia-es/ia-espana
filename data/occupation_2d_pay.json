@@ -1,0 +1,2082 @@
+{
+  "source_primary": "ine_salary_70672",
+  "source_proxy": "ine_salary_66244",
+  "occupations": [
+    {
+      "cno_2d": "00",
+      "label": "Ocupaciones militares",
+      "label_full": "00 Ocupaciones militares",
+      "reference_year": 2018,
+      "source_id": "ine_salary_70672",
+      "quality": "official_but_old",
+      "mean_annual_gross": null,
+      "mean_low_reliability": false,
+      "percentiles_annual_gross": {
+        "p10": {
+          "value": null,
+          "low_reliability": false
+        },
+        "p25": {
+          "value": null,
+          "low_reliability": false
+        },
+        "p50": {
+          "value": null,
+          "low_reliability": false
+        },
+        "p75": {
+          "value": null,
+          "low_reliability": false
+        },
+        "p90": {
+          "value": null,
+          "low_reliability": false
+        }
+      }
+    },
+    {
+      "cno_2d": "11",
+      "label": "Miembros del poder ejecutivo y de los cuerpos legislativos; directivos de la Administraci\u00f3n P\u00fablica y organizaciones de inter\u00e9s social; directores ejecutivos",
+      "label_full": "11 Miembros del poder ejecutivo y de los cuerpos legislativos; directivos de la Administraci\u00f3n P\u00fablica y organizaciones de inter\u00e9s social; directores ejecutivos",
+      "reference_year": 2018,
+      "source_id": "ine_salary_70672",
+      "quality": "official_but_old",
+      "mean_annual_gross": 74549.6,
+      "mean_low_reliability": true,
+      "percentiles_annual_gross": {
+        "p10": {
+          "value": 15168.48,
+          "low_reliability": true
+        },
+        "p25": {
+          "value": 30000,
+          "low_reliability": true
+        },
+        "p50": {
+          "value": 46605.88,
+          "low_reliability": true
+        },
+        "p75": {
+          "value": 84037.76,
+          "low_reliability": true
+        },
+        "p90": {
+          "value": 155000,
+          "low_reliability": true
+        }
+      }
+    },
+    {
+      "cno_2d": "12",
+      "label": "Directores de departamentos administrativos y comerciales",
+      "label_full": "12 Directores de departamentos administrativos y comerciales",
+      "reference_year": 2018,
+      "source_id": "ine_salary_70672",
+      "quality": "official_but_old",
+      "mean_annual_gross": 54362.5,
+      "mean_low_reliability": false,
+      "percentiles_annual_gross": {
+        "p10": {
+          "value": 24454.97,
+          "low_reliability": false
+        },
+        "p25": {
+          "value": 35342.06,
+          "low_reliability": false
+        },
+        "p50": {
+          "value": 50601.18,
+          "low_reliability": false
+        },
+        "p75": {
+          "value": 68954.78,
+          "low_reliability": false
+        },
+        "p90": {
+          "value": 85538.23,
+          "low_reliability": false
+        }
+      }
+    },
+    {
+      "cno_2d": "13",
+      "label": "Directores de producci\u00f3n y operaciones",
+      "label_full": "13 Directores de producci\u00f3n y operaciones",
+      "reference_year": 2018,
+      "source_id": "ine_salary_70672",
+      "quality": "official_but_old",
+      "mean_annual_gross": 55551.93,
+      "mean_low_reliability": false,
+      "percentiles_annual_gross": {
+        "p10": {
+          "value": 20839.16,
+          "low_reliability": false
+        },
+        "p25": {
+          "value": 32059.3,
+          "low_reliability": false
+        },
+        "p50": {
+          "value": 51168.84,
+          "low_reliability": false
+        },
+        "p75": {
+          "value": 69874.13,
+          "low_reliability": false
+        },
+        "p90": {
+          "value": 86099.61,
+          "low_reliability": false
+        }
+      }
+    },
+    {
+      "cno_2d": "14",
+      "label": "Directores y gerentes de empresas de alojamiento, restauraci\u00f3n y comercio",
+      "label_full": "14 Directores y gerentes de empresas de alojamiento, restauraci\u00f3n y comercio",
+      "reference_year": 2018,
+      "source_id": "ine_salary_70672",
+      "quality": "official_but_old",
+      "mean_annual_gross": 41926.71,
+      "mean_low_reliability": true,
+      "percentiles_annual_gross": {
+        "p10": {
+          "value": 14580.6,
+          "low_reliability": true
+        },
+        "p25": {
+          "value": 17292.45,
+          "low_reliability": true
+        },
+        "p50": {
+          "value": 28373.76,
+          "low_reliability": true
+        },
+        "p75": {
+          "value": 60266.3,
+          "low_reliability": true
+        },
+        "p90": {
+          "value": 81087.22,
+          "low_reliability": true
+        }
+      }
+    },
+    {
+      "cno_2d": "15",
+      "label": "Directores y gerentes de otras empresas de servicios no clasificados bajo otros ep\u00edgrafes",
+      "label_full": "15 Directores y gerentes de otras empresas de servicios no clasificados bajo otros ep\u00edgrafes",
+      "reference_year": 2018,
+      "source_id": "ine_salary_70672",
+      "quality": "official_but_old",
+      "mean_annual_gross": 35069.77,
+      "mean_low_reliability": true,
+      "percentiles_annual_gross": {
+        "p10": {
+          "value": 9501.32,
+          "low_reliability": true
+        },
+        "p25": {
+          "value": 15847.6,
+          "low_reliability": true
+        },
+        "p50": {
+          "value": 27017.2,
+          "low_reliability": true
+        },
+        "p75": {
+          "value": 49682.8,
+          "low_reliability": true
+        },
+        "p90": {
+          "value": 69197.45,
+          "low_reliability": true
+        }
+      }
+    },
+    {
+      "cno_2d": "21",
+      "label": "Profesionales de la salud",
+      "label_full": "21 Profesionales de la salud",
+      "reference_year": 2018,
+      "source_id": "ine_salary_70672",
+      "quality": "official_but_old",
+      "mean_annual_gross": 39713.11,
+      "mean_low_reliability": false,
+      "percentiles_annual_gross": {
+        "p10": {
+          "value": 16219.08,
+          "low_reliability": false
+        },
+        "p25": {
+          "value": 26156,
+          "low_reliability": false
+        },
+        "p50": {
+          "value": 37178.76,
+          "low_reliability": false
+        },
+        "p75": {
+          "value": 50951.78,
+          "low_reliability": false
+        },
+        "p90": {
+          "value": 68285.74,
+          "low_reliability": false
+        }
+      }
+    },
+    {
+      "cno_2d": "22",
+      "label": "Profesionales de la ense\u00f1anza infantil, primaria, secundaria y postsecundaria",
+      "label_full": "22 Profesionales de la ense\u00f1anza infantil, primaria, secundaria y postsecundaria",
+      "reference_year": 2018,
+      "source_id": "ine_salary_70672",
+      "quality": "official_but_old",
+      "mean_annual_gross": 27498.06,
+      "mean_low_reliability": false,
+      "percentiles_annual_gross": {
+        "p10": {
+          "value": 8150.34,
+          "low_reliability": false
+        },
+        "p25": {
+          "value": 18326.39,
+          "low_reliability": false
+        },
+        "p50": {
+          "value": 30414.23,
+          "low_reliability": false
+        },
+        "p75": {
+          "value": 35063.66,
+          "low_reliability": false
+        },
+        "p90": {
+          "value": 41019.05,
+          "low_reliability": false
+        }
+      }
+    },
+    {
+      "cno_2d": "23",
+      "label": "Otros profesionales de la ense\u00f1anza",
+      "label_full": "23 Otros profesionales de la ense\u00f1anza",
+      "reference_year": 2018,
+      "source_id": "ine_salary_70672",
+      "quality": "official_but_old",
+      "mean_annual_gross": 15286.41,
+      "mean_low_reliability": false,
+      "percentiles_annual_gross": {
+        "p10": {
+          "value": 3012.75,
+          "low_reliability": false
+        },
+        "p25": {
+          "value": 5858.97,
+          "low_reliability": false
+        },
+        "p50": {
+          "value": 12399.58,
+          "low_reliability": false
+        },
+        "p75": {
+          "value": 22883.51,
+          "low_reliability": false
+        },
+        "p90": {
+          "value": 31983.41,
+          "low_reliability": false
+        }
+      }
+    },
+    {
+      "cno_2d": "24",
+      "label": "Profesionales de la ciencias f\u00edsicas, qu\u00edmicas, matem\u00e1ticas y de las ingenier\u00edas",
+      "label_full": "24 Profesionales de la ciencias f\u00edsicas, qu\u00edmicas, matem\u00e1ticas y de las ingenier\u00edas",
+      "reference_year": 2018,
+      "source_id": "ine_salary_70672",
+      "quality": "official_but_old",
+      "mean_annual_gross": 38628.53,
+      "mean_low_reliability": false,
+      "percentiles_annual_gross": {
+        "p10": {
+          "value": 17844.06,
+          "low_reliability": false
+        },
+        "p25": {
+          "value": 25085,
+          "low_reliability": false
+        },
+        "p50": {
+          "value": 34921.15,
+          "low_reliability": false
+        },
+        "p75": {
+          "value": 48869.98,
+          "low_reliability": false
+        },
+        "p90": {
+          "value": 65073.74,
+          "low_reliability": false
+        }
+      }
+    },
+    {
+      "cno_2d": "25",
+      "label": "Profesionales en derecho",
+      "label_full": "25 Profesionales en derecho",
+      "reference_year": 2018,
+      "source_id": "ine_salary_70672",
+      "quality": "official_but_old",
+      "mean_annual_gross": 40679.95,
+      "mean_low_reliability": false,
+      "percentiles_annual_gross": {
+        "p10": {
+          "value": 16444.5,
+          "low_reliability": false
+        },
+        "p25": {
+          "value": 25309.2,
+          "low_reliability": false
+        },
+        "p50": {
+          "value": 38098.51,
+          "low_reliability": false
+        },
+        "p75": {
+          "value": 52665.79,
+          "low_reliability": false
+        },
+        "p90": {
+          "value": 69438.47,
+          "low_reliability": false
+        }
+      }
+    },
+    {
+      "cno_2d": "26",
+      "label": "Especialistas en organizaci\u00f3n de la Administraci\u00f3n P\u00fablica y de las empresas y en la comercializaci\u00f3n",
+      "label_full": "26 Especialistas en organizaci\u00f3n de la Administraci\u00f3n P\u00fablica y de las empresas y en la comercializaci\u00f3n",
+      "reference_year": 2018,
+      "source_id": "ine_salary_70672",
+      "quality": "official_but_old",
+      "mean_annual_gross": 40569.83,
+      "mean_low_reliability": false,
+      "percentiles_annual_gross": {
+        "p10": {
+          "value": 18523.8,
+          "low_reliability": false
+        },
+        "p25": {
+          "value": 25972.72,
+          "low_reliability": false
+        },
+        "p50": {
+          "value": 37045.75,
+          "low_reliability": false
+        },
+        "p75": {
+          "value": 51442.33,
+          "low_reliability": false
+        },
+        "p90": {
+          "value": 66702.46,
+          "low_reliability": false
+        }
+      }
+    },
+    {
+      "cno_2d": "27",
+      "label": "Profesionales de las tecnolog\u00edas de la informaci\u00f3n",
+      "label_full": "27 Profesionales de las tecnolog\u00edas de la informaci\u00f3n",
+      "reference_year": 2018,
+      "source_id": "ine_salary_70672",
+      "quality": "official_but_old",
+      "mean_annual_gross": 39318.16,
+      "mean_low_reliability": false,
+      "percentiles_annual_gross": {
+        "p10": {
+          "value": 19313.74,
+          "low_reliability": false
+        },
+        "p25": {
+          "value": 27000,
+          "low_reliability": false
+        },
+        "p50": {
+          "value": 36000,
+          "low_reliability": false
+        },
+        "p75": {
+          "value": 49608.76,
+          "low_reliability": false
+        },
+        "p90": {
+          "value": 63061.11,
+          "low_reliability": false
+        }
+      }
+    },
+    {
+      "cno_2d": "28",
+      "label": "Profesionales en ciencias sociales",
+      "label_full": "28 Profesionales en ciencias sociales",
+      "reference_year": 2018,
+      "source_id": "ine_salary_70672",
+      "quality": "official_but_old",
+      "mean_annual_gross": 26024.71,
+      "mean_low_reliability": false,
+      "percentiles_annual_gross": {
+        "p10": {
+          "value": 11450.11,
+          "low_reliability": false
+        },
+        "p25": {
+          "value": 18435.13,
+          "low_reliability": false
+        },
+        "p50": {
+          "value": 23815.53,
+          "low_reliability": false
+        },
+        "p75": {
+          "value": 33080.16,
+          "low_reliability": false
+        },
+        "p90": {
+          "value": 41854.95,
+          "low_reliability": false
+        }
+      }
+    },
+    {
+      "cno_2d": "29",
+      "label": "Profesionales de la cultura y el espect\u00e1culo",
+      "label_full": "29 Profesionales de la cultura y el espect\u00e1culo",
+      "reference_year": 2018,
+      "source_id": "ine_salary_70672",
+      "quality": "official_but_old",
+      "mean_annual_gross": 32542.19,
+      "mean_low_reliability": false,
+      "percentiles_annual_gross": {
+        "p10": {
+          "value": 11626.78,
+          "low_reliability": false
+        },
+        "p25": {
+          "value": 18944.9,
+          "low_reliability": false
+        },
+        "p50": {
+          "value": 28851.52,
+          "low_reliability": false
+        },
+        "p75": {
+          "value": 43216.81,
+          "low_reliability": false
+        },
+        "p90": {
+          "value": 57223.72,
+          "low_reliability": false
+        }
+      }
+    },
+    {
+      "cno_2d": "31",
+      "label": "T\u00e9cnicos de las ciencias y de las ingenier\u00edas",
+      "label_full": "31 T\u00e9cnicos de las ciencias y de las ingenier\u00edas",
+      "reference_year": 2018,
+      "source_id": "ine_salary_70672",
+      "quality": "official_but_old",
+      "mean_annual_gross": 31872.85,
+      "mean_low_reliability": false,
+      "percentiles_annual_gross": {
+        "p10": {
+          "value": 16457.67,
+          "low_reliability": false
+        },
+        "p25": {
+          "value": 21345.83,
+          "low_reliability": false
+        },
+        "p50": {
+          "value": 28532.24,
+          "low_reliability": false
+        },
+        "p75": {
+          "value": 38684.43,
+          "low_reliability": false
+        },
+        "p90": {
+          "value": 51920.68,
+          "low_reliability": false
+        }
+      }
+    },
+    {
+      "cno_2d": "32",
+      "label": "Supervisores en ingenier\u00eda de minas, de industrias manufactureras y de la construcci\u00f3n",
+      "label_full": "32 Supervisores en ingenier\u00eda de minas, de industrias manufactureras y de la construcci\u00f3n",
+      "reference_year": 2018,
+      "source_id": "ine_salary_70672",
+      "quality": "official_but_old",
+      "mean_annual_gross": 38150.32,
+      "mean_low_reliability": false,
+      "percentiles_annual_gross": {
+        "p10": {
+          "value": 20187.82,
+          "low_reliability": false
+        },
+        "p25": {
+          "value": 26882.5,
+          "low_reliability": false
+        },
+        "p50": {
+          "value": 35158.17,
+          "low_reliability": false
+        },
+        "p75": {
+          "value": 46435.15,
+          "low_reliability": false
+        },
+        "p90": {
+          "value": 59490.52,
+          "low_reliability": false
+        }
+      }
+    },
+    {
+      "cno_2d": "33",
+      "label": "T\u00e9cnicos sanitarios y profesionales de las terapias alternativas",
+      "label_full": "33 T\u00e9cnicos sanitarios y profesionales de las terapias alternativas",
+      "reference_year": 2018,
+      "source_id": "ine_salary_70672",
+      "quality": "official_but_old",
+      "mean_annual_gross": 22335.25,
+      "mean_low_reliability": false,
+      "percentiles_annual_gross": {
+        "p10": {
+          "value": 9739.42,
+          "low_reliability": false
+        },
+        "p25": {
+          "value": 15288.56,
+          "low_reliability": false
+        },
+        "p50": {
+          "value": 21657.97,
+          "low_reliability": false
+        },
+        "p75": {
+          "value": 27742.95,
+          "low_reliability": false
+        },
+        "p90": {
+          "value": 34947.48,
+          "low_reliability": false
+        }
+      }
+    },
+    {
+      "cno_2d": "34",
+      "label": "Profesionales de apoyo en finanzas y matem\u00e1ticas",
+      "label_full": "34 Profesionales de apoyo en finanzas y matem\u00e1ticas",
+      "reference_year": 2018,
+      "source_id": "ine_salary_70672",
+      "quality": "official_but_old",
+      "mean_annual_gross": 43010.73,
+      "mean_low_reliability": false,
+      "percentiles_annual_gross": {
+        "p10": {
+          "value": 22062.55,
+          "low_reliability": false
+        },
+        "p25": {
+          "value": 31350,
+          "low_reliability": false
+        },
+        "p50": {
+          "value": 41616.43,
+          "low_reliability": false
+        },
+        "p75": {
+          "value": 52873.2,
+          "low_reliability": false
+        },
+        "p90": {
+          "value": 64279.51,
+          "low_reliability": false
+        }
+      }
+    },
+    {
+      "cno_2d": "35",
+      "label": "Representantes, agentes comerciales y afines",
+      "label_full": "35 Representantes, agentes comerciales y afines",
+      "reference_year": 2018,
+      "source_id": "ine_salary_70672",
+      "quality": "official_but_old",
+      "mean_annual_gross": 33389.09,
+      "mean_low_reliability": false,
+      "percentiles_annual_gross": {
+        "p10": {
+          "value": 12836.79,
+          "low_reliability": false
+        },
+        "p25": {
+          "value": 18809.17,
+          "low_reliability": false
+        },
+        "p50": {
+          "value": 29443.95,
+          "low_reliability": false
+        },
+        "p75": {
+          "value": 43679.14,
+          "low_reliability": false
+        },
+        "p90": {
+          "value": 60324.65,
+          "low_reliability": false
+        }
+      }
+    },
+    {
+      "cno_2d": "36",
+      "label": "Profesionales de apoyo a la gesti\u00f3n administrativa; t\u00e9cnicos de las fuerzas y cuerpos de seguridad",
+      "label_full": "36 Profesionales de apoyo a la gesti\u00f3n administrativa; t\u00e9cnicos de las fuerzas y cuerpos de seguridad",
+      "reference_year": 2018,
+      "source_id": "ine_salary_70672",
+      "quality": "official_but_old",
+      "mean_annual_gross": 28876.54,
+      "mean_low_reliability": false,
+      "percentiles_annual_gross": {
+        "p10": {
+          "value": 14643.15,
+          "low_reliability": false
+        },
+        "p25": {
+          "value": 19935.37,
+          "low_reliability": false
+        },
+        "p50": {
+          "value": 27104.04,
+          "low_reliability": false
+        },
+        "p75": {
+          "value": 34854.3,
+          "low_reliability": false
+        },
+        "p90": {
+          "value": 45139.84,
+          "low_reliability": false
+        }
+      }
+    },
+    {
+      "cno_2d": "37",
+      "label": "Profesionales de apoyo de servicios jur\u00eddicos, sociales, culturales, deportivos y afines",
+      "label_full": "37 Profesionales de apoyo de servicios jur\u00eddicos, sociales, culturales, deportivos y afines",
+      "reference_year": 2018,
+      "source_id": "ine_salary_70672",
+      "quality": "official_but_old",
+      "mean_annual_gross": 16189.89,
+      "mean_low_reliability": false,
+      "percentiles_annual_gross": {
+        "p10": {
+          "value": 3092.42,
+          "low_reliability": false
+        },
+        "p25": {
+          "value": 6197.74,
+          "low_reliability": false
+        },
+        "p50": {
+          "value": 13200,
+          "low_reliability": false
+        },
+        "p75": {
+          "value": 22335.29,
+          "low_reliability": false
+        },
+        "p90": {
+          "value": 31506.79,
+          "low_reliability": false
+        }
+      }
+    },
+    {
+      "cno_2d": "38",
+      "label": "T\u00e9cnicos de las tecnolog\u00edas de la informaci\u00f3n y las comunicaciones (TIC)",
+      "label_full": "38 T\u00e9cnicos de las tecnolog\u00edas de la informaci\u00f3n y las comunicaciones (TIC)",
+      "reference_year": 2018,
+      "source_id": "ine_salary_70672",
+      "quality": "official_but_old",
+      "mean_annual_gross": 28349.09,
+      "mean_low_reliability": false,
+      "percentiles_annual_gross": {
+        "p10": {
+          "value": 13250.01,
+          "low_reliability": false
+        },
+        "p25": {
+          "value": 18252.93,
+          "low_reliability": false
+        },
+        "p50": {
+          "value": 26101.8,
+          "low_reliability": false
+        },
+        "p75": {
+          "value": 36491.19,
+          "low_reliability": false
+        },
+        "p90": {
+          "value": 45999.96,
+          "low_reliability": false
+        }
+      }
+    },
+    {
+      "cno_2d": "41",
+      "label": "Empleados en servicios contables, financieros, y de servicios de apoyo a la producci\u00f3n y al transporte",
+      "label_full": "41 Empleados en servicios contables, financieros, y de servicios de apoyo a la producci\u00f3n y al transporte",
+      "reference_year": 2018,
+      "source_id": "ine_salary_70672",
+      "quality": "official_but_old",
+      "mean_annual_gross": 27066.55,
+      "mean_low_reliability": false,
+      "percentiles_annual_gross": {
+        "p10": {
+          "value": 12207.17,
+          "low_reliability": false
+        },
+        "p25": {
+          "value": 17524.29,
+          "low_reliability": false
+        },
+        "p50": {
+          "value": 24074.22,
+          "low_reliability": false
+        },
+        "p75": {
+          "value": 33265.84,
+          "low_reliability": false
+        },
+        "p90": {
+          "value": 46683.98,
+          "low_reliability": false
+        }
+      }
+    },
+    {
+      "cno_2d": "42",
+      "label": "Empleados de bibliotecas, servicios de correos y afines",
+      "label_full": "42 Empleados de bibliotecas, servicios de correos y afines",
+      "reference_year": 2018,
+      "source_id": "ine_salary_70672",
+      "quality": "official_but_old",
+      "mean_annual_gross": 22338.31,
+      "mean_low_reliability": false,
+      "percentiles_annual_gross": {
+        "p10": {
+          "value": 9654.71,
+          "low_reliability": false
+        },
+        "p25": {
+          "value": 19179.86,
+          "low_reliability": false
+        },
+        "p50": {
+          "value": 21277.36,
+          "low_reliability": false
+        },
+        "p75": {
+          "value": 25278.49,
+          "low_reliability": false
+        },
+        "p90": {
+          "value": 34862.44,
+          "low_reliability": false
+        }
+      }
+    },
+    {
+      "cno_2d": "43",
+      "label": "Otros empleados administrativos sin tareas de atenci\u00f3n al p\u00fablico",
+      "label_full": "43 Otros empleados administrativos sin tareas de atenci\u00f3n al p\u00fablico",
+      "reference_year": 2018,
+      "source_id": "ine_salary_70672",
+      "quality": "official_but_old",
+      "mean_annual_gross": 20194.82,
+      "mean_low_reliability": false,
+      "percentiles_annual_gross": {
+        "p10": {
+          "value": 8395.99,
+          "low_reliability": false
+        },
+        "p25": {
+          "value": 13380,
+          "low_reliability": false
+        },
+        "p50": {
+          "value": 19334.27,
+          "low_reliability": false
+        },
+        "p75": {
+          "value": 25241.96,
+          "low_reliability": false
+        },
+        "p90": {
+          "value": 32111.2,
+          "low_reliability": false
+        }
+      }
+    },
+    {
+      "cno_2d": "44",
+      "label": "Empleados de agencias de viajes, recepcionistas y telefonistas; empleados de ventanilla y afines (excepto taquilleros)",
+      "label_full": "44 Empleados de agencias de viajes, recepcionistas y telefonistas; empleados de ventanilla y afines (excepto taquilleros)",
+      "reference_year": 2018,
+      "source_id": "ine_salary_70672",
+      "quality": "official_but_old",
+      "mean_annual_gross": 19080.11,
+      "mean_low_reliability": false,
+      "percentiles_annual_gross": {
+        "p10": {
+          "value": 9494.66,
+          "low_reliability": false
+        },
+        "p25": {
+          "value": 12950.52,
+          "low_reliability": false
+        },
+        "p50": {
+          "value": 17016.87,
+          "low_reliability": false
+        },
+        "p75": {
+          "value": 22737,
+          "low_reliability": false
+        },
+        "p90": {
+          "value": 30443.71,
+          "low_reliability": false
+        }
+      }
+    },
+    {
+      "cno_2d": "45",
+      "label": "Empleados administrativos con tareas de atenci\u00f3n al p\u00fablico no clasificados bajo otros ep\u00edgrafes",
+      "label_full": "45 Empleados administrativos con tareas de atenci\u00f3n al p\u00fablico no clasificados bajo otros ep\u00edgrafes",
+      "reference_year": 2018,
+      "source_id": "ine_salary_70672",
+      "quality": "official_but_old",
+      "mean_annual_gross": 19378.5,
+      "mean_low_reliability": false,
+      "percentiles_annual_gross": {
+        "p10": {
+          "value": 8439.36,
+          "low_reliability": false
+        },
+        "p25": {
+          "value": 13349.85,
+          "low_reliability": false
+        },
+        "p50": {
+          "value": 18491.5,
+          "low_reliability": false
+        },
+        "p75": {
+          "value": 24264.95,
+          "low_reliability": false
+        },
+        "p90": {
+          "value": 29809.34,
+          "low_reliability": false
+        }
+      }
+    },
+    {
+      "cno_2d": "50",
+      "label": "Camareros y cocineros propietarios",
+      "label_full": "50 Camareros y cocineros propietarios",
+      "reference_year": 2018,
+      "source_id": "ine_salary_70672",
+      "quality": "official_but_old",
+      "mean_annual_gross": null,
+      "mean_low_reliability": false,
+      "percentiles_annual_gross": {
+        "p10": {
+          "value": null,
+          "low_reliability": false
+        },
+        "p25": {
+          "value": null,
+          "low_reliability": false
+        },
+        "p50": {
+          "value": null,
+          "low_reliability": false
+        },
+        "p75": {
+          "value": null,
+          "low_reliability": false
+        },
+        "p90": {
+          "value": null,
+          "low_reliability": false
+        }
+      }
+    },
+    {
+      "cno_2d": "51",
+      "label": "Trabajadores asalariados de los servicios de restauraci\u00f3n",
+      "label_full": "51 Trabajadores asalariados de los servicios de restauraci\u00f3n",
+      "reference_year": 2018,
+      "source_id": "ine_salary_70672",
+      "quality": "official_but_old",
+      "mean_annual_gross": 13907.89,
+      "mean_low_reliability": false,
+      "percentiles_annual_gross": {
+        "p10": {
+          "value": 4180.36,
+          "low_reliability": false
+        },
+        "p25": {
+          "value": 8756.79,
+          "low_reliability": false
+        },
+        "p50": {
+          "value": 14616.85,
+          "low_reliability": false
+        },
+        "p75": {
+          "value": 18101.13,
+          "low_reliability": false
+        },
+        "p90": {
+          "value": 21904.74,
+          "low_reliability": false
+        }
+      }
+    },
+    {
+      "cno_2d": "52",
+      "label": "Dependientes en tiendas y almacenes",
+      "label_full": "52 Dependientes en tiendas y almacenes",
+      "reference_year": 2018,
+      "source_id": "ine_salary_70672",
+      "quality": "official_but_old",
+      "mean_annual_gross": 16668.61,
+      "mean_low_reliability": false,
+      "percentiles_annual_gross": {
+        "p10": {
+          "value": 7844.77,
+          "low_reliability": false
+        },
+        "p25": {
+          "value": 11590.14,
+          "low_reliability": false
+        },
+        "p50": {
+          "value": 15018.83,
+          "low_reliability": false
+        },
+        "p75": {
+          "value": 18945.91,
+          "low_reliability": false
+        },
+        "p90": {
+          "value": 25429.25,
+          "low_reliability": false
+        }
+      }
+    },
+    {
+      "cno_2d": "53",
+      "label": "Comerciantes propietarios de tiendas",
+      "label_full": "53 Comerciantes propietarios de tiendas",
+      "reference_year": 2018,
+      "source_id": "ine_salary_70672",
+      "quality": "official_but_old",
+      "mean_annual_gross": null,
+      "mean_low_reliability": false,
+      "percentiles_annual_gross": {
+        "p10": {
+          "value": null,
+          "low_reliability": false
+        },
+        "p25": {
+          "value": null,
+          "low_reliability": false
+        },
+        "p50": {
+          "value": null,
+          "low_reliability": false
+        },
+        "p75": {
+          "value": null,
+          "low_reliability": false
+        },
+        "p90": {
+          "value": null,
+          "low_reliability": false
+        }
+      }
+    },
+    {
+      "cno_2d": "54",
+      "label": "Vendedores (excepto en tiendas y almacenes)",
+      "label_full": "54 Vendedores (excepto en tiendas y almacenes)",
+      "reference_year": 2018,
+      "source_id": "ine_salary_70672",
+      "quality": "official_but_old",
+      "mean_annual_gross": 16391.48,
+      "mean_low_reliability": false,
+      "percentiles_annual_gross": {
+        "p10": {
+          "value": 8321.21,
+          "low_reliability": false
+        },
+        "p25": {
+          "value": 12255.76,
+          "low_reliability": false
+        },
+        "p50": {
+          "value": 15440.32,
+          "low_reliability": false
+        },
+        "p75": {
+          "value": 19527.96,
+          "low_reliability": false
+        },
+        "p90": {
+          "value": 25382.75,
+          "low_reliability": false
+        }
+      }
+    },
+    {
+      "cno_2d": "55",
+      "label": "Cajeros y taquilleros (excepto bancos)",
+      "label_full": "55 Cajeros y taquilleros (excepto bancos)",
+      "reference_year": 2018,
+      "source_id": "ine_salary_70672",
+      "quality": "official_but_old",
+      "mean_annual_gross": 16784.98,
+      "mean_low_reliability": false,
+      "percentiles_annual_gross": {
+        "p10": {
+          "value": 9317.23,
+          "low_reliability": false
+        },
+        "p25": {
+          "value": 12285.4,
+          "low_reliability": false
+        },
+        "p50": {
+          "value": 16197.77,
+          "low_reliability": false
+        },
+        "p75": {
+          "value": 20286.65,
+          "low_reliability": false
+        },
+        "p90": {
+          "value": 25202.06,
+          "low_reliability": false
+        }
+      }
+    },
+    {
+      "cno_2d": "56",
+      "label": "Trabajadores de los cuidados a las personas en servicios de salud",
+      "label_full": "56 Trabajadores de los cuidados a las personas en servicios de salud",
+      "reference_year": 2018,
+      "source_id": "ine_salary_70672",
+      "quality": "official_but_old",
+      "mean_annual_gross": 18197.58,
+      "mean_low_reliability": false,
+      "percentiles_annual_gross": {
+        "p10": {
+          "value": 10215.37,
+          "low_reliability": false
+        },
+        "p25": {
+          "value": 14006,
+          "low_reliability": false
+        },
+        "p50": {
+          "value": 17614.51,
+          "low_reliability": false
+        },
+        "p75": {
+          "value": 22370.28,
+          "low_reliability": false
+        },
+        "p90": {
+          "value": 26375.2,
+          "low_reliability": false
+        }
+      }
+    },
+    {
+      "cno_2d": "57",
+      "label": "Otros trabajadores de los cuidados a las personas",
+      "label_full": "57 Otros trabajadores de los cuidados a las personas",
+      "reference_year": 2018,
+      "source_id": "ine_salary_70672",
+      "quality": "official_but_old",
+      "mean_annual_gross": 9124.24,
+      "mean_low_reliability": false,
+      "percentiles_annual_gross": {
+        "p10": {
+          "value": 3364.38,
+          "low_reliability": false
+        },
+        "p25": {
+          "value": 4815.59,
+          "low_reliability": false
+        },
+        "p50": {
+          "value": 7340.86,
+          "low_reliability": false
+        },
+        "p75": {
+          "value": 12349.42,
+          "low_reliability": false
+        },
+        "p90": {
+          "value": 16463.43,
+          "low_reliability": false
+        }
+      }
+    },
+    {
+      "cno_2d": "58",
+      "label": "Trabajadores de los servicios personales",
+      "label_full": "58 Trabajadores de los servicios personales",
+      "reference_year": 2018,
+      "source_id": "ine_salary_70672",
+      "quality": "official_but_old",
+      "mean_annual_gross": 17640.66,
+      "mean_low_reliability": false,
+      "percentiles_annual_gross": {
+        "p10": {
+          "value": 6827.24,
+          "low_reliability": false
+        },
+        "p25": {
+          "value": 10838.54,
+          "low_reliability": false
+        },
+        "p50": {
+          "value": 14304.32,
+          "low_reliability": false
+        },
+        "p75": {
+          "value": 22709.19,
+          "low_reliability": false
+        },
+        "p90": {
+          "value": 31207.27,
+          "low_reliability": false
+        }
+      }
+    },
+    {
+      "cno_2d": "59",
+      "label": "Trabajadores de los servicios de protecci\u00f3n y seguridad",
+      "label_full": "59 Trabajadores de los servicios de protecci\u00f3n y seguridad",
+      "reference_year": 2018,
+      "source_id": "ine_salary_70672",
+      "quality": "official_but_old",
+      "mean_annual_gross": 28467.92,
+      "mean_low_reliability": false,
+      "percentiles_annual_gross": {
+        "p10": {
+          "value": 12388.2,
+          "low_reliability": false
+        },
+        "p25": {
+          "value": 18809.36,
+          "low_reliability": false
+        },
+        "p50": {
+          "value": 26539.29,
+          "low_reliability": false
+        },
+        "p75": {
+          "value": 38919.88,
+          "low_reliability": false
+        },
+        "p90": {
+          "value": 44621.34,
+          "low_reliability": false
+        }
+      }
+    },
+    {
+      "cno_2d": "61",
+      "label": "Trabajadores cualificados en actividades agr\u00edcolas",
+      "label_full": "61 Trabajadores cualificados en actividades agr\u00edcolas",
+      "reference_year": 2018,
+      "source_id": "ine_salary_70672",
+      "quality": "official_but_old",
+      "mean_annual_gross": 19311.92,
+      "mean_low_reliability": false,
+      "percentiles_annual_gross": {
+        "p10": {
+          "value": 9461.5,
+          "low_reliability": false
+        },
+        "p25": {
+          "value": 13853.42,
+          "low_reliability": false
+        },
+        "p50": {
+          "value": 18740.81,
+          "low_reliability": false
+        },
+        "p75": {
+          "value": 23498.92,
+          "low_reliability": false
+        },
+        "p90": {
+          "value": 27898.11,
+          "low_reliability": false
+        }
+      }
+    },
+    {
+      "cno_2d": "62",
+      "label": "Trabajadores cualificados en actividades ganaderas, (incluidas av\u00edcolas, ap\u00edcolas y similares)",
+      "label_full": "62 Trabajadores cualificados en actividades ganaderas, (incluidas av\u00edcolas, ap\u00edcolas y similares)",
+      "reference_year": 2018,
+      "source_id": "ine_salary_70672",
+      "quality": "official_but_old",
+      "mean_annual_gross": null,
+      "mean_low_reliability": false,
+      "percentiles_annual_gross": {
+        "p10": {
+          "value": null,
+          "low_reliability": false
+        },
+        "p25": {
+          "value": null,
+          "low_reliability": false
+        },
+        "p50": {
+          "value": null,
+          "low_reliability": false
+        },
+        "p75": {
+          "value": null,
+          "low_reliability": false
+        },
+        "p90": {
+          "value": null,
+          "low_reliability": false
+        }
+      }
+    },
+    {
+      "cno_2d": "63",
+      "label": "Trabajadores cualificados en actividades agropecuarias mixtas",
+      "label_full": "63 Trabajadores cualificados en actividades agropecuarias mixtas",
+      "reference_year": 2018,
+      "source_id": "ine_salary_70672",
+      "quality": "official_but_old",
+      "mean_annual_gross": null,
+      "mean_low_reliability": false,
+      "percentiles_annual_gross": {
+        "p10": {
+          "value": null,
+          "low_reliability": false
+        },
+        "p25": {
+          "value": null,
+          "low_reliability": false
+        },
+        "p50": {
+          "value": null,
+          "low_reliability": false
+        },
+        "p75": {
+          "value": null,
+          "low_reliability": false
+        },
+        "p90": {
+          "value": null,
+          "low_reliability": false
+        }
+      }
+    },
+    {
+      "cno_2d": "64",
+      "label": "Trabajadores cualificados en actividades forestales, pesqueras y cineg\u00e9ticas",
+      "label_full": "64 Trabajadores cualificados en actividades forestales, pesqueras y cineg\u00e9ticas",
+      "reference_year": 2018,
+      "source_id": "ine_salary_70672",
+      "quality": "official_but_old",
+      "mean_annual_gross": null,
+      "mean_low_reliability": false,
+      "percentiles_annual_gross": {
+        "p10": {
+          "value": null,
+          "low_reliability": false
+        },
+        "p25": {
+          "value": null,
+          "low_reliability": false
+        },
+        "p50": {
+          "value": null,
+          "low_reliability": false
+        },
+        "p75": {
+          "value": null,
+          "low_reliability": false
+        },
+        "p90": {
+          "value": null,
+          "low_reliability": false
+        }
+      }
+    },
+    {
+      "cno_2d": "71",
+      "label": "Trabajadores en obras estructurales de construcci\u00f3n y afines",
+      "label_full": "71 Trabajadores en obras estructurales de construcci\u00f3n y afines",
+      "reference_year": 2018,
+      "source_id": "ine_salary_70672",
+      "quality": "official_but_old",
+      "mean_annual_gross": 21087.17,
+      "mean_low_reliability": false,
+      "percentiles_annual_gross": {
+        "p10": {
+          "value": 14533.92,
+          "low_reliability": false
+        },
+        "p25": {
+          "value": 17371.06,
+          "low_reliability": false
+        },
+        "p50": {
+          "value": 19938.25,
+          "low_reliability": false
+        },
+        "p75": {
+          "value": 24105.04,
+          "low_reliability": false
+        },
+        "p90": {
+          "value": 29347.54,
+          "low_reliability": false
+        }
+      }
+    },
+    {
+      "cno_2d": "72",
+      "label": "Trabajadores de acabado de construcciones e instalaciones (excepto electricistas), pintores y afines",
+      "label_full": "72 Trabajadores de acabado de construcciones e instalaciones (excepto electricistas), pintores y afines",
+      "reference_year": 2018,
+      "source_id": "ine_salary_70672",
+      "quality": "official_but_old",
+      "mean_annual_gross": 20141.43,
+      "mean_low_reliability": false,
+      "percentiles_annual_gross": {
+        "p10": {
+          "value": 12502.92,
+          "low_reliability": false
+        },
+        "p25": {
+          "value": 16590.38,
+          "low_reliability": false
+        },
+        "p50": {
+          "value": 19030.09,
+          "low_reliability": false
+        },
+        "p75": {
+          "value": 23307.81,
+          "low_reliability": false
+        },
+        "p90": {
+          "value": 28402.85,
+          "low_reliability": false
+        }
+      }
+    },
+    {
+      "cno_2d": "73",
+      "label": "Soldadores, chapistas, montadores de estructuras met\u00e1licas, herreros, elaboradores de herramientas y afines",
+      "label_full": "73 Soldadores, chapistas, montadores de estructuras met\u00e1licas, herreros, elaboradores de herramientas y afines",
+      "reference_year": 2018,
+      "source_id": "ine_salary_70672",
+      "quality": "official_but_old",
+      "mean_annual_gross": 25656.9,
+      "mean_low_reliability": false,
+      "percentiles_annual_gross": {
+        "p10": {
+          "value": 16787.49,
+          "low_reliability": false
+        },
+        "p25": {
+          "value": 19374.99,
+          "low_reliability": false
+        },
+        "p50": {
+          "value": 23670.56,
+          "low_reliability": false
+        },
+        "p75": {
+          "value": 29877,
+          "low_reliability": false
+        },
+        "p90": {
+          "value": 37760.99,
+          "low_reliability": false
+        }
+      }
+    },
+    {
+      "cno_2d": "74",
+      "label": "Mec\u00e1nicos y ajustadores de maquinaria",
+      "label_full": "74 Mec\u00e1nicos y ajustadores de maquinaria",
+      "reference_year": 2018,
+      "source_id": "ine_salary_70672",
+      "quality": "official_but_old",
+      "mean_annual_gross": 26087.24,
+      "mean_low_reliability": false,
+      "percentiles_annual_gross": {
+        "p10": {
+          "value": 14756.57,
+          "low_reliability": false
+        },
+        "p25": {
+          "value": 18133.56,
+          "low_reliability": false
+        },
+        "p50": {
+          "value": 23429.11,
+          "low_reliability": false
+        },
+        "p75": {
+          "value": 32299.42,
+          "low_reliability": false
+        },
+        "p90": {
+          "value": 41708.8,
+          "low_reliability": false
+        }
+      }
+    },
+    {
+      "cno_2d": "75",
+      "label": "Trabajadores especializados en electricidad y electrotecnolog\u00eda",
+      "label_full": "75 Trabajadores especializados en electricidad y electrotecnolog\u00eda",
+      "reference_year": 2018,
+      "source_id": "ine_salary_70672",
+      "quality": "official_but_old",
+      "mean_annual_gross": 25074.09,
+      "mean_low_reliability": false,
+      "percentiles_annual_gross": {
+        "p10": {
+          "value": 14576.11,
+          "low_reliability": false
+        },
+        "p25": {
+          "value": 18311.37,
+          "low_reliability": false
+        },
+        "p50": {
+          "value": 22521.79,
+          "low_reliability": false
+        },
+        "p75": {
+          "value": 29269.79,
+          "low_reliability": false
+        },
+        "p90": {
+          "value": 39001.05,
+          "low_reliability": false
+        }
+      }
+    },
+    {
+      "cno_2d": "76",
+      "label": "Mec\u00e1nicos de precisi\u00f3n en metales, ceramistas, vidrieros, artesanos y trabajadores de artes gr\u00e1ficas",
+      "label_full": "76 Mec\u00e1nicos de precisi\u00f3n en metales, ceramistas, vidrieros, artesanos y trabajadores de artes gr\u00e1ficas",
+      "reference_year": 2018,
+      "source_id": "ine_salary_70672",
+      "quality": "official_but_old",
+      "mean_annual_gross": 22249.26,
+      "mean_low_reliability": false,
+      "percentiles_annual_gross": {
+        "p10": {
+          "value": 12908.75,
+          "low_reliability": false
+        },
+        "p25": {
+          "value": 16087.17,
+          "low_reliability": false
+        },
+        "p50": {
+          "value": 20668.8,
+          "low_reliability": false
+        },
+        "p75": {
+          "value": 27027.69,
+          "low_reliability": false
+        },
+        "p90": {
+          "value": 34123.41,
+          "low_reliability": false
+        }
+      }
+    },
+    {
+      "cno_2d": "77",
+      "label": "Trabajadores de la industria de la alimentaci\u00f3n, bebidas y tabaco",
+      "label_full": "77 Trabajadores de la industria de la alimentaci\u00f3n, bebidas y tabaco",
+      "reference_year": 2018,
+      "source_id": "ine_salary_70672",
+      "quality": "official_but_old",
+      "mean_annual_gross": 21581.28,
+      "mean_low_reliability": false,
+      "percentiles_annual_gross": {
+        "p10": {
+          "value": 12089.95,
+          "low_reliability": false
+        },
+        "p25": {
+          "value": 15217.63,
+          "low_reliability": false
+        },
+        "p50": {
+          "value": 18843.34,
+          "low_reliability": false
+        },
+        "p75": {
+          "value": 25151.62,
+          "low_reliability": false
+        },
+        "p90": {
+          "value": 33957.16,
+          "low_reliability": false
+        }
+      }
+    },
+    {
+      "cno_2d": "78",
+      "label": "Trabajadores de la madera, textil, confecci\u00f3n, piel, cuero, calzado y otros operarios en oficios",
+      "label_full": "78 Trabajadores de la madera, textil, confecci\u00f3n, piel, cuero, calzado y otros operarios en oficios",
+      "reference_year": 2018,
+      "source_id": "ine_salary_70672",
+      "quality": "official_but_old",
+      "mean_annual_gross": 17961.77,
+      "mean_low_reliability": false,
+      "percentiles_annual_gross": {
+        "p10": {
+          "value": 10368.62,
+          "low_reliability": false
+        },
+        "p25": {
+          "value": 13684.36,
+          "low_reliability": false
+        },
+        "p50": {
+          "value": 16715.57,
+          "low_reliability": false
+        },
+        "p75": {
+          "value": 21041.68,
+          "low_reliability": false
+        },
+        "p90": {
+          "value": 26039.94,
+          "low_reliability": false
+        }
+      }
+    },
+    {
+      "cno_2d": "81",
+      "label": "Operadores de instalaciones y maquinaria fijas",
+      "label_full": "81 Operadores de instalaciones y maquinaria fijas",
+      "reference_year": 2018,
+      "source_id": "ine_salary_70672",
+      "quality": "official_but_old",
+      "mean_annual_gross": 26032.43,
+      "mean_low_reliability": false,
+      "percentiles_annual_gross": {
+        "p10": {
+          "value": 13714.62,
+          "low_reliability": false
+        },
+        "p25": {
+          "value": 17992.57,
+          "low_reliability": false
+        },
+        "p50": {
+          "value": 24126.35,
+          "low_reliability": false
+        },
+        "p75": {
+          "value": 32280.69,
+          "low_reliability": false
+        },
+        "p90": {
+          "value": 41524,
+          "low_reliability": false
+        }
+      }
+    },
+    {
+      "cno_2d": "82",
+      "label": "Montadores y ensambladores en f\u00e1bricas",
+      "label_full": "82 Montadores y ensambladores en f\u00e1bricas",
+      "reference_year": 2018,
+      "source_id": "ine_salary_70672",
+      "quality": "official_but_old",
+      "mean_annual_gross": 26203.33,
+      "mean_low_reliability": false,
+      "percentiles_annual_gross": {
+        "p10": {
+          "value": 15355.2,
+          "low_reliability": false
+        },
+        "p25": {
+          "value": 19613.59,
+          "low_reliability": false
+        },
+        "p50": {
+          "value": 25061.57,
+          "low_reliability": false
+        },
+        "p75": {
+          "value": 31942.94,
+          "low_reliability": false
+        },
+        "p90": {
+          "value": 38482.36,
+          "low_reliability": false
+        }
+      }
+    },
+    {
+      "cno_2d": "83",
+      "label": "Maquinistas de locomotoras, operadores de maquinaria agr\u00edcola y de equipos pesados m\u00f3viles, y marineros",
+      "label_full": "83 Maquinistas de locomotoras, operadores de maquinaria agr\u00edcola y de equipos pesados m\u00f3viles, y marineros",
+      "reference_year": 2018,
+      "source_id": "ine_salary_70672",
+      "quality": "official_but_old",
+      "mean_annual_gross": 27093.21,
+      "mean_low_reliability": false,
+      "percentiles_annual_gross": {
+        "p10": {
+          "value": 15906.67,
+          "low_reliability": false
+        },
+        "p25": {
+          "value": 19213.18,
+          "low_reliability": false
+        },
+        "p50": {
+          "value": 24657.87,
+          "low_reliability": false
+        },
+        "p75": {
+          "value": 32613.59,
+          "low_reliability": false
+        },
+        "p90": {
+          "value": 40978.38,
+          "low_reliability": false
+        }
+      }
+    },
+    {
+      "cno_2d": "84",
+      "label": "Conductores de veh\u00edculos para el transporte urbano o por carretera",
+      "label_full": "84 Conductores de veh\u00edculos para el transporte urbano o por carretera",
+      "reference_year": 2018,
+      "source_id": "ine_salary_70672",
+      "quality": "official_but_old",
+      "mean_annual_gross": 20133.15,
+      "mean_low_reliability": false,
+      "percentiles_annual_gross": {
+        "p10": {
+          "value": 8871.37,
+          "low_reliability": false
+        },
+        "p25": {
+          "value": 14773.09,
+          "low_reliability": false
+        },
+        "p50": {
+          "value": 18961.74,
+          "low_reliability": false
+        },
+        "p75": {
+          "value": 24821,
+          "low_reliability": false
+        },
+        "p90": {
+          "value": 32263.73,
+          "low_reliability": false
+        }
+      }
+    },
+    {
+      "cno_2d": "91",
+      "label": "Empleados dom\u00e9sticos",
+      "label_full": "91 Empleados dom\u00e9sticos",
+      "reference_year": 2018,
+      "source_id": "ine_salary_70672",
+      "quality": "official_but_old",
+      "mean_annual_gross": null,
+      "mean_low_reliability": false,
+      "percentiles_annual_gross": {
+        "p10": {
+          "value": null,
+          "low_reliability": false
+        },
+        "p25": {
+          "value": null,
+          "low_reliability": false
+        },
+        "p50": {
+          "value": null,
+          "low_reliability": false
+        },
+        "p75": {
+          "value": null,
+          "low_reliability": false
+        },
+        "p90": {
+          "value": null,
+          "low_reliability": false
+        }
+      }
+    },
+    {
+      "cno_2d": "92",
+      "label": "Otro personal de limpieza",
+      "label_full": "92 Otro personal de limpieza",
+      "reference_year": 2018,
+      "source_id": "ine_salary_70672",
+      "quality": "official_but_old",
+      "mean_annual_gross": 12041.78,
+      "mean_low_reliability": false,
+      "percentiles_annual_gross": {
+        "p10": {
+          "value": 3558.82,
+          "low_reliability": false
+        },
+        "p25": {
+          "value": 7020.74,
+          "low_reliability": false
+        },
+        "p50": {
+          "value": 11736.63,
+          "low_reliability": false
+        },
+        "p75": {
+          "value": 16542.27,
+          "low_reliability": false
+        },
+        "p90": {
+          "value": 20560.12,
+          "low_reliability": false
+        }
+      }
+    },
+    {
+      "cno_2d": "93",
+      "label": "Ayudantes de preparaci\u00f3n de alimentos",
+      "label_full": "93 Ayudantes de preparaci\u00f3n de alimentos",
+      "reference_year": 2018,
+      "source_id": "ine_salary_70672",
+      "quality": "official_but_old",
+      "mean_annual_gross": 12690.05,
+      "mean_low_reliability": false,
+      "percentiles_annual_gross": {
+        "p10": {
+          "value": 4862.37,
+          "low_reliability": false
+        },
+        "p25": {
+          "value": 7909.71,
+          "low_reliability": false
+        },
+        "p50": {
+          "value": 13091.94,
+          "low_reliability": false
+        },
+        "p75": {
+          "value": 16943.64,
+          "low_reliability": false
+        },
+        "p90": {
+          "value": 19744.88,
+          "low_reliability": false
+        }
+      }
+    },
+    {
+      "cno_2d": "94",
+      "label": "Recogedores de residuos urbanos, vendedores callejeros y otras ocupaciones elementales en servicios",
+      "label_full": "94 Recogedores de residuos urbanos, vendedores callejeros y otras ocupaciones elementales en servicios",
+      "reference_year": 2018,
+      "source_id": "ine_salary_70672",
+      "quality": "official_but_old",
+      "mean_annual_gross": 19464.49,
+      "mean_low_reliability": false,
+      "percentiles_annual_gross": {
+        "p10": {
+          "value": 9501.12,
+          "low_reliability": false
+        },
+        "p25": {
+          "value": 13558.41,
+          "low_reliability": false
+        },
+        "p50": {
+          "value": 18878.31,
+          "low_reliability": false
+        },
+        "p75": {
+          "value": 24428.57,
+          "low_reliability": false
+        },
+        "p90": {
+          "value": 31264.16,
+          "low_reliability": false
+        }
+      }
+    },
+    {
+      "cno_2d": "95",
+      "label": "Peones agrarios, forestales y de la pesca",
+      "label_full": "95 Peones agrarios, forestales y de la pesca",
+      "reference_year": 2018,
+      "source_id": "ine_salary_70672",
+      "quality": "official_but_old",
+      "mean_annual_gross": 16104.02,
+      "mean_low_reliability": true,
+      "percentiles_annual_gross": {
+        "p10": {
+          "value": 9350.97,
+          "low_reliability": true
+        },
+        "p25": {
+          "value": 11058.59,
+          "low_reliability": true
+        },
+        "p50": {
+          "value": 15328.7,
+          "low_reliability": true
+        },
+        "p75": {
+          "value": 19606.25,
+          "low_reliability": true
+        },
+        "p90": {
+          "value": 27248.1,
+          "low_reliability": true
+        }
+      }
+    },
+    {
+      "cno_2d": "96",
+      "label": "Peones de la construcci\u00f3n y de la miner\u00eda",
+      "label_full": "96 Peones de la construcci\u00f3n y de la miner\u00eda",
+      "reference_year": 2018,
+      "source_id": "ine_salary_70672",
+      "quality": "official_but_old",
+      "mean_annual_gross": 18420.68,
+      "mean_low_reliability": false,
+      "percentiles_annual_gross": {
+        "p10": {
+          "value": 10524.38,
+          "low_reliability": false
+        },
+        "p25": {
+          "value": 15835.08,
+          "low_reliability": false
+        },
+        "p50": {
+          "value": 18143.11,
+          "low_reliability": false
+        },
+        "p75": {
+          "value": 21165.23,
+          "low_reliability": false
+        },
+        "p90": {
+          "value": 25250.41,
+          "low_reliability": false
+        }
+      }
+    },
+    {
+      "cno_2d": "97",
+      "label": "Peones de las industrias manufactureras",
+      "label_full": "97 Peones de las industrias manufactureras",
+      "reference_year": 2018,
+      "source_id": "ine_salary_70672",
+      "quality": "official_but_old",
+      "mean_annual_gross": 19507.51,
+      "mean_low_reliability": false,
+      "percentiles_annual_gross": {
+        "p10": {
+          "value": 11098.78,
+          "low_reliability": false
+        },
+        "p25": {
+          "value": 14201.64,
+          "low_reliability": false
+        },
+        "p50": {
+          "value": 17767.82,
+          "low_reliability": false
+        },
+        "p75": {
+          "value": 23448.84,
+          "low_reliability": false
+        },
+        "p90": {
+          "value": 30109,
+          "low_reliability": false
+        }
+      }
+    },
+    {
+      "cno_2d": "98",
+      "label": "Peones del transporte, descargadores y reponedores",
+      "label_full": "98 Peones del transporte, descargadores y reponedores",
+      "reference_year": 2018,
+      "source_id": "ine_salary_70672",
+      "quality": "official_but_old",
+      "mean_annual_gross": 17024.17,
+      "mean_low_reliability": false,
+      "percentiles_annual_gross": {
+        "p10": {
+          "value": 8137.12,
+          "low_reliability": false
+        },
+        "p25": {
+          "value": 12672.11,
+          "low_reliability": false
+        },
+        "p50": {
+          "value": 16215.46,
+          "low_reliability": false
+        },
+        "p75": {
+          "value": 20800.56,
+          "low_reliability": false
+        },
+        "p90": {
+          "value": 26210.67,
+          "low_reliability": false
+        }
+      }
+    }
+  ],
+  "major_group_proxy": [
+    {
+      "major_group_code": "0",
+      "label": "Ocupaciones militares",
+      "label_full": "0 Ocupaciones militares",
+      "reference_year": 2024,
+      "source_id": "ine_salary_66244",
+      "quality": "official_proxy",
+      "mean_monthly_gross": 2735.5
+    },
+    {
+      "major_group_code": "1",
+      "label": "Directores y gerentes",
+      "label_full": "1 Directores y gerentes",
+      "reference_year": 2024,
+      "source_id": "ine_salary_66244",
+      "quality": "official_proxy",
+      "mean_monthly_gross": 4981.6
+    },
+    {
+      "major_group_code": "2",
+      "label": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "label_full": "2 T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "reference_year": 2024,
+      "source_id": "ine_salary_66244",
+      "quality": "official_proxy",
+      "mean_monthly_gross": 3548.4
+    },
+    {
+      "major_group_code": "3",
+      "label": "T\u00e9cnicos; profesionales de apoyo",
+      "label_full": "3 T\u00e9cnicos; profesionales de apoyo",
+      "reference_year": 2024,
+      "source_id": "ine_salary_66244",
+      "quality": "official_proxy",
+      "mean_monthly_gross": 2744.8
+    },
+    {
+      "major_group_code": "4",
+      "label": "Empleados contables, administrativos y otros empleados de oficina",
+      "label_full": "4 Empleados contables, administrativos y otros empleados de oficina",
+      "reference_year": 2024,
+      "source_id": "ine_salary_66244",
+      "quality": "official_proxy",
+      "mean_monthly_gross": 2143.5
+    },
+    {
+      "major_group_code": "5",
+      "label": "Trabajadores de los servicios de restauraci\u00f3n, personales, protecci\u00f3n y vendedores",
+      "label_full": "5 Trabajadores de los servicios de restauraci\u00f3n, personales, protecci\u00f3n y vendedores",
+      "reference_year": 2024,
+      "source_id": "ine_salary_66244",
+      "quality": "official_proxy",
+      "mean_monthly_gross": 1712.3
+    },
+    {
+      "major_group_code": "6",
+      "label": "Trabajadores cualificados en el sector agr\u00edcola, ganadero, forestal y pesquero",
+      "label_full": "6 Trabajadores cualificados en el sector agr\u00edcola, ganadero, forestal y pesquero",
+      "reference_year": 2024,
+      "source_id": "ine_salary_66244",
+      "quality": "official_proxy",
+      "mean_monthly_gross": 1840.1
+    },
+    {
+      "major_group_code": "7",
+      "label": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "label_full": "7 Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "reference_year": 2024,
+      "source_id": "ine_salary_66244",
+      "quality": "official_proxy",
+      "mean_monthly_gross": 2141.4
+    },
+    {
+      "major_group_code": "8",
+      "label": "Operadores de instalaciones y maquinaria, y montadores",
+      "label_full": "8 Operadores de instalaciones y maquinaria, y montadores",
+      "reference_year": 2024,
+      "source_id": "ine_salary_66244",
+      "quality": "official_proxy",
+      "mean_monthly_gross": 2124.1
+    },
+    {
+      "major_group_code": "9",
+      "label": "Ocupaciones elementales",
+      "label_full": "9 Ocupaciones elementales",
+      "reference_year": 2024,
+      "source_id": "ine_salary_66244",
+      "quality": "official_proxy",
+      "mean_monthly_gross": 1467.7
+    }
+  ]
+}

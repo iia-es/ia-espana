@@ -1,0 +1,171 @@
+[
+  {
+    "id": "sepe_occupation_pages",
+    "owner": "SEPE Observatorio de las Ocupaciones",
+    "official_scope": "Spain national official",
+    "geography": "Spain",
+    "granularity": "CNO-11 4d occupation pages",
+    "access": {
+      "type": "html plus post search endpoint",
+      "main_url": "https://www.sepe.es/HomeSepe/que-es-observatorio/informacion-mt-por-ocupacion.html",
+      "search_endpoint": "https://www.sepe.es/HomeSepe/que-es-observatorio/informacion-mt-por-ocupacion/main/04/content/resultados"
+    },
+    "fields": [
+      "annual contracts",
+      "annual and monthly parados or demandantes",
+      "sex and age breakdowns",
+      "geographic distribution",
+      "top contracting sectors",
+      "occupation functions",
+      "included 8-digit CO-SISPE occupations"
+    ],
+    "latest_verified_on": "2026-03-21",
+    "latest_verified_example": "CNO 4412 report index for year 2025",
+    "strengths": [
+      "official occupation-level pages",
+      "good current market signal",
+      "full public browseability"
+    ],
+    "limitations": [
+      "not full employment stock",
+      "not salary source",
+      "trend is not a formal medium-term forecast"
+    ]
+  },
+  {
+    "id": "ine_cno11_notes",
+    "owner": "INE",
+    "official_scope": "Spain national official",
+    "geography": "Spain",
+    "granularity": "CNO-11 definitions and tasks, especially 4d occupation groups",
+    "access": {
+      "type": "pdf",
+      "url": "https://www.ine.es/daco/daco42/clasificaciones/cno11_notas.pdf"
+    },
+    "fields": [
+      "definition",
+      "tasks",
+      "included examples",
+      "excluded related occupations"
+    ],
+    "latest_verified_on": "2026-03-21",
+    "strengths": [
+      "best official textual source",
+      "taxonomy source of truth"
+    ],
+    "limitations": [
+      "no pay",
+      "no employment counts",
+      "no outlook"
+    ]
+  },
+  {
+    "id": "ine_employment_69953",
+    "owner": "INE",
+    "official_scope": "Spain national official",
+    "geography": "Spain",
+    "granularity": "occupation 2d",
+    "access": {
+      "type": "html plus json api",
+      "html_url": "https://www.ine.es/jaxiT3/Tabla.htm?t=69953",
+      "api_url": "https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/69953?tip=AM"
+    },
+    "fields": [
+      "occupied persons",
+      "education level",
+      "professional status",
+      "sex"
+    ],
+    "latest_verified_on": "2026-03-21",
+    "latest_reference_year_in_api": 2023,
+    "strengths": [
+      "official employment stock",
+      "json api",
+      "good for treemap area and education layer"
+    ],
+    "limitations": [
+      "2-digit only in the verified table",
+      "not monthly",
+      "latest verified year is 2023"
+    ]
+  },
+  {
+    "id": "ine_salary_66244",
+    "owner": "INE",
+    "official_scope": "Spain national official",
+    "geography": "Spain",
+    "granularity": "occupation 1d major groups",
+    "access": {
+      "type": "html plus json api",
+      "html_url": "https://www.ine.es/jaxiT3/Tabla.htm?t=66244",
+      "api_url": "https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/66244?tip=AM"
+    },
+    "fields": [
+      "main job gross monthly salary",
+      "salary deciles"
+    ],
+    "latest_verified_on": "2026-03-21",
+    "latest_reference_year_in_api": 2024,
+    "strengths": [
+      "official and recent salary series",
+      "json api"
+    ],
+    "limitations": [
+      "occupation level is only 1 digit in the verified table"
+    ]
+  },
+  {
+    "id": "ine_salary_70672",
+    "owner": "INE",
+    "official_scope": "Spain national official",
+    "geography": "Spain",
+    "granularity": "groups and subgroups of CNO-11, including many 2d groups",
+    "access": {
+      "type": "html plus json api",
+      "html_url": "https://www.ine.es/jaxiT3/Tabla.htm?t=70672",
+      "api_url": "https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/70672?tip=AM"
+    },
+    "fields": [
+      "mean earnings",
+      "percentiles"
+    ],
+    "latest_verified_on": "2026-03-21",
+    "reference_year": 2018,
+    "strengths": [
+      "much richer occupation granularity than the current salary table",
+      "json api"
+    ],
+    "limitations": [
+      "older than the current salary series"
+    ]
+  },
+  {
+    "id": "cedefop_skills_forecast_2025",
+    "owner": "Cedefop",
+    "official_scope": "EU official",
+    "geography": "EU plus country views including Spain",
+    "granularity": "occupation, sector, qualification; exact downloadable granularity pending full dataset request",
+    "access": {
+      "type": "dataset page plus request form plus online tool",
+      "dataset_url": "https://www.cedefop.europa.eu/en/datasets/dataset-skills-forecast",
+      "tool_url": "https://www.cedefop.europa.eu/en/tools/skills-forecast"
+    },
+    "fields": [
+      "employment forecasts",
+      "occupation forecasts",
+      "qualification forecasts"
+    ],
+    "latest_verified_on": "2026-03-21",
+    "edition": "2025",
+    "horizon": "up to 2035",
+    "license": "CC BY 4.0",
+    "strengths": [
+      "best official forward-looking replacement for BLS outlook",
+      "explicit forecast horizon"
+    ],
+    "limitations": [
+      "not Spanish national",
+      "full dataset requires request form"
+    ]
+  }
+]

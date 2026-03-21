@@ -1,0 +1,4024 @@
+{
+  "source_url": "https://www.sepe.es/HomeSepe/que-es-observatorio/informacion-mt-por-ocupacion.html",
+  "grand_group_count": 10,
+  "group_2d_count": 62,
+  "occupation_4d_count": 502,
+  "entries": [
+    {
+      "grand_group_id": "0",
+      "grand_group_name": "Ocupaciones militares",
+      "group_2d_id": "00",
+      "group_2d_name": "Ocupaciones militares",
+      "occupation_4d_id": "0011",
+      "occupation_4d_name": "Oficiales de las fuerzas armadas"
+    },
+    {
+      "grand_group_id": "0",
+      "grand_group_name": "Ocupaciones militares",
+      "group_2d_id": "00",
+      "group_2d_name": "Ocupaciones militares",
+      "occupation_4d_id": "0012",
+      "occupation_4d_name": "Suboficiales de las fuerzas armadas"
+    },
+    {
+      "grand_group_id": "0",
+      "grand_group_name": "Ocupaciones militares",
+      "group_2d_id": "00",
+      "group_2d_name": "Ocupaciones militares",
+      "occupation_4d_id": "0020",
+      "occupation_4d_name": "Tropa y mariner\u00eda de las fuerzas armadas"
+    },
+    {
+      "grand_group_id": "1",
+      "grand_group_name": "Directores y gerentes",
+      "group_2d_id": "11",
+      "group_2d_name": "Miembros del poder ejecutivo y de los cuerpos legislativos; directivos de la Administraci\u00f3n P\u00fablica y organizaciones de inter\u00e9s social; directores ejecutivos",
+      "occupation_4d_id": "1111",
+      "occupation_4d_name": "Miembros del poder ejecutivo (nacional, auton\u00f3mico y local) y del poder legislativo"
+    },
+    {
+      "grand_group_id": "1",
+      "grand_group_name": "Directores y gerentes",
+      "group_2d_id": "11",
+      "group_2d_name": "Miembros del poder ejecutivo y de los cuerpos legislativos; directivos de la Administraci\u00f3n P\u00fablica y organizaciones de inter\u00e9s social; directores ejecutivos",
+      "occupation_4d_id": "1112",
+      "occupation_4d_name": "Personal directivo de la administraci\u00f3n p\u00fablica"
+    },
+    {
+      "grand_group_id": "1",
+      "grand_group_name": "Directores y gerentes",
+      "group_2d_id": "11",
+      "group_2d_name": "Miembros del poder ejecutivo y de los cuerpos legislativos; directivos de la Administraci\u00f3n P\u00fablica y organizaciones de inter\u00e9s social; directores ejecutivos",
+      "occupation_4d_id": "1113",
+      "occupation_4d_name": "Directores de organizaciones de inter\u00e9s social"
+    },
+    {
+      "grand_group_id": "1",
+      "grand_group_name": "Directores y gerentes",
+      "group_2d_id": "11",
+      "group_2d_name": "Miembros del poder ejecutivo y de los cuerpos legislativos; directivos de la Administraci\u00f3n P\u00fablica y organizaciones de inter\u00e9s social; directores ejecutivos",
+      "occupation_4d_id": "1120",
+      "occupation_4d_name": "Directores generales y presidentes ejecutivos"
+    },
+    {
+      "grand_group_id": "1",
+      "grand_group_name": "Directores y gerentes",
+      "group_2d_id": "12",
+      "group_2d_name": "Directores de departamentos administrativos y comerciales",
+      "occupation_4d_id": "1211",
+      "occupation_4d_name": "Directores financieros"
+    },
+    {
+      "grand_group_id": "1",
+      "grand_group_name": "Directores y gerentes",
+      "group_2d_id": "12",
+      "group_2d_name": "Directores de departamentos administrativos y comerciales",
+      "occupation_4d_id": "1212",
+      "occupation_4d_name": "Directores de recursos humanos"
+    },
+    {
+      "grand_group_id": "1",
+      "grand_group_name": "Directores y gerentes",
+      "group_2d_id": "12",
+      "group_2d_name": "Directores de departamentos administrativos y comerciales",
+      "occupation_4d_id": "1219",
+      "occupation_4d_name": "Directores de pol\u00edticas y planificaci\u00f3n y de otros departamentos administrativos no clasificados bajo otros ep\u00edgrafes"
+    },
+    {
+      "grand_group_id": "1",
+      "grand_group_name": "Directores y gerentes",
+      "group_2d_id": "12",
+      "group_2d_name": "Directores de departamentos administrativos y comerciales",
+      "occupation_4d_id": "1221",
+      "occupation_4d_name": "Directores comerciales y de ventas"
+    },
+    {
+      "grand_group_id": "1",
+      "grand_group_name": "Directores y gerentes",
+      "group_2d_id": "12",
+      "group_2d_name": "Directores de departamentos administrativos y comerciales",
+      "occupation_4d_id": "1222",
+      "occupation_4d_name": "Directores de publicidad y relaciones p\u00fablicas"
+    },
+    {
+      "grand_group_id": "1",
+      "grand_group_name": "Directores y gerentes",
+      "group_2d_id": "12",
+      "group_2d_name": "Directores de departamentos administrativos y comerciales",
+      "occupation_4d_id": "1223",
+      "occupation_4d_name": "Directores de investigaci\u00f3n y desarrollo"
+    },
+    {
+      "grand_group_id": "1",
+      "grand_group_name": "Directores y gerentes",
+      "group_2d_id": "13",
+      "group_2d_name": "Directores de producci\u00f3n y operaciones",
+      "occupation_4d_id": "1311",
+      "occupation_4d_name": "Directores de producci\u00f3n de explotaciones agropecuarias y forestales"
+    },
+    {
+      "grand_group_id": "1",
+      "grand_group_name": "Directores y gerentes",
+      "group_2d_id": "13",
+      "group_2d_name": "Directores de producci\u00f3n y operaciones",
+      "occupation_4d_id": "1312",
+      "occupation_4d_name": "Directores de producci\u00f3n de explotaciones pesqueras y acu\u00edcolas"
+    },
+    {
+      "grand_group_id": "1",
+      "grand_group_name": "Directores y gerentes",
+      "group_2d_id": "13",
+      "group_2d_name": "Directores de producci\u00f3n y operaciones",
+      "occupation_4d_id": "1313",
+      "occupation_4d_name": "Directores de industrias manufactureras"
+    },
+    {
+      "grand_group_id": "1",
+      "grand_group_name": "Directores y gerentes",
+      "group_2d_id": "13",
+      "group_2d_name": "Directores de producci\u00f3n y operaciones",
+      "occupation_4d_id": "1314",
+      "occupation_4d_name": "Directores de explotaciones mineras"
+    },
+    {
+      "grand_group_id": "1",
+      "grand_group_name": "Directores y gerentes",
+      "group_2d_id": "13",
+      "group_2d_name": "Directores de producci\u00f3n y operaciones",
+      "occupation_4d_id": "1315",
+      "occupation_4d_name": "Directores de empresas de abastecimiento, transporte, distribuci\u00f3n y afines"
+    },
+    {
+      "grand_group_id": "1",
+      "grand_group_name": "Directores y gerentes",
+      "group_2d_id": "13",
+      "group_2d_name": "Directores de producci\u00f3n y operaciones",
+      "occupation_4d_id": "1316",
+      "occupation_4d_name": "Directores de empresas de construcci\u00f3n"
+    },
+    {
+      "grand_group_id": "1",
+      "grand_group_name": "Directores y gerentes",
+      "group_2d_id": "13",
+      "group_2d_name": "Directores de producci\u00f3n y operaciones",
+      "occupation_4d_id": "1321",
+      "occupation_4d_name": "Directores de servicios de tecnolog\u00edas de la informaci\u00f3n y las comunicaciones (tic)"
+    },
+    {
+      "grand_group_id": "1",
+      "grand_group_name": "Directores y gerentes",
+      "group_2d_id": "13",
+      "group_2d_name": "Directores de producci\u00f3n y operaciones",
+      "occupation_4d_id": "1322",
+      "occupation_4d_name": "Directores de servicios sociales para ni\u00f1os"
+    },
+    {
+      "grand_group_id": "1",
+      "grand_group_name": "Directores y gerentes",
+      "group_2d_id": "13",
+      "group_2d_name": "Directores de producci\u00f3n y operaciones",
+      "occupation_4d_id": "1323",
+      "occupation_4d_name": "Directores-gerentes de centros sanitarios"
+    },
+    {
+      "grand_group_id": "1",
+      "grand_group_name": "Directores y gerentes",
+      "group_2d_id": "13",
+      "group_2d_name": "Directores de producci\u00f3n y operaciones",
+      "occupation_4d_id": "1324",
+      "occupation_4d_name": "Directores de servicios sociales para personas mayores"
+    },
+    {
+      "grand_group_id": "1",
+      "grand_group_name": "Directores y gerentes",
+      "group_2d_id": "13",
+      "group_2d_name": "Directores de producci\u00f3n y operaciones",
+      "occupation_4d_id": "1325",
+      "occupation_4d_name": "Directores de otros servicios sociales"
+    },
+    {
+      "grand_group_id": "1",
+      "grand_group_name": "Directores y gerentes",
+      "group_2d_id": "13",
+      "group_2d_name": "Directores de producci\u00f3n y operaciones",
+      "occupation_4d_id": "1326",
+      "occupation_4d_name": "Directores de servicios de educaci\u00f3n"
+    },
+    {
+      "grand_group_id": "1",
+      "grand_group_name": "Directores y gerentes",
+      "group_2d_id": "13",
+      "group_2d_name": "Directores de producci\u00f3n y operaciones",
+      "occupation_4d_id": "1327",
+      "occupation_4d_name": "Directores de sucursales de bancos, de servicios financieros y de seguros"
+    },
+    {
+      "grand_group_id": "1",
+      "grand_group_name": "Directores y gerentes",
+      "group_2d_id": "13",
+      "group_2d_name": "Directores de producci\u00f3n y operaciones",
+      "occupation_4d_id": "1329",
+      "occupation_4d_name": "Directores de otras empresas de servicios profesionales no clasificados bajo otros ep\u00edgrafes"
+    },
+    {
+      "grand_group_id": "1",
+      "grand_group_name": "Directores y gerentes",
+      "group_2d_id": "14",
+      "group_2d_name": "Directores y gerentes de empresas de alojamiento, restauraci\u00f3n y comercio",
+      "occupation_4d_id": "1411",
+      "occupation_4d_name": "Directores y gerentes de hoteles"
+    },
+    {
+      "grand_group_id": "1",
+      "grand_group_name": "Directores y gerentes",
+      "group_2d_id": "14",
+      "group_2d_name": "Directores y gerentes de empresas de alojamiento, restauraci\u00f3n y comercio",
+      "occupation_4d_id": "1419",
+      "occupation_4d_name": "Directores y gerentes de otras empresas de servicios de alojamiento"
+    },
+    {
+      "grand_group_id": "1",
+      "grand_group_name": "Directores y gerentes",
+      "group_2d_id": "14",
+      "group_2d_name": "Directores y gerentes de empresas de alojamiento, restauraci\u00f3n y comercio",
+      "occupation_4d_id": "1421",
+      "occupation_4d_name": "Directores y gerentes de restaurantes"
+    },
+    {
+      "grand_group_id": "1",
+      "grand_group_name": "Directores y gerentes",
+      "group_2d_id": "14",
+      "group_2d_name": "Directores y gerentes de empresas de alojamiento, restauraci\u00f3n y comercio",
+      "occupation_4d_id": "1422",
+      "occupation_4d_name": "Directores y gerentes de bares, cafeter\u00edas y similares"
+    },
+    {
+      "grand_group_id": "1",
+      "grand_group_name": "Directores y gerentes",
+      "group_2d_id": "14",
+      "group_2d_name": "Directores y gerentes de empresas de alojamiento, restauraci\u00f3n y comercio",
+      "occupation_4d_id": "1429",
+      "occupation_4d_name": "Directores y gerentes de empresas de catering y otras empresas de restauraci\u00f3n"
+    },
+    {
+      "grand_group_id": "1",
+      "grand_group_name": "Directores y gerentes",
+      "group_2d_id": "14",
+      "group_2d_name": "Directores y gerentes de empresas de alojamiento, restauraci\u00f3n y comercio",
+      "occupation_4d_id": "1431",
+      "occupation_4d_name": "Directores y gerentes de empresas de comercio al por mayor"
+    },
+    {
+      "grand_group_id": "1",
+      "grand_group_name": "Directores y gerentes",
+      "group_2d_id": "14",
+      "group_2d_name": "Directores y gerentes de empresas de alojamiento, restauraci\u00f3n y comercio",
+      "occupation_4d_id": "1432",
+      "occupation_4d_name": "Directores y gerentes de empresas de comercio al por menor"
+    },
+    {
+      "grand_group_id": "1",
+      "grand_group_name": "Directores y gerentes",
+      "group_2d_id": "15",
+      "group_2d_name": "Directores y gerentes de otras empresas de servicios no clasificados bajo otros ep\u00edgrafes",
+      "occupation_4d_id": "1501",
+      "occupation_4d_name": "Directores y gerentes de empresas de actividades recreativas, culturales y deportivas"
+    },
+    {
+      "grand_group_id": "1",
+      "grand_group_name": "Directores y gerentes",
+      "group_2d_id": "15",
+      "group_2d_name": "Directores y gerentes de otras empresas de servicios no clasificados bajo otros ep\u00edgrafes",
+      "occupation_4d_id": "1509",
+      "occupation_4d_name": "Directores y gerentes de empresas de gesti\u00f3n de residuos y de otras empresas de servicios no clasificados bajo otros ep\u00edgrafes"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "21",
+      "group_2d_name": "Profesionales de la salud",
+      "occupation_4d_id": "2111",
+      "occupation_4d_name": "M\u00e9dicos de familia"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "21",
+      "group_2d_name": "Profesionales de la salud",
+      "occupation_4d_id": "2112",
+      "occupation_4d_name": "Otros m\u00e9dicos especialistas"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "21",
+      "group_2d_name": "Profesionales de la salud",
+      "occupation_4d_id": "2121",
+      "occupation_4d_name": "Enfermeros no especializados"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "21",
+      "group_2d_name": "Profesionales de la salud",
+      "occupation_4d_id": "2122",
+      "occupation_4d_name": "Enfermeros especializados (excepto matronos)"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "21",
+      "group_2d_name": "Profesionales de la salud",
+      "occupation_4d_id": "2123",
+      "occupation_4d_name": "Matronos"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "21",
+      "group_2d_name": "Profesionales de la salud",
+      "occupation_4d_id": "2130",
+      "occupation_4d_name": "Veterinarios"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "21",
+      "group_2d_name": "Profesionales de la salud",
+      "occupation_4d_id": "2140",
+      "occupation_4d_name": "Farmac\u00e9uticos"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "21",
+      "group_2d_name": "Profesionales de la salud",
+      "occupation_4d_id": "2151",
+      "occupation_4d_name": "Odont\u00f3logos y estomat\u00f3logos"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "21",
+      "group_2d_name": "Profesionales de la salud",
+      "occupation_4d_id": "2152",
+      "occupation_4d_name": "Fisioterapeutas"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "21",
+      "group_2d_name": "Profesionales de la salud",
+      "occupation_4d_id": "2153",
+      "occupation_4d_name": "Dietistas y nutricionistas"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "21",
+      "group_2d_name": "Profesionales de la salud",
+      "occupation_4d_id": "2154",
+      "occupation_4d_name": "Logopedas"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "21",
+      "group_2d_name": "Profesionales de la salud",
+      "occupation_4d_id": "2155",
+      "occupation_4d_name": "\u00d3pticos-optometristas"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "21",
+      "group_2d_name": "Profesionales de la salud",
+      "occupation_4d_id": "2156",
+      "occupation_4d_name": "Terapeutas ocupacionales"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "21",
+      "group_2d_name": "Profesionales de la salud",
+      "occupation_4d_id": "2157",
+      "occupation_4d_name": "Pod\u00f3logos"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "21",
+      "group_2d_name": "Profesionales de la salud",
+      "occupation_4d_id": "2158",
+      "occupation_4d_name": "Profesionales de la salud y la higiene laboral y ambiental"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "21",
+      "group_2d_name": "Profesionales de la salud",
+      "occupation_4d_id": "2159",
+      "occupation_4d_name": "Profesionales de la salud no clasificados bajo otros ep\u00edgrafes"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "22",
+      "group_2d_name": "Profesionales de la ense\u00f1anza infantil, primaria, secundaria y postsecundaria",
+      "occupation_4d_id": "2210",
+      "occupation_4d_name": "Profesores de universidades y otra ense\u00f1anza superior (excepto formaci\u00f3n profesional)"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "22",
+      "group_2d_name": "Profesionales de la ense\u00f1anza infantil, primaria, secundaria y postsecundaria",
+      "occupation_4d_id": "2220",
+      "occupation_4d_name": "Profesores de formaci\u00f3n profesional (materias espec\u00edficas)"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "22",
+      "group_2d_name": "Profesionales de la ense\u00f1anza infantil, primaria, secundaria y postsecundaria",
+      "occupation_4d_id": "2230",
+      "occupation_4d_name": "Profesores de ense\u00f1anza secundaria (excepto materias espec\u00edficas de formaci\u00f3n profesional)"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "22",
+      "group_2d_name": "Profesionales de la ense\u00f1anza infantil, primaria, secundaria y postsecundaria",
+      "occupation_4d_id": "2240",
+      "occupation_4d_name": "Profesores de ense\u00f1anza primaria"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "22",
+      "group_2d_name": "Profesionales de la ense\u00f1anza infantil, primaria, secundaria y postsecundaria",
+      "occupation_4d_id": "2251",
+      "occupation_4d_name": "Maestros de educaci\u00f3n infantil"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "22",
+      "group_2d_name": "Profesionales de la ense\u00f1anza infantil, primaria, secundaria y postsecundaria",
+      "occupation_4d_id": "2252",
+      "occupation_4d_name": "T\u00e9cnicos en educaci\u00f3n infantil"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "23",
+      "group_2d_name": "Otros profesionales de la ense\u00f1anza",
+      "occupation_4d_id": "2311",
+      "occupation_4d_name": "Profesores de educaci\u00f3n especial"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "23",
+      "group_2d_name": "Otros profesionales de la ense\u00f1anza",
+      "occupation_4d_id": "2312",
+      "occupation_4d_name": "T\u00e9cnicos educadores de educaci\u00f3n especial"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "23",
+      "group_2d_name": "Otros profesionales de la ense\u00f1anza",
+      "occupation_4d_id": "2321",
+      "occupation_4d_name": "Especialistas en m\u00e9todos did\u00e1cticos y pedag\u00f3gicos"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "23",
+      "group_2d_name": "Otros profesionales de la ense\u00f1anza",
+      "occupation_4d_id": "2322",
+      "occupation_4d_name": "Profesores de ense\u00f1anza no reglada de idiomas"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "23",
+      "group_2d_name": "Otros profesionales de la ense\u00f1anza",
+      "occupation_4d_id": "2323",
+      "occupation_4d_name": "Profesores de ense\u00f1anza no reglada de m\u00fasica y danza"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "23",
+      "group_2d_name": "Otros profesionales de la ense\u00f1anza",
+      "occupation_4d_id": "2324",
+      "occupation_4d_name": "Profesores de ense\u00f1anza no reglada de artes"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "23",
+      "group_2d_name": "Otros profesionales de la ense\u00f1anza",
+      "occupation_4d_id": "2325",
+      "occupation_4d_name": "Instructores en tecnolog\u00edas de la informaci\u00f3n en ense\u00f1anza no reglada"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "23",
+      "group_2d_name": "Otros profesionales de la ense\u00f1anza",
+      "occupation_4d_id": "2326",
+      "occupation_4d_name": "Profesionales de la educaci\u00f3n ambiental"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "23",
+      "group_2d_name": "Otros profesionales de la ense\u00f1anza",
+      "occupation_4d_id": "2329",
+      "occupation_4d_name": "Profesores y profesionales de la ense\u00f1anza no clasificados bajo otros ep\u00edgrafes"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "24",
+      "group_2d_name": "Profesionales de la ciencias f\u00edsicas, qu\u00edmicas, matem\u00e1ticas y de las ingenier\u00edas",
+      "occupation_4d_id": "2411",
+      "occupation_4d_name": "F\u00edsicos y astr\u00f3nomos"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "24",
+      "group_2d_name": "Profesionales de la ciencias f\u00edsicas, qu\u00edmicas, matem\u00e1ticas y de las ingenier\u00edas",
+      "occupation_4d_id": "2412",
+      "occupation_4d_name": "Meteor\u00f3logos"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "24",
+      "group_2d_name": "Profesionales de la ciencias f\u00edsicas, qu\u00edmicas, matem\u00e1ticas y de las ingenier\u00edas",
+      "occupation_4d_id": "2413",
+      "occupation_4d_name": "Qu\u00edmicos"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "24",
+      "group_2d_name": "Profesionales de la ciencias f\u00edsicas, qu\u00edmicas, matem\u00e1ticas y de las ingenier\u00edas",
+      "occupation_4d_id": "2414",
+      "occupation_4d_name": "Ge\u00f3logos y geof\u00edsicos"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "24",
+      "group_2d_name": "Profesionales de la ciencias f\u00edsicas, qu\u00edmicas, matem\u00e1ticas y de las ingenier\u00edas",
+      "occupation_4d_id": "2415",
+      "occupation_4d_name": "Matem\u00e1ticos y actuarios"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "24",
+      "group_2d_name": "Profesionales de la ciencias f\u00edsicas, qu\u00edmicas, matem\u00e1ticas y de las ingenier\u00edas",
+      "occupation_4d_id": "2416",
+      "occupation_4d_name": "Estad\u00edsticos"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "24",
+      "group_2d_name": "Profesionales de la ciencias f\u00edsicas, qu\u00edmicas, matem\u00e1ticas y de las ingenier\u00edas",
+      "occupation_4d_id": "2421",
+      "occupation_4d_name": "Bi\u00f3logos, bot\u00e1nicos, zo\u00f3logos y afines"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "24",
+      "group_2d_name": "Profesionales de la ciencias f\u00edsicas, qu\u00edmicas, matem\u00e1ticas y de las ingenier\u00edas",
+      "occupation_4d_id": "2422",
+      "occupation_4d_name": "Ingenieros agr\u00f3nomos"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "24",
+      "group_2d_name": "Profesionales de la ciencias f\u00edsicas, qu\u00edmicas, matem\u00e1ticas y de las ingenier\u00edas",
+      "occupation_4d_id": "2423",
+      "occupation_4d_name": "Ingenieros de montes"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "24",
+      "group_2d_name": "Profesionales de la ciencias f\u00edsicas, qu\u00edmicas, matem\u00e1ticas y de las ingenier\u00edas",
+      "occupation_4d_id": "2424",
+      "occupation_4d_name": "Ingenieros t\u00e9cnicos agr\u00edcolas"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "24",
+      "group_2d_name": "Profesionales de la ciencias f\u00edsicas, qu\u00edmicas, matem\u00e1ticas y de las ingenier\u00edas",
+      "occupation_4d_id": "2425",
+      "occupation_4d_name": "Ingenieros t\u00e9cnicos forestales y del medio natural"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "24",
+      "group_2d_name": "Profesionales de la ciencias f\u00edsicas, qu\u00edmicas, matem\u00e1ticas y de las ingenier\u00edas",
+      "occupation_4d_id": "2426",
+      "occupation_4d_name": "Profesionales de la protecci\u00f3n ambiental"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "24",
+      "group_2d_name": "Profesionales de la ciencias f\u00edsicas, qu\u00edmicas, matem\u00e1ticas y de las ingenier\u00edas",
+      "occupation_4d_id": "2427",
+      "occupation_4d_name": "En\u00f3logos"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "24",
+      "group_2d_name": "Profesionales de la ciencias f\u00edsicas, qu\u00edmicas, matem\u00e1ticas y de las ingenier\u00edas",
+      "occupation_4d_id": "2431",
+      "occupation_4d_name": "Ingenieros industriales y de producci\u00f3n"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "24",
+      "group_2d_name": "Profesionales de la ciencias f\u00edsicas, qu\u00edmicas, matem\u00e1ticas y de las ingenier\u00edas",
+      "occupation_4d_id": "2432",
+      "occupation_4d_name": "Ingenieros en construcci\u00f3n y obra civil"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "24",
+      "group_2d_name": "Profesionales de la ciencias f\u00edsicas, qu\u00edmicas, matem\u00e1ticas y de las ingenier\u00edas",
+      "occupation_4d_id": "2433",
+      "occupation_4d_name": "Ingenieros mec\u00e1nicos"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "24",
+      "group_2d_name": "Profesionales de la ciencias f\u00edsicas, qu\u00edmicas, matem\u00e1ticas y de las ingenier\u00edas",
+      "occupation_4d_id": "2434",
+      "occupation_4d_name": "Ingenieros aeron\u00e1uticos"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "24",
+      "group_2d_name": "Profesionales de la ciencias f\u00edsicas, qu\u00edmicas, matem\u00e1ticas y de las ingenier\u00edas",
+      "occupation_4d_id": "2435",
+      "occupation_4d_name": "Ingenieros qu\u00edmicos"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "24",
+      "group_2d_name": "Profesionales de la ciencias f\u00edsicas, qu\u00edmicas, matem\u00e1ticas y de las ingenier\u00edas",
+      "occupation_4d_id": "2436",
+      "occupation_4d_name": "Ingenieros de minas, metal\u00fargicos y afines"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "24",
+      "group_2d_name": "Profesionales de la ciencias f\u00edsicas, qu\u00edmicas, matem\u00e1ticas y de las ingenier\u00edas",
+      "occupation_4d_id": "2437",
+      "occupation_4d_name": "Ingenieros ambientales"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "24",
+      "group_2d_name": "Profesionales de la ciencias f\u00edsicas, qu\u00edmicas, matem\u00e1ticas y de las ingenier\u00edas",
+      "occupation_4d_id": "2439",
+      "occupation_4d_name": "Ingenieros no clasificados bajo otros ep\u00edgrafes"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "24",
+      "group_2d_name": "Profesionales de la ciencias f\u00edsicas, qu\u00edmicas, matem\u00e1ticas y de las ingenier\u00edas",
+      "occupation_4d_id": "2441",
+      "occupation_4d_name": "Ingenieros en electricidad"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "24",
+      "group_2d_name": "Profesionales de la ciencias f\u00edsicas, qu\u00edmicas, matem\u00e1ticas y de las ingenier\u00edas",
+      "occupation_4d_id": "2442",
+      "occupation_4d_name": "Ingenieros electr\u00f3nicos"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "24",
+      "group_2d_name": "Profesionales de la ciencias f\u00edsicas, qu\u00edmicas, matem\u00e1ticas y de las ingenier\u00edas",
+      "occupation_4d_id": "2443",
+      "occupation_4d_name": "Ingenieros en telecomunicaciones"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "24",
+      "group_2d_name": "Profesionales de la ciencias f\u00edsicas, qu\u00edmicas, matem\u00e1ticas y de las ingenier\u00edas",
+      "occupation_4d_id": "2451",
+      "occupation_4d_name": "Arquitectos (excepto arquitectos paisajistas y urbanistas)"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "24",
+      "group_2d_name": "Profesionales de la ciencias f\u00edsicas, qu\u00edmicas, matem\u00e1ticas y de las ingenier\u00edas",
+      "occupation_4d_id": "2452",
+      "occupation_4d_name": "Arquitectos paisajistas"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "24",
+      "group_2d_name": "Profesionales de la ciencias f\u00edsicas, qu\u00edmicas, matem\u00e1ticas y de las ingenier\u00edas",
+      "occupation_4d_id": "2453",
+      "occupation_4d_name": "Urbanistas e ingenieros de tr\u00e1fico"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "24",
+      "group_2d_name": "Profesionales de la ciencias f\u00edsicas, qu\u00edmicas, matem\u00e1ticas y de las ingenier\u00edas",
+      "occupation_4d_id": "2454",
+      "occupation_4d_name": "Ingenieros ge\u00f3grafos y cart\u00f3grafos"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "24",
+      "group_2d_name": "Profesionales de la ciencias f\u00edsicas, qu\u00edmicas, matem\u00e1ticas y de las ingenier\u00edas",
+      "occupation_4d_id": "2461",
+      "occupation_4d_name": "Ingenieros t\u00e9cnicos industriales y de producci\u00f3n"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "24",
+      "group_2d_name": "Profesionales de la ciencias f\u00edsicas, qu\u00edmicas, matem\u00e1ticas y de las ingenier\u00edas",
+      "occupation_4d_id": "2462",
+      "occupation_4d_name": "Ingenieros t\u00e9cnicos de obras p\u00fablicas"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "24",
+      "group_2d_name": "Profesionales de la ciencias f\u00edsicas, qu\u00edmicas, matem\u00e1ticas y de las ingenier\u00edas",
+      "occupation_4d_id": "2463",
+      "occupation_4d_name": "Ingenieros t\u00e9cnicos mec\u00e1nicos"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "24",
+      "group_2d_name": "Profesionales de la ciencias f\u00edsicas, qu\u00edmicas, matem\u00e1ticas y de las ingenier\u00edas",
+      "occupation_4d_id": "2464",
+      "occupation_4d_name": "Ingenieros t\u00e9cnicos aeron\u00e1uticos"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "24",
+      "group_2d_name": "Profesionales de la ciencias f\u00edsicas, qu\u00edmicas, matem\u00e1ticas y de las ingenier\u00edas",
+      "occupation_4d_id": "2465",
+      "occupation_4d_name": "Ingenieros t\u00e9cnicos qu\u00edmicos"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "24",
+      "group_2d_name": "Profesionales de la ciencias f\u00edsicas, qu\u00edmicas, matem\u00e1ticas y de las ingenier\u00edas",
+      "occupation_4d_id": "2466",
+      "occupation_4d_name": "Ingenieros t\u00e9cnicos de minas, metal\u00fargicos y afines"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "24",
+      "group_2d_name": "Profesionales de la ciencias f\u00edsicas, qu\u00edmicas, matem\u00e1ticas y de las ingenier\u00edas",
+      "occupation_4d_id": "2469",
+      "occupation_4d_name": "Ingenieros t\u00e9cnicos no clasificados bajo otros ep\u00edgrafes"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "24",
+      "group_2d_name": "Profesionales de la ciencias f\u00edsicas, qu\u00edmicas, matem\u00e1ticas y de las ingenier\u00edas",
+      "occupation_4d_id": "2471",
+      "occupation_4d_name": "Ingenieros t\u00e9cnicos en electricidad"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "24",
+      "group_2d_name": "Profesionales de la ciencias f\u00edsicas, qu\u00edmicas, matem\u00e1ticas y de las ingenier\u00edas",
+      "occupation_4d_id": "2472",
+      "occupation_4d_name": "Ingenieros t\u00e9cnicos en electr\u00f3nica"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "24",
+      "group_2d_name": "Profesionales de la ciencias f\u00edsicas, qu\u00edmicas, matem\u00e1ticas y de las ingenier\u00edas",
+      "occupation_4d_id": "2473",
+      "occupation_4d_name": "Ingenieros t\u00e9cnicos en telecomunicaciones"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "24",
+      "group_2d_name": "Profesionales de la ciencias f\u00edsicas, qu\u00edmicas, matem\u00e1ticas y de las ingenier\u00edas",
+      "occupation_4d_id": "2481",
+      "occupation_4d_name": "Arquitectos t\u00e9cnicos y t\u00e9cnicos urbanistas"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "24",
+      "group_2d_name": "Profesionales de la ciencias f\u00edsicas, qu\u00edmicas, matem\u00e1ticas y de las ingenier\u00edas",
+      "occupation_4d_id": "2482",
+      "occupation_4d_name": "Dise\u00f1adores de productos y de prendas"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "24",
+      "group_2d_name": "Profesionales de la ciencias f\u00edsicas, qu\u00edmicas, matem\u00e1ticas y de las ingenier\u00edas",
+      "occupation_4d_id": "2483",
+      "occupation_4d_name": "Ingenieros t\u00e9cnicos en topograf\u00eda"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "24",
+      "group_2d_name": "Profesionales de la ciencias f\u00edsicas, qu\u00edmicas, matem\u00e1ticas y de las ingenier\u00edas",
+      "occupation_4d_id": "2484",
+      "occupation_4d_name": "Dise\u00f1adores gr\u00e1ficos y multimedia"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "25",
+      "group_2d_name": "Profesionales en derecho",
+      "occupation_4d_id": "2511",
+      "occupation_4d_name": "Abogados"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "25",
+      "group_2d_name": "Profesionales en derecho",
+      "occupation_4d_id": "2512",
+      "occupation_4d_name": "Fiscales"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "25",
+      "group_2d_name": "Profesionales en derecho",
+      "occupation_4d_id": "2513",
+      "occupation_4d_name": "Jueces y magistrados"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "25",
+      "group_2d_name": "Profesionales en derecho",
+      "occupation_4d_id": "2591",
+      "occupation_4d_name": "Notarios y registradores"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "25",
+      "group_2d_name": "Profesionales en derecho",
+      "occupation_4d_id": "2592",
+      "occupation_4d_name": "Procuradores"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "25",
+      "group_2d_name": "Profesionales en derecho",
+      "occupation_4d_id": "2599",
+      "occupation_4d_name": "Profesionales del derecho no clasificados bajo otros ep\u00edgrafes"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "26",
+      "group_2d_name": "Especialistas en organizaci\u00f3n de la Administraci\u00f3n P\u00fablica y de las empresas y en la comercializaci\u00f3n",
+      "occupation_4d_id": "2611",
+      "occupation_4d_name": "Especialistas en contabilidad"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "26",
+      "group_2d_name": "Especialistas en organizaci\u00f3n de la Administraci\u00f3n P\u00fablica y de las empresas y en la comercializaci\u00f3n",
+      "occupation_4d_id": "2612",
+      "occupation_4d_name": "Asesores financieros y en inversiones"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "26",
+      "group_2d_name": "Especialistas en organizaci\u00f3n de la Administraci\u00f3n P\u00fablica y de las empresas y en la comercializaci\u00f3n",
+      "occupation_4d_id": "2613",
+      "occupation_4d_name": "Analistas financieros"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "26",
+      "group_2d_name": "Especialistas en organizaci\u00f3n de la Administraci\u00f3n P\u00fablica y de las empresas y en la comercializaci\u00f3n",
+      "occupation_4d_id": "2621",
+      "occupation_4d_name": "Analistas de gesti\u00f3n y organizaci\u00f3n"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "26",
+      "group_2d_name": "Especialistas en organizaci\u00f3n de la Administraci\u00f3n P\u00fablica y de las empresas y en la comercializaci\u00f3n",
+      "occupation_4d_id": "2622",
+      "occupation_4d_name": "Especialistas en administraci\u00f3n de pol\u00edtica de empresas"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "26",
+      "group_2d_name": "Especialistas en organizaci\u00f3n de la Administraci\u00f3n P\u00fablica y de las empresas y en la comercializaci\u00f3n",
+      "occupation_4d_id": "2623",
+      "occupation_4d_name": "Especialistas de la administraci\u00f3n p\u00fablica"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "26",
+      "group_2d_name": "Especialistas en organizaci\u00f3n de la Administraci\u00f3n P\u00fablica y de las empresas y en la comercializaci\u00f3n",
+      "occupation_4d_id": "2624",
+      "occupation_4d_name": "Especialistas en pol\u00edticas y servicios de personal y afines"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "26",
+      "group_2d_name": "Especialistas en organizaci\u00f3n de la Administraci\u00f3n P\u00fablica y de las empresas y en la comercializaci\u00f3n",
+      "occupation_4d_id": "2625",
+      "occupation_4d_name": "Especialistas en formaci\u00f3n de personal"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "26",
+      "group_2d_name": "Especialistas en organizaci\u00f3n de la Administraci\u00f3n P\u00fablica y de las empresas y en la comercializaci\u00f3n",
+      "occupation_4d_id": "2630",
+      "occupation_4d_name": "T\u00e9cnicos de empresas y actividades tur\u00edsticas"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "26",
+      "group_2d_name": "Especialistas en organizaci\u00f3n de la Administraci\u00f3n P\u00fablica y de las empresas y en la comercializaci\u00f3n",
+      "occupation_4d_id": "2640",
+      "occupation_4d_name": "Profesionales de ventas t\u00e9cnicas y m\u00e9dicas (excepto las tic)"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "26",
+      "group_2d_name": "Especialistas en organizaci\u00f3n de la Administraci\u00f3n P\u00fablica y de las empresas y en la comercializaci\u00f3n",
+      "occupation_4d_id": "2651",
+      "occupation_4d_name": "Profesionales de la publicidad y la comercializaci\u00f3n"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "26",
+      "group_2d_name": "Especialistas en organizaci\u00f3n de la Administraci\u00f3n P\u00fablica y de las empresas y en la comercializaci\u00f3n",
+      "occupation_4d_id": "2652",
+      "occupation_4d_name": "Profesionales de relaciones p\u00fablicas"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "26",
+      "group_2d_name": "Especialistas en organizaci\u00f3n de la Administraci\u00f3n P\u00fablica y de las empresas y en la comercializaci\u00f3n",
+      "occupation_4d_id": "2653",
+      "occupation_4d_name": "Profesionales de la venta de tecnolog\u00edas de la informaci\u00f3n y las comunicaciones"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "27",
+      "group_2d_name": "Profesionales de las tecnolog\u00edas de la informaci\u00f3n",
+      "occupation_4d_id": "2711",
+      "occupation_4d_name": "Analistas de sistemas"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "27",
+      "group_2d_name": "Profesionales de las tecnolog\u00edas de la informaci\u00f3n",
+      "occupation_4d_id": "2712",
+      "occupation_4d_name": "Analistas y dise\u00f1adores de software"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "27",
+      "group_2d_name": "Profesionales de las tecnolog\u00edas de la informaci\u00f3n",
+      "occupation_4d_id": "2713",
+      "occupation_4d_name": "Analistas, programadores y dise\u00f1adores web y multimedia"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "27",
+      "group_2d_name": "Profesionales de las tecnolog\u00edas de la informaci\u00f3n",
+      "occupation_4d_id": "2719",
+      "occupation_4d_name": "Analistas y dise\u00f1adores de software y multimedia no clasificados bajo otros ep\u00edgrafes"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "27",
+      "group_2d_name": "Profesionales de las tecnolog\u00edas de la informaci\u00f3n",
+      "occupation_4d_id": "2721",
+      "occupation_4d_name": "Dise\u00f1adores y administradores de bases de datos"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "27",
+      "group_2d_name": "Profesionales de las tecnolog\u00edas de la informaci\u00f3n",
+      "occupation_4d_id": "2722",
+      "occupation_4d_name": "Administradores de sistemas y redes"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "27",
+      "group_2d_name": "Profesionales de las tecnolog\u00edas de la informaci\u00f3n",
+      "occupation_4d_id": "2723",
+      "occupation_4d_name": "Analistas de redes inform\u00e1ticas"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "27",
+      "group_2d_name": "Profesionales de las tecnolog\u00edas de la informaci\u00f3n",
+      "occupation_4d_id": "2729",
+      "occupation_4d_name": "Especialistas en bases de datos y en redes inform\u00e1ticas no clasificados bajo otros ep\u00edgrafes"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "28",
+      "group_2d_name": "Profesionales en ciencias sociales",
+      "occupation_4d_id": "2810",
+      "occupation_4d_name": "Economistas"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "28",
+      "group_2d_name": "Profesionales en ciencias sociales",
+      "occupation_4d_id": "2821",
+      "occupation_4d_name": "Soci\u00f3logos, ge\u00f3grafos, antrop\u00f3logos, arque\u00f3logos y afines"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "28",
+      "group_2d_name": "Profesionales en ciencias sociales",
+      "occupation_4d_id": "2822",
+      "occupation_4d_name": "Fil\u00f3sofos, historiadores y profesionales en ciencias pol\u00edticas"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "28",
+      "group_2d_name": "Profesionales en ciencias sociales",
+      "occupation_4d_id": "2823",
+      "occupation_4d_name": "Psic\u00f3logos"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "28",
+      "group_2d_name": "Profesionales en ciencias sociales",
+      "occupation_4d_id": "2824",
+      "occupation_4d_name": "Profesionales del trabajo y la educaci\u00f3n social"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "28",
+      "group_2d_name": "Profesionales en ciencias sociales",
+      "occupation_4d_id": "2825",
+      "occupation_4d_name": "Agentes de igualdad de oportunidades entre mujeres y hombres"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "28",
+      "group_2d_name": "Profesionales en ciencias sociales",
+      "occupation_4d_id": "2830",
+      "occupation_4d_name": "Sacerdotes de las distintas religiones"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "29",
+      "group_2d_name": "Profesionales de la cultura y el espect\u00e1culo",
+      "occupation_4d_id": "2911",
+      "occupation_4d_name": "Archivistas y conservadores de museos"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "29",
+      "group_2d_name": "Profesionales de la cultura y el espect\u00e1culo",
+      "occupation_4d_id": "2912",
+      "occupation_4d_name": "Bibliotecarios, documentalistas y afines"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "29",
+      "group_2d_name": "Profesionales de la cultura y el espect\u00e1culo",
+      "occupation_4d_id": "2921",
+      "occupation_4d_name": "Escritores"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "29",
+      "group_2d_name": "Profesionales de la cultura y el espect\u00e1culo",
+      "occupation_4d_id": "2922",
+      "occupation_4d_name": "Periodistas"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "29",
+      "group_2d_name": "Profesionales de la cultura y el espect\u00e1culo",
+      "occupation_4d_id": "2923",
+      "occupation_4d_name": "Fil\u00f3logos, int\u00e9rpretes y traductores"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "29",
+      "group_2d_name": "Profesionales de la cultura y el espect\u00e1culo",
+      "occupation_4d_id": "2931",
+      "occupation_4d_name": "Artistas de artes pl\u00e1sticas y visuales"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "29",
+      "group_2d_name": "Profesionales de la cultura y el espect\u00e1culo",
+      "occupation_4d_id": "2932",
+      "occupation_4d_name": "Compositores, m\u00fasicos y cantantes"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "29",
+      "group_2d_name": "Profesionales de la cultura y el espect\u00e1culo",
+      "occupation_4d_id": "2933",
+      "occupation_4d_name": "Core\u00f3grafos y bailarines"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "29",
+      "group_2d_name": "Profesionales de la cultura y el espect\u00e1culo",
+      "occupation_4d_id": "2934",
+      "occupation_4d_name": "Directores de cine, de teatro y afines"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "29",
+      "group_2d_name": "Profesionales de la cultura y el espect\u00e1culo",
+      "occupation_4d_id": "2935",
+      "occupation_4d_name": "Actores"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "29",
+      "group_2d_name": "Profesionales de la cultura y el espect\u00e1culo",
+      "occupation_4d_id": "2936",
+      "occupation_4d_name": "Locutores de radio, televisi\u00f3n y otros presentadores"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "29",
+      "group_2d_name": "Profesionales de la cultura y el espect\u00e1culo",
+      "occupation_4d_id": "2937",
+      "occupation_4d_name": "Profesionales de espect\u00e1culos taurinos"
+    },
+    {
+      "grand_group_id": "2",
+      "grand_group_name": "T\u00e9cnicos y profesionales cient\u00edficos e intelectuales",
+      "group_2d_id": "29",
+      "group_2d_name": "Profesionales de la cultura y el espect\u00e1culo",
+      "occupation_4d_id": "2939",
+      "occupation_4d_name": "Artistas creativos e interpretativos no clasificados bajo otros ep\u00edgrafes"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "31",
+      "group_2d_name": "T\u00e9cnicos de las ciencias y de las ingenier\u00edas",
+      "occupation_4d_id": "3110",
+      "occupation_4d_name": "Delineantes y dibujantes t\u00e9cnicos"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "31",
+      "group_2d_name": "T\u00e9cnicos de las ciencias y de las ingenier\u00edas",
+      "occupation_4d_id": "3121",
+      "occupation_4d_name": "T\u00e9cnicos en ciencias f\u00edsicas y qu\u00edmicas"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "31",
+      "group_2d_name": "T\u00e9cnicos de las ciencias y de las ingenier\u00edas",
+      "occupation_4d_id": "3122",
+      "occupation_4d_name": "T\u00e9cnicos en construcci\u00f3n"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "31",
+      "group_2d_name": "T\u00e9cnicos de las ciencias y de las ingenier\u00edas",
+      "occupation_4d_id": "3123",
+      "occupation_4d_name": "T\u00e9cnicos en electricidad"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "31",
+      "group_2d_name": "T\u00e9cnicos de las ciencias y de las ingenier\u00edas",
+      "occupation_4d_id": "3124",
+      "occupation_4d_name": "T\u00e9cnicos en electr\u00f3nica (excepto electro medicina)"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "31",
+      "group_2d_name": "T\u00e9cnicos de las ciencias y de las ingenier\u00edas",
+      "occupation_4d_id": "3125",
+      "occupation_4d_name": "T\u00e9cnicos en electr\u00f3nica, especialidad en electro medicina"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "31",
+      "group_2d_name": "T\u00e9cnicos de las ciencias y de las ingenier\u00edas",
+      "occupation_4d_id": "3126",
+      "occupation_4d_name": "T\u00e9cnicos en mec\u00e1nica"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "31",
+      "group_2d_name": "T\u00e9cnicos de las ciencias y de las ingenier\u00edas",
+      "occupation_4d_id": "3127",
+      "occupation_4d_name": "T\u00e9cnicos y analistas de laboratorio en qu\u00edmica industrial"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "31",
+      "group_2d_name": "T\u00e9cnicos de las ciencias y de las ingenier\u00edas",
+      "occupation_4d_id": "3128",
+      "occupation_4d_name": "T\u00e9cnicos en metalurgia y minas"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "31",
+      "group_2d_name": "T\u00e9cnicos de las ciencias y de las ingenier\u00edas",
+      "occupation_4d_id": "3129",
+      "occupation_4d_name": "Otros t\u00e9cnicos de las ciencias f\u00edsicas, qu\u00edmicas, medioambientales y de las ingenier\u00edas"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "31",
+      "group_2d_name": "T\u00e9cnicos de las ciencias y de las ingenier\u00edas",
+      "occupation_4d_id": "3131",
+      "occupation_4d_name": "T\u00e9cnicos en instalaciones de producci\u00f3n de energ\u00eda"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "31",
+      "group_2d_name": "T\u00e9cnicos de las ciencias y de las ingenier\u00edas",
+      "occupation_4d_id": "3132",
+      "occupation_4d_name": "T\u00e9cnicos en instalaciones de tratamiento de residuos, de aguas y otros operadores en plantas similares"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "31",
+      "group_2d_name": "T\u00e9cnicos de las ciencias y de las ingenier\u00edas",
+      "occupation_4d_id": "3133",
+      "occupation_4d_name": "T\u00e9cnicos en control de instalaciones de procesamiento de productos qu\u00edmicos"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "31",
+      "group_2d_name": "T\u00e9cnicos de las ciencias y de las ingenier\u00edas",
+      "occupation_4d_id": "3134",
+      "occupation_4d_name": "T\u00e9cnicos de refiner\u00edas de petr\u00f3leo y gas natural"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "31",
+      "group_2d_name": "T\u00e9cnicos de las ciencias y de las ingenier\u00edas",
+      "occupation_4d_id": "3135",
+      "occupation_4d_name": "T\u00e9cnicos en control de procesos de producci\u00f3n de metales"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "31",
+      "group_2d_name": "T\u00e9cnicos de las ciencias y de las ingenier\u00edas",
+      "occupation_4d_id": "3139",
+      "occupation_4d_name": "T\u00e9cnicos en control de procesos no clasificados bajo otros ep\u00edgrafes"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "31",
+      "group_2d_name": "T\u00e9cnicos de las ciencias y de las ingenier\u00edas",
+      "occupation_4d_id": "3141",
+      "occupation_4d_name": "T\u00e9cnicos en ciencias biol\u00f3gicas (excepto en \u00e1reas sanitarias)"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "31",
+      "group_2d_name": "T\u00e9cnicos de las ciencias y de las ingenier\u00edas",
+      "occupation_4d_id": "3142",
+      "occupation_4d_name": "T\u00e9cnicos agropecuarios"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "31",
+      "group_2d_name": "T\u00e9cnicos de las ciencias y de las ingenier\u00edas",
+      "occupation_4d_id": "3143",
+      "occupation_4d_name": "T\u00e9cnicos forestales y del medio natural"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "31",
+      "group_2d_name": "T\u00e9cnicos de las ciencias y de las ingenier\u00edas",
+      "occupation_4d_id": "3151",
+      "occupation_4d_name": "Jefes y oficiales de m\u00e1quinas"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "31",
+      "group_2d_name": "T\u00e9cnicos de las ciencias y de las ingenier\u00edas",
+      "occupation_4d_id": "3152",
+      "occupation_4d_name": "Capitanes y oficiales de puente"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "31",
+      "group_2d_name": "T\u00e9cnicos de las ciencias y de las ingenier\u00edas",
+      "occupation_4d_id": "3153",
+      "occupation_4d_name": "Pilotos de aviaci\u00f3n y profesionales afines"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "31",
+      "group_2d_name": "T\u00e9cnicos de las ciencias y de las ingenier\u00edas",
+      "occupation_4d_id": "3154",
+      "occupation_4d_name": "Controladores de tr\u00e1fico a\u00e9reo"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "31",
+      "group_2d_name": "T\u00e9cnicos de las ciencias y de las ingenier\u00edas",
+      "occupation_4d_id": "3155",
+      "occupation_4d_name": "T\u00e9cnicos en seguridad aeron\u00e1utica"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "31",
+      "group_2d_name": "T\u00e9cnicos de las ciencias y de las ingenier\u00edas",
+      "occupation_4d_id": "3160",
+      "occupation_4d_name": "T\u00e9cnicos de control de calidad de las ciencias f\u00edsicas, qu\u00edmicas y de las ingenier\u00edas"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "32",
+      "group_2d_name": "Supervisores en ingenier\u00eda de minas, de industrias manufactureras y de la construcci\u00f3n",
+      "occupation_4d_id": "3201",
+      "occupation_4d_name": "Supervisores en ingenier\u00eda de minas"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "32",
+      "group_2d_name": "Supervisores en ingenier\u00eda de minas, de industrias manufactureras y de la construcci\u00f3n",
+      "occupation_4d_id": "3202",
+      "occupation_4d_name": "Supervisores de la construcci\u00f3n"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "32",
+      "group_2d_name": "Supervisores en ingenier\u00eda de minas, de industrias manufactureras y de la construcci\u00f3n",
+      "occupation_4d_id": "3203",
+      "occupation_4d_name": "Supervisores de industrias alimenticias y del tabaco"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "32",
+      "group_2d_name": "Supervisores en ingenier\u00eda de minas, de industrias manufactureras y de la construcci\u00f3n",
+      "occupation_4d_id": "3204",
+      "occupation_4d_name": "Supervisores de industrias qu\u00edmica y farmac\u00e9utica"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "32",
+      "group_2d_name": "Supervisores en ingenier\u00eda de minas, de industrias manufactureras y de la construcci\u00f3n",
+      "occupation_4d_id": "3205",
+      "occupation_4d_name": "Supervisores de industrias de transformaci\u00f3n de pl\u00e1sticos, caucho y resinas naturales"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "32",
+      "group_2d_name": "Supervisores en ingenier\u00eda de minas, de industrias manufactureras y de la construcci\u00f3n",
+      "occupation_4d_id": "3206",
+      "occupation_4d_name": "Supervisores de industrias de la madera y pastero papeleras"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "32",
+      "group_2d_name": "Supervisores en ingenier\u00eda de minas, de industrias manufactureras y de la construcci\u00f3n",
+      "occupation_4d_id": "3207",
+      "occupation_4d_name": "Supervisores de la producci\u00f3n en industrias de artes gr\u00e1ficas y en la fabricaci\u00f3n de productos de papel"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "32",
+      "group_2d_name": "Supervisores en ingenier\u00eda de minas, de industrias manufactureras y de la construcci\u00f3n",
+      "occupation_4d_id": "3209",
+      "occupation_4d_name": "Supervisores de otras industrias manufactureras"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "33",
+      "group_2d_name": "T\u00e9cnicos sanitarios y profesionales de las terapias alternativas",
+      "occupation_4d_id": "3311",
+      "occupation_4d_name": "T\u00e9cnicos en radioterapia"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "33",
+      "group_2d_name": "T\u00e9cnicos sanitarios y profesionales de las terapias alternativas",
+      "occupation_4d_id": "3312",
+      "occupation_4d_name": "T\u00e9cnicos en imagen para el diagn\u00f3stico"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "33",
+      "group_2d_name": "T\u00e9cnicos sanitarios y profesionales de las terapias alternativas",
+      "occupation_4d_id": "3313",
+      "occupation_4d_name": "T\u00e9cnicos en anatom\u00eda patol\u00f3gica y citolog\u00eda"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "33",
+      "group_2d_name": "T\u00e9cnicos sanitarios y profesionales de las terapias alternativas",
+      "occupation_4d_id": "3314",
+      "occupation_4d_name": "T\u00e9cnicos en laboratorio de diagn\u00f3stico cl\u00ednico"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "33",
+      "group_2d_name": "T\u00e9cnicos sanitarios y profesionales de las terapias alternativas",
+      "occupation_4d_id": "3315",
+      "occupation_4d_name": "T\u00e9cnicos en ortopr\u00f3tesis"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "33",
+      "group_2d_name": "T\u00e9cnicos sanitarios y profesionales de las terapias alternativas",
+      "occupation_4d_id": "3316",
+      "occupation_4d_name": "T\u00e9cnicos en pr\u00f3tesis dentales"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "33",
+      "group_2d_name": "T\u00e9cnicos sanitarios y profesionales de las terapias alternativas",
+      "occupation_4d_id": "3317",
+      "occupation_4d_name": "T\u00e9cnicos en audiopr\u00f3tesis"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "33",
+      "group_2d_name": "T\u00e9cnicos sanitarios y profesionales de las terapias alternativas",
+      "occupation_4d_id": "3321",
+      "occupation_4d_name": "T\u00e9cnicos superiores en higiene bucodental"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "33",
+      "group_2d_name": "T\u00e9cnicos sanitarios y profesionales de las terapias alternativas",
+      "occupation_4d_id": "3322",
+      "occupation_4d_name": "T\u00e9cnicos superiores en documentaci\u00f3n sanitaria"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "33",
+      "group_2d_name": "T\u00e9cnicos sanitarios y profesionales de las terapias alternativas",
+      "occupation_4d_id": "3323",
+      "occupation_4d_name": "T\u00e9cnicos superiores en diet\u00e9tica"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "33",
+      "group_2d_name": "T\u00e9cnicos sanitarios y profesionales de las terapias alternativas",
+      "occupation_4d_id": "3324",
+      "occupation_4d_name": "T\u00e9cnicos en optometr\u00eda"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "33",
+      "group_2d_name": "T\u00e9cnicos sanitarios y profesionales de las terapias alternativas",
+      "occupation_4d_id": "3325",
+      "occupation_4d_name": "Ayudantes fisioterapeutas"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "33",
+      "group_2d_name": "T\u00e9cnicos sanitarios y profesionales de las terapias alternativas",
+      "occupation_4d_id": "3326",
+      "occupation_4d_name": "T\u00e9cnicos en prevenci\u00f3n de riesgos laborales y salud ambiental"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "33",
+      "group_2d_name": "T\u00e9cnicos sanitarios y profesionales de las terapias alternativas",
+      "occupation_4d_id": "3327",
+      "occupation_4d_name": "Ayudantes de veterinaria"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "33",
+      "group_2d_name": "T\u00e9cnicos sanitarios y profesionales de las terapias alternativas",
+      "occupation_4d_id": "3329",
+      "occupation_4d_name": "T\u00e9cnicos de la sanidad no clasificados bajo otros ep\u00edgrafes"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "33",
+      "group_2d_name": "T\u00e9cnicos sanitarios y profesionales de las terapias alternativas",
+      "occupation_4d_id": "3331",
+      "occupation_4d_name": "Profesionales de la acupuntura, la naturopat\u00eda, la homeopat\u00eda, la medicina tradicional china y la ayurveda"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "33",
+      "group_2d_name": "T\u00e9cnicos sanitarios y profesionales de las terapias alternativas",
+      "occupation_4d_id": "3339",
+      "occupation_4d_name": "Otros profesionales de las terapias alternativas"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "34",
+      "group_2d_name": "Profesionales de apoyo en finanzas y matem\u00e1ticas",
+      "occupation_4d_id": "3401",
+      "occupation_4d_name": "Profesionales de apoyo e intermediarios de cambio, bolsa y finanzas"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "34",
+      "group_2d_name": "Profesionales de apoyo en finanzas y matem\u00e1ticas",
+      "occupation_4d_id": "3402",
+      "occupation_4d_name": "Comerciales de pr\u00e9stamos y cr\u00e9ditos"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "34",
+      "group_2d_name": "Profesionales de apoyo en finanzas y matem\u00e1ticas",
+      "occupation_4d_id": "3403",
+      "occupation_4d_name": "Tenedores de libros"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "34",
+      "group_2d_name": "Profesionales de apoyo en finanzas y matem\u00e1ticas",
+      "occupation_4d_id": "3404",
+      "occupation_4d_name": "Profesionales de apoyo en servicios estad\u00edsticos, matem\u00e1ticos y afines"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "34",
+      "group_2d_name": "Profesionales de apoyo en finanzas y matem\u00e1ticas",
+      "occupation_4d_id": "3405",
+      "occupation_4d_name": "Tasadores"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "35",
+      "group_2d_name": "Representantes, agentes comerciales y afines",
+      "occupation_4d_id": "3510",
+      "occupation_4d_name": "Agentes y representantes comerciales"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "35",
+      "group_2d_name": "Representantes, agentes comerciales y afines",
+      "occupation_4d_id": "3521",
+      "occupation_4d_name": "Mediadores y agentes de seguros"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "35",
+      "group_2d_name": "Representantes, agentes comerciales y afines",
+      "occupation_4d_id": "3522",
+      "occupation_4d_name": "Agentes de compras"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "35",
+      "group_2d_name": "Representantes, agentes comerciales y afines",
+      "occupation_4d_id": "3523",
+      "occupation_4d_name": "Consignatarios"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "35",
+      "group_2d_name": "Representantes, agentes comerciales y afines",
+      "occupation_4d_id": "3531",
+      "occupation_4d_name": "Representantes de aduanas"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "35",
+      "group_2d_name": "Representantes, agentes comerciales y afines",
+      "occupation_4d_id": "3532",
+      "occupation_4d_name": "Organizadores de conferencias y eventos"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "35",
+      "group_2d_name": "Representantes, agentes comerciales y afines",
+      "occupation_4d_id": "3533",
+      "occupation_4d_name": "Agentes o intermediarios en la contrataci\u00f3n de la mano de obra (excepto representantes de espect\u00e1culos)"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "35",
+      "group_2d_name": "Representantes, agentes comerciales y afines",
+      "occupation_4d_id": "3534",
+      "occupation_4d_name": "Agentes y administradores de la propiedad inmobiliaria"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "35",
+      "group_2d_name": "Representantes, agentes comerciales y afines",
+      "occupation_4d_id": "3535",
+      "occupation_4d_name": "Portavoces y agentes de relaciones p\u00fablicas"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "35",
+      "group_2d_name": "Representantes, agentes comerciales y afines",
+      "occupation_4d_id": "3539",
+      "occupation_4d_name": "Representantes art\u00edsticos y deportivos y otros agentes de servicios comerciales no clasificados bajo otros ep\u00edgrafes"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "36",
+      "group_2d_name": "Profesionales de apoyo a la gesti\u00f3n administrativa; t\u00e9cnicos de las fuerzas y cuerpos de seguridad",
+      "occupation_4d_id": "3611",
+      "occupation_4d_name": "Supervisores de secretar\u00eda"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "36",
+      "group_2d_name": "Profesionales de apoyo a la gesti\u00f3n administrativa; t\u00e9cnicos de las fuerzas y cuerpos de seguridad",
+      "occupation_4d_id": "3612",
+      "occupation_4d_name": "Asistentes jur\u00eddico-legales"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "36",
+      "group_2d_name": "Profesionales de apoyo a la gesti\u00f3n administrativa; t\u00e9cnicos de las fuerzas y cuerpos de seguridad",
+      "occupation_4d_id": "3613",
+      "occupation_4d_name": "Asistentes de direcci\u00f3n y administrativos"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "36",
+      "group_2d_name": "Profesionales de apoyo a la gesti\u00f3n administrativa; t\u00e9cnicos de las fuerzas y cuerpos de seguridad",
+      "occupation_4d_id": "3614",
+      "occupation_4d_name": "Secretarios de centros m\u00e9dicos o cl\u00ednicas"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "36",
+      "group_2d_name": "Profesionales de apoyo a la gesti\u00f3n administrativa; t\u00e9cnicos de las fuerzas y cuerpos de seguridad",
+      "occupation_4d_id": "3621",
+      "occupation_4d_name": "Profesionales de apoyo de la administraci\u00f3n p\u00fablica de tributos"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "36",
+      "group_2d_name": "Profesionales de apoyo a la gesti\u00f3n administrativa; t\u00e9cnicos de las fuerzas y cuerpos de seguridad",
+      "occupation_4d_id": "3622",
+      "occupation_4d_name": "Profesionales de apoyo de la administraci\u00f3n p\u00fablica de servicios sociales"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "36",
+      "group_2d_name": "Profesionales de apoyo a la gesti\u00f3n administrativa; t\u00e9cnicos de las fuerzas y cuerpos de seguridad",
+      "occupation_4d_id": "3623",
+      "occupation_4d_name": "Profesionales de apoyo de la administraci\u00f3n p\u00fablica de servicios de expedici\u00f3n de licencias"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "36",
+      "group_2d_name": "Profesionales de apoyo a la gesti\u00f3n administrativa; t\u00e9cnicos de las fuerzas y cuerpos de seguridad",
+      "occupation_4d_id": "3629",
+      "occupation_4d_name": "Otros profesionales de apoyo de la administraci\u00f3n p\u00fablica para tareas de inspecci\u00f3n y control y tareas similares"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "36",
+      "group_2d_name": "Profesionales de apoyo a la gesti\u00f3n administrativa; t\u00e9cnicos de las fuerzas y cuerpos de seguridad",
+      "occupation_4d_id": "3631",
+      "occupation_4d_name": "T\u00e9cnicos de la polic\u00eda nacional, auton\u00f3mica y local"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "36",
+      "group_2d_name": "Profesionales de apoyo a la gesti\u00f3n administrativa; t\u00e9cnicos de las fuerzas y cuerpos de seguridad",
+      "occupation_4d_id": "3632",
+      "occupation_4d_name": "Suboficiales de la guardia civil"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "37",
+      "group_2d_name": "Profesionales de apoyo de servicios jur\u00eddicos, sociales, culturales, deportivos y afines",
+      "occupation_4d_id": "3711",
+      "occupation_4d_name": "Profesionales de apoyo de servicios jur\u00eddicos y servicios similares"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "37",
+      "group_2d_name": "Profesionales de apoyo de servicios jur\u00eddicos, sociales, culturales, deportivos y afines",
+      "occupation_4d_id": "3712",
+      "occupation_4d_name": "Detectives privados"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "37",
+      "group_2d_name": "Profesionales de apoyo de servicios jur\u00eddicos, sociales, culturales, deportivos y afines",
+      "occupation_4d_id": "3713",
+      "occupation_4d_name": "Profesionales de apoyo al trabajo y a la educaci\u00f3n social"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "37",
+      "group_2d_name": "Profesionales de apoyo de servicios jur\u00eddicos, sociales, culturales, deportivos y afines",
+      "occupation_4d_id": "3714",
+      "occupation_4d_name": "Promotores de igualdad de oportunidades entre mujeres y hombres"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "37",
+      "group_2d_name": "Profesionales de apoyo de servicios jur\u00eddicos, sociales, culturales, deportivos y afines",
+      "occupation_4d_id": "3715",
+      "occupation_4d_name": "Animadores comunitarios"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "37",
+      "group_2d_name": "Profesionales de apoyo de servicios jur\u00eddicos, sociales, culturales, deportivos y afines",
+      "occupation_4d_id": "3716",
+      "occupation_4d_name": "Auxiliares laicos de las religiones"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "37",
+      "group_2d_name": "Profesionales de apoyo de servicios jur\u00eddicos, sociales, culturales, deportivos y afines",
+      "occupation_4d_id": "3721",
+      "occupation_4d_name": "Atletas y deportistas"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "37",
+      "group_2d_name": "Profesionales de apoyo de servicios jur\u00eddicos, sociales, culturales, deportivos y afines",
+      "occupation_4d_id": "3722",
+      "occupation_4d_name": "Entrenadores y \u00e1rbitros de actividades deportivas"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "37",
+      "group_2d_name": "Profesionales de apoyo de servicios jur\u00eddicos, sociales, culturales, deportivos y afines",
+      "occupation_4d_id": "3723",
+      "occupation_4d_name": "Instructores de actividades deportivas"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "37",
+      "group_2d_name": "Profesionales de apoyo de servicios jur\u00eddicos, sociales, culturales, deportivos y afines",
+      "occupation_4d_id": "3724",
+      "occupation_4d_name": "Monitores de actividades recreativas y de entretenimiento"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "37",
+      "group_2d_name": "Profesionales de apoyo de servicios jur\u00eddicos, sociales, culturales, deportivos y afines",
+      "occupation_4d_id": "3731",
+      "occupation_4d_name": "Fot\u00f3grafos"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "37",
+      "group_2d_name": "Profesionales de apoyo de servicios jur\u00eddicos, sociales, culturales, deportivos y afines",
+      "occupation_4d_id": "3732",
+      "occupation_4d_name": "Dise\u00f1adores y decoradores de interior"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "37",
+      "group_2d_name": "Profesionales de apoyo de servicios jur\u00eddicos, sociales, culturales, deportivos y afines",
+      "occupation_4d_id": "3733",
+      "occupation_4d_name": "T\u00e9cnicos en galer\u00edas de arte, museos y bibliotecas"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "37",
+      "group_2d_name": "Profesionales de apoyo de servicios jur\u00eddicos, sociales, culturales, deportivos y afines",
+      "occupation_4d_id": "3734",
+      "occupation_4d_name": "Chefs"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "37",
+      "group_2d_name": "Profesionales de apoyo de servicios jur\u00eddicos, sociales, culturales, deportivos y afines",
+      "occupation_4d_id": "3739",
+      "occupation_4d_name": "Otros t\u00e9cnicos y profesionales de apoyo de actividades culturales y art\u00edsticas"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "38",
+      "group_2d_name": "T\u00e9cnicos de las tecnolog\u00edas de la informaci\u00f3n y las comunicaciones (TIC)",
+      "occupation_4d_id": "3811",
+      "occupation_4d_name": "T\u00e9cnicos en operaciones de sistemas inform\u00e1ticos"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "38",
+      "group_2d_name": "T\u00e9cnicos de las tecnolog\u00edas de la informaci\u00f3n y las comunicaciones (TIC)",
+      "occupation_4d_id": "3812",
+      "occupation_4d_name": "T\u00e9cnicos en asistencia al usuario de tecnolog\u00edas de la informaci\u00f3n"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "38",
+      "group_2d_name": "T\u00e9cnicos de las tecnolog\u00edas de la informaci\u00f3n y las comunicaciones (TIC)",
+      "occupation_4d_id": "3813",
+      "occupation_4d_name": "T\u00e9cnicos en redes"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "38",
+      "group_2d_name": "T\u00e9cnicos de las tecnolog\u00edas de la informaci\u00f3n y las comunicaciones (TIC)",
+      "occupation_4d_id": "3814",
+      "occupation_4d_name": "T\u00e9cnicos de la web"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "38",
+      "group_2d_name": "T\u00e9cnicos de las tecnolog\u00edas de la informaci\u00f3n y las comunicaciones (TIC)",
+      "occupation_4d_id": "3820",
+      "occupation_4d_name": "Programadores inform\u00e1ticos"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "38",
+      "group_2d_name": "T\u00e9cnicos de las tecnolog\u00edas de la informaci\u00f3n y las comunicaciones (TIC)",
+      "occupation_4d_id": "3831",
+      "occupation_4d_name": "T\u00e9cnicos de grabaci\u00f3n audiovisual"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "38",
+      "group_2d_name": "T\u00e9cnicos de las tecnolog\u00edas de la informaci\u00f3n y las comunicaciones (TIC)",
+      "occupation_4d_id": "3832",
+      "occupation_4d_name": "T\u00e9cnicos de radiodifusi\u00f3n"
+    },
+    {
+      "grand_group_id": "3",
+      "grand_group_name": "T\u00e9cnicos; profesionales de apoyo",
+      "group_2d_id": "38",
+      "group_2d_name": "T\u00e9cnicos de las tecnolog\u00edas de la informaci\u00f3n y las comunicaciones (TIC)",
+      "occupation_4d_id": "3833",
+      "occupation_4d_name": "T\u00e9cnicos de ingenier\u00eda de las telecomunicaciones"
+    },
+    {
+      "grand_group_id": "4",
+      "grand_group_name": "Empleados contables, adminstrativos y otros empleados de oficina",
+      "group_2d_id": "41",
+      "group_2d_name": "Empleados en servicios contables, financieros, y de servicios de apoyo a la producci\u00f3n y al transporte",
+      "occupation_4d_id": "4111",
+      "occupation_4d_name": "Empleados de contabilidad"
+    },
+    {
+      "grand_group_id": "4",
+      "grand_group_name": "Empleados contables, adminstrativos y otros empleados de oficina",
+      "group_2d_id": "41",
+      "group_2d_name": "Empleados en servicios contables, financieros, y de servicios de apoyo a la producci\u00f3n y al transporte",
+      "occupation_4d_id": "4112",
+      "occupation_4d_name": "Empleados de control de personal y n\u00f3minas"
+    },
+    {
+      "grand_group_id": "4",
+      "grand_group_name": "Empleados contables, adminstrativos y otros empleados de oficina",
+      "group_2d_id": "41",
+      "group_2d_name": "Empleados en servicios contables, financieros, y de servicios de apoyo a la producci\u00f3n y al transporte",
+      "occupation_4d_id": "4113",
+      "occupation_4d_name": "Empleados de oficina de servicios estad\u00edsticos, financieros y bancarios"
+    },
+    {
+      "grand_group_id": "4",
+      "grand_group_name": "Empleados contables, adminstrativos y otros empleados de oficina",
+      "group_2d_id": "41",
+      "group_2d_name": "Empleados en servicios contables, financieros, y de servicios de apoyo a la producci\u00f3n y al transporte",
+      "occupation_4d_id": "4121",
+      "occupation_4d_name": "Empleados de control de abastecimientos e inventario"
+    },
+    {
+      "grand_group_id": "4",
+      "grand_group_name": "Empleados contables, adminstrativos y otros empleados de oficina",
+      "group_2d_id": "41",
+      "group_2d_name": "Empleados en servicios contables, financieros, y de servicios de apoyo a la producci\u00f3n y al transporte",
+      "occupation_4d_id": "4122",
+      "occupation_4d_name": "Empleados de oficina de servicios de apoyo a la producci\u00f3n"
+    },
+    {
+      "grand_group_id": "4",
+      "grand_group_name": "Empleados contables, adminstrativos y otros empleados de oficina",
+      "group_2d_id": "41",
+      "group_2d_name": "Empleados en servicios contables, financieros, y de servicios de apoyo a la producci\u00f3n y al transporte",
+      "occupation_4d_id": "4123",
+      "occupation_4d_name": "Empleados de log\u00edstica y transporte de pasajeros y mercanc\u00edas"
+    },
+    {
+      "grand_group_id": "4",
+      "grand_group_name": "Empleados contables, adminstrativos y otros empleados de oficina",
+      "group_2d_id": "42",
+      "group_2d_name": "Empleados de bibliotecas, servicios de correos y afines",
+      "occupation_4d_id": "4210",
+      "occupation_4d_name": "Empleados de bibliotecas y archivos"
+    },
+    {
+      "grand_group_id": "4",
+      "grand_group_name": "Empleados contables, adminstrativos y otros empleados de oficina",
+      "group_2d_id": "42",
+      "group_2d_name": "Empleados de bibliotecas, servicios de correos y afines",
+      "occupation_4d_id": "4221",
+      "occupation_4d_name": "Empleados de servicios de correos (excepto empleados de mostrador)"
+    },
+    {
+      "grand_group_id": "4",
+      "grand_group_name": "Empleados contables, adminstrativos y otros empleados de oficina",
+      "group_2d_id": "42",
+      "group_2d_name": "Empleados de bibliotecas, servicios de correos y afines",
+      "occupation_4d_id": "4222",
+      "occupation_4d_name": "Codificadores y correctores de imprenta"
+    },
+    {
+      "grand_group_id": "4",
+      "grand_group_name": "Empleados contables, adminstrativos y otros empleados de oficina",
+      "group_2d_id": "42",
+      "group_2d_name": "Empleados de bibliotecas, servicios de correos y afines",
+      "occupation_4d_id": "4223",
+      "occupation_4d_name": "Empleados de servicio de personal"
+    },
+    {
+      "grand_group_id": "4",
+      "grand_group_name": "Empleados contables, adminstrativos y otros empleados de oficina",
+      "group_2d_id": "43",
+      "group_2d_name": "Otros empleados administrativos sin tareas de atenci\u00f3n al p\u00fablico",
+      "occupation_4d_id": "4301",
+      "occupation_4d_name": "Grabadores de datos"
+    },
+    {
+      "grand_group_id": "4",
+      "grand_group_name": "Empleados contables, adminstrativos y otros empleados de oficina",
+      "group_2d_id": "43",
+      "group_2d_name": "Otros empleados administrativos sin tareas de atenci\u00f3n al p\u00fablico",
+      "occupation_4d_id": "4309",
+      "occupation_4d_name": "Empleados administrativos sin tareas de atenci\u00f3n al p\u00fablico no clasificados bajo otros ep\u00edgrafes"
+    },
+    {
+      "grand_group_id": "4",
+      "grand_group_name": "Empleados contables, adminstrativos y otros empleados de oficina",
+      "group_2d_id": "44",
+      "group_2d_name": "Empleados de agencias de viajes, recepcionistas y telefonistas; empleados de ventanilla y afines (excepto taquilleros)",
+      "occupation_4d_id": "4411",
+      "occupation_4d_name": "Empleados de informaci\u00f3n al usuario"
+    },
+    {
+      "grand_group_id": "4",
+      "grand_group_name": "Empleados contables, adminstrativos y otros empleados de oficina",
+      "group_2d_id": "44",
+      "group_2d_name": "Empleados de agencias de viajes, recepcionistas y telefonistas; empleados de ventanilla y afines (excepto taquilleros)",
+      "occupation_4d_id": "4412",
+      "occupation_4d_name": "Recepcionistas (excepto de hoteles)"
+    },
+    {
+      "grand_group_id": "4",
+      "grand_group_name": "Empleados contables, adminstrativos y otros empleados de oficina",
+      "group_2d_id": "44",
+      "group_2d_name": "Empleados de agencias de viajes, recepcionistas y telefonistas; empleados de ventanilla y afines (excepto taquilleros)",
+      "occupation_4d_id": "4421",
+      "occupation_4d_name": "Empleados de agencias de viajes"
+    },
+    {
+      "grand_group_id": "4",
+      "grand_group_name": "Empleados contables, adminstrativos y otros empleados de oficina",
+      "group_2d_id": "44",
+      "group_2d_name": "Empleados de agencias de viajes, recepcionistas y telefonistas; empleados de ventanilla y afines (excepto taquilleros)",
+      "occupation_4d_id": "4422",
+      "occupation_4d_name": "Recepcionistas de hoteles"
+    },
+    {
+      "grand_group_id": "4",
+      "grand_group_name": "Empleados contables, adminstrativos y otros empleados de oficina",
+      "group_2d_id": "44",
+      "group_2d_name": "Empleados de agencias de viajes, recepcionistas y telefonistas; empleados de ventanilla y afines (excepto taquilleros)",
+      "occupation_4d_id": "4423",
+      "occupation_4d_name": "Telefonistas"
+    },
+    {
+      "grand_group_id": "4",
+      "grand_group_name": "Empleados contables, adminstrativos y otros empleados de oficina",
+      "group_2d_id": "44",
+      "group_2d_name": "Empleados de agencias de viajes, recepcionistas y telefonistas; empleados de ventanilla y afines (excepto taquilleros)",
+      "occupation_4d_id": "4424",
+      "occupation_4d_name": "Teleoperadores"
+    },
+    {
+      "grand_group_id": "4",
+      "grand_group_name": "Empleados contables, adminstrativos y otros empleados de oficina",
+      "group_2d_id": "44",
+      "group_2d_name": "Empleados de agencias de viajes, recepcionistas y telefonistas; empleados de ventanilla y afines (excepto taquilleros)",
+      "occupation_4d_id": "4430",
+      "occupation_4d_name": "Agentes de encuestas"
+    },
+    {
+      "grand_group_id": "4",
+      "grand_group_name": "Empleados contables, adminstrativos y otros empleados de oficina",
+      "group_2d_id": "44",
+      "group_2d_name": "Empleados de agencias de viajes, recepcionistas y telefonistas; empleados de ventanilla y afines (excepto taquilleros)",
+      "occupation_4d_id": "4441",
+      "occupation_4d_name": "Cajeros de bancos y afines"
+    },
+    {
+      "grand_group_id": "4",
+      "grand_group_name": "Empleados contables, adminstrativos y otros empleados de oficina",
+      "group_2d_id": "44",
+      "group_2d_name": "Empleados de agencias de viajes, recepcionistas y telefonistas; empleados de ventanilla y afines (excepto taquilleros)",
+      "occupation_4d_id": "4442",
+      "occupation_4d_name": "Empleados de venta de apuestas"
+    },
+    {
+      "grand_group_id": "4",
+      "grand_group_name": "Empleados contables, adminstrativos y otros empleados de oficina",
+      "group_2d_id": "44",
+      "group_2d_name": "Empleados de agencias de viajes, recepcionistas y telefonistas; empleados de ventanilla y afines (excepto taquilleros)",
+      "occupation_4d_id": "4443",
+      "occupation_4d_name": "Empleados de sala de juegos y afines"
+    },
+    {
+      "grand_group_id": "4",
+      "grand_group_name": "Empleados contables, adminstrativos y otros empleados de oficina",
+      "group_2d_id": "44",
+      "group_2d_name": "Empleados de agencias de viajes, recepcionistas y telefonistas; empleados de ventanilla y afines (excepto taquilleros)",
+      "occupation_4d_id": "4444",
+      "occupation_4d_name": "Empleados de casas de empe\u00f1o y de pr\u00e9stamos"
+    },
+    {
+      "grand_group_id": "4",
+      "grand_group_name": "Empleados contables, adminstrativos y otros empleados de oficina",
+      "group_2d_id": "44",
+      "group_2d_name": "Empleados de agencias de viajes, recepcionistas y telefonistas; empleados de ventanilla y afines (excepto taquilleros)",
+      "occupation_4d_id": "4445",
+      "occupation_4d_name": "Cobradores de facturas, deudas y empleados afines"
+    },
+    {
+      "grand_group_id": "4",
+      "grand_group_name": "Empleados contables, adminstrativos y otros empleados de oficina",
+      "group_2d_id": "44",
+      "group_2d_name": "Empleados de agencias de viajes, recepcionistas y telefonistas; empleados de ventanilla y afines (excepto taquilleros)",
+      "occupation_4d_id": "4446",
+      "occupation_4d_name": "Empleados de mostrador de correos"
+    },
+    {
+      "grand_group_id": "4",
+      "grand_group_name": "Empleados contables, adminstrativos y otros empleados de oficina",
+      "group_2d_id": "45",
+      "group_2d_name": "Empleados administrativos con tareas de atenci\u00f3n al p\u00fablico no clasificados bajo otros ep\u00edgrafes",
+      "occupation_4d_id": "4500",
+      "occupation_4d_name": "Empleados administrativos con tareas de atenci\u00f3n al p\u00fablico no clasificados bajo otros ep\u00edgrafes"
+    },
+    {
+      "grand_group_id": "5",
+      "grand_group_name": "Trabajadores de los servicios de restauraci\u00f3n, personales, protecci\u00f3n y vendedores",
+      "group_2d_id": "50",
+      "group_2d_name": "Camareros y cocineros propietarios",
+      "occupation_4d_id": "5000",
+      "occupation_4d_name": "Camareros y cocineros propietarios"
+    },
+    {
+      "grand_group_id": "5",
+      "grand_group_name": "Trabajadores de los servicios de restauraci\u00f3n, personales, protecci\u00f3n y vendedores",
+      "group_2d_id": "51",
+      "group_2d_name": "Trabajadores asalariados de los servicios de restauraci\u00f3n",
+      "occupation_4d_id": "5110",
+      "occupation_4d_name": "Cocineros asalariados"
+    },
+    {
+      "grand_group_id": "5",
+      "grand_group_name": "Trabajadores de los servicios de restauraci\u00f3n, personales, protecci\u00f3n y vendedores",
+      "group_2d_id": "51",
+      "group_2d_name": "Trabajadores asalariados de los servicios de restauraci\u00f3n",
+      "occupation_4d_id": "5120",
+      "occupation_4d_name": "Camareros asalariados"
+    },
+    {
+      "grand_group_id": "5",
+      "grand_group_name": "Trabajadores de los servicios de restauraci\u00f3n, personales, protecci\u00f3n y vendedores",
+      "group_2d_id": "52",
+      "group_2d_name": "Dependientes en tiendas y almacenes",
+      "occupation_4d_id": "5210",
+      "occupation_4d_name": "Jefes de secci\u00f3n de tiendas y almacenes"
+    },
+    {
+      "grand_group_id": "5",
+      "grand_group_name": "Trabajadores de los servicios de restauraci\u00f3n, personales, protecci\u00f3n y vendedores",
+      "group_2d_id": "52",
+      "group_2d_name": "Dependientes en tiendas y almacenes",
+      "occupation_4d_id": "5220",
+      "occupation_4d_name": "Vendedores en tiendas y almacenes"
+    },
+    {
+      "grand_group_id": "5",
+      "grand_group_name": "Trabajadores de los servicios de restauraci\u00f3n, personales, protecci\u00f3n y vendedores",
+      "group_2d_id": "53",
+      "group_2d_name": "Comerciantes propietarios de tiendas",
+      "occupation_4d_id": "5300",
+      "occupation_4d_name": "Comerciantes propietarios de tiendas"
+    },
+    {
+      "grand_group_id": "5",
+      "grand_group_name": "Trabajadores de los servicios de restauraci\u00f3n, personales, protecci\u00f3n y vendedores",
+      "group_2d_id": "54",
+      "group_2d_name": "Vendedores (excepto en tiendas y almacenes)",
+      "occupation_4d_id": "5411",
+      "occupation_4d_name": "Vendedores en quioscos"
+    },
+    {
+      "grand_group_id": "5",
+      "grand_group_name": "Trabajadores de los servicios de restauraci\u00f3n, personales, protecci\u00f3n y vendedores",
+      "group_2d_id": "54",
+      "group_2d_name": "Vendedores (excepto en tiendas y almacenes)",
+      "occupation_4d_id": "5412",
+      "occupation_4d_name": "Vendedores en mercados ocasionales y mercadillos"
+    },
+    {
+      "grand_group_id": "5",
+      "grand_group_name": "Trabajadores de los servicios de restauraci\u00f3n, personales, protecci\u00f3n y vendedores",
+      "group_2d_id": "54",
+      "group_2d_name": "Vendedores (excepto en tiendas y almacenes)",
+      "occupation_4d_id": "5420",
+      "occupation_4d_name": "Operadores de telemarketing"
+    },
+    {
+      "grand_group_id": "5",
+      "grand_group_name": "Trabajadores de los servicios de restauraci\u00f3n, personales, protecci\u00f3n y vendedores",
+      "group_2d_id": "54",
+      "group_2d_name": "Vendedores (excepto en tiendas y almacenes)",
+      "occupation_4d_id": "5430",
+      "occupation_4d_name": "Expendedores de gasolineras"
+    },
+    {
+      "grand_group_id": "5",
+      "grand_group_name": "Trabajadores de los servicios de restauraci\u00f3n, personales, protecci\u00f3n y vendedores",
+      "group_2d_id": "54",
+      "group_2d_name": "Vendedores (excepto en tiendas y almacenes)",
+      "occupation_4d_id": "5491",
+      "occupation_4d_name": "Vendedores a domicilio"
+    },
+    {
+      "grand_group_id": "5",
+      "grand_group_name": "Trabajadores de los servicios de restauraci\u00f3n, personales, protecci\u00f3n y vendedores",
+      "group_2d_id": "54",
+      "group_2d_name": "Vendedores (excepto en tiendas y almacenes)",
+      "occupation_4d_id": "5492",
+      "occupation_4d_name": "Promotores de venta"
+    },
+    {
+      "grand_group_id": "5",
+      "grand_group_name": "Trabajadores de los servicios de restauraci\u00f3n, personales, protecci\u00f3n y vendedores",
+      "group_2d_id": "54",
+      "group_2d_name": "Vendedores (excepto en tiendas y almacenes)",
+      "occupation_4d_id": "5493",
+      "occupation_4d_name": "Modelos de moda, arte y publicidad"
+    },
+    {
+      "grand_group_id": "5",
+      "grand_group_name": "Trabajadores de los servicios de restauraci\u00f3n, personales, protecci\u00f3n y vendedores",
+      "group_2d_id": "54",
+      "group_2d_name": "Vendedores (excepto en tiendas y almacenes)",
+      "occupation_4d_id": "5499",
+      "occupation_4d_name": "Vendedores no clasificados bajo otros ep\u00edgrafes"
+    },
+    {
+      "grand_group_id": "5",
+      "grand_group_name": "Trabajadores de los servicios de restauraci\u00f3n, personales, protecci\u00f3n y vendedores",
+      "group_2d_id": "55",
+      "group_2d_name": "Cajeros y taquilleros (excepto bancos)",
+      "occupation_4d_id": "5500",
+      "occupation_4d_name": "Cajeros y taquilleros (excepto bancos)"
+    },
+    {
+      "grand_group_id": "5",
+      "grand_group_name": "Trabajadores de los servicios de restauraci\u00f3n, personales, protecci\u00f3n y vendedores",
+      "group_2d_id": "56",
+      "group_2d_name": "Trabajadores de los cuidados a las personas en servicios de salud",
+      "occupation_4d_id": "5611",
+      "occupation_4d_name": "Auxiliares de enfermer\u00eda hospitalaria"
+    },
+    {
+      "grand_group_id": "5",
+      "grand_group_name": "Trabajadores de los servicios de restauraci\u00f3n, personales, protecci\u00f3n y vendedores",
+      "group_2d_id": "56",
+      "group_2d_name": "Trabajadores de los cuidados a las personas en servicios de salud",
+      "occupation_4d_id": "5612",
+      "occupation_4d_name": "Auxiliares de enfermer\u00eda de atenci\u00f3n primaria"
+    },
+    {
+      "grand_group_id": "5",
+      "grand_group_name": "Trabajadores de los servicios de restauraci\u00f3n, personales, protecci\u00f3n y vendedores",
+      "group_2d_id": "56",
+      "group_2d_name": "Trabajadores de los cuidados a las personas en servicios de salud",
+      "occupation_4d_id": "5621",
+      "occupation_4d_name": "T\u00e9cnicos auxiliares de farmacia"
+    },
+    {
+      "grand_group_id": "5",
+      "grand_group_name": "Trabajadores de los servicios de restauraci\u00f3n, personales, protecci\u00f3n y vendedores",
+      "group_2d_id": "56",
+      "group_2d_name": "Trabajadores de los cuidados a las personas en servicios de salud",
+      "occupation_4d_id": "5622",
+      "occupation_4d_name": "T\u00e9cnicos de emergencias sanitarias"
+    },
+    {
+      "grand_group_id": "5",
+      "grand_group_name": "Trabajadores de los servicios de restauraci\u00f3n, personales, protecci\u00f3n y vendedores",
+      "group_2d_id": "56",
+      "group_2d_name": "Trabajadores de los cuidados a las personas en servicios de salud",
+      "occupation_4d_id": "5629",
+      "occupation_4d_name": "Trabajadores de los cuidados a las personas en servicios de salud no clasificados bajo otros ep\u00edgrafes"
+    },
+    {
+      "grand_group_id": "5",
+      "grand_group_name": "Trabajadores de los servicios de restauraci\u00f3n, personales, protecci\u00f3n y vendedores",
+      "group_2d_id": "57",
+      "group_2d_name": "Otros trabajadores de los cuidados a las personas",
+      "occupation_4d_id": "5710",
+      "occupation_4d_name": "Trabajadores de los cuidados personales a domicilio"
+    },
+    {
+      "grand_group_id": "5",
+      "grand_group_name": "Trabajadores de los servicios de restauraci\u00f3n, personales, protecci\u00f3n y vendedores",
+      "group_2d_id": "57",
+      "group_2d_name": "Otros trabajadores de los cuidados a las personas",
+      "occupation_4d_id": "5721",
+      "occupation_4d_name": "Cuidadores de ni\u00f1os en guarder\u00edas y centros educativos"
+    },
+    {
+      "grand_group_id": "5",
+      "grand_group_name": "Trabajadores de los servicios de restauraci\u00f3n, personales, protecci\u00f3n y vendedores",
+      "group_2d_id": "57",
+      "group_2d_name": "Otros trabajadores de los cuidados a las personas",
+      "occupation_4d_id": "5722",
+      "occupation_4d_name": "Cuidadores de ni\u00f1os en domicilios"
+    },
+    {
+      "grand_group_id": "5",
+      "grand_group_name": "Trabajadores de los servicios de restauraci\u00f3n, personales, protecci\u00f3n y vendedores",
+      "group_2d_id": "58",
+      "group_2d_name": "Trabajadores de los servicios personales",
+      "occupation_4d_id": "5811",
+      "occupation_4d_name": "Peluqueros"
+    },
+    {
+      "grand_group_id": "5",
+      "grand_group_name": "Trabajadores de los servicios de restauraci\u00f3n, personales, protecci\u00f3n y vendedores",
+      "group_2d_id": "58",
+      "group_2d_name": "Trabajadores de los servicios personales",
+      "occupation_4d_id": "5812",
+      "occupation_4d_name": "Especialistas en tratamientos de est\u00e9tica, bienestar y afines"
+    },
+    {
+      "grand_group_id": "5",
+      "grand_group_name": "Trabajadores de los servicios de restauraci\u00f3n, personales, protecci\u00f3n y vendedores",
+      "group_2d_id": "58",
+      "group_2d_name": "Trabajadores de los servicios personales",
+      "occupation_4d_id": "5821",
+      "occupation_4d_name": "Auxiliares de vuelo y camareros de avi\u00f3n, barco y tren"
+    },
+    {
+      "grand_group_id": "5",
+      "grand_group_name": "Trabajadores de los servicios de restauraci\u00f3n, personales, protecci\u00f3n y vendedores",
+      "group_2d_id": "58",
+      "group_2d_name": "Trabajadores de los servicios personales",
+      "occupation_4d_id": "5822",
+      "occupation_4d_name": "Revisores y cobradores de transporte terrestre"
+    },
+    {
+      "grand_group_id": "5",
+      "grand_group_name": "Trabajadores de los servicios de restauraci\u00f3n, personales, protecci\u00f3n y vendedores",
+      "group_2d_id": "58",
+      "group_2d_name": "Trabajadores de los servicios personales",
+      "occupation_4d_id": "5823",
+      "occupation_4d_name": "Acompa\u00f1antes tur\u00edsticos"
+    },
+    {
+      "grand_group_id": "5",
+      "grand_group_name": "Trabajadores de los servicios de restauraci\u00f3n, personales, protecci\u00f3n y vendedores",
+      "group_2d_id": "58",
+      "group_2d_name": "Trabajadores de los servicios personales",
+      "occupation_4d_id": "5824",
+      "occupation_4d_name": "Azafatos de tierra"
+    },
+    {
+      "grand_group_id": "5",
+      "grand_group_name": "Trabajadores de los servicios de restauraci\u00f3n, personales, protecci\u00f3n y vendedores",
+      "group_2d_id": "58",
+      "group_2d_name": "Trabajadores de los servicios personales",
+      "occupation_4d_id": "5825",
+      "occupation_4d_name": "Gu\u00edas de turismo"
+    },
+    {
+      "grand_group_id": "5",
+      "grand_group_name": "Trabajadores de los servicios de restauraci\u00f3n, personales, protecci\u00f3n y vendedores",
+      "group_2d_id": "58",
+      "group_2d_name": "Trabajadores de los servicios personales",
+      "occupation_4d_id": "5831",
+      "occupation_4d_name": "Supervisores de mantenimiento y limpieza en oficinas, hoteles y otros establecimientos"
+    },
+    {
+      "grand_group_id": "5",
+      "grand_group_name": "Trabajadores de los servicios de restauraci\u00f3n, personales, protecci\u00f3n y vendedores",
+      "group_2d_id": "58",
+      "group_2d_name": "Trabajadores de los servicios personales",
+      "occupation_4d_id": "5832",
+      "occupation_4d_name": "Mayordomos del servicio dom\u00e9stico"
+    },
+    {
+      "grand_group_id": "5",
+      "grand_group_name": "Trabajadores de los servicios de restauraci\u00f3n, personales, protecci\u00f3n y vendedores",
+      "group_2d_id": "58",
+      "group_2d_name": "Trabajadores de los servicios personales",
+      "occupation_4d_id": "5833",
+      "occupation_4d_name": "Conserjes de edificios"
+    },
+    {
+      "grand_group_id": "5",
+      "grand_group_name": "Trabajadores de los servicios de restauraci\u00f3n, personales, protecci\u00f3n y vendedores",
+      "group_2d_id": "58",
+      "group_2d_name": "Trabajadores de los servicios personales",
+      "occupation_4d_id": "5840",
+      "occupation_4d_name": "Trabajadores propietarios de peque\u00f1os alojamientos"
+    },
+    {
+      "grand_group_id": "5",
+      "grand_group_name": "Trabajadores de los servicios de restauraci\u00f3n, personales, protecci\u00f3n y vendedores",
+      "group_2d_id": "58",
+      "group_2d_name": "Trabajadores de los servicios personales",
+      "occupation_4d_id": "5891",
+      "occupation_4d_name": "Asistentes personales o personas de compa\u00f1\u00eda"
+    },
+    {
+      "grand_group_id": "5",
+      "grand_group_name": "Trabajadores de los servicios de restauraci\u00f3n, personales, protecci\u00f3n y vendedores",
+      "group_2d_id": "58",
+      "group_2d_name": "Trabajadores de los servicios personales",
+      "occupation_4d_id": "5892",
+      "occupation_4d_name": "Empleados de pompas f\u00fanebres y embalsamadores"
+    },
+    {
+      "grand_group_id": "5",
+      "grand_group_name": "Trabajadores de los servicios de restauraci\u00f3n, personales, protecci\u00f3n y vendedores",
+      "group_2d_id": "58",
+      "group_2d_name": "Trabajadores de los servicios personales",
+      "occupation_4d_id": "5893",
+      "occupation_4d_name": "Cuidadores de animales y adiestradores"
+    },
+    {
+      "grand_group_id": "5",
+      "grand_group_name": "Trabajadores de los servicios de restauraci\u00f3n, personales, protecci\u00f3n y vendedores",
+      "group_2d_id": "58",
+      "group_2d_name": "Trabajadores de los servicios personales",
+      "occupation_4d_id": "5894",
+      "occupation_4d_name": "Instructores de autoescuela"
+    },
+    {
+      "grand_group_id": "5",
+      "grand_group_name": "Trabajadores de los servicios de restauraci\u00f3n, personales, protecci\u00f3n y vendedores",
+      "group_2d_id": "58",
+      "group_2d_name": "Trabajadores de los servicios personales",
+      "occupation_4d_id": "5895",
+      "occupation_4d_name": "Astr\u00f3logos, adivinadores y afines"
+    },
+    {
+      "grand_group_id": "5",
+      "grand_group_name": "Trabajadores de los servicios de restauraci\u00f3n, personales, protecci\u00f3n y vendedores",
+      "group_2d_id": "58",
+      "group_2d_name": "Trabajadores de los servicios personales",
+      "occupation_4d_id": "5899",
+      "occupation_4d_name": "Trabajadores de servicios personales no clasificados bajo otros ep\u00edgrafes"
+    },
+    {
+      "grand_group_id": "5",
+      "grand_group_name": "Trabajadores de los servicios de restauraci\u00f3n, personales, protecci\u00f3n y vendedores",
+      "group_2d_id": "59",
+      "group_2d_name": "Trabajadores de los servicios de protecci\u00f3n y seguridad",
+      "occupation_4d_id": "5910",
+      "occupation_4d_name": "Guardias civiles"
+    },
+    {
+      "grand_group_id": "5",
+      "grand_group_name": "Trabajadores de los servicios de restauraci\u00f3n, personales, protecci\u00f3n y vendedores",
+      "group_2d_id": "59",
+      "group_2d_name": "Trabajadores de los servicios de protecci\u00f3n y seguridad",
+      "occupation_4d_id": "5921",
+      "occupation_4d_name": "Polic\u00edas nacionales"
+    },
+    {
+      "grand_group_id": "5",
+      "grand_group_name": "Trabajadores de los servicios de restauraci\u00f3n, personales, protecci\u00f3n y vendedores",
+      "group_2d_id": "59",
+      "group_2d_name": "Trabajadores de los servicios de protecci\u00f3n y seguridad",
+      "occupation_4d_id": "5922",
+      "occupation_4d_name": "Polic\u00edas auton\u00f3micos"
+    },
+    {
+      "grand_group_id": "5",
+      "grand_group_name": "Trabajadores de los servicios de restauraci\u00f3n, personales, protecci\u00f3n y vendedores",
+      "group_2d_id": "59",
+      "group_2d_name": "Trabajadores de los servicios de protecci\u00f3n y seguridad",
+      "occupation_4d_id": "5923",
+      "occupation_4d_name": "Polic\u00edas locales"
+    },
+    {
+      "grand_group_id": "5",
+      "grand_group_name": "Trabajadores de los servicios de restauraci\u00f3n, personales, protecci\u00f3n y vendedores",
+      "group_2d_id": "59",
+      "group_2d_name": "Trabajadores de los servicios de protecci\u00f3n y seguridad",
+      "occupation_4d_id": "5931",
+      "occupation_4d_name": "Bomberos (excepto forestales)"
+    },
+    {
+      "grand_group_id": "5",
+      "grand_group_name": "Trabajadores de los servicios de restauraci\u00f3n, personales, protecci\u00f3n y vendedores",
+      "group_2d_id": "59",
+      "group_2d_name": "Trabajadores de los servicios de protecci\u00f3n y seguridad",
+      "occupation_4d_id": "5932",
+      "occupation_4d_name": "Bomberos forestales"
+    },
+    {
+      "grand_group_id": "5",
+      "grand_group_name": "Trabajadores de los servicios de restauraci\u00f3n, personales, protecci\u00f3n y vendedores",
+      "group_2d_id": "59",
+      "group_2d_name": "Trabajadores de los servicios de protecci\u00f3n y seguridad",
+      "occupation_4d_id": "5941",
+      "occupation_4d_name": "Vigilantes de seguridad y similares habilitados para ir armados"
+    },
+    {
+      "grand_group_id": "5",
+      "grand_group_name": "Trabajadores de los servicios de restauraci\u00f3n, personales, protecci\u00f3n y vendedores",
+      "group_2d_id": "59",
+      "group_2d_name": "Trabajadores de los servicios de protecci\u00f3n y seguridad",
+      "occupation_4d_id": "5942",
+      "occupation_4d_name": "Auxiliares de vigilante de seguridad y similares no habilitados para ir armados"
+    },
+    {
+      "grand_group_id": "5",
+      "grand_group_name": "Trabajadores de los servicios de restauraci\u00f3n, personales, protecci\u00f3n y vendedores",
+      "group_2d_id": "59",
+      "group_2d_name": "Trabajadores de los servicios de protecci\u00f3n y seguridad",
+      "occupation_4d_id": "5991",
+      "occupation_4d_name": "Vigilantes de prisiones"
+    },
+    {
+      "grand_group_id": "5",
+      "grand_group_name": "Trabajadores de los servicios de restauraci\u00f3n, personales, protecci\u00f3n y vendedores",
+      "group_2d_id": "59",
+      "group_2d_name": "Trabajadores de los servicios de protecci\u00f3n y seguridad",
+      "occupation_4d_id": "5992",
+      "occupation_4d_name": "Ba\u00f1istas-socorristas"
+    },
+    {
+      "grand_group_id": "5",
+      "grand_group_name": "Trabajadores de los servicios de restauraci\u00f3n, personales, protecci\u00f3n y vendedores",
+      "group_2d_id": "59",
+      "group_2d_name": "Trabajadores de los servicios de protecci\u00f3n y seguridad",
+      "occupation_4d_id": "5993",
+      "occupation_4d_name": "Agentes forestales y medioambientales"
+    },
+    {
+      "grand_group_id": "5",
+      "grand_group_name": "Trabajadores de los servicios de restauraci\u00f3n, personales, protecci\u00f3n y vendedores",
+      "group_2d_id": "59",
+      "group_2d_name": "Trabajadores de los servicios de protecci\u00f3n y seguridad",
+      "occupation_4d_id": "5999",
+      "occupation_4d_name": "Trabajadores de los servicios de protecci\u00f3n y seguridad no clasificados bajo otros ep\u00edgrafes"
+    },
+    {
+      "grand_group_id": "6",
+      "grand_group_name": "Trabajadores cualificados en el sector agr\u00edcola, ganadero, forestal y pesquero",
+      "group_2d_id": "61",
+      "group_2d_name": "Trabajadores cualificados en actividades agr\u00edcolas",
+      "occupation_4d_id": "6110",
+      "occupation_4d_name": "Trabajadores cualificados en actividades agr\u00edcolas (excepto en huertas, invernaderos, viveros y jardines)"
+    },
+    {
+      "grand_group_id": "6",
+      "grand_group_name": "Trabajadores cualificados en el sector agr\u00edcola, ganadero, forestal y pesquero",
+      "group_2d_id": "61",
+      "group_2d_name": "Trabajadores cualificados en actividades agr\u00edcolas",
+      "occupation_4d_id": "6120",
+      "occupation_4d_name": "Trabajadores cualificados en huertas, invernaderos, viveros y jardines"
+    },
+    {
+      "grand_group_id": "6",
+      "grand_group_name": "Trabajadores cualificados en el sector agr\u00edcola, ganadero, forestal y pesquero",
+      "group_2d_id": "62",
+      "group_2d_name": "Trabajadores cualificados en actividades ganaderas, (incluidas av\u00edcolas, ap\u00edcolas y similares)",
+      "occupation_4d_id": "6201",
+      "occupation_4d_name": "Trabajadores cualificados en actividades ganaderas de vacuno"
+    },
+    {
+      "grand_group_id": "6",
+      "grand_group_name": "Trabajadores cualificados en el sector agr\u00edcola, ganadero, forestal y pesquero",
+      "group_2d_id": "62",
+      "group_2d_name": "Trabajadores cualificados en actividades ganaderas, (incluidas av\u00edcolas, ap\u00edcolas y similares)",
+      "occupation_4d_id": "6202",
+      "occupation_4d_name": "Trabajadores cualificados en actividades ganaderas de ovino y caprino"
+    },
+    {
+      "grand_group_id": "6",
+      "grand_group_name": "Trabajadores cualificados en el sector agr\u00edcola, ganadero, forestal y pesquero",
+      "group_2d_id": "62",
+      "group_2d_name": "Trabajadores cualificados en actividades ganaderas, (incluidas av\u00edcolas, ap\u00edcolas y similares)",
+      "occupation_4d_id": "6203",
+      "occupation_4d_name": "Trabajadores cualificados en actividades ganaderas de porcino"
+    },
+    {
+      "grand_group_id": "6",
+      "grand_group_name": "Trabajadores cualificados en el sector agr\u00edcola, ganadero, forestal y pesquero",
+      "group_2d_id": "62",
+      "group_2d_name": "Trabajadores cualificados en actividades ganaderas, (incluidas av\u00edcolas, ap\u00edcolas y similares)",
+      "occupation_4d_id": "6204",
+      "occupation_4d_name": "Trabajadores cualificados en apicultura y sericicultura"
+    },
+    {
+      "grand_group_id": "6",
+      "grand_group_name": "Trabajadores cualificados en el sector agr\u00edcola, ganadero, forestal y pesquero",
+      "group_2d_id": "62",
+      "group_2d_name": "Trabajadores cualificados en actividades ganaderas, (incluidas av\u00edcolas, ap\u00edcolas y similares)",
+      "occupation_4d_id": "6205",
+      "occupation_4d_name": "Trabajadores cualificados en la avicultura y la cunicultura"
+    },
+    {
+      "grand_group_id": "6",
+      "grand_group_name": "Trabajadores cualificados en el sector agr\u00edcola, ganadero, forestal y pesquero",
+      "group_2d_id": "62",
+      "group_2d_name": "Trabajadores cualificados en actividades ganaderas, (incluidas av\u00edcolas, ap\u00edcolas y similares)",
+      "occupation_4d_id": "6209",
+      "occupation_4d_name": "Trabajadores cualificados en actividades ganaderas no clasificados bajo otros ep\u00edgrafes"
+    },
+    {
+      "grand_group_id": "6",
+      "grand_group_name": "Trabajadores cualificados en el sector agr\u00edcola, ganadero, forestal y pesquero",
+      "group_2d_id": "63",
+      "group_2d_name": "Trabajadores cualificados en actividades agropecuarias mixtas",
+      "occupation_4d_id": "6300",
+      "occupation_4d_name": "Trabajadores cualificados en actividades agropecuarias mixtas"
+    },
+    {
+      "grand_group_id": "6",
+      "grand_group_name": "Trabajadores cualificados en el sector agr\u00edcola, ganadero, forestal y pesquero",
+      "group_2d_id": "64",
+      "group_2d_name": "Trabajadores cualificados en actividades forestales, pesqueras y cineg\u00e9ticas",
+      "occupation_4d_id": "6410",
+      "occupation_4d_name": "Trabajadores cualificados en actividades forestales y del medio natural"
+    },
+    {
+      "grand_group_id": "6",
+      "grand_group_name": "Trabajadores cualificados en el sector agr\u00edcola, ganadero, forestal y pesquero",
+      "group_2d_id": "64",
+      "group_2d_name": "Trabajadores cualificados en actividades forestales, pesqueras y cineg\u00e9ticas",
+      "occupation_4d_id": "6421",
+      "occupation_4d_name": "Trabajadores cualificados en la acuicultura"
+    },
+    {
+      "grand_group_id": "6",
+      "grand_group_name": "Trabajadores cualificados en el sector agr\u00edcola, ganadero, forestal y pesquero",
+      "group_2d_id": "64",
+      "group_2d_name": "Trabajadores cualificados en actividades forestales, pesqueras y cineg\u00e9ticas",
+      "occupation_4d_id": "6422",
+      "occupation_4d_name": "Pescadores de aguas costeras y aguas dulces"
+    },
+    {
+      "grand_group_id": "6",
+      "grand_group_name": "Trabajadores cualificados en el sector agr\u00edcola, ganadero, forestal y pesquero",
+      "group_2d_id": "64",
+      "group_2d_name": "Trabajadores cualificados en actividades forestales, pesqueras y cineg\u00e9ticas",
+      "occupation_4d_id": "6423",
+      "occupation_4d_name": "Pescadores de altura"
+    },
+    {
+      "grand_group_id": "6",
+      "grand_group_name": "Trabajadores cualificados en el sector agr\u00edcola, ganadero, forestal y pesquero",
+      "group_2d_id": "64",
+      "group_2d_name": "Trabajadores cualificados en actividades forestales, pesqueras y cineg\u00e9ticas",
+      "occupation_4d_id": "6430",
+      "occupation_4d_name": "Trabajadores cualificados en actividades cineg\u00e9ticas"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "71",
+      "group_2d_name": "Trabajadores en obras estructurales de construcci\u00f3n y afines",
+      "occupation_4d_id": "7111",
+      "occupation_4d_name": "Encofradores y operarios de puesta en obra de hormig\u00f3n"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "71",
+      "group_2d_name": "Trabajadores en obras estructurales de construcci\u00f3n y afines",
+      "occupation_4d_id": "7112",
+      "occupation_4d_name": "Montadores de prefabricados estructurales (s\u00f3lo hormig\u00f3n)"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "71",
+      "group_2d_name": "Trabajadores en obras estructurales de construcci\u00f3n y afines",
+      "occupation_4d_id": "7121",
+      "occupation_4d_name": "Alba\u00f1iles"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "71",
+      "group_2d_name": "Trabajadores en obras estructurales de construcci\u00f3n y afines",
+      "occupation_4d_id": "7122",
+      "occupation_4d_name": "Canteros, tronzadores, labrantes y grabadores de piedras"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "71",
+      "group_2d_name": "Trabajadores en obras estructurales de construcci\u00f3n y afines",
+      "occupation_4d_id": "7131",
+      "occupation_4d_name": "Carpinteros (excepto ebanistas)"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "71",
+      "group_2d_name": "Trabajadores en obras estructurales de construcci\u00f3n y afines",
+      "occupation_4d_id": "7132",
+      "occupation_4d_name": "Instaladores de cerramientos met\u00e1licos y carpinteros met\u00e1licos (excepto montadores de estructuras met\u00e1licas)"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "71",
+      "group_2d_name": "Trabajadores en obras estructurales de construcci\u00f3n y afines",
+      "occupation_4d_id": "7191",
+      "occupation_4d_name": "Mantenedores de edificios"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "71",
+      "group_2d_name": "Trabajadores en obras estructurales de construcci\u00f3n y afines",
+      "occupation_4d_id": "7192",
+      "occupation_4d_name": "Instaladores de fachadas t\u00e9cnicas"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "71",
+      "group_2d_name": "Trabajadores en obras estructurales de construcci\u00f3n y afines",
+      "occupation_4d_id": "7193",
+      "occupation_4d_name": "Instaladores de sistemas de impermeabilizaci\u00f3n en edificios"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "71",
+      "group_2d_name": "Trabajadores en obras estructurales de construcci\u00f3n y afines",
+      "occupation_4d_id": "7199",
+      "occupation_4d_name": "Otros trabajadores de las obras estructurales de construcci\u00f3n no clasificados bajo otros ep\u00edgrafes"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "72",
+      "group_2d_name": "Trabajadores de acabado de construcciones e instalaciones (excepto electricistas), pintores y afines",
+      "occupation_4d_id": "7211",
+      "occupation_4d_name": "Escayolistas"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "72",
+      "group_2d_name": "Trabajadores de acabado de construcciones e instalaciones (excepto electricistas), pintores y afines",
+      "occupation_4d_id": "7212",
+      "occupation_4d_name": "Aplicadores de revestimientos de pasta y mortero"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "72",
+      "group_2d_name": "Trabajadores de acabado de construcciones e instalaciones (excepto electricistas), pintores y afines",
+      "occupation_4d_id": "7221",
+      "occupation_4d_name": "Fontaneros"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "72",
+      "group_2d_name": "Trabajadores de acabado de construcciones e instalaciones (excepto electricistas), pintores y afines",
+      "occupation_4d_id": "7222",
+      "occupation_4d_name": "Montadores-instaladores de gas en edificios"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "72",
+      "group_2d_name": "Trabajadores de acabado de construcciones e instalaciones (excepto electricistas), pintores y afines",
+      "occupation_4d_id": "7223",
+      "occupation_4d_name": "Instaladores de conductos en obra p\u00fablica"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "72",
+      "group_2d_name": "Trabajadores de acabado de construcciones e instalaciones (excepto electricistas), pintores y afines",
+      "occupation_4d_id": "7231",
+      "occupation_4d_name": "Pintores y empapeladores"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "72",
+      "group_2d_name": "Trabajadores de acabado de construcciones e instalaciones (excepto electricistas), pintores y afines",
+      "occupation_4d_id": "7232",
+      "occupation_4d_name": "Pintores en las industrias manufactureras"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "72",
+      "group_2d_name": "Trabajadores de acabado de construcciones e instalaciones (excepto electricistas), pintores y afines",
+      "occupation_4d_id": "7240",
+      "occupation_4d_name": "Soladores, colocadores de parquet y afines"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "72",
+      "group_2d_name": "Trabajadores de acabado de construcciones e instalaciones (excepto electricistas), pintores y afines",
+      "occupation_4d_id": "7250",
+      "occupation_4d_name": "Mec\u00e1nicos-instaladores de refrigeraci\u00f3n y climatizaci\u00f3n"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "72",
+      "group_2d_name": "Trabajadores de acabado de construcciones e instalaciones (excepto electricistas), pintores y afines",
+      "occupation_4d_id": "7291",
+      "occupation_4d_name": "Montadores de cubiertas"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "72",
+      "group_2d_name": "Trabajadores de acabado de construcciones e instalaciones (excepto electricistas), pintores y afines",
+      "occupation_4d_id": "7292",
+      "occupation_4d_name": "Instaladores de material aislante t\u00e9rmico y de insonorizaci\u00f3n"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "72",
+      "group_2d_name": "Trabajadores de acabado de construcciones e instalaciones (excepto electricistas), pintores y afines",
+      "occupation_4d_id": "7293",
+      "occupation_4d_name": "Cristaleros"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "72",
+      "group_2d_name": "Trabajadores de acabado de construcciones e instalaciones (excepto electricistas), pintores y afines",
+      "occupation_4d_id": "7294",
+      "occupation_4d_name": "Montadores-instaladores de placas de energ\u00eda solar"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "72",
+      "group_2d_name": "Trabajadores de acabado de construcciones e instalaciones (excepto electricistas), pintores y afines",
+      "occupation_4d_id": "7295",
+      "occupation_4d_name": "Personal de limpieza de fachadas de edificios y chimeneas"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "73",
+      "group_2d_name": "Soldadores, chapistas, montadores de estructuras met\u00e1licas, herreros, elaboradores de herramientas y afines",
+      "occupation_4d_id": "7311",
+      "occupation_4d_name": "Moldeadores y macheros"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "73",
+      "group_2d_name": "Soldadores, chapistas, montadores de estructuras met\u00e1licas, herreros, elaboradores de herramientas y afines",
+      "occupation_4d_id": "7312",
+      "occupation_4d_name": "Soldadores y oxicortadores"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "73",
+      "group_2d_name": "Soldadores, chapistas, montadores de estructuras met\u00e1licas, herreros, elaboradores de herramientas y afines",
+      "occupation_4d_id": "7313",
+      "occupation_4d_name": "Chapistas y caldereros"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "73",
+      "group_2d_name": "Soldadores, chapistas, montadores de estructuras met\u00e1licas, herreros, elaboradores de herramientas y afines",
+      "occupation_4d_id": "7314",
+      "occupation_4d_name": "Montadores de estructuras met\u00e1licas"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "73",
+      "group_2d_name": "Soldadores, chapistas, montadores de estructuras met\u00e1licas, herreros, elaboradores de herramientas y afines",
+      "occupation_4d_id": "7315",
+      "occupation_4d_name": "Montadores de estructuras cableadas y empalmadores de cables"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "73",
+      "group_2d_name": "Soldadores, chapistas, montadores de estructuras met\u00e1licas, herreros, elaboradores de herramientas y afines",
+      "occupation_4d_id": "7321",
+      "occupation_4d_name": "Herreros y forjadores"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "73",
+      "group_2d_name": "Soldadores, chapistas, montadores de estructuras met\u00e1licas, herreros, elaboradores de herramientas y afines",
+      "occupation_4d_id": "7322",
+      "occupation_4d_name": "Trabajadores de la fabricaci\u00f3n de herramientas, mec\u00e1nico-ajustadores, modelistas, matriceros y afines"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "73",
+      "group_2d_name": "Soldadores, chapistas, montadores de estructuras met\u00e1licas, herreros, elaboradores de herramientas y afines",
+      "occupation_4d_id": "7323",
+      "occupation_4d_name": "Ajustadores y operadores de m\u00e1quinas-herramienta"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "73",
+      "group_2d_name": "Soldadores, chapistas, montadores de estructuras met\u00e1licas, herreros, elaboradores de herramientas y afines",
+      "occupation_4d_id": "7324",
+      "occupation_4d_name": "Pulidores de metales y afiladores de herramientas"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "74",
+      "group_2d_name": "Mec\u00e1nicos y ajustadores de maquinaria",
+      "occupation_4d_id": "7401",
+      "occupation_4d_name": "Mec\u00e1nicos y ajustadores de veh\u00edculos de motor"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "74",
+      "group_2d_name": "Mec\u00e1nicos y ajustadores de maquinaria",
+      "occupation_4d_id": "7402",
+      "occupation_4d_name": "Mec\u00e1nicos y ajustadores de motores de avi\u00f3n"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "74",
+      "group_2d_name": "Mec\u00e1nicos y ajustadores de maquinaria",
+      "occupation_4d_id": "7403",
+      "occupation_4d_name": "Mec\u00e1nicos y ajustadores de maquinaria agr\u00edcola e industrial"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "74",
+      "group_2d_name": "Mec\u00e1nicos y ajustadores de maquinaria",
+      "occupation_4d_id": "7404",
+      "occupation_4d_name": "Mec\u00e1nicos y ajustadores de maquinaria naval y ferroviaria"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "74",
+      "group_2d_name": "Mec\u00e1nicos y ajustadores de maquinaria",
+      "occupation_4d_id": "7405",
+      "occupation_4d_name": "Reparadores de bicicletas y afines"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "75",
+      "group_2d_name": "Trabajadores especializados en electricidad y electrotecnolog\u00eda",
+      "occupation_4d_id": "7510",
+      "occupation_4d_name": "Electricistas de la construcci\u00f3n y afines"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "75",
+      "group_2d_name": "Trabajadores especializados en electricidad y electrotecnolog\u00eda",
+      "occupation_4d_id": "7521",
+      "occupation_4d_name": "Mec\u00e1nicos y reparadores de equipos el\u00e9ctricos"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "75",
+      "group_2d_name": "Trabajadores especializados en electricidad y electrotecnolog\u00eda",
+      "occupation_4d_id": "7522",
+      "occupation_4d_name": "Instaladores y reparadores de l\u00edneas el\u00e9ctricas"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "75",
+      "group_2d_name": "Trabajadores especializados en electricidad y electrotecnolog\u00eda",
+      "occupation_4d_id": "7531",
+      "occupation_4d_name": "Mec\u00e1nicos y reparadores de equipos electr\u00f3nicos"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "75",
+      "group_2d_name": "Trabajadores especializados en electricidad y electrotecnolog\u00eda",
+      "occupation_4d_id": "7532",
+      "occupation_4d_name": "Instaladores y reparadores en electro medicina"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "75",
+      "group_2d_name": "Trabajadores especializados en electricidad y electrotecnolog\u00eda",
+      "occupation_4d_id": "7533",
+      "occupation_4d_name": "Instaladores y reparadores en tecnolog\u00edas de la informaci\u00f3n y las comunicaciones"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "76",
+      "group_2d_name": "Mec\u00e1nicos de precisi\u00f3n en metales, ceramistas, vidrieros, artesanos y trabajadores de artes gr\u00e1ficas.",
+      "occupation_4d_id": "7611",
+      "occupation_4d_name": "Relojeros y mec\u00e1nicos de instrumentos de precisi\u00f3n"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "76",
+      "group_2d_name": "Mec\u00e1nicos de precisi\u00f3n en metales, ceramistas, vidrieros, artesanos y trabajadores de artes gr\u00e1ficas.",
+      "occupation_4d_id": "7612",
+      "occupation_4d_name": "Lutieres y similares; afinadores de instrumentos musicales"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "76",
+      "group_2d_name": "Mec\u00e1nicos de precisi\u00f3n en metales, ceramistas, vidrieros, artesanos y trabajadores de artes gr\u00e1ficas.",
+      "occupation_4d_id": "7613",
+      "occupation_4d_name": "Joyeros, orfebres y plateros"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "76",
+      "group_2d_name": "Mec\u00e1nicos de precisi\u00f3n en metales, ceramistas, vidrieros, artesanos y trabajadores de artes gr\u00e1ficas.",
+      "occupation_4d_id": "7614",
+      "occupation_4d_name": "Trabajadores de la cer\u00e1mica, alfareros y afines"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "76",
+      "group_2d_name": "Mec\u00e1nicos de precisi\u00f3n en metales, ceramistas, vidrieros, artesanos y trabajadores de artes gr\u00e1ficas.",
+      "occupation_4d_id": "7615",
+      "occupation_4d_name": "Sopladores, modeladores, laminadores, cortadores y pulidores de vidrio"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "76",
+      "group_2d_name": "Mec\u00e1nicos de precisi\u00f3n en metales, ceramistas, vidrieros, artesanos y trabajadores de artes gr\u00e1ficas.",
+      "occupation_4d_id": "7616",
+      "occupation_4d_name": "Rotulistas, grabadores de vidrio, pintores decorativos de art\u00edculos diversos"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "76",
+      "group_2d_name": "Mec\u00e1nicos de precisi\u00f3n en metales, ceramistas, vidrieros, artesanos y trabajadores de artes gr\u00e1ficas.",
+      "occupation_4d_id": "7617",
+      "occupation_4d_name": "Artesanos en madera y materiales similares"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "76",
+      "group_2d_name": "Mec\u00e1nicos de precisi\u00f3n en metales, ceramistas, vidrieros, artesanos y trabajadores de artes gr\u00e1ficas.",
+      "occupation_4d_id": "7618",
+      "occupation_4d_name": "Artesanos en tejidos, cueros y materiales similares, preparadores de fibra y tejedores con telares artesanos o de tejidos de punto y afines"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "76",
+      "group_2d_name": "Mec\u00e1nicos de precisi\u00f3n en metales, ceramistas, vidrieros, artesanos y trabajadores de artes gr\u00e1ficas.",
+      "occupation_4d_id": "7619",
+      "occupation_4d_name": "Artesanos no clasificados bajo otros ep\u00edgrafes"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "76",
+      "group_2d_name": "Mec\u00e1nicos de precisi\u00f3n en metales, ceramistas, vidrieros, artesanos y trabajadores de artes gr\u00e1ficas.",
+      "occupation_4d_id": "7621",
+      "occupation_4d_name": "Trabajadores de procesos de preimpresi\u00f3n"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "76",
+      "group_2d_name": "Mec\u00e1nicos de precisi\u00f3n en metales, ceramistas, vidrieros, artesanos y trabajadores de artes gr\u00e1ficas.",
+      "occupation_4d_id": "7622",
+      "occupation_4d_name": "Trabajadores de procesos de impresi\u00f3n"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "76",
+      "group_2d_name": "Mec\u00e1nicos de precisi\u00f3n en metales, ceramistas, vidrieros, artesanos y trabajadores de artes gr\u00e1ficas.",
+      "occupation_4d_id": "7623",
+      "occupation_4d_name": "Trabajadores de procesos de encuadernaci\u00f3n"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "77",
+      "group_2d_name": "Trabajadores de la industria de la alimentaci\u00f3n, bebidas y tabaco",
+      "occupation_4d_id": "7701",
+      "occupation_4d_name": "Matarifes y trabajadores de las industrias c\u00e1rnicas"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "77",
+      "group_2d_name": "Trabajadores de la industria de la alimentaci\u00f3n, bebidas y tabaco",
+      "occupation_4d_id": "7702",
+      "occupation_4d_name": "Trabajadores de las industrias del pescado"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "77",
+      "group_2d_name": "Trabajadores de la industria de la alimentaci\u00f3n, bebidas y tabaco",
+      "occupation_4d_id": "7703",
+      "occupation_4d_name": "Panaderos, pasteleros y confiteros"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "77",
+      "group_2d_name": "Trabajadores de la industria de la alimentaci\u00f3n, bebidas y tabaco",
+      "occupation_4d_id": "7704",
+      "occupation_4d_name": "Trabajadores del tratamiento de la leche y elaboraci\u00f3n de productos l\u00e1cteos (incluidos helados)"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "77",
+      "group_2d_name": "Trabajadores de la industria de la alimentaci\u00f3n, bebidas y tabaco",
+      "occupation_4d_id": "7705",
+      "occupation_4d_name": "Trabajadores conserveros de frutas y hortalizas y trabajadores de la elaboraci\u00f3n de bebidas no alcoh\u00f3licas"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "77",
+      "group_2d_name": "Trabajadores de la industria de la alimentaci\u00f3n, bebidas y tabaco",
+      "occupation_4d_id": "7706",
+      "occupation_4d_name": "Trabajadores de la elaboraci\u00f3n de bebidas alcoh\u00f3licas distintas del vino"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "77",
+      "group_2d_name": "Trabajadores de la industria de la alimentaci\u00f3n, bebidas y tabaco",
+      "occupation_4d_id": "7707",
+      "occupation_4d_name": "Trabajadores de la elaboraci\u00f3n del vino"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "77",
+      "group_2d_name": "Trabajadores de la industria de la alimentaci\u00f3n, bebidas y tabaco",
+      "occupation_4d_id": "7708",
+      "occupation_4d_name": "Preparadores y elaboradores del tabaco y sus productos"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "77",
+      "group_2d_name": "Trabajadores de la industria de la alimentaci\u00f3n, bebidas y tabaco",
+      "occupation_4d_id": "7709",
+      "occupation_4d_name": "Catadores y clasificadores de alimentos y bebidas"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "78",
+      "group_2d_name": "Trabajadores de la madera, textil, confecci\u00f3n, piel, cuero, calzado y otros operarios en oficios",
+      "occupation_4d_id": "7811",
+      "occupation_4d_name": "Trabajadores del tratamiento de la madera"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "78",
+      "group_2d_name": "Trabajadores de la madera, textil, confecci\u00f3n, piel, cuero, calzado y otros operarios en oficios",
+      "occupation_4d_id": "7812",
+      "occupation_4d_name": "Ajustadores y operadores de m\u00e1quinas para trabajar la madera"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "78",
+      "group_2d_name": "Trabajadores de la madera, textil, confecci\u00f3n, piel, cuero, calzado y otros operarios en oficios",
+      "occupation_4d_id": "7820",
+      "occupation_4d_name": "Ebanistas y trabajadores afines"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "78",
+      "group_2d_name": "Trabajadores de la madera, textil, confecci\u00f3n, piel, cuero, calzado y otros operarios en oficios",
+      "occupation_4d_id": "7831",
+      "occupation_4d_name": "Sastres, modistos, peleteros y sombrereros"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "78",
+      "group_2d_name": "Trabajadores de la madera, textil, confecci\u00f3n, piel, cuero, calzado y otros operarios en oficios",
+      "occupation_4d_id": "7832",
+      "occupation_4d_name": "Patronistas para productos en textil y piel"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "78",
+      "group_2d_name": "Trabajadores de la madera, textil, confecci\u00f3n, piel, cuero, calzado y otros operarios en oficios",
+      "occupation_4d_id": "7833",
+      "occupation_4d_name": "Cortadores de tejidos, cuero, piel y otros materiales"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "78",
+      "group_2d_name": "Trabajadores de la madera, textil, confecci\u00f3n, piel, cuero, calzado y otros operarios en oficios",
+      "occupation_4d_id": "7834",
+      "occupation_4d_name": "Costureros a mano, bordadores y afines"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "78",
+      "group_2d_name": "Trabajadores de la madera, textil, confecci\u00f3n, piel, cuero, calzado y otros operarios en oficios",
+      "occupation_4d_id": "7835",
+      "occupation_4d_name": "Tapiceros, colchoneros y afines"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "78",
+      "group_2d_name": "Trabajadores de la madera, textil, confecci\u00f3n, piel, cuero, calzado y otros operarios en oficios",
+      "occupation_4d_id": "7836",
+      "occupation_4d_name": "Curtidores y preparadores de pieles"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "78",
+      "group_2d_name": "Trabajadores de la madera, textil, confecci\u00f3n, piel, cuero, calzado y otros operarios en oficios",
+      "occupation_4d_id": "7837",
+      "occupation_4d_name": "Zapateros y afines"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "78",
+      "group_2d_name": "Trabajadores de la madera, textil, confecci\u00f3n, piel, cuero, calzado y otros operarios en oficios",
+      "occupation_4d_id": "7891",
+      "occupation_4d_name": "Buceadores"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "78",
+      "group_2d_name": "Trabajadores de la madera, textil, confecci\u00f3n, piel, cuero, calzado y otros operarios en oficios",
+      "occupation_4d_id": "7892",
+      "occupation_4d_name": "Pegadores"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "78",
+      "group_2d_name": "Trabajadores de la madera, textil, confecci\u00f3n, piel, cuero, calzado y otros operarios en oficios",
+      "occupation_4d_id": "7893",
+      "occupation_4d_name": "Clasificadores y probadores de productos (excepto alimentos, bebidas y tabaco)"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "78",
+      "group_2d_name": "Trabajadores de la madera, textil, confecci\u00f3n, piel, cuero, calzado y otros operarios en oficios",
+      "occupation_4d_id": "7894",
+      "occupation_4d_name": "Fumigadores y otros controladores de plagas y malas hierbas"
+    },
+    {
+      "grand_group_id": "7",
+      "grand_group_name": "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\u00f3n (excepto operadores de instalaciones y maquinaria)",
+      "group_2d_id": "78",
+      "group_2d_name": "Trabajadores de la madera, textil, confecci\u00f3n, piel, cuero, calzado y otros operarios en oficios",
+      "occupation_4d_id": "7899",
+      "occupation_4d_name": "Oficiales, operarios y artesanos de otros oficios no clasificados bajo otros ep\u00edgrafes"
+    },
+    {
+      "grand_group_id": "8",
+      "grand_group_name": "Operadores de instalaciones y maquinaria, y montadores",
+      "group_2d_id": "81",
+      "group_2d_name": "Operadores de instalaciones y maquinaria fijas",
+      "occupation_4d_id": "8111",
+      "occupation_4d_name": "Mineros y otros operadores en instalaciones mineras"
+    },
+    {
+      "grand_group_id": "8",
+      "grand_group_name": "Operadores de instalaciones y maquinaria, y montadores",
+      "group_2d_id": "81",
+      "group_2d_name": "Operadores de instalaciones y maquinaria fijas",
+      "occupation_4d_id": "8112",
+      "occupation_4d_name": "Operadores en instalaciones para la preparaci\u00f3n de minerales y rocas"
+    },
+    {
+      "grand_group_id": "8",
+      "grand_group_name": "Operadores de instalaciones y maquinaria, y montadores",
+      "group_2d_id": "81",
+      "group_2d_name": "Operadores de instalaciones y maquinaria fijas",
+      "occupation_4d_id": "8113",
+      "occupation_4d_name": "Sondistas y trabajadores afines"
+    },
+    {
+      "grand_group_id": "8",
+      "grand_group_name": "Operadores de instalaciones y maquinaria, y montadores",
+      "group_2d_id": "81",
+      "group_2d_name": "Operadores de instalaciones y maquinaria fijas",
+      "occupation_4d_id": "8114",
+      "occupation_4d_name": "Operadores de maquinaria para fabricar productos derivados de minerales no met\u00e1licos"
+    },
+    {
+      "grand_group_id": "8",
+      "grand_group_name": "Operadores de instalaciones y maquinaria, y montadores",
+      "group_2d_id": "81",
+      "group_2d_name": "Operadores de instalaciones y maquinaria fijas",
+      "occupation_4d_id": "8121",
+      "occupation_4d_name": "Operadores en instalaciones para la obtenci\u00f3n y transformaci\u00f3n de metales"
+    },
+    {
+      "grand_group_id": "8",
+      "grand_group_name": "Operadores de instalaciones y maquinaria, y montadores",
+      "group_2d_id": "81",
+      "group_2d_name": "Operadores de instalaciones y maquinaria fijas",
+      "occupation_4d_id": "8122",
+      "occupation_4d_name": "Operadores de m\u00e1quinas pulidoras, galvanizadoras y recubridoras de metales"
+    },
+    {
+      "grand_group_id": "8",
+      "grand_group_name": "Operadores de instalaciones y maquinaria, y montadores",
+      "group_2d_id": "81",
+      "group_2d_name": "Operadores de instalaciones y maquinaria fijas",
+      "occupation_4d_id": "8131",
+      "occupation_4d_name": "Operadores en plantas industriales qu\u00edmicas"
+    },
+    {
+      "grand_group_id": "8",
+      "grand_group_name": "Operadores de instalaciones y maquinaria, y montadores",
+      "group_2d_id": "81",
+      "group_2d_name": "Operadores de instalaciones y maquinaria fijas",
+      "occupation_4d_id": "8132",
+      "occupation_4d_name": "Operadores de m\u00e1quinas para fabricar productos farmac\u00e9uticos, cosm\u00e9ticos y afines"
+    },
+    {
+      "grand_group_id": "8",
+      "grand_group_name": "Operadores de instalaciones y maquinaria, y montadores",
+      "group_2d_id": "81",
+      "group_2d_name": "Operadores de instalaciones y maquinaria fijas",
+      "occupation_4d_id": "8133",
+      "occupation_4d_name": "Operadores de laboratorios fotogr\u00e1ficos y afines"
+    },
+    {
+      "grand_group_id": "8",
+      "grand_group_name": "Operadores de instalaciones y maquinaria, y montadores",
+      "group_2d_id": "81",
+      "group_2d_name": "Operadores de instalaciones y maquinaria fijas",
+      "occupation_4d_id": "8141",
+      "occupation_4d_name": "Operadores de m\u00e1quinas para fabricar productos de caucho y derivados de resinas naturales"
+    },
+    {
+      "grand_group_id": "8",
+      "grand_group_name": "Operadores de instalaciones y maquinaria, y montadores",
+      "group_2d_id": "81",
+      "group_2d_name": "Operadores de instalaciones y maquinaria fijas",
+      "occupation_4d_id": "8142",
+      "occupation_4d_name": "Operadores de m\u00e1quinas para fabricar productos de material pl\u00e1stico"
+    },
+    {
+      "grand_group_id": "8",
+      "grand_group_name": "Operadores de instalaciones y maquinaria, y montadores",
+      "group_2d_id": "81",
+      "group_2d_name": "Operadores de instalaciones y maquinaria fijas",
+      "occupation_4d_id": "8143",
+      "occupation_4d_name": "Operadores de m\u00e1quinas para fabricar productos de papel y cart\u00f3n"
+    },
+    {
+      "grand_group_id": "8",
+      "grand_group_name": "Operadores de instalaciones y maquinaria, y montadores",
+      "group_2d_id": "81",
+      "group_2d_name": "Operadores de instalaciones y maquinaria fijas",
+      "occupation_4d_id": "8144",
+      "occupation_4d_name": "Operadores de serrer\u00edas, de m\u00e1quinas de fabricaci\u00f3n de tableros y de instalaciones afines para el tratamiento de la madera y el corcho"
+    },
+    {
+      "grand_group_id": "8",
+      "grand_group_name": "Operadores de instalaciones y maquinaria, y montadores",
+      "group_2d_id": "81",
+      "group_2d_name": "Operadores de instalaciones y maquinaria fijas",
+      "occupation_4d_id": "8145",
+      "occupation_4d_name": "Operadores en instalaciones para la preparaci\u00f3n de pasta de papel y fabricaci\u00f3n de papel"
+    },
+    {
+      "grand_group_id": "8",
+      "grand_group_name": "Operadores de instalaciones y maquinaria, y montadores",
+      "group_2d_id": "81",
+      "group_2d_name": "Operadores de instalaciones y maquinaria fijas",
+      "occupation_4d_id": "8151",
+      "occupation_4d_name": "Operadores de m\u00e1quinas para preparar fibras, hilar y devanar"
+    },
+    {
+      "grand_group_id": "8",
+      "grand_group_name": "Operadores de instalaciones y maquinaria, y montadores",
+      "group_2d_id": "81",
+      "group_2d_name": "Operadores de instalaciones y maquinaria fijas",
+      "occupation_4d_id": "8152",
+      "occupation_4d_name": "Operadores de telares y otras m\u00e1quinas tejedoras"
+    },
+    {
+      "grand_group_id": "8",
+      "grand_group_name": "Operadores de instalaciones y maquinaria, y montadores",
+      "group_2d_id": "81",
+      "group_2d_name": "Operadores de instalaciones y maquinaria fijas",
+      "occupation_4d_id": "8153",
+      "occupation_4d_name": "Operadores de m\u00e1quinas de coser y bordar"
+    },
+    {
+      "grand_group_id": "8",
+      "grand_group_name": "Operadores de instalaciones y maquinaria, y montadores",
+      "group_2d_id": "81",
+      "group_2d_name": "Operadores de instalaciones y maquinaria fijas",
+      "occupation_4d_id": "8154",
+      "occupation_4d_name": "Operadores de m\u00e1quinas de blanquear, te\u00f1ir, estampar y acabar textiles"
+    },
+    {
+      "grand_group_id": "8",
+      "grand_group_name": "Operadores de instalaciones y maquinaria, y montadores",
+      "group_2d_id": "81",
+      "group_2d_name": "Operadores de instalaciones y maquinaria fijas",
+      "occupation_4d_id": "8155",
+      "occupation_4d_name": "Operadores de m\u00e1quinas para tratar pieles y cuero"
+    },
+    {
+      "grand_group_id": "8",
+      "grand_group_name": "Operadores de instalaciones y maquinaria, y montadores",
+      "group_2d_id": "81",
+      "group_2d_name": "Operadores de instalaciones y maquinaria fijas",
+      "occupation_4d_id": "8156",
+      "occupation_4d_name": "Operadores de m\u00e1quinas para la fabricaci\u00f3n del calzado, marroquiner\u00eda y guanter\u00eda de piel"
+    },
+    {
+      "grand_group_id": "8",
+      "grand_group_name": "Operadores de instalaciones y maquinaria, y montadores",
+      "group_2d_id": "81",
+      "group_2d_name": "Operadores de instalaciones y maquinaria fijas",
+      "occupation_4d_id": "8159",
+      "occupation_4d_name": "Operadores de m\u00e1quinas para fabricar productos textiles no clasificados bajo otros ep\u00edgrafes"
+    },
+    {
+      "grand_group_id": "8",
+      "grand_group_name": "Operadores de instalaciones y maquinaria, y montadores",
+      "group_2d_id": "81",
+      "group_2d_name": "Operadores de instalaciones y maquinaria fijas",
+      "occupation_4d_id": "8160",
+      "occupation_4d_name": "Operadores de m\u00e1quinas para elaborar productos alimenticios, bebidas y tabaco"
+    },
+    {
+      "grand_group_id": "8",
+      "grand_group_name": "Operadores de instalaciones y maquinaria, y montadores",
+      "group_2d_id": "81",
+      "group_2d_name": "Operadores de instalaciones y maquinaria fijas",
+      "occupation_4d_id": "8170",
+      "occupation_4d_name": "Operadores de m\u00e1quinas de lavander\u00eda y tintorer\u00eda"
+    },
+    {
+      "grand_group_id": "8",
+      "grand_group_name": "Operadores de instalaciones y maquinaria, y montadores",
+      "group_2d_id": "81",
+      "group_2d_name": "Operadores de instalaciones y maquinaria fijas",
+      "occupation_4d_id": "8191",
+      "occupation_4d_name": "Operadores de hornos e instalaciones de vidrier\u00eda y cer\u00e1mica"
+    },
+    {
+      "grand_group_id": "8",
+      "grand_group_name": "Operadores de instalaciones y maquinaria, y montadores",
+      "group_2d_id": "81",
+      "group_2d_name": "Operadores de instalaciones y maquinaria fijas",
+      "occupation_4d_id": "8192",
+      "occupation_4d_name": "Operadores de calderas y m\u00e1quinas de vapor"
+    },
+    {
+      "grand_group_id": "8",
+      "grand_group_name": "Operadores de instalaciones y maquinaria, y montadores",
+      "group_2d_id": "81",
+      "group_2d_name": "Operadores de instalaciones y maquinaria fijas",
+      "occupation_4d_id": "8193",
+      "occupation_4d_name": "Operadores de m\u00e1quinas de embalaje, embotellamiento y etiquetado"
+    },
+    {
+      "grand_group_id": "8",
+      "grand_group_name": "Operadores de instalaciones y maquinaria, y montadores",
+      "group_2d_id": "81",
+      "group_2d_name": "Operadores de instalaciones y maquinaria fijas",
+      "occupation_4d_id": "8199",
+      "occupation_4d_name": "Operadores de instalaciones y maquinaria fijas no clasificados bajo otros ep\u00edgrafes"
+    },
+    {
+      "grand_group_id": "8",
+      "grand_group_name": "Operadores de instalaciones y maquinaria, y montadores",
+      "group_2d_id": "82",
+      "group_2d_name": "Montadores y ensambladores en f\u00e1bricas",
+      "occupation_4d_id": "8201",
+      "occupation_4d_name": "Ensambladores de maquinaria mec\u00e1nica"
+    },
+    {
+      "grand_group_id": "8",
+      "grand_group_name": "Operadores de instalaciones y maquinaria, y montadores",
+      "group_2d_id": "82",
+      "group_2d_name": "Montadores y ensambladores en f\u00e1bricas",
+      "occupation_4d_id": "8202",
+      "occupation_4d_name": "Ensambladores de equipos el\u00e9ctricos y electr\u00f3nicos"
+    },
+    {
+      "grand_group_id": "8",
+      "grand_group_name": "Operadores de instalaciones y maquinaria, y montadores",
+      "group_2d_id": "82",
+      "group_2d_name": "Montadores y ensambladores en f\u00e1bricas",
+      "occupation_4d_id": "8209",
+      "occupation_4d_name": "Montadores y ensambladores no clasificados en otros ep\u00edgrafes"
+    },
+    {
+      "grand_group_id": "8",
+      "grand_group_name": "Operadores de instalaciones y maquinaria, y montadores",
+      "group_2d_id": "83",
+      "group_2d_name": "Maquinistas de locomotoras, operadores de maquinaria agr\u00edcola y de equipos pesados m\u00f3viles, y marineros",
+      "occupation_4d_id": "8311",
+      "occupation_4d_name": "Maquinistas de locomotoras"
+    },
+    {
+      "grand_group_id": "8",
+      "grand_group_name": "Operadores de instalaciones y maquinaria, y montadores",
+      "group_2d_id": "83",
+      "group_2d_name": "Maquinistas de locomotoras, operadores de maquinaria agr\u00edcola y de equipos pesados m\u00f3viles, y marineros",
+      "occupation_4d_id": "8312",
+      "occupation_4d_name": "Agentes de maniobras ferroviarias"
+    },
+    {
+      "grand_group_id": "8",
+      "grand_group_name": "Operadores de instalaciones y maquinaria, y montadores",
+      "group_2d_id": "83",
+      "group_2d_name": "Maquinistas de locomotoras, operadores de maquinaria agr\u00edcola y de equipos pesados m\u00f3viles, y marineros",
+      "occupation_4d_id": "8321",
+      "occupation_4d_name": "Operadores de maquinaria agr\u00edcola m\u00f3vil"
+    },
+    {
+      "grand_group_id": "8",
+      "grand_group_name": "Operadores de instalaciones y maquinaria, y montadores",
+      "group_2d_id": "83",
+      "group_2d_name": "Maquinistas de locomotoras, operadores de maquinaria agr\u00edcola y de equipos pesados m\u00f3viles, y marineros",
+      "occupation_4d_id": "8322",
+      "occupation_4d_name": "Operadores de maquinaria forestal m\u00f3vil"
+    },
+    {
+      "grand_group_id": "8",
+      "grand_group_name": "Operadores de instalaciones y maquinaria, y montadores",
+      "group_2d_id": "83",
+      "group_2d_name": "Maquinistas de locomotoras, operadores de maquinaria agr\u00edcola y de equipos pesados m\u00f3viles, y marineros",
+      "occupation_4d_id": "8331",
+      "occupation_4d_name": "Operadores de maquinaria de movimientos de tierras y equipos similares"
+    },
+    {
+      "grand_group_id": "8",
+      "grand_group_name": "Operadores de instalaciones y maquinaria, y montadores",
+      "group_2d_id": "83",
+      "group_2d_name": "Maquinistas de locomotoras, operadores de maquinaria agr\u00edcola y de equipos pesados m\u00f3viles, y marineros",
+      "occupation_4d_id": "8332",
+      "occupation_4d_name": "Operadores de gr\u00faas, montacargas y de maquinaria similar de movimiento de materiales"
+    },
+    {
+      "grand_group_id": "8",
+      "grand_group_name": "Operadores de instalaciones y maquinaria, y montadores",
+      "group_2d_id": "83",
+      "group_2d_name": "Maquinistas de locomotoras, operadores de maquinaria agr\u00edcola y de equipos pesados m\u00f3viles, y marineros",
+      "occupation_4d_id": "8333",
+      "occupation_4d_name": "Operadores de carretillas elevadoras"
+    },
+    {
+      "grand_group_id": "8",
+      "grand_group_name": "Operadores de instalaciones y maquinaria, y montadores",
+      "group_2d_id": "83",
+      "group_2d_name": "Maquinistas de locomotoras, operadores de maquinaria agr\u00edcola y de equipos pesados m\u00f3viles, y marineros",
+      "occupation_4d_id": "8340",
+      "occupation_4d_name": "Marineros de puente, marineros de m\u00e1quinas y afines"
+    },
+    {
+      "grand_group_id": "8",
+      "grand_group_name": "Operadores de instalaciones y maquinaria, y montadores",
+      "group_2d_id": "84",
+      "group_2d_name": "Conductores de veh\u00edculos para el transporte urbano o por carretera",
+      "occupation_4d_id": "8411",
+      "occupation_4d_name": "Conductores propietarios de autom\u00f3viles, taxis y furgonetas"
+    },
+    {
+      "grand_group_id": "8",
+      "grand_group_name": "Operadores de instalaciones y maquinaria, y montadores",
+      "group_2d_id": "84",
+      "group_2d_name": "Conductores de veh\u00edculos para el transporte urbano o por carretera",
+      "occupation_4d_id": "8412",
+      "occupation_4d_name": "Conductores asalariados de autom\u00f3viles, taxis y furgonetas"
+    },
+    {
+      "grand_group_id": "8",
+      "grand_group_name": "Operadores de instalaciones y maquinaria, y montadores",
+      "group_2d_id": "84",
+      "group_2d_name": "Conductores de veh\u00edculos para el transporte urbano o por carretera",
+      "occupation_4d_id": "8420",
+      "occupation_4d_name": "Conductores de autobuses y tranv\u00edas"
+    },
+    {
+      "grand_group_id": "8",
+      "grand_group_name": "Operadores de instalaciones y maquinaria, y montadores",
+      "group_2d_id": "84",
+      "group_2d_name": "Conductores de veh\u00edculos para el transporte urbano o por carretera",
+      "occupation_4d_id": "8431",
+      "occupation_4d_name": "Conductores propietarios de camiones"
+    },
+    {
+      "grand_group_id": "8",
+      "grand_group_name": "Operadores de instalaciones y maquinaria, y montadores",
+      "group_2d_id": "84",
+      "group_2d_name": "Conductores de veh\u00edculos para el transporte urbano o por carretera",
+      "occupation_4d_id": "8432",
+      "occupation_4d_name": "Conductores asalariados de camiones"
+    },
+    {
+      "grand_group_id": "8",
+      "grand_group_name": "Operadores de instalaciones y maquinaria, y montadores",
+      "group_2d_id": "84",
+      "group_2d_name": "Conductores de veh\u00edculos para el transporte urbano o por carretera",
+      "occupation_4d_id": "8440",
+      "occupation_4d_name": "Conductores de motocicletas y ciclomotores"
+    },
+    {
+      "grand_group_id": "9",
+      "grand_group_name": "Ocupaciones elementales",
+      "group_2d_id": "91",
+      "group_2d_name": "Empleados dom\u00e9sticos",
+      "occupation_4d_id": "9100",
+      "occupation_4d_name": "Empleados dom\u00e9sticos"
+    },
+    {
+      "grand_group_id": "9",
+      "grand_group_name": "Ocupaciones elementales",
+      "group_2d_id": "92",
+      "group_2d_name": "Otro personal de limpieza",
+      "occupation_4d_id": "9210",
+      "occupation_4d_name": "Personal de limpieza de oficinas, hoteles y otros establecimientos similares"
+    },
+    {
+      "grand_group_id": "9",
+      "grand_group_name": "Ocupaciones elementales",
+      "group_2d_id": "92",
+      "group_2d_name": "Otro personal de limpieza",
+      "occupation_4d_id": "9221",
+      "occupation_4d_name": "Limpiadores en seco a mano y afines"
+    },
+    {
+      "grand_group_id": "9",
+      "grand_group_name": "Ocupaciones elementales",
+      "group_2d_id": "92",
+      "group_2d_name": "Otro personal de limpieza",
+      "occupation_4d_id": "9222",
+      "occupation_4d_name": "Limpiadores de veh\u00edculos"
+    },
+    {
+      "grand_group_id": "9",
+      "grand_group_name": "Ocupaciones elementales",
+      "group_2d_id": "92",
+      "group_2d_name": "Otro personal de limpieza",
+      "occupation_4d_id": "9223",
+      "occupation_4d_name": "Limpiadores de ventanas"
+    },
+    {
+      "grand_group_id": "9",
+      "grand_group_name": "Ocupaciones elementales",
+      "group_2d_id": "92",
+      "group_2d_name": "Otro personal de limpieza",
+      "occupation_4d_id": "9229",
+      "occupation_4d_name": "Otro personal de limpieza"
+    },
+    {
+      "grand_group_id": "9",
+      "grand_group_name": "Ocupaciones elementales",
+      "group_2d_id": "93",
+      "group_2d_name": "Ayudantes de preparaci\u00f3n de alimentos",
+      "occupation_4d_id": "9310",
+      "occupation_4d_name": "Ayudantes de cocina"
+    },
+    {
+      "grand_group_id": "9",
+      "grand_group_name": "Ocupaciones elementales",
+      "group_2d_id": "93",
+      "group_2d_name": "Ayudantes de preparaci\u00f3n de alimentos",
+      "occupation_4d_id": "9320",
+      "occupation_4d_name": "Preparadores de comidas r\u00e1pidas"
+    },
+    {
+      "grand_group_id": "9",
+      "grand_group_name": "Ocupaciones elementales",
+      "group_2d_id": "94",
+      "group_2d_name": "Recogedores de residuos urbanos, vendedores callejeros y otras ocupaciones elementales en servicios",
+      "occupation_4d_id": "9410",
+      "occupation_4d_name": "Vendedores callejeros"
+    },
+    {
+      "grand_group_id": "9",
+      "grand_group_name": "Ocupaciones elementales",
+      "group_2d_id": "94",
+      "group_2d_name": "Recogedores de residuos urbanos, vendedores callejeros y otras ocupaciones elementales en servicios",
+      "occupation_4d_id": "9420",
+      "occupation_4d_name": "Repartidores de publicidad, limpiabotas y otros trabajadores de oficios callejeros"
+    },
+    {
+      "grand_group_id": "9",
+      "grand_group_name": "Ocupaciones elementales",
+      "group_2d_id": "94",
+      "group_2d_name": "Recogedores de residuos urbanos, vendedores callejeros y otras ocupaciones elementales en servicios",
+      "occupation_4d_id": "9431",
+      "occupation_4d_name": "Ordenanzas"
+    },
+    {
+      "grand_group_id": "9",
+      "grand_group_name": "Ocupaciones elementales",
+      "group_2d_id": "94",
+      "group_2d_name": "Recogedores de residuos urbanos, vendedores callejeros y otras ocupaciones elementales en servicios",
+      "occupation_4d_id": "9432",
+      "occupation_4d_name": "Mozos de equipaje y afines"
+    },
+    {
+      "grand_group_id": "9",
+      "grand_group_name": "Ocupaciones elementales",
+      "group_2d_id": "94",
+      "group_2d_name": "Recogedores de residuos urbanos, vendedores callejeros y otras ocupaciones elementales en servicios",
+      "occupation_4d_id": "9433",
+      "occupation_4d_name": "Repartidores, recadistas y mensajeros a pie"
+    },
+    {
+      "grand_group_id": "9",
+      "grand_group_name": "Ocupaciones elementales",
+      "group_2d_id": "94",
+      "group_2d_name": "Recogedores de residuos urbanos, vendedores callejeros y otras ocupaciones elementales en servicios",
+      "occupation_4d_id": "9434",
+      "occupation_4d_name": "Lectores de contadores y recaudadores de m\u00e1quinas recreativas y expendedoras"
+    },
+    {
+      "grand_group_id": "9",
+      "grand_group_name": "Ocupaciones elementales",
+      "group_2d_id": "94",
+      "group_2d_name": "Recogedores de residuos urbanos, vendedores callejeros y otras ocupaciones elementales en servicios",
+      "occupation_4d_id": "9441",
+      "occupation_4d_name": "Recogedores de residuos"
+    },
+    {
+      "grand_group_id": "9",
+      "grand_group_name": "Ocupaciones elementales",
+      "group_2d_id": "94",
+      "group_2d_name": "Recogedores de residuos urbanos, vendedores callejeros y otras ocupaciones elementales en servicios",
+      "occupation_4d_id": "9442",
+      "occupation_4d_name": "Clasificadores de desechos, operarios de punto limpio y recogedores de chatarra"
+    },
+    {
+      "grand_group_id": "9",
+      "grand_group_name": "Ocupaciones elementales",
+      "group_2d_id": "94",
+      "group_2d_name": "Recogedores de residuos urbanos, vendedores callejeros y otras ocupaciones elementales en servicios",
+      "occupation_4d_id": "9443",
+      "occupation_4d_name": "Barrenderos y afines"
+    },
+    {
+      "grand_group_id": "9",
+      "grand_group_name": "Ocupaciones elementales",
+      "group_2d_id": "94",
+      "group_2d_name": "Recogedores de residuos urbanos, vendedores callejeros y otras ocupaciones elementales en servicios",
+      "occupation_4d_id": "9490",
+      "occupation_4d_name": "Otras ocupaciones elementales"
+    },
+    {
+      "grand_group_id": "9",
+      "grand_group_name": "Ocupaciones elementales",
+      "group_2d_id": "95",
+      "group_2d_name": "Peones agrarios, forestales y de la pesca",
+      "occupation_4d_id": "9511",
+      "occupation_4d_name": "Peones agr\u00edcolas (excepto en huertas, invernaderos, viveros y jardines)"
+    },
+    {
+      "grand_group_id": "9",
+      "grand_group_name": "Ocupaciones elementales",
+      "group_2d_id": "95",
+      "group_2d_name": "Peones agrarios, forestales y de la pesca",
+      "occupation_4d_id": "9512",
+      "occupation_4d_name": "Peones agr\u00edcolas en huertas, invernaderos, viveros y jardines"
+    },
+    {
+      "grand_group_id": "9",
+      "grand_group_name": "Ocupaciones elementales",
+      "group_2d_id": "95",
+      "group_2d_name": "Peones agrarios, forestales y de la pesca",
+      "occupation_4d_id": "9520",
+      "occupation_4d_name": "Peones ganaderos"
+    },
+    {
+      "grand_group_id": "9",
+      "grand_group_name": "Ocupaciones elementales",
+      "group_2d_id": "95",
+      "group_2d_name": "Peones agrarios, forestales y de la pesca",
+      "occupation_4d_id": "9530",
+      "occupation_4d_name": "Peones agropecuarios"
+    },
+    {
+      "grand_group_id": "9",
+      "grand_group_name": "Ocupaciones elementales",
+      "group_2d_id": "95",
+      "group_2d_name": "Peones agrarios, forestales y de la pesca",
+      "occupation_4d_id": "9541",
+      "occupation_4d_name": "Peones de la pesca"
+    },
+    {
+      "grand_group_id": "9",
+      "grand_group_name": "Ocupaciones elementales",
+      "group_2d_id": "95",
+      "group_2d_name": "Peones agrarios, forestales y de la pesca",
+      "occupation_4d_id": "9542",
+      "occupation_4d_name": "Peones de la acuicultura"
+    },
+    {
+      "grand_group_id": "9",
+      "grand_group_name": "Ocupaciones elementales",
+      "group_2d_id": "95",
+      "group_2d_name": "Peones agrarios, forestales y de la pesca",
+      "occupation_4d_id": "9543",
+      "occupation_4d_name": "Peones forestales y de la caza"
+    },
+    {
+      "grand_group_id": "9",
+      "grand_group_name": "Ocupaciones elementales",
+      "group_2d_id": "96",
+      "group_2d_name": "Peones de la construcci\u00f3n y de la miner\u00eda",
+      "occupation_4d_id": "9601",
+      "occupation_4d_name": "Peones de obras p\u00fablicas"
+    },
+    {
+      "grand_group_id": "9",
+      "grand_group_name": "Ocupaciones elementales",
+      "group_2d_id": "96",
+      "group_2d_name": "Peones de la construcci\u00f3n y de la miner\u00eda",
+      "occupation_4d_id": "9602",
+      "occupation_4d_name": "Peones de la construcci\u00f3n de edificios"
+    },
+    {
+      "grand_group_id": "9",
+      "grand_group_name": "Ocupaciones elementales",
+      "group_2d_id": "96",
+      "group_2d_name": "Peones de la construcci\u00f3n y de la miner\u00eda",
+      "occupation_4d_id": "9603",
+      "occupation_4d_name": "Peones de la miner\u00eda, canteras y otras industrias extractivas"
+    },
+    {
+      "grand_group_id": "9",
+      "grand_group_name": "Ocupaciones elementales",
+      "group_2d_id": "97",
+      "group_2d_name": "Peones de las industrias manufactureras",
+      "occupation_4d_id": "9700",
+      "occupation_4d_name": "Peones de las industrias manufactureras"
+    },
+    {
+      "grand_group_id": "9",
+      "grand_group_name": "Ocupaciones elementales",
+      "group_2d_id": "98",
+      "group_2d_name": "Peones del transporte, descargadores y reponedores",
+      "occupation_4d_id": "9811",
+      "occupation_4d_name": "Peones del transporte de mercanc\u00edas y descargadores"
+    },
+    {
+      "grand_group_id": "9",
+      "grand_group_name": "Ocupaciones elementales",
+      "group_2d_id": "98",
+      "group_2d_name": "Peones del transporte, descargadores y reponedores",
+      "occupation_4d_id": "9812",
+      "occupation_4d_name": "Conductores de veh\u00edculos de tracci\u00f3n animal para el transporte de personas y similares"
+    },
+    {
+      "grand_group_id": "9",
+      "grand_group_name": "Ocupaciones elementales",
+      "group_2d_id": "98",
+      "group_2d_name": "Peones del transporte, descargadores y reponedores",
+      "occupation_4d_id": "9820",
+      "occupation_4d_name": "Reponedores"
+    }
+  ]
+}
