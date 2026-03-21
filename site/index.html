@@ -659,114 +659,151 @@ body {
 }
 
 #treemap {
-  position: relative;
-  width: 100%;
-  min-height: 700px;
+  display: grid;
+  gap: 14px;
   border-radius: calc(var(--radius-xl) - 8px);
-  overflow: hidden;
   background:
     linear-gradient(180deg, rgba(24, 38, 49, 0.045), rgba(24, 38, 49, 0.02)),
     rgba(255, 252, 246, 0.86);
   border: 1px solid rgba(24, 38, 49, 0.08);
+  padding: 12px;
 }
 
-.group-frame {
-  position: absolute;
-  border-radius: 18px;
-  border: 1px solid rgba(24, 38, 49, 0.09);
-  background: rgba(255,255,255,0.16);
-  overflow: hidden;
+.family-band {
+  display: grid;
+  grid-template-columns: minmax(170px, 220px) minmax(0, 1fr);
+  gap: 14px 18px;
+  align-items: start;
+  padding: 16px;
+  border-radius: 20px;
+  border: 1px solid rgba(24, 38, 49, 0.08);
+  background: rgba(255, 255, 255, 0.48);
 }
 
-.group-frame::after {
-  content: "";
-  position: absolute;
-  inset: auto 0 0 0;
-  height: 36%;
-  background: linear-gradient(180deg, transparent, rgba(24,38,49,0.02));
-  pointer-events: none;
+.family-head {
+  display: grid;
+  gap: 8px;
+  align-content: start;
 }
 
-.group-label {
-  position: absolute;
-  top: 12px;
-  left: 12px;
-  right: 12px;
+.family-label {
+  margin: 0;
   font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   color: rgba(24, 38, 49, 0.62);
-  pointer-events: none;
 }
 
-.tile {
-  position: absolute;
-  border: 0;
-  border-radius: 14px;
-  padding: 12px 12px 10px;
+.family-total {
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.3;
+  font-weight: 700;
+}
+
+.family-meta {
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.family-rows {
+  display: grid;
+  gap: 8px;
+}
+
+.band-row {
+  display: grid;
+  grid-template-columns: minmax(190px, 260px) minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid rgba(24, 38, 49, 0.08);
+  border-radius: 16px;
+  background: rgba(255,255,255,0.7);
   text-align: left;
   cursor: pointer;
-  overflow: hidden;
   transition:
     transform 150ms ease,
     box-shadow 150ms ease,
     opacity 150ms ease,
-    outline-color 150ms ease;
-  box-shadow: inset 0 0 0 1px rgba(255,255,255,0.18);
+    border-color 150ms ease,
+    background 150ms ease;
 }
 
-.tile:hover {
+.band-row:hover {
   transform: translateY(-1px);
 }
 
-.tile.selected {
+.band-row.selected {
   box-shadow:
-    inset 0 0 0 2px rgba(255,255,255,0.84),
-    0 14px 24px rgba(24, 38, 49, 0.14);
+    inset 0 0 0 2px rgba(255,255,255,0.86),
+    0 14px 24px rgba(24, 38, 49, 0.12);
+  border-color: rgba(31, 106, 108, 0.3);
 }
 
-.tile.dimmed {
-  opacity: 0.18;
+.band-row.dimmed {
+  opacity: 0.24;
 }
 
-.tile.matching {
+.band-row.matching {
   box-shadow:
     inset 0 0 0 2px rgba(255,255,255,0.84),
     0 0 0 3px rgba(31, 106, 108, 0.18);
 }
 
-.tile-code {
-  display: block;
-  margin-bottom: 6px;
-  font-size: 10px;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  opacity: 0.7;
+.band-row-title {
+  display: grid;
+  gap: 4px;
+  min-width: 0;
 }
 
-.tile-title {
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
+.band-row-name {
+  display: block;
   overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
   font-weight: 700;
-  line-height: 1.06;
+  line-height: 1.1;
   letter-spacing: -0.02em;
 }
 
-.tile-sub {
-  display: block;
-  margin-top: 7px;
+.band-row-sub {
+  color: var(--muted);
   font-size: 12px;
-  opacity: 0.82;
+  line-height: 1.3;
 }
 
-.tile[data-tile-mode="medium"] .tile-title {
-  -webkit-line-clamp: 2;
+.band-row-bar {
+  position: relative;
+  height: 14px;
+  min-width: 0;
+  border-radius: 999px;
+  background: rgba(24, 38, 49, 0.08);
+  overflow: hidden;
 }
 
-.tile[data-tile-mode="silent"] {
-  padding: 6px;
+.band-row-fill {
+  position: absolute;
+  inset: 0 auto 0 0;
+  min-width: 14px;
+  border-radius: inherit;
+}
+
+.band-row-value {
+  color: var(--muted);
+  font-size: 13px;
+  font-variant-numeric: tabular-nums;
+}
+
+.family-empty {
+  padding: 12px 14px;
+  border-radius: 14px;
+  background: rgba(24, 38, 49, 0.05);
+  color: var(--muted);
+  font-size: 13px;
 }
 
 .detail-panel {
@@ -806,6 +843,14 @@ body {
   font-size: clamp(1.8rem, 3vw, 2.6rem);
   line-height: 0.98;
   letter-spacing: -0.03em;
+}
+
+.detail-official-title {
+  margin: 8px 0 0;
+  max-width: 56ch;
+  font-size: 0.98rem;
+  line-height: 1.45;
+  color: var(--muted);
 }
 
 .badge-row,
@@ -1112,6 +1157,10 @@ body {
     position: static;
     max-height: none;
   }
+
+  .family-band {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 1280px) {
@@ -1152,8 +1201,18 @@ body {
     width: 100%;
   }
 
-  #treemap {
-    min-height: 560px;
+  .band-row {
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 8px 12px;
+  }
+
+  .band-row-bar {
+    grid-column: 1 / -1;
+  }
+
+  .band-row-value {
+    grid-column: 1 / -1;
+    text-align: right;
   }
 }
 
@@ -1217,8 +1276,8 @@ body {
       </div>
       <div class="tool-body">
         <div class="tool-copy">
-          <p>Cada bloque representa un tipo de trabajo. Cuanto más grande es, más gente trabaja ahí. El color cambia según la vista elegida: <strong>Automatizable por IA</strong>, <strong>Tendencia</strong>, <strong>Salario</strong>, <strong>Educación</strong> o <strong>Personas que buscan esta ocupación</strong>.</p>
-          <p>Al pulsar un bloque se abre su ficha con cifras clave, trabajos concretos relacionados y enlaces oficiales.</p>
+          <p>Cada fila agrupa una gran familia de empleos. Dentro verás barras horizontales: cuanto más larga es una barra, más gente trabaja en ese empleo. El color cambia según la vista elegida: <strong>Automatizable por IA</strong>, <strong>Tendencia</strong>, <strong>Salario</strong>, <strong>Educación</strong> o <strong>Personas que buscan esta ocupación</strong>.</p>
+          <p>Al pulsar una barra se abre su ficha con cifras clave, trabajos concretos relacionados y enlaces oficiales.</p>
         </div>
         <div class="hero-links">
           <a href="https://www.ine.es/jaxiT3/Tabla.htm?t=69953" target="_blank" rel="noreferrer">INE empleo y estudios</a>
@@ -1230,11 +1289,11 @@ body {
     <div class="hero-notes">
       <section class="hero-note">
         <h2>Qué estás viendo</h2>
-        <p>Un gráfico de bloques: cada bloque representa una familia de empleos.</p>
+        <p>Bandas por familia: cada fila reúne varios empleos parecidos.</p>
       </section>
       <section class="hero-note">
         <h2>Cómo leerlo</h2>
-        <p>Bloque más grande = más empleo. El color cambia según la vista elegida.</p>
+        <p>Barra más larga = más empleo. El color cambia según la vista elegida.</p>
       </section>
       <section class="hero-note">
         <h2>Importante</h2>
@@ -1252,7 +1311,7 @@ body {
       <button data-mode="demandants">Personas que buscan esta ocupación</button>
     </div>
     <div class="search-wrap">
-      <input id="searchInput" type="search" placeholder="Buscar trabajo o código" aria-label="Buscar trabajo o código">
+      <input id="searchInput" type="search" placeholder="Buscar médico, camarero, programador o código" aria-label="Buscar trabajo o código">
       <div class="legend" id="legend"></div>
     </div>
   </section>
@@ -1260,7 +1319,7 @@ body {
   <div class="workspace">
     <section class="map-panel">
       <div class="map-note">
-        <div class="headline" id="mapHeadline">Bloque más grande = más empleo. Color = cuánto podría automatizarse con IA.</div>
+        <div class="headline" id="mapHeadline">Barra más larga = más empleo. Color = cuánto podría automatizarse con IA.</div>
         <div class="chip-row" id="coverageChips"></div>
       </div>
       <div id="treemap" aria-label="Visualización de ocupaciones"></div>
@@ -1290,6 +1349,130 @@ const SHORT_CATEGORY_LABELS = {
   "7": "Oficios",
   "8": "Operarios",
   "9": "Elementales",
+};
+
+const SHORT_OCCUPATION_TITLES = {
+  "00": "Militares",
+  "11": "Altos cargos y directivos públicos",
+  "12": "Directores administrativos y comerciales",
+  "13": "Directores de producción y operaciones",
+  "14": "Directores de hostelería, comercio y restauración",
+  "15": "Directores de otros servicios",
+  "21": "Profesionales de la salud",
+  "22": "Profesores de infantil a postsecundaria",
+  "23": "Otros profesionales de la enseñanza",
+  "24": "Profesionales científicos e ingenieros",
+  "25": "Profesionales del derecho",
+  "26": "Especialistas en organización y comercialización",
+  "27": "Profesionales TIC",
+  "28": "Profesionales en ciencias sociales",
+  "29": "Cultura y espectáculo",
+  "31": "Técnicos de ciencias e ingenierías",
+  "32": "Supervisores de industria y construcción",
+  "33": "Técnicos sanitarios y terapias alternativas",
+  "34": "Apoyo en finanzas y matemáticas",
+  "35": "Representantes y agentes comerciales",
+  "36": "Apoyo administrativo y seguridad",
+  "37": "Apoyo jurídico, social y cultural",
+  "38": "Técnicos TIC",
+  "41": "Empleados contables y de apoyo",
+  "42": "Bibliotecas, correos y afines",
+  "43": "Administrativos sin atención al público",
+  "44": "Recepción, viajes y ventanilla",
+  "45": "Administrativos de atención al público",
+  "50": "Camareros y cocineros propietarios",
+  "51": "Restauración asalariada",
+  "52": "Dependientes en tiendas y almacenes",
+  "53": "Comerciantes con tienda propia",
+  "54": "Vendedores fuera de tienda",
+  "55": "Cajeros y taquilleros",
+  "56": "Cuidados en servicios de salud",
+  "57": "Otros cuidados personales",
+  "58": "Servicios personales",
+  "59": "Protección y seguridad",
+  "61": "Agricultura",
+  "62": "Ganadería",
+  "63": "Actividades agropecuarias mixtas",
+  "64": "Forestales, pesca y caza",
+  "71": "Obras estructurales",
+  "72": "Acabados de obra e instalaciones",
+  "73": "Soldadura y estructuras metálicas",
+  "74": "Mecánicos y ajustadores",
+  "75": "Electricidad y electrotecnología",
+  "76": "Artesanos y oficios de precisión",
+  "77": "Industria alimentaria",
+  "78": "Madera, textil y cuero",
+  "81": "Operadores de maquinaria fija",
+  "82": "Montadores y ensambladores",
+  "83": "Maquinistas y equipos móviles",
+  "84": "Conductores",
+  "91": "Empleados domésticos",
+  "92": "Personal de limpieza",
+  "93": "Ayudantes de cocina",
+  "94": "Residuos y venta callejera",
+  "95": "Peones agrarios y forestales",
+  "96": "Peones de construcción y minería",
+  "97": "Peones industriales",
+  "98": "Peones del transporte y reponedores",
+};
+
+const SEARCH_ALIASES_BY_CODE = {
+  "21": ["medico", "medica", "medicina", "enfermero", "enfermera", "enfermeria", "farmaceutico", "farmaceutica", "farmacia", "dentista", "odontologo", "fisioterapeuta", "cirujano", "pediatra", "matrona"],
+  "22": ["profesor", "profesora", "profesores", "docente", "maestro", "maestra", "profe", "infantil", "primaria", "secundaria", "instituto"],
+  "23": ["formador", "formadora", "academia", "monitor de formacion"],
+  "24": ["ingeniero", "ingeniera", "cientifico", "cientifica", "quimico", "quimica", "fisico", "fisica", "matematico", "matematica", "investigador", "investigadora"],
+  "25": ["abogado", "abogada", "jurista", "juez", "jueza", "fiscal", "notario", "procurador"],
+  "26": ["consultor", "consultora", "marketing", "comercializacion", "organizacion", "analista de negocio"],
+  "27": ["programador", "programadora", "desarrollador", "desarrolladora", "software", "informatico", "informatica", "ingeniero informatico", "frontend", "backend", "full stack", "fullstack", "devops", "data scientist", "cientifico de datos", "ciberseguridad"],
+  "28": ["psicologo", "psicologa", "sociologo", "trabajo social", "trabajador social", "politologo"],
+  "29": ["actor", "actriz", "musico", "musica", "periodista", "diseñador", "disenador", "fotografo", "fotografa"],
+  "31": ["tecnico de laboratorio", "laboratorio", "delineante", "tecnico industrial"],
+  "32": ["encargado de obra", "supervisor de planta", "jefe de obra"],
+  "33": ["tecnico sanitario", "higienista dental", "radiologia", "rayos", "terapia"],
+  "34": ["finanzas", "matematicas", "analista financiero", "estadistico"],
+  "35": ["comercial", "agente comercial", "ventas b2b", "representante de ventas"],
+  "36": ["policia", "guardia civil", "seguridad publica", "gestion administrativa"],
+  "37": ["trabajador social", "educador social", "animador sociocultural", "monitor deportivo"],
+  "38": ["soporte tecnico", "tecnico informatico", "administrador de sistemas", "redes", "telecomunicaciones", "sysadmin"],
+  "41": ["contable", "contabilidad", "administrativo contable", "nominas", "financiero"],
+  "42": ["bibliotecario", "bibliotecaria", "cartero", "cartera", "correos", "archivero"],
+  "43": ["administrativo", "administrativa", "back office", "oficinista", "auxiliar administrativo"],
+  "44": ["recepcionista", "telefonista", "agente de viajes", "ventanilla"],
+  "45": ["atencion al cliente", "atencion al publico", "informacion al publico"],
+  "50": ["dueno de bar", "dueña de bar", "dueno de restaurante", "dueña de restaurante", "hostelero", "hostelera"],
+  "51": ["camarero", "camarera", "cocinero", "cocinera", "chef", "hosteleria", "restauracion"],
+  "52": ["dependiente", "dependienta", "tienda", "comercio minorista", "vendedor de tienda"],
+  "53": ["comerciante", "tendero", "tendera", "dueño de tienda", "dueña de tienda"],
+  "54": ["vendedor", "vendedora", "venta", "comercial de calle", "puerta fria"],
+  "55": ["cajero", "cajera", "taquillero", "taquillera", "cobro"],
+  "56": ["auxiliar de enfermeria", "tcae", "cuidador sanitario", "geriatra", "hospital"],
+  "57": ["cuidador", "cuidadora", "cuidador de mayores", "ayuda a domicilio", "gerocultor"],
+  "58": ["peluquero", "peluquera", "esteticien", "esteticista", "barbero", "maquillador", "maquilladora"],
+  "59": ["vigilante", "vigilante de seguridad", "escolta", "seguridad privada"],
+  "61": ["agricultor", "agricultora", "agricultura", "campesino", "campesina"],
+  "62": ["ganadero", "ganadera", "ganaderia", "granjero", "granjera"],
+  "63": ["agropecuario", "agropecuaria", "granja mixta"],
+  "64": ["pescador", "pescadora", "forestal", "guardabosques", "pesca"],
+  "71": ["albanil", "albañil", "encofrador", "ferrallista", "estructuras"],
+  "72": ["fontanero", "fontanera", "pintor", "pintora", "instalador", "reformas"],
+  "73": ["soldador", "soldadora", "chapista", "herrero", "estructuras metalicas"],
+  "74": ["mecanico", "mecanica", "mecanico industrial", "ajustador"],
+  "75": ["electricista", "electromecanico", "electrotecnia", "instalador electrico"],
+  "76": ["artesano", "artesana", "ceramista", "joyero", "vidriero", "impresor"],
+  "77": ["carnicero", "carnicera", "panadero", "panadera", "alimentacion", "operario de alimentacion"],
+  "78": ["carpintero", "carpintera", "costurera", "modista", "textil", "cuero", "calzado"],
+  "81": ["operario de maquina", "operario de maquinaria", "maquinaria fija"],
+  "82": ["montador", "montadora", "ensamblador", "ensambladora", "cadena de montaje"],
+  "83": ["maquinista", "tractorista", "excavadora", "excavador", "gruista", "marinero"],
+  "84": ["conductor", "conductora", "transportista", "camionero", "camionera", "taxista", "chofer", "repartidor", "repartidora"],
+  "91": ["empleada del hogar", "empleado del hogar", "asistenta", "servicio domestico"],
+  "92": ["limpiador", "limpiadora", "limpieza", "personal de limpieza"],
+  "93": ["ayudante de cocina", "pinche de cocina", "pinche", "cocina"],
+  "94": ["basurero", "basurera", "barrendero", "barrendera", "vendedor ambulante"],
+  "95": ["peon agrario", "jornalero", "temporero", "temporera"],
+  "96": ["peon de obra", "peon de construccion", "peon de mina"],
+  "97": ["peon de fabrica", "operario de fabrica", "operario industrial"],
+  "98": ["reponedor", "reponedora", "mozo de almacen", "moza de almacen", "descargador", "carretillero", "carretillera"],
 };
 
 const AUTOMATION_BUCKETS = [
@@ -1459,6 +1642,49 @@ function stripCodePrefix(label) {
   return String(label || "").replace(/^\d{1,4}\s+/, "");
 }
 
+function normalizeSearchText(text) {
+  return String(text || "")
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^\p{L}\p{N}]+/gu, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function tokenVariants(token) {
+  const variants = new Set([token]);
+  if (token.length > 4 && token.endsWith("es")) variants.add(token.slice(0, -2));
+  if (token.length > 3 && token.endsWith("s")) variants.add(token.slice(0, -1));
+  if (token.length > 3 && token.endsWith("a")) variants.add(`${token.slice(0, -1)}o`);
+  if (token.length > 3 && token.endsWith("o")) variants.add(`${token.slice(0, -1)}a`);
+  if (token.length > 5 && token.endsWith("oras")) variants.add(token.slice(0, -1));
+  if (token.length > 4 && token.endsWith("ora")) variants.add(token.slice(0, -1));
+  return [...variants].filter(Boolean);
+}
+
+function tokenizeSearchText(text) {
+  return Array.from(new Set(
+    normalizeSearchText(text)
+      .split(" ")
+      .filter(Boolean)
+      .flatMap((token) => tokenVariants(token))
+  ));
+}
+
+function phraseVariants(text) {
+  const normalized = normalizeSearchText(text);
+  if (!normalized) return [];
+  const tokens = normalized.split(" ").filter(Boolean);
+  if (tokens.length === 1) return tokenVariants(tokens[0]);
+  return [normalized];
+}
+
+function displayTitleForOccupation(occupation) {
+  if (!occupation) return "";
+  return SHORT_OCCUPATION_TITLES[occupation.code] || stripCodePrefix(occupation.title || "");
+}
+
 function shortenTitle(label, max = 48) {
   const clean = stripCodePrefix(label).replace(/\s*\([^)]*\)\s*/g, " ").replace(/\s+/g, " ").trim();
   if (clean.length <= max) return clean;
@@ -1467,6 +1693,84 @@ function shortenTitle(label, max = 48) {
     if (first.length <= max) return first;
   }
   return clean.slice(0, Math.max(18, max - 1)).trim() + "…";
+}
+
+function buildSearchProfile(occupation) {
+  const aliases = SEARCH_ALIASES_BY_CODE[occupation.code] || [];
+  const childDetails = occupation.details4d || [];
+  const fieldSpecs = [
+    { text: occupation.code, weight: 240, exactOnly: true },
+    { text: displayTitleForOccupation(occupation), weight: 180 },
+    { text: occupation.title, weight: 160 },
+    { text: String(occupation.slug || "").replace(/-/g, " "), weight: 130 },
+    ...aliases.map((text) => ({ text, weight: 220 })),
+    ...childDetails.flatMap((child) => [
+      { text: child.label, weight: 150 },
+      ...((child.included_examples || []).slice(0, 8).map((text) => ({ text, weight: 145 }))),
+      ...((child.tasks || []).slice(0, 6).map((text) => ({ text, weight: 90 }))),
+      ...(child.description_summary ? [{ text: child.description_summary, weight: 60 }] : []),
+    ]),
+  ];
+
+  const fields = fieldSpecs
+    .map((field) => {
+      const normalized = normalizeSearchText(field.text);
+      if (!normalized) return null;
+      return {
+        ...field,
+        normalized,
+        tokens: new Set(tokenizeSearchText(normalized)),
+      };
+    })
+    .filter(Boolean);
+
+  return {
+    fields,
+    tokenSet: new Set(fields.flatMap((field) => [...field.tokens])),
+  };
+}
+
+function searchMatch(occupation, rawQuery = STATE.search) {
+  const normalizedQuery = normalizeSearchText(rawQuery);
+  if (!normalizedQuery) return { matches: true, exact: false, score: 0 };
+
+  const queryTokens = tokenizeSearchText(rawQuery);
+  const queryPhrases = phraseVariants(rawQuery);
+  const profile = occupation.searchProfile || buildSearchProfile(occupation);
+  let bestScore = 0;
+  let exact = false;
+  let bestTokenCoverage = 0;
+
+  for (const field of profile.fields) {
+    let fieldScore = 0;
+
+    if (queryPhrases.includes(field.normalized)) {
+      fieldScore += field.weight * 12;
+      exact = true;
+    } else if (!field.exactOnly && queryPhrases.some((phrase) => field.normalized.startsWith(phrase))) {
+      fieldScore += field.weight * 8;
+    } else if (!field.exactOnly && queryPhrases.some((phrase) => field.normalized.includes(phrase))) {
+      fieldScore += field.weight * 6;
+    }
+
+    const tokenHits = queryTokens.filter((token) => field.tokens.has(token) || (!field.exactOnly && field.normalized.includes(token)));
+    bestTokenCoverage = Math.max(bestTokenCoverage, tokenHits.length);
+
+    if (tokenHits.length) {
+      fieldScore += tokenHits.length === queryTokens.length
+        ? field.weight * 4
+        : tokenHits.length * Math.max(18, Math.round(field.weight * 0.3));
+    }
+
+    if (fieldScore > bestScore) bestScore = fieldScore;
+  }
+
+  const allTokensCovered = queryTokens.length > 0 && queryTokens.every((token) => profile.tokenSet.has(token));
+  if (allTokensCovered) bestScore += 120;
+
+  const threshold = normalizedQuery.length <= 2 ? 240 : normalizedQuery.length <= 4 ? 140 : 70;
+  const matches = exact || allTokensCovered || bestScore >= threshold || bestTokenCoverage >= Math.max(1, queryTokens.length - 1);
+  return { matches, exact, score: bestScore };
 }
 
 function educationBucket(label) {
@@ -1727,6 +2031,10 @@ function buildMergedOccupations() {
     };
   });
 
+  occupations.forEach((occupation) => {
+    occupation.searchProfile = buildSearchProfile(occupation);
+  });
+
   occupations.sort((a, b) => (b.jobs || 0) - (a.jobs || 0));
   return occupations;
 }
@@ -1955,7 +2263,7 @@ function renderEditorial() {
   const headlineCards = [
     mostShielded && {
       question: "La más blindada frente a la IA",
-      title: mostShielded.title,
+      title: displayTitleForOccupation(mostShielded),
       tag: shieldingLabel(mostShielded.exposure),
       value: `Automatizable por IA: ${formatExposure(mostShielded.exposure)}`,
       meta: `${formatInteger(mostShielded.jobs)} personas en este empleo · estudios más habituales: ${educationBucket(mostShielded.education)?.label || mostShielded.education || "sin dato"}.`,
@@ -1965,7 +2273,7 @@ function renderEditorial() {
     },
     mostExposed && {
       question: "La más automatizable",
-      title: mostExposed.title,
+      title: displayTitleForOccupation(mostExposed),
       tag: shieldingLabel(mostExposed.exposure),
       value: `Automatizable por IA: ${formatExposure(mostExposed.exposure)}`,
       meta: `${formatInteger(mostExposed.jobs)} personas en este empleo · salario medio ${mostExposed.pay == null ? "sin dato" : formatCurrency(mostExposed.pay)}.`,
@@ -1974,7 +2282,7 @@ function renderEditorial() {
     },
     studyShielded && {
       question: "Pide más estudios y aguanta mejor",
-      title: studyShielded.title,
+      title: displayTitleForOccupation(studyShielded),
       tag: "Estudios + blindaje",
       value: `${educationBucket(studyShielded.education)?.label || studyShielded.education || "Sin dato"} · ${formatExposure(studyShielded.exposure)}`,
       meta: `Cruce entre estudios habituales y menor automatización. ${formatInteger(studyShielded.jobs)} personas en este empleo.`,
@@ -1983,7 +2291,7 @@ function renderEditorial() {
     },
     easyVulnerable && {
       question: "Pide menos estudios y queda más expuesta",
-      title: easyVulnerable.title,
+      title: displayTitleForOccupation(easyVulnerable),
       tag: "Menos barrera, más riesgo",
       value: `${educationBucket(easyVulnerable.education)?.label || easyVulnerable.education || "Sin dato"} · ${formatExposure(easyVulnerable.exposure)}`,
       meta: `Cruce entre menor exigencia de estudios y mayor automatización. ${formatInteger(easyVulnerable.jobs)} personas en este empleo.`,
@@ -2017,7 +2325,7 @@ function renderEditorial() {
         .slice(0, 4)
         .map((occupation) => ({
           code: occupation.code,
-          name: occupation.title,
+          name: displayTitleForOccupation(occupation),
           value: formatExposure(occupation.exposure),
           meta: `${shieldingLabel(occupation.exposure)} · ${formatInteger(occupation.jobs)} personas en este empleo`,
         })),
@@ -2031,7 +2339,7 @@ function renderEditorial() {
         .slice(0, 4)
         .map((occupation) => ({
           code: occupation.code,
-          name: occupation.title,
+          name: displayTitleForOccupation(occupation),
           value: formatExposure(occupation.exposure),
           meta: `${shieldingLabel(occupation.exposure)} · ${formatInteger(occupation.jobs)} personas en este empleo`,
         })),
@@ -2049,7 +2357,7 @@ function renderEditorial() {
         .slice(0, 4)
         .map((occupation) => ({
           code: occupation.code,
-          name: occupation.title,
+          name: displayTitleForOccupation(occupation),
           value: `${competitionPer100(occupation.competitionRatio)} · IA ${formatExposure(occupation.exposure)}`,
           meta: `${shieldingLabel(occupation.exposure)} · ${formatInteger(occupation.demandants)} personas buscan este trabajo`,
         })),
@@ -2063,7 +2371,7 @@ function renderEditorial() {
         .slice(0, 4)
         .map((occupation) => ({
           code: occupation.code,
-          name: occupation.title,
+          name: displayTitleForOccupation(occupation),
           value: formatCurrency(occupation.pay),
           meta: `Automatizable por IA: ${formatExposure(occupation.exposure)}`,
         })),
@@ -2215,79 +2523,144 @@ function setSelectedChild(code, options = {}) {
 }
 
 function currentSearchMatcher(occupation) {
-  const query = STATE.search.trim().toLowerCase();
-  if (!query) return { matches: true, exact: false };
-  const haystack = `${occupation.code} ${occupation.title} ${occupation.slug}`.toLowerCase();
-  const matches = haystack.includes(query);
-  const exact = occupation.code.toLowerCase() === query || occupation.slug.toLowerCase() === query;
-  return { matches, exact };
+  return searchMatch(occupation, STATE.search);
+}
+
+function rankedSearchResults(rawQuery = STATE.search) {
+  const query = normalizeSearchText(rawQuery);
+  if (!query) return [];
+  return STATE.occupations
+    .map((occupation) => ({ occupation, match: searchMatch(occupation, rawQuery) }))
+    .filter(({ match }) => match.matches && match.score > 0)
+    .sort((a, b) => (b.match.score - a.match.score) || ((b.occupation.jobs || 0) - (a.occupation.jobs || 0)));
+}
+
+function filteredSearchResults(rawQuery = STATE.search) {
+  const ranked = rankedSearchResults(rawQuery);
+  if (!ranked.length) return [];
+  const topScore = ranked[0].match.score;
+  const cutoff = ranked[0].match.exact
+    ? Math.max(180, topScore * 0.62)
+    : Math.max(120, topScore * 0.46);
+  return ranked.filter(({ match }) => match.exact || match.score >= cutoff).slice(0, 18);
+}
+
+function buildFamilyBands() {
+  return Array.from(
+    STATE.occupations.reduce((map, occupation) => {
+      const key = occupation.categoryCode;
+      if (!map.has(key)) {
+        map.set(key, {
+          key,
+          label: SHORT_CATEGORY_LABELS[key] || occupation.categoryLabel,
+          totalJobs: 0,
+          items: [],
+        });
+      }
+      const group = map.get(key);
+      group.totalJobs += occupation.jobs || 0;
+      group.items.push(occupation);
+      return map;
+    }, new Map()).values(),
+  )
+    .map((group) => ({
+      ...group,
+      maxJobs: Math.max(...group.items.map((occupation) => occupation.jobs || 0), 1),
+      items: group.items.slice().sort((a, b) => (b.jobs || 0) - (a.jobs || 0)),
+    }))
+    .sort((a, b) => b.totalJobs - a.totalJobs);
 }
 
 function renderTreemap() {
-  const groups = buildLayout();
+  const groups = buildFamilyBands();
+  const queryActive = Boolean(STATE.search.trim());
+  const filteredResults = queryActive ? filteredSearchResults(STATE.search) : [];
+  const searchMatchMap = new Map(filteredResults.map(({ occupation, match }) => [occupation.code, match]));
   treemapEl.innerHTML = "";
 
-  for (const group of groups) {
-    const groupEl = document.createElement("div");
-    groupEl.className = "group-frame";
-    groupEl.style.left = `${group.rx}px`;
-    groupEl.style.top = `${group.ry}px`;
-    groupEl.style.width = `${group.rw}px`;
-    groupEl.style.height = `${group.rh}px`;
+  const sortedGroups = queryActive
+    ? groups
+      .map((group) => ({
+        ...group,
+        searchTopScore: Math.max(...group.items.map((occupation) => searchMatchMap.get(occupation.code)?.score || 0), 0),
+      }))
+      .filter((group) => group.searchTopScore > 0)
+      .sort((a, b) => (b.searchTopScore - a.searchTopScore) || (b.totalJobs - a.totalJobs))
+    : groups;
 
-    const labelEl = document.createElement("div");
-    labelEl.className = "group-label";
-    labelEl.textContent = group.label;
-    groupEl.appendChild(labelEl);
+  for (const group of sortedGroups) {
+    const visibleItems = queryActive
+      ? group.items
+        .filter((occupation) => searchMatchMap.has(occupation.code))
+        .sort((a, b) => (searchMatchMap.get(b.code).score - searchMatchMap.get(a.code).score) || ((b.jobs || 0) - (a.jobs || 0)))
+      : group.items;
 
-    for (const tile of group.tiles) {
-      const occupation = STATE.occupations.find((item) => item.code === tile.code);
-      const matcher = currentSearchMatcher(occupation);
-      const tileEl = document.createElement("button");
-      tileEl.className = "tile";
-      if (occupation.code === STATE.selectedCode) tileEl.classList.add("selected");
-      if (STATE.search && !matcher.matches) tileEl.classList.add("dimmed");
-      if (STATE.search && matcher.matches) tileEl.classList.add("matching");
-      tileEl.style.left = `${tile.x}px`;
-      tileEl.style.top = `${tile.y}px`;
-      tileEl.style.width = `${Math.max(0, tile.w)}px`;
-      tileEl.style.height = `${Math.max(0, tile.h)}px`;
+    if (!visibleItems.length) continue;
 
-      const background = tileColor(occupation);
-      const darkText = luminanceFromCss(background) < 0.55;
-      tileEl.style.background = background;
-      tileEl.style.color = darkText ? "#fff9f3" : "#14212a";
+    const groupEl = document.createElement("section");
+    groupEl.className = "family-band";
+    groupEl.innerHTML = `
+      <div class="family-head">
+        <p class="family-label">${group.label}</p>
+        <p class="family-total">${formatInteger(group.totalJobs)} personas trabajando</p>
+        <p class="family-meta">${visibleItems.length} ${
+          queryActive
+            ? visibleItems.length === 1 ? "resultado en la búsqueda" : "resultados en la búsqueda"
+            : visibleItems.length === 1 ? "empleo en esta familia" : "empleos en esta familia"
+        } · ordenados por empleo</p>
+      </div>
+      <div class="family-rows"></div>
+    `;
 
-      const layout = tileTextLayout(tile);
-      tileEl.dataset.tileMode = layout.mode;
-      const title = layout.titleMax ? shortenTitle(occupation.title, layout.titleMax) : "";
+    const rowsEl = groupEl.querySelector(".family-rows");
 
-      tileEl.innerHTML = `
-        ${title ? `<span class="tile-title" style="font-size:${layout.titleSize}px">${title}</span>` : ""}
-        ${layout.showSubline ? `<span class="tile-sub">${tileSubline(occupation)}</span>` : ""}
+    for (const occupation of visibleItems) {
+      const matcher = queryActive ? searchMatchMap.get(occupation.code) : currentSearchMatcher(occupation);
+      const rowEl = document.createElement("button");
+      rowEl.className = "band-row";
+      if (occupation.code === STATE.selectedCode) rowEl.classList.add("selected");
+      if (queryActive && matcher.matches) rowEl.classList.add("matching");
+
+      const fillWidth = occupation.jobs == null
+        ? 0
+        : Math.max(12, Math.round(((occupation.jobs || 0) / group.maxJobs) * 100));
+
+      rowEl.innerHTML = `
+        <span class="band-row-title">
+          <span class="band-row-name">${displayTitleForOccupation(occupation)}</span>
+          <span class="band-row-sub">${tileSubline(occupation)}</span>
+        </span>
+        <span class="band-row-bar">
+          <span class="band-row-fill" style="width:${fillWidth}%;background:${tileColor(occupation)}"></span>
+        </span>
+        <span class="band-row-value">${formatInteger(occupation.jobs)}</span>
       `;
 
-      tileEl.addEventListener("mouseenter", (event) => showTooltip(occupation, event));
-      tileEl.addEventListener("mousemove", (event) => moveTooltip(event));
-      tileEl.addEventListener("mouseleave", hideTooltip);
-      tileEl.addEventListener("click", () => setSelectedOccupation(occupation.code));
-      groupEl.appendChild(tileEl);
+      rowEl.addEventListener("mouseenter", (event) => showTooltip(occupation, event));
+      rowEl.addEventListener("mousemove", (event) => moveTooltip(event));
+      rowEl.addEventListener("mouseleave", hideTooltip);
+      rowEl.addEventListener("click", () => setSelectedOccupation(occupation.code));
+      rowsEl.appendChild(rowEl);
     }
 
     treemapEl.appendChild(groupEl);
   }
 
+  if (!treemapEl.children.length) {
+    treemapEl.innerHTML = `<div class="family-empty">No hay resultados para esa búsqueda.</div>`;
+  }
+
   mapHeadlineEl.textContent = ({
-    trend: "Bloque más grande = más empleo. Color = más o menos contratos que hace un año.",
-    pay: "Bloque más grande = más empleo. Color = salario medio anual.",
-    education: "Bloque más grande = más empleo. Color = estudios más habituales.",
-    demandants: "Bloque más grande = más empleo. Color = cuánta gente busca ese trabajo.",
-    exposure: "Bloque más grande = más empleo. Color = cuánto podría automatizarse con IA.",
+    trend: "Barra más larga = más empleo. Color = más o menos contratos que hace un año.",
+    pay: "Barra más larga = más empleo. Color = salario medio anual.",
+    education: "Barra más larga = más empleo. Color = estudios más habituales.",
+    demandants: "Barra más larga = más empleo. Color = cuánta gente busca ese trabajo.",
+    exposure: "Barra más larga = más empleo. Color = cuánto podría automatizarse con IA.",
   })[STATE.colorMode];
 }
 
 function showTooltip(occupation, event) {
-  tooltipTitleEl.textContent = `${occupation.code} · ${occupation.title}`;
+  tooltipTitleEl.textContent = `${occupation.code} · ${displayTitleForOccupation(occupation)}`;
   tooltipGridEl.innerHTML = tooltipRows(occupation)
     .map(([label, value]) => `<span class="label">${label}</span><span class="value">${value}</span>`)
     .join("");
@@ -2404,7 +2777,8 @@ function renderDetailPanel() {
         <span>·</span>
         <span>${SHORT_CATEGORY_LABELS[occupation.categoryCode] || occupation.categoryLabel}</span>
       </div>
-      <h2 class="detail-title" tabindex="-1">${occupation.title}</h2>
+      <h2 class="detail-title" tabindex="-1">${displayTitleForOccupation(occupation)}</h2>
+      ${displayTitleForOccupation(occupation) !== occupation.title ? `<p class="detail-official-title">Nombre oficial: ${occupation.title}</p>` : ""}
       <div class="badge-row">
         <span class="badge strong">El tamaño del bloque depende del empleo total</span>
         ${salaryBadge}
@@ -2618,13 +2992,16 @@ async function loadData() {
 }
 
 function updateSelectionFromSearch() {
-  const query = STATE.search.trim().toLowerCase();
+  const query = normalizeSearchText(STATE.search);
   if (!query) {
+    renderEditorial();
     renderTreemap();
+    renderDetailPanel();
     return;
   }
-  const exact = STATE.occupations.find((occupation) => currentSearchMatcher(occupation).exact);
-  const firstMatch = exact || STATE.occupations.find((occupation) => currentSearchMatcher(occupation).matches);
+
+  const rankedMatches = filteredSearchResults(STATE.search);
+  const firstMatch = rankedMatches[0]?.occupation || null;
   if (firstMatch) {
     STATE.selectedCode = firstMatch.code;
     ensureSelectedChild();
