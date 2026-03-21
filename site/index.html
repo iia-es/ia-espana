@@ -3073,9 +3073,9 @@ function renderSpecificSalarySignals(occupation, selectedChild) {
               </div>
             </div>
             <p class="specific-salary-copy">Dato base oficial usado: <strong>${entry.dominant_band || "—"} netos al mes</strong>. La equivalencia a bruto anual la calcula esta web con una hipótesis estándar: asalariado en España, sin hijos, 14 pagas y cotización general.</p>
-            <p class="specific-salary-source"><strong>Fuente oficial del dato base:</strong> ${entry.source.name}. ${entry.source.table_label}. ${entry.cohort_label}, ambos sexos, titulación ${entry.study_label}. ${entry.source.note} <strong>Cómo se deriva aquí:</strong> ${entry.derivation.description} ${entry.derivation.caveat}</p>
+            <p class="specific-salary-source"><strong>Fuente oficial del dato base:</strong> ${entry.source?.name || "INE · Encuesta de inserción laboral de titulados universitarios 2019"}. ${entry.source?.table_label || "Graduados universitarios según el sueldo mensual neto en 2019 por sexo y titulación"}. ${entry.cohort_label}, ambos sexos, titulación ${entry.study_label}. ${entry.source?.note || "Dato oficial por titulación, no salario actual exacto de la ocupación."} <strong>Cómo se deriva aquí:</strong> ${entry.derivation?.description || "Conversión estimada a bruto anual con una hipótesis estándar de asalariado en España, sin hijos y 14 pagas."} ${entry.derivation?.caveat || "No es un cálculo oficial individualizado."}</p>
             <div class="source-list">
-              <a href="${entry.source.url}" target="_blank" rel="noreferrer">Abrir tabla oficial del INE</a>
+              <a href="${entry.source?.url || "https://www.ine.es/jaxi/Tabla.htm?L=0&file=04049.px&path=%2Ft13%2Fp100%2F2019%2Fp01%2F"}" target="_blank" rel="noreferrer">Abrir tabla oficial del INE</a>
             </div>
           </article>
         `).join("")}
