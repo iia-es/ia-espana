@@ -692,10 +692,10 @@ body {
   top: 12px;
   left: 12px;
   right: 12px;
-  font-size: 11px;
+  font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  color: rgba(24, 38, 49, 0.55);
+  color: rgba(24, 38, 49, 0.62);
   pointer-events: none;
 }
 
@@ -759,6 +759,14 @@ body {
   margin-top: 7px;
   font-size: 12px;
   opacity: 0.82;
+}
+
+.tile[data-tile-mode="medium"] .tile-title {
+  -webkit-line-clamp: 2;
+}
+
+.tile[data-tile-mode="silent"] {
+  padding: 6px;
 }
 
 .detail-panel {
@@ -1632,6 +1640,44 @@ function tileSubline(occupation) {
   return bucket ? bucket.label : "Sin dato educativo";
 }
 
+function tileTextLayout(tile) {
+  const width = tile.w;
+  const height = tile.h;
+  const area = width * height;
+  const shortSide = Math.min(width, height);
+
+  if (area >= 14500 && shortSide >= 96) {
+    return {
+      mode: "large",
+      titleMax: 68,
+      titleSize: Math.max(18, Math.min(24, Math.min(width / 8, height / 4.4))),
+      showSubline: true,
+    };
+  }
+
+  if (
+    area >= 6500 &&
+    (
+      (width >= 82 && height >= 62) ||
+      (width >= 60 && height >= 88)
+    )
+  ) {
+    return {
+      mode: "medium",
+      titleMax: width < 72 ? 18 : width < 88 ? 24 : 30,
+      titleSize: Math.max(13, Math.min(17, Math.min(width / 9.4, height / 4.9))),
+      showSubline: false,
+    };
+  }
+
+  return {
+    mode: "silent",
+    titleMax: 0,
+    titleSize: 0,
+    showSubline: false,
+  };
+}
+
 function tooltipRows(occupation) {
   return [
     ["Personas en este empleo", formatInteger(occupation.jobs)],
@@ -2212,16 +2258,13 @@ function renderTreemap() {
       tileEl.style.background = background;
       tileEl.style.color = darkText ? "#fff9f3" : "#14212a";
 
-      const width = tile.w;
-      const height = tile.h;
-      const titleMax = width > 200 && height > 110 ? 76 : width > 130 ? 50 : 26;
-      const title = width < 72 || height < 48 ? "" : shortenTitle(occupation.title, titleMax);
-      const showSub = width > 110 && height > 76;
-      const titleSize = Math.max(12, Math.min(24, Math.min(width / 7.5, height / 4.2)));
+      const layout = tileTextLayout(tile);
+      tileEl.dataset.tileMode = layout.mode;
+      const title = layout.titleMax ? shortenTitle(occupation.title, layout.titleMax) : "";
 
       tileEl.innerHTML = `
-        ${title ? `<span class="tile-title" style="font-size:${titleSize}px">${title}</span>` : ""}
-        ${showSub ? `<span class="tile-sub">${tileSubline(occupation)}</span>` : ""}
+        ${title ? `<span class="tile-title" style="font-size:${layout.titleSize}px">${title}</span>` : ""}
+        ${layout.showSubline ? `<span class="tile-sub">${tileSubline(occupation)}</span>` : ""}
       `;
 
       tileEl.addEventListener("mouseenter", (event) => showTooltip(occupation, event));
