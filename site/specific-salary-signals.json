@@ -29,7 +29,18 @@
       "dominant_band": "De 1.000 a 1.499 euros",
       "dominant_band_share": 0.279818,
       "median_band": "De 1.500 a 1.999 euros",
+      "dominant_gross_annual_band": {
+        "source_net_band": "De 1.000 a 1.499 euros",
+        "gross_annual_low": 16564.83,
+        "gross_annual_high": 26084.67
+      },
+      "median_gross_annual_band": {
+        "source_net_band": "De 1.500 a 1.999 euros",
+        "gross_annual_low": 26084.67,
+        "gross_annual_high": 36458.7
+      },
       "share_ge_2000": 0.294239,
+      "share_ge_2000_gross_annual_threshold": 36458.7,
       "share_missing": 0.034818,
       "bands": [
         {
@@ -79,6 +90,36 @@
         "url": "https://www.ine.es/jaxi/Tabla.htm?L=0&file=04049.px&path=%2Ft13%2Fp100%2F2019%2Fp01%2F",
         "table_label": "Graduados universitarios seg\u00fan el sueldo mensual neto en 2019 por sexo y titulaci\u00f3n",
         "note": "Dato oficial por titulaci\u00f3n, no salario actual exacto de la ocupaci\u00f3n."
+      },
+      "derivation": {
+        "pay_periods_per_year": 14,
+        "employee_social_security_rate": 0.0635,
+        "personal_allowance_eur": 5550.0,
+        "employment_expense_deduction_eur": 2000.0,
+        "irpf_brackets": [
+          {
+            "up_to": 12450.0,
+            "rate": 0.19
+          },
+          {
+            "up_to": 20200.0,
+            "rate": 0.24
+          },
+          {
+            "up_to": 35200.0,
+            "rate": 0.3
+          },
+          {
+            "up_to": 60000.0,
+            "rate": 0.37
+          },
+          {
+            "up_to": null,
+            "rate": 0.45
+          }
+        ],
+        "description": "Estimaci\u00f3n propia de esta web al convertir tramos netos mensuales del INE a una banda aproximada de salario bruto anual.",
+        "caveat": "Supone un perfil est\u00e1ndar simplificado de asalariado en Espa\u00f1a, sin hijos, con 14 pagas y cotizaci\u00f3n general. No es un c\u00e1lculo oficial ni personalizado."
       }
     },
     {
@@ -107,7 +148,18 @@
       "dominant_band": "De 1.500 a 1.999 euros",
       "dominant_band_share": 0.443246,
       "median_band": "De 1.500 a 1.999 euros",
+      "dominant_gross_annual_band": {
+        "source_net_band": "De 1.500 a 1.999 euros",
+        "gross_annual_low": 26084.67,
+        "gross_annual_high": 36458.7
+      },
+      "median_gross_annual_band": {
+        "source_net_band": "De 1.500 a 1.999 euros",
+        "gross_annual_low": 26084.67,
+        "gross_annual_high": 36458.7
+      },
       "share_ge_2000": 0.213555,
+      "share_ge_2000_gross_annual_threshold": 36458.7,
       "share_missing": 0.018718,
       "bands": [
         {
@@ -157,6 +209,36 @@
         "url": "https://www.ine.es/jaxi/Tabla.htm?L=0&file=04049.px&path=%2Ft13%2Fp100%2F2019%2Fp01%2F",
         "table_label": "Graduados universitarios seg\u00fan el sueldo mensual neto en 2019 por sexo y titulaci\u00f3n",
         "note": "Dato oficial por titulaci\u00f3n, no salario actual exacto de la ocupaci\u00f3n."
+      },
+      "derivation": {
+        "pay_periods_per_year": 14,
+        "employee_social_security_rate": 0.0635,
+        "personal_allowance_eur": 5550.0,
+        "employment_expense_deduction_eur": 2000.0,
+        "irpf_brackets": [
+          {
+            "up_to": 12450.0,
+            "rate": 0.19
+          },
+          {
+            "up_to": 20200.0,
+            "rate": 0.24
+          },
+          {
+            "up_to": 35200.0,
+            "rate": 0.3
+          },
+          {
+            "up_to": 60000.0,
+            "rate": 0.37
+          },
+          {
+            "up_to": null,
+            "rate": 0.45
+          }
+        ],
+        "description": "Estimaci\u00f3n propia de esta web al convertir tramos netos mensuales del INE a una banda aproximada de salario bruto anual.",
+        "caveat": "Supone un perfil est\u00e1ndar simplificado de asalariado en Espa\u00f1a, sin hijos, con 14 pagas y cotizaci\u00f3n general. No es un c\u00e1lculo oficial ni personalizado."
       }
     },
     {
@@ -183,7 +265,18 @@
       "dominant_band": "De 1.500 a 1.999 euros",
       "dominant_band_share": 0.42825,
       "median_band": "De 1.500 a 1.999 euros",
+      "dominant_gross_annual_band": {
+        "source_net_band": "De 1.500 a 1.999 euros",
+        "gross_annual_low": 26084.67,
+        "gross_annual_high": 36458.7
+      },
+      "median_gross_annual_band": {
+        "source_net_band": "De 1.500 a 1.999 euros",
+        "gross_annual_low": 26084.67,
+        "gross_annual_high": 36458.7
+      },
       "share_ge_2000": 0.258149,
+      "share_ge_2000_gross_annual_threshold": 36458.7,
       "share_missing": 0.024728,
       "bands": [
         {
@@ -233,6 +326,36 @@
         "url": "https://www.ine.es/jaxi/Tabla.htm?L=0&file=04049.px&path=%2Ft13%2Fp100%2F2019%2Fp01%2F",
         "table_label": "Graduados universitarios seg\u00fan el sueldo mensual neto en 2019 por sexo y titulaci\u00f3n",
         "note": "Dato oficial por titulaci\u00f3n, no salario actual exacto de la ocupaci\u00f3n."
+      },
+      "derivation": {
+        "pay_periods_per_year": 14,
+        "employee_social_security_rate": 0.0635,
+        "personal_allowance_eur": 5550.0,
+        "employment_expense_deduction_eur": 2000.0,
+        "irpf_brackets": [
+          {
+            "up_to": 12450.0,
+            "rate": 0.19
+          },
+          {
+            "up_to": 20200.0,
+            "rate": 0.24
+          },
+          {
+            "up_to": 35200.0,
+            "rate": 0.3
+          },
+          {
+            "up_to": 60000.0,
+            "rate": 0.37
+          },
+          {
+            "up_to": null,
+            "rate": 0.45
+          }
+        ],
+        "description": "Estimaci\u00f3n propia de esta web al convertir tramos netos mensuales del INE a una banda aproximada de salario bruto anual.",
+        "caveat": "Supone un perfil est\u00e1ndar simplificado de asalariado en Espa\u00f1a, sin hijos, con 14 pagas y cotizaci\u00f3n general. No es un c\u00e1lculo oficial ni personalizado."
       }
     },
     {
@@ -257,7 +380,18 @@
       "dominant_band": "De 1.000 a 1.499 euros",
       "dominant_band_share": 0.416534,
       "median_band": "De 1.000 a 1.499 euros",
+      "dominant_gross_annual_band": {
+        "source_net_band": "De 1.000 a 1.499 euros",
+        "gross_annual_low": 16564.83,
+        "gross_annual_high": 26084.67
+      },
+      "median_gross_annual_band": {
+        "source_net_band": "De 1.000 a 1.499 euros",
+        "gross_annual_low": 16564.83,
+        "gross_annual_high": 26084.67
+      },
       "share_ge_2000": 0.102458,
+      "share_ge_2000_gross_annual_threshold": 36458.7,
       "share_missing": 0.036706,
       "bands": [
         {
@@ -307,6 +441,36 @@
         "url": "https://www.ine.es/jaxi/Tabla.htm?L=0&file=04049.px&path=%2Ft13%2Fp100%2F2019%2Fp01%2F",
         "table_label": "Graduados universitarios seg\u00fan el sueldo mensual neto en 2019 por sexo y titulaci\u00f3n",
         "note": "Dato oficial por titulaci\u00f3n, no salario actual exacto de la ocupaci\u00f3n."
+      },
+      "derivation": {
+        "pay_periods_per_year": 14,
+        "employee_social_security_rate": 0.0635,
+        "personal_allowance_eur": 5550.0,
+        "employment_expense_deduction_eur": 2000.0,
+        "irpf_brackets": [
+          {
+            "up_to": 12450.0,
+            "rate": 0.19
+          },
+          {
+            "up_to": 20200.0,
+            "rate": 0.24
+          },
+          {
+            "up_to": 35200.0,
+            "rate": 0.3
+          },
+          {
+            "up_to": 60000.0,
+            "rate": 0.37
+          },
+          {
+            "up_to": null,
+            "rate": 0.45
+          }
+        ],
+        "description": "Estimaci\u00f3n propia de esta web al convertir tramos netos mensuales del INE a una banda aproximada de salario bruto anual.",
+        "caveat": "Supone un perfil est\u00e1ndar simplificado de asalariado en Espa\u00f1a, sin hijos, con 14 pagas y cotizaci\u00f3n general. No es un c\u00e1lculo oficial ni personalizado."
       }
     },
     {
@@ -331,7 +495,18 @@
       "dominant_band": "De 1.000 a 1.499 euros",
       "dominant_band_share": 0.436697,
       "median_band": "De 1.000 a 1.499 euros",
+      "dominant_gross_annual_band": {
+        "source_net_band": "De 1.000 a 1.499 euros",
+        "gross_annual_low": 16564.83,
+        "gross_annual_high": 26084.67
+      },
+      "median_gross_annual_band": {
+        "source_net_band": "De 1.000 a 1.499 euros",
+        "gross_annual_low": 16564.83,
+        "gross_annual_high": 26084.67
+      },
       "share_ge_2000": 0.05688,
+      "share_ge_2000_gross_annual_threshold": 36458.7,
       "share_missing": 0.023853,
       "bands": [
         {
@@ -381,6 +556,36 @@
         "url": "https://www.ine.es/jaxi/Tabla.htm?L=0&file=04049.px&path=%2Ft13%2Fp100%2F2019%2Fp01%2F",
         "table_label": "Graduados universitarios seg\u00fan el sueldo mensual neto en 2019 por sexo y titulaci\u00f3n",
         "note": "Dato oficial por titulaci\u00f3n, no salario actual exacto de la ocupaci\u00f3n."
+      },
+      "derivation": {
+        "pay_periods_per_year": 14,
+        "employee_social_security_rate": 0.0635,
+        "personal_allowance_eur": 5550.0,
+        "employment_expense_deduction_eur": 2000.0,
+        "irpf_brackets": [
+          {
+            "up_to": 12450.0,
+            "rate": 0.19
+          },
+          {
+            "up_to": 20200.0,
+            "rate": 0.24
+          },
+          {
+            "up_to": 35200.0,
+            "rate": 0.3
+          },
+          {
+            "up_to": 60000.0,
+            "rate": 0.37
+          },
+          {
+            "up_to": null,
+            "rate": 0.45
+          }
+        ],
+        "description": "Estimaci\u00f3n propia de esta web al convertir tramos netos mensuales del INE a una banda aproximada de salario bruto anual.",
+        "caveat": "Supone un perfil est\u00e1ndar simplificado de asalariado en Espa\u00f1a, sin hijos, con 14 pagas y cotizaci\u00f3n general. No es un c\u00e1lculo oficial ni personalizado."
       }
     },
     {
@@ -410,7 +615,18 @@
       "dominant_band": "De 2.000 a 2.499 euros",
       "dominant_band_share": 0.371385,
       "median_band": "De 2.000 a 2.499 euros",
+      "dominant_gross_annual_band": {
+        "source_net_band": "De 2.000 a 2.499 euros",
+        "gross_annual_low": 36458.7,
+        "gross_annual_high": 47302.1
+      },
+      "median_gross_annual_band": {
+        "source_net_band": "De 2.000 a 2.499 euros",
+        "gross_annual_low": 36458.7,
+        "gross_annual_high": 47302.1
+      },
       "share_ge_2000": 0.768663,
+      "share_ge_2000_gross_annual_threshold": 36458.7,
       "share_missing": 0.028161,
       "bands": [
         {
@@ -460,6 +676,36 @@
         "url": "https://www.ine.es/jaxi/Tabla.htm?L=0&file=04049.px&path=%2Ft13%2Fp100%2F2019%2Fp01%2F",
         "table_label": "Graduados universitarios seg\u00fan el sueldo mensual neto en 2019 por sexo y titulaci\u00f3n",
         "note": "Dato oficial por titulaci\u00f3n, no salario actual exacto de la ocupaci\u00f3n."
+      },
+      "derivation": {
+        "pay_periods_per_year": 14,
+        "employee_social_security_rate": 0.0635,
+        "personal_allowance_eur": 5550.0,
+        "employment_expense_deduction_eur": 2000.0,
+        "irpf_brackets": [
+          {
+            "up_to": 12450.0,
+            "rate": 0.19
+          },
+          {
+            "up_to": 20200.0,
+            "rate": 0.24
+          },
+          {
+            "up_to": 35200.0,
+            "rate": 0.3
+          },
+          {
+            "up_to": 60000.0,
+            "rate": 0.37
+          },
+          {
+            "up_to": null,
+            "rate": 0.45
+          }
+        ],
+        "description": "Estimaci\u00f3n propia de esta web al convertir tramos netos mensuales del INE a una banda aproximada de salario bruto anual.",
+        "caveat": "Supone un perfil est\u00e1ndar simplificado de asalariado en Espa\u00f1a, sin hijos, con 14 pagas y cotizaci\u00f3n general. No es un c\u00e1lculo oficial ni personalizado."
       }
     },
     {
@@ -487,7 +733,18 @@
       "dominant_band": "De 1.000 a 1.499 euros",
       "dominant_band_share": 0.356522,
       "median_band": "De 1.000 a 1.499 euros",
+      "dominant_gross_annual_band": {
+        "source_net_band": "De 1.000 a 1.499 euros",
+        "gross_annual_low": 16564.83,
+        "gross_annual_high": 26084.67
+      },
+      "median_gross_annual_band": {
+        "source_net_band": "De 1.000 a 1.499 euros",
+        "gross_annual_low": 16564.83,
+        "gross_annual_high": 26084.67
+      },
       "share_ge_2000": 0.100621,
+      "share_ge_2000_gross_annual_threshold": 36458.7,
       "share_missing": 0.037267,
       "bands": [
         {
@@ -537,6 +794,36 @@
         "url": "https://www.ine.es/jaxi/Tabla.htm?L=0&file=04049.px&path=%2Ft13%2Fp100%2F2019%2Fp01%2F",
         "table_label": "Graduados universitarios seg\u00fan el sueldo mensual neto en 2019 por sexo y titulaci\u00f3n",
         "note": "Dato oficial por titulaci\u00f3n, no salario actual exacto de la ocupaci\u00f3n."
+      },
+      "derivation": {
+        "pay_periods_per_year": 14,
+        "employee_social_security_rate": 0.0635,
+        "personal_allowance_eur": 5550.0,
+        "employment_expense_deduction_eur": 2000.0,
+        "irpf_brackets": [
+          {
+            "up_to": 12450.0,
+            "rate": 0.19
+          },
+          {
+            "up_to": 20200.0,
+            "rate": 0.24
+          },
+          {
+            "up_to": 35200.0,
+            "rate": 0.3
+          },
+          {
+            "up_to": 60000.0,
+            "rate": 0.37
+          },
+          {
+            "up_to": null,
+            "rate": 0.45
+          }
+        ],
+        "description": "Estimaci\u00f3n propia de esta web al convertir tramos netos mensuales del INE a una banda aproximada de salario bruto anual.",
+        "caveat": "Supone un perfil est\u00e1ndar simplificado de asalariado en Espa\u00f1a, sin hijos, con 14 pagas y cotizaci\u00f3n general. No es un c\u00e1lculo oficial ni personalizado."
       }
     },
     {
@@ -563,7 +850,18 @@
       "dominant_band": "De 2.000 a 2.499 euros",
       "dominant_band_share": 0.195816,
       "median_band": "De 2.000 a 2.499 euros",
+      "dominant_gross_annual_band": {
+        "source_net_band": "De 2.000 a 2.499 euros",
+        "gross_annual_low": 36458.7,
+        "gross_annual_high": 47302.1
+      },
+      "median_gross_annual_band": {
+        "source_net_band": "De 2.000 a 2.499 euros",
+        "gross_annual_low": 36458.7,
+        "gross_annual_high": 47302.1
+      },
       "share_ge_2000": 0.469494,
+      "share_ge_2000_gross_annual_threshold": 36458.7,
       "share_missing": 0.091226,
       "bands": [
         {
@@ -613,6 +911,36 @@
         "url": "https://www.ine.es/jaxi/Tabla.htm?L=0&file=04049.px&path=%2Ft13%2Fp100%2F2019%2Fp01%2F",
         "table_label": "Graduados universitarios seg\u00fan el sueldo mensual neto en 2019 por sexo y titulaci\u00f3n",
         "note": "Dato oficial por titulaci\u00f3n, no salario actual exacto de la ocupaci\u00f3n."
+      },
+      "derivation": {
+        "pay_periods_per_year": 14,
+        "employee_social_security_rate": 0.0635,
+        "personal_allowance_eur": 5550.0,
+        "employment_expense_deduction_eur": 2000.0,
+        "irpf_brackets": [
+          {
+            "up_to": 12450.0,
+            "rate": 0.19
+          },
+          {
+            "up_to": 20200.0,
+            "rate": 0.24
+          },
+          {
+            "up_to": 35200.0,
+            "rate": 0.3
+          },
+          {
+            "up_to": 60000.0,
+            "rate": 0.37
+          },
+          {
+            "up_to": null,
+            "rate": 0.45
+          }
+        ],
+        "description": "Estimaci\u00f3n propia de esta web al convertir tramos netos mensuales del INE a una banda aproximada de salario bruto anual.",
+        "caveat": "Supone un perfil est\u00e1ndar simplificado de asalariado en Espa\u00f1a, sin hijos, con 14 pagas y cotizaci\u00f3n general. No es un c\u00e1lculo oficial ni personalizado."
       }
     },
     {
@@ -640,7 +968,18 @@
       "dominant_band": "De 1.000 a 1.499 euros",
       "dominant_band_share": 0.302381,
       "median_band": "De 1.000 a 1.499 euros",
+      "dominant_gross_annual_band": {
+        "source_net_band": "De 1.000 a 1.499 euros",
+        "gross_annual_low": 16564.83,
+        "gross_annual_high": 26084.67
+      },
+      "median_gross_annual_band": {
+        "source_net_band": "De 1.000 a 1.499 euros",
+        "gross_annual_low": 16564.83,
+        "gross_annual_high": 26084.67
+      },
       "share_ge_2000": 0.195238,
+      "share_ge_2000_gross_annual_threshold": 36458.7,
       "share_missing": 0.045238,
       "bands": [
         {
@@ -690,6 +1029,36 @@
         "url": "https://www.ine.es/jaxi/Tabla.htm?L=0&file=04049.px&path=%2Ft13%2Fp100%2F2019%2Fp01%2F",
         "table_label": "Graduados universitarios seg\u00fan el sueldo mensual neto en 2019 por sexo y titulaci\u00f3n",
         "note": "Dato oficial por titulaci\u00f3n, no salario actual exacto de la ocupaci\u00f3n."
+      },
+      "derivation": {
+        "pay_periods_per_year": 14,
+        "employee_social_security_rate": 0.0635,
+        "personal_allowance_eur": 5550.0,
+        "employment_expense_deduction_eur": 2000.0,
+        "irpf_brackets": [
+          {
+            "up_to": 12450.0,
+            "rate": 0.19
+          },
+          {
+            "up_to": 20200.0,
+            "rate": 0.24
+          },
+          {
+            "up_to": 35200.0,
+            "rate": 0.3
+          },
+          {
+            "up_to": 60000.0,
+            "rate": 0.37
+          },
+          {
+            "up_to": null,
+            "rate": 0.45
+          }
+        ],
+        "description": "Estimaci\u00f3n propia de esta web al convertir tramos netos mensuales del INE a una banda aproximada de salario bruto anual.",
+        "caveat": "Supone un perfil est\u00e1ndar simplificado de asalariado en Espa\u00f1a, sin hijos, con 14 pagas y cotizaci\u00f3n general. No es un c\u00e1lculo oficial ni personalizado."
       }
     },
     {
@@ -734,7 +1103,18 @@
       "dominant_band": "De 1.500 a 1.999 euros",
       "dominant_band_share": 0.342261,
       "median_band": "De 1.500 a 1.999 euros",
+      "dominant_gross_annual_band": {
+        "source_net_band": "De 1.500 a 1.999 euros",
+        "gross_annual_low": 26084.67,
+        "gross_annual_high": 36458.7
+      },
+      "median_gross_annual_band": {
+        "source_net_band": "De 1.500 a 1.999 euros",
+        "gross_annual_low": 26084.67,
+        "gross_annual_high": 36458.7
+      },
       "share_ge_2000": 0.439738,
+      "share_ge_2000_gross_annual_threshold": 36458.7,
       "share_missing": 0.018997,
       "bands": [
         {
@@ -784,6 +1164,36 @@
         "url": "https://www.ine.es/jaxi/Tabla.htm?L=0&file=04049.px&path=%2Ft13%2Fp100%2F2019%2Fp01%2F",
         "table_label": "Graduados universitarios seg\u00fan el sueldo mensual neto en 2019 por sexo y titulaci\u00f3n",
         "note": "Dato oficial por titulaci\u00f3n, no salario actual exacto de la ocupaci\u00f3n."
+      },
+      "derivation": {
+        "pay_periods_per_year": 14,
+        "employee_social_security_rate": 0.0635,
+        "personal_allowance_eur": 5550.0,
+        "employment_expense_deduction_eur": 2000.0,
+        "irpf_brackets": [
+          {
+            "up_to": 12450.0,
+            "rate": 0.19
+          },
+          {
+            "up_to": 20200.0,
+            "rate": 0.24
+          },
+          {
+            "up_to": 35200.0,
+            "rate": 0.3
+          },
+          {
+            "up_to": 60000.0,
+            "rate": 0.37
+          },
+          {
+            "up_to": null,
+            "rate": 0.45
+          }
+        ],
+        "description": "Estimaci\u00f3n propia de esta web al convertir tramos netos mensuales del INE a una banda aproximada de salario bruto anual.",
+        "caveat": "Supone un perfil est\u00e1ndar simplificado de asalariado en Espa\u00f1a, sin hijos, con 14 pagas y cotizaci\u00f3n general. No es un c\u00e1lculo oficial ni personalizado."
       }
     },
     {
@@ -811,7 +1221,18 @@
       "dominant_band": "De 1.000 a 1.499 euros",
       "dominant_band_share": 0.432921,
       "median_band": "De 1.000 a 1.499 euros",
+      "dominant_gross_annual_band": {
+        "source_net_band": "De 1.000 a 1.499 euros",
+        "gross_annual_low": 16564.83,
+        "gross_annual_high": 26084.67
+      },
+      "median_gross_annual_band": {
+        "source_net_band": "De 1.000 a 1.499 euros",
+        "gross_annual_low": 16564.83,
+        "gross_annual_high": 26084.67
+      },
       "share_ge_2000": 0.121344,
+      "share_ge_2000_gross_annual_threshold": 36458.7,
       "share_missing": 0.015828,
       "bands": [
         {
@@ -861,6 +1282,36 @@
         "url": "https://www.ine.es/jaxi/Tabla.htm?L=0&file=04049.px&path=%2Ft13%2Fp100%2F2019%2Fp01%2F",
         "table_label": "Graduados universitarios seg\u00fan el sueldo mensual neto en 2019 por sexo y titulaci\u00f3n",
         "note": "Dato oficial por titulaci\u00f3n, no salario actual exacto de la ocupaci\u00f3n."
+      },
+      "derivation": {
+        "pay_periods_per_year": 14,
+        "employee_social_security_rate": 0.0635,
+        "personal_allowance_eur": 5550.0,
+        "employment_expense_deduction_eur": 2000.0,
+        "irpf_brackets": [
+          {
+            "up_to": 12450.0,
+            "rate": 0.19
+          },
+          {
+            "up_to": 20200.0,
+            "rate": 0.24
+          },
+          {
+            "up_to": 35200.0,
+            "rate": 0.3
+          },
+          {
+            "up_to": 60000.0,
+            "rate": 0.37
+          },
+          {
+            "up_to": null,
+            "rate": 0.45
+          }
+        ],
+        "description": "Estimaci\u00f3n propia de esta web al convertir tramos netos mensuales del INE a una banda aproximada de salario bruto anual.",
+        "caveat": "Supone un perfil est\u00e1ndar simplificado de asalariado en Espa\u00f1a, sin hijos, con 14 pagas y cotizaci\u00f3n general. No es un c\u00e1lculo oficial ni personalizado."
       }
     },
     {
@@ -885,7 +1336,18 @@
       "dominant_band": "De 1.000 a 1.499 euros",
       "dominant_band_share": 0.626582,
       "median_band": "De 1.000 a 1.499 euros",
+      "dominant_gross_annual_band": {
+        "source_net_band": "De 1.000 a 1.499 euros",
+        "gross_annual_low": 16564.83,
+        "gross_annual_high": 26084.67
+      },
+      "median_gross_annual_band": {
+        "source_net_band": "De 1.000 a 1.499 euros",
+        "gross_annual_low": 16564.83,
+        "gross_annual_high": 26084.67
+      },
       "share_ge_2000": 0.023735,
+      "share_ge_2000_gross_annual_threshold": 36458.7,
       "share_missing": 0.009494,
       "bands": [
         {
@@ -935,6 +1397,36 @@
         "url": "https://www.ine.es/jaxi/Tabla.htm?L=0&file=04049.px&path=%2Ft13%2Fp100%2F2019%2Fp01%2F",
         "table_label": "Graduados universitarios seg\u00fan el sueldo mensual neto en 2019 por sexo y titulaci\u00f3n",
         "note": "Dato oficial por titulaci\u00f3n, no salario actual exacto de la ocupaci\u00f3n."
+      },
+      "derivation": {
+        "pay_periods_per_year": 14,
+        "employee_social_security_rate": 0.0635,
+        "personal_allowance_eur": 5550.0,
+        "employment_expense_deduction_eur": 2000.0,
+        "irpf_brackets": [
+          {
+            "up_to": 12450.0,
+            "rate": 0.19
+          },
+          {
+            "up_to": 20200.0,
+            "rate": 0.24
+          },
+          {
+            "up_to": 35200.0,
+            "rate": 0.3
+          },
+          {
+            "up_to": 60000.0,
+            "rate": 0.37
+          },
+          {
+            "up_to": null,
+            "rate": 0.45
+          }
+        ],
+        "description": "Estimaci\u00f3n propia de esta web al convertir tramos netos mensuales del INE a una banda aproximada de salario bruto anual.",
+        "caveat": "Supone un perfil est\u00e1ndar simplificado de asalariado en Espa\u00f1a, sin hijos, con 14 pagas y cotizaci\u00f3n general. No es un c\u00e1lculo oficial ni personalizado."
       }
     },
     {
@@ -962,7 +1454,18 @@
       "dominant_band": "De 1.000 a 1.499 euros",
       "dominant_band_share": 0.410959,
       "median_band": "De 1.000 a 1.499 euros",
+      "dominant_gross_annual_band": {
+        "source_net_band": "De 1.000 a 1.499 euros",
+        "gross_annual_low": 16564.83,
+        "gross_annual_high": 26084.67
+      },
+      "median_gross_annual_band": {
+        "source_net_band": "De 1.000 a 1.499 euros",
+        "gross_annual_low": 16564.83,
+        "gross_annual_high": 26084.67
+      },
       "share_ge_2000": 0.142467,
+      "share_ge_2000_gross_annual_threshold": 36458.7,
       "share_missing": 0.010959,
       "bands": [
         {
@@ -1012,6 +1515,36 @@
         "url": "https://www.ine.es/jaxi/Tabla.htm?L=0&file=04049.px&path=%2Ft13%2Fp100%2F2019%2Fp01%2F",
         "table_label": "Graduados universitarios seg\u00fan el sueldo mensual neto en 2019 por sexo y titulaci\u00f3n",
         "note": "Dato oficial por titulaci\u00f3n, no salario actual exacto de la ocupaci\u00f3n."
+      },
+      "derivation": {
+        "pay_periods_per_year": 14,
+        "employee_social_security_rate": 0.0635,
+        "personal_allowance_eur": 5550.0,
+        "employment_expense_deduction_eur": 2000.0,
+        "irpf_brackets": [
+          {
+            "up_to": 12450.0,
+            "rate": 0.19
+          },
+          {
+            "up_to": 20200.0,
+            "rate": 0.24
+          },
+          {
+            "up_to": 35200.0,
+            "rate": 0.3
+          },
+          {
+            "up_to": 60000.0,
+            "rate": 0.37
+          },
+          {
+            "up_to": null,
+            "rate": 0.45
+          }
+        ],
+        "description": "Estimaci\u00f3n propia de esta web al convertir tramos netos mensuales del INE a una banda aproximada de salario bruto anual.",
+        "caveat": "Supone un perfil est\u00e1ndar simplificado de asalariado en Espa\u00f1a, sin hijos, con 14 pagas y cotizaci\u00f3n general. No es un c\u00e1lculo oficial ni personalizado."
       }
     }
   ]

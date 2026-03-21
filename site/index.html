@@ -1682,6 +1682,16 @@ function formatCurrencyPrecise(value) {
   return nfCurrencyPrecise.format(value);
 }
 
+function formatAnnualGrossBand(band) {
+  if (!band || band.gross_annual_low == null) return "—";
+  const low = formatCurrency(band.gross_annual_low);
+  if (band.gross_annual_high == null) {
+    return `Más de ${low} brutos al año`;
+  }
+  const high = formatCurrency(band.gross_annual_high);
+  return `${low} a ${high} brutos al año`;
+}
+
 function formatPct(value, digits = 2) {
   if (value == null || Number.isNaN(value)) return "—";
   const fixed = Number(value).toFixed(digits).replace(".", ",");
@@ -3029,27 +3039,28 @@ function renderSpecificSalarySignals(occupation, selectedChild) {
                   : "Referencia por titulación"
             }</p>
             <h4 class="specific-salary-title">${entry.profession_label} → ${entry.study_label}</h4>
-            <p class="specific-salary-number">${entry.dominant_band || "—"}</p>
-            <p class="specific-salary-copy">Tramo más frecuente de sueldo mensual neto en 2019 entre titulados en ${entry.study_label} que estaban trabajando.</p>
+            <p class="specific-salary-number">${formatAnnualGrossBand(entry.dominant_gross_annual_band)}</p>
+            <p class="specific-salary-copy">Estimación de salario bruto anual equivalente al tramo más frecuente de sueldo mensual neto en 2019 entre titulados en ${entry.study_label} que estaban trabajando.</p>
             <div class="child-stats">
               <div class="child-stat">
                 <span class="label">Titulados trabajando</span>
                 <span class="value">${formatInteger(entry.total_working)}</span>
               </div>
               <div class="child-stat">
-                <span class="label">Cobraba 2.000 € o más</span>
+                <span class="label">Equivalente a ${formatCurrency(entry.share_ge_2000_gross_annual_threshold)} o más</span>
                 <span class="value">${formatPercentShare(entry.share_ge_2000)}</span>
               </div>
               <div class="child-stat">
-                <span class="label">Tramo mediano</span>
-                <span class="value">${entry.median_band || "—"}</span>
+                <span class="label">Tramo bruto anual mediano</span>
+                <span class="value">${formatAnnualGrossBand(entry.median_gross_annual_band)}</span>
               </div>
               <div class="child-stat">
                 <span class="label">No consta</span>
                 <span class="value">${formatPercentShare(entry.share_missing)}</span>
               </div>
             </div>
-            <p class="specific-salary-source"><strong>Fuente:</strong> ${entry.source.name}. ${entry.source.table_label}. ${entry.cohort_label}, ambos sexos, titulación ${entry.study_label}. ${entry.source.note}</p>
+            <p class="specific-salary-copy">Dato base oficial usado: <strong>${entry.dominant_band || "—"} netos al mes</strong>. La equivalencia a bruto anual la calcula esta web con una hipótesis estándar: asalariado en España, sin hijos, 14 pagas y cotización general.</p>
+            <p class="specific-salary-source"><strong>Fuente oficial del dato base:</strong> ${entry.source.name}. ${entry.source.table_label}. ${entry.cohort_label}, ambos sexos, titulación ${entry.study_label}. ${entry.source.note} <strong>Cómo se deriva aquí:</strong> ${entry.derivation.description} ${entry.derivation.caveat}</p>
             <div class="source-list">
               <a href="${entry.source.url}" target="_blank" rel="noreferrer">Abrir tabla oficial del INE</a>
             </div>

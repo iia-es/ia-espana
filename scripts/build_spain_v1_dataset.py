@@ -173,6 +173,28 @@ SPECIFIC_SALARY_SIGNAL_SPECS = [
     },
 ]
 
+DERIVED_GROSS_ANNUAL_ASSUMPTIONS = {
+    "pay_periods_per_year": 14,
+    "employee_social_security_rate": 0.0635,
+    "personal_allowance_eur": 5550.0,
+    "employment_expense_deduction_eur": 2000.0,
+    "irpf_brackets": [
+        {"up_to": 12450.0, "rate": 0.19},
+        {"up_to": 20200.0, "rate": 0.24},
+        {"up_to": 35200.0, "rate": 0.30},
+        {"up_to": 60000.0, "rate": 0.37},
+        {"up_to": None, "rate": 0.45},
+    ],
+    "description": (
+        "Estimación propia de esta web al convertir tramos netos mensuales del INE "
+        "a una banda aproximada de salario bruto anual."
+    ),
+    "caveat": (
+        "Supone un perfil estándar simplificado de asalariado en España, sin hijos, "
+        "con 14 pagas y cotización general. No es un cálculo oficial ni personalizado."
+    ),
+}
+
 
 def step(message: str) -> None:
     print(message, flush=True)
@@ -458,8 +480,99 @@ def compute_median_band(distribution: list[dict[str, Any]]) -> str | None:
     return eligible[-1]["label"] if eligible else None
 
 
+def annual_irpf_for_taxable_base(taxable_base: float) -> float:
+    if taxable_base <= 0:
+        return 0.0
+
+    total = 0.0
+    previous_limit = 0.0
+    remaining = taxable_base
+    for bracket in DERIVED_GROSS_ANNUAL_ASSUMPTIONS["irpf_brackets"]:
+        upper = bracket["up_to"]
+        rate = bracket["rate"]
+        if upper is None:
+            span = remaining
+        else:
+            span = min(remaining, upper - previous_limit)
+        if span <= 0:
+            if upper is not None:
+                previous_limit = upper
+            continue
+        total += span * rate
+        remaining -= span
+        if upper is None or remaining <= 0:
+            break
+        previous_limit = upper
+    return total
+
+
+def net_monthly_from_gross_annual(gross_annual: float) -> float:
+    social_security = (
+        gross_annual * DERIVED_GROSS_ANNUAL_ASSUMPTIONS["employee_social_security_rate"]
+    )
+    taxable_base = max(
+        0.0,
+        gross_annual
+        - social_security
+        - DERIVED_GROSS_ANNUAL_ASSUMPTIONS["personal_allowance_eur"]
+        - DERIVED_GROSS_ANNUAL_ASSUMPTIONS["employment_expense_deduction_eur"],
+    )
+    irpf = annual_irpf_for_taxable_base(taxable_base)
+    net_annual = gross_annual - social_security - irpf
+    return net_annual / DERIVED_GROSS_ANNUAL_ASSUMPTIONS["pay_periods_per_year"]
+
+
+def gross_annual_for_target_net_monthly(target_net_monthly: float) -> float:
+    low = 0.0
+    high = 250000.0
+    for _ in range(64):
+        middle = (low + high) / 2
+        if net_monthly_from_gross_annual(middle) < target_net_monthly:
+            low = middle
+        else:
+            high = middle
+    return high
+
+
+def parse_eilu_net_band(label: str) -> tuple[float | None, float | None]:
+    if label == "Menos de 700 euros":
+        return 0.0, 700.0
+    if label == "De 700 a 999 euros":
+        return 700.0, 1000.0
+    if label == "De 1.000 a 1.499 euros":
+        return 1000.0, 1500.0
+    if label == "De 1.500 a 1.999 euros":
+        return 1500.0, 2000.0
+    if label == "De 2.000 a 2.499 euros":
+        return 2000.0, 2500.0
+    if label == "De 2.500 a 2.999 euros":
+        return 2500.0, 3000.0
+    if label == "De 3.000 euros en adelante":
+        return 3000.0, None
+    return None, None
+
+
+def derive_gross_annual_band_from_net_band(label: str) -> dict[str, Any] | None:
+    low_monthly, high_monthly = parse_eilu_net_band(label)
+    if low_monthly is None:
+        return None
+
+    gross_low = gross_annual_for_target_net_monthly(low_monthly)
+    gross_high = (
+        gross_annual_for_target_net_monthly(high_monthly)
+        if high_monthly is not None
+        else None
+    )
+    return {
+        "source_net_band": label,
+        "gross_annual_low": round_or_none(gross_low, 2),
+        "gross_annual_high": round_or_none(gross_high, 2),
+    }
+
+
 def build_specific_salary_signals_from_eilu(rows: list[dict[str, str]]) -> dict[str, Any]:
     grouped: dict[str, dict[str, Any]] = {}
+    gross_threshold_for_ge_2000 = gross_annual_for_target_net_monthly(2000.0)
 
     for row in rows:
         if normalize_text(row["Sexo"]) != "Ambos sexos":
@@ -522,6 +635,14 @@ def build_specific_salary_signals_from_eilu(rows: list[dict[str, str]]) -> dict[
             (item["share"] for item in distribution if item["label"] == "No consta"),
             0,
         )
+        dominant_gross_band = (
+            derive_gross_annual_band_from_net_band(dominant_band["label"])
+            if dominant_band
+            else None
+        )
+        median_gross_band = derive_gross_annual_band_from_net_band(
+            compute_median_band(distribution) or ""
+        )
 
         entries.append(
             {
@@ -540,7 +661,12 @@ def build_specific_salary_signals_from_eilu(rows: list[dict[str, str]]) -> dict[
                     dominant_band["share"] if dominant_band else None
                 ),
                 "median_band": compute_median_band(distribution),
+                "dominant_gross_annual_band": dominant_gross_band,
+                "median_gross_annual_band": median_gross_band,
                 "share_ge_2000": round_or_none(share_ge_2000, 6),
+                "share_ge_2000_gross_annual_threshold": round_or_none(
+                    gross_threshold_for_ge_2000, 2
+                ),
                 "share_missing": round_or_none(share_missing, 6),
                 "bands": distribution,
                 "source": {
@@ -550,6 +676,7 @@ def build_specific_salary_signals_from_eilu(rows: list[dict[str, str]]) -> dict[
                     "table_label": "Graduados universitarios según el sueldo mensual neto en 2019 por sexo y titulación",
                     "note": "Dato oficial por titulación, no salario actual exacto de la ocupación.",
                 },
+                "derivation": DERIVED_GROSS_ANNUAL_ASSUMPTIONS,
             }
         )
 
