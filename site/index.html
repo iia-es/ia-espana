@@ -117,13 +117,6 @@ body {
   color: var(--text);
 }
 
-.hero-links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin-top: 16px;
-}
-
 .hero-notes {
   display: flex;
   flex-wrap: wrap;
@@ -156,7 +149,6 @@ body {
   font-size: 12px;
 }
 
-.hero-links a,
 .source-list a,
 .child-actions a,
 .source-pill {
@@ -173,7 +165,6 @@ body {
   transition: transform 140ms ease, border-color 140ms ease, background 140ms ease;
 }
 
-.hero-links a:hover,
 .source-list a:hover,
 .child-actions a:hover {
   transform: translateY(-1px);
@@ -243,10 +234,6 @@ body {
 
 .tool-copy p {
   margin: 0;
-}
-
-.tool-intro .hero-links {
-  margin-top: 0;
 }
 
 .editorial-intro {
@@ -1421,11 +1408,6 @@ body {
           <p>Cada fila agrupa una gran familia de empleos. Dentro verás barras horizontales: cuanto más larga es una barra, más gente trabaja en ese empleo. El color cambia según la vista elegida: <strong>Automatizable por IA</strong>, <strong>Tendencia</strong>, <strong>Salario</strong>, <strong>Educación</strong> o <strong>Personas que buscan esta ocupación</strong>.</p>
           <p>Al pulsar una barra se abre su ficha con cifras clave, trabajos concretos relacionados y enlaces oficiales.</p>
         </div>
-        <div class="hero-links">
-          <a href="https://www.ine.es/jaxiT3/Tabla.htm?t=69953" target="_blank" rel="noreferrer">INE empleo y estudios</a>
-          <a href="https://www.ine.es/jaxiT3/Tabla.htm?t=70672" target="_blank" rel="noreferrer">INE salarios</a>
-          <a href="https://www.sepe.es/HomeSepe/que-es-observatorio/informacion-mt-por-ocupacion.html" target="_blank" rel="noreferrer">SEPE fichas de ocupaciones</a>
-        </div>
       </div>
     </div>
     <div class="hero-notes">
@@ -1616,6 +1598,19 @@ const SEARCH_ALIASES_BY_CODE = {
   "96": ["peon de obra", "peon de construccion", "peon de mina"],
   "97": ["peon de fabrica", "operario de fabrica", "operario industrial"],
   "98": ["reponedor", "reponedora", "mozo de almacen", "moza de almacen", "descargador", "carretillero", "carretillera"],
+};
+
+const CHILD_SEARCH_ALIASES_BY_CODE = {
+  "2111": ["medico", "medica", "medicos", "medicas", "doctor", "doctora"],
+  "2140": ["farmaceutico", "farmaceutica", "farmacia"],
+  "2511": ["abogado", "abogada"],
+  "2712": ["ingeniero de software", "desarrollador de software"],
+  "2713": ["programador", "programadora", "desarrollador", "desarrolladora", "frontend", "backend", "full stack", "fullstack", "web"],
+  "5120": ["camarero", "camarera"],
+  "8412": ["taxista", "chofer", "repartidor", "repartidora"],
+  "8432": ["transportista", "camionero", "camionera", "conductor de camion"],
+  "9210": ["limpiadora", "limpiador", "limpieza", "personal de limpieza", "limpiadora de hotel", "limpiador de oficina"],
+  "9820": ["reponedor", "reponedora"],
 };
 
 const AUTOMATION_BUCKETS = [
@@ -1969,9 +1964,11 @@ function buildSearchProfile(occupation) {
 }
 
 function buildChildSearchProfile(child) {
+  const aliases = CHILD_SEARCH_ALIASES_BY_CODE[child.cno_4d] || [];
   const fieldSpecs = [
     { text: child.cno_4d, weight: 260, exactOnly: true },
     { text: child.label, weight: 220 },
+    ...aliases.map((text) => ({ text, weight: 260 })),
     ...((child.included_examples || []).slice(0, 10).map((text) => ({ text, weight: 180 }))),
     ...((child.tasks || []).slice(0, 8).map((text) => ({ text, weight: 120 }))),
     ...(child.description_summary ? [{ text: child.description_summary, weight: 100 }] : []),
@@ -2633,8 +2630,8 @@ function renderEditorial() {
 
   const rankingCards = [
     {
-      title: "Las 5 más blindadas",
-      note: "Son las que salen con menor automatización estimada.",
+      title: "Las 5 más blindadas ante la IA",
+      note: "Son las que salen con menor automatización estimada ante la IA.",
       items: exposureCandidates
         .slice()
         .sort((a, b) => (a.exposure - b.exposure) || ((b.jobs || 0) - (a.jobs || 0)))
@@ -2642,13 +2639,13 @@ function renderEditorial() {
         .map((occupation) => ({
           code: occupation.code,
           name: displayTitleForOccupation(occupation),
-          value: automationRange(occupation.exposure),
-          meta: `${shieldingLabel(occupation.exposure)} · ${formatInteger(occupation.jobs)} personas en este empleo`,
+          value: formatExposure(occupation.exposure),
+          meta: `${shieldingLabel(occupation.exposure)} · rango ${automationRange(occupation.exposure)} · ${formatInteger(occupation.jobs)} personas en este empleo`,
         })),
     },
     {
-      title: "Las 5 más automatizables",
-      note: "Son las que salen con mayor automatización estimada.",
+      title: "Las 5 más automatizables por la IA",
+      note: "Son las que salen con mayor automatización estimada por la IA.",
       items: exposureCandidates
         .slice()
         .sort((a, b) => (b.exposure - a.exposure) || ((b.jobs || 0) - (a.jobs || 0)))
@@ -2656,8 +2653,8 @@ function renderEditorial() {
         .map((occupation) => ({
           code: occupation.code,
           name: displayTitleForOccupation(occupation),
-          value: automationRange(occupation.exposure),
-          meta: `${shieldingLabel(occupation.exposure)} · ${formatInteger(occupation.jobs)} personas en este empleo`,
+          value: formatExposure(occupation.exposure),
+          meta: `${shieldingLabel(occupation.exposure)} · rango ${automationRange(occupation.exposure)} · ${formatInteger(occupation.jobs)} personas en este empleo`,
         })),
     },
     {
@@ -2679,8 +2676,8 @@ function renderEditorial() {
         })),
     },
     {
-      title: "Las mejor pagadas entre las menos automatizables",
-      note: "Salario alto con automatización baja o moderada.",
+      title: "Las mejor pagadas entre las menos automatizables por la IA",
+      note: "Salario alto con automatización baja o moderada por la IA.",
       items: wellPaidShieldedCandidates
         .slice()
         .sort((a, b) => (b.pay - a.pay) || (a.exposure - b.exposure))
@@ -3203,14 +3200,15 @@ function renderDetailPanel() {
       return pa - pb;
     });
 
+  const broadPayLabel = SHORT_CATEGORY_LABELS[occupation.categoryCode] || occupation.categoryLabel;
   const salaryBadge = occupation.pay == null
-    ? `<span class="badge">Sin salario publicado</span>`
+    ? `<span class="badge">Sin salario directo publicado</span>`
     : `<span class="badge strong">Salario INE ${occupation.salaryYear}</span>`;
   const qualityBadge = occupation.payLowReliability
     ? `<span class="badge">Dato con poca muestra</span>`
     : "";
   const proxyBadge = occupation.pay == null && occupation.payProxyMonth != null
-    ? `<span class="badge">Estimación anual: ${formatCurrency(estimateAnnualGrossFromMonthly(occupation.payProxyMonth))}</span>`
+    ? `<span class="badge">Referencia del gran grupo: ${formatCurrency(estimateAnnualGrossFromMonthly(occupation.payProxyMonth))} al año</span>`
     : "";
   const payProxyAnnualEstimate = estimateAnnualGrossFromMonthly(occupation.payProxyMonth);
   const aiBadge = automationBadge(
@@ -3244,9 +3242,9 @@ function renderDetailPanel() {
         <span class="detail">Dato del INE ${occupation.jobsYear}${scope.broad ? " para el grupo completo" : ""}</span>
       </article>
       <article class="metric">
-        <span class="eyebrow">Salario medio al año de ${scope.broad ? "esta familia" : "este empleo"}</span>
+        <span class="eyebrow">${occupation.pay == null ? "Referencia salarial del gran grupo" : `Salario medio al año de ${scope.broad ? "esta familia" : "este empleo"}`}</span>
         <span class="number">${occupation.pay == null ? (payProxyAnnualEstimate == null ? "—" : formatCurrency(payProxyAnnualEstimate)) : formatCurrency(occupation.pay)}</span>
-        <span class="detail">${occupation.pay == null ? `No hay dato anual directo para este grupo.${payProxyAnnualEstimate == null ? "" : ` Estimación propia de esta web: ${formatCurrency(occupation.payProxyMonth)} brutos al mes en 2024 × 12 = ${formatCurrency(payProxyAnnualEstimate)} brutos al año.`}` : `Dato del INE ${occupation.salaryYear}${scope.broad ? " para el grupo completo" : ""}`}</span>
+        <span class="detail">${occupation.pay == null ? `No hay salario anual directo para ${scope.broad ? "esta familia" : "este empleo"}.${payProxyAnnualEstimate == null ? "" : ` Como orientación, esta web usa el salario bruto mensual medio del gran grupo ${broadPayLabel} en 2024 (${formatCurrency(occupation.payProxyMonth)}) y lo anualiza × 12 = ${formatCurrency(payProxyAnnualEstimate)}.`}` : `Dato del INE ${occupation.salaryYear}${scope.broad ? " para el grupo completo" : ""}`}</span>
       </article>
       <article class="metric">
         <span class="eyebrow">Contratos en el último año</span>
