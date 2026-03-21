@@ -1,0 +1,1018 @@
+{
+  "source_id": "ine_eilu_04049",
+  "source_name": "INE \u00b7 Encuesta de inserci\u00f3n laboral de titulados universitarios 2019",
+  "source_url": "https://www.ine.es/jaxi/Tabla.htm?L=0&file=04049.px&path=%2Ft13%2Fp100%2F2019%2Fp01%2F",
+  "entries": [
+    {
+      "key": "derecho",
+      "profession_label": "Abogados",
+      "study_label": "Derecho",
+      "aliases": [
+        "abogacia",
+        "abogac\u00eda",
+        "abogada",
+        "abogadas",
+        "abogado",
+        "abogados",
+        "derecho"
+      ],
+      "occupation_codes_2d": [
+        "25"
+      ],
+      "child_codes_4d": [
+        "2511"
+      ],
+      "metric_label": "Sueldo mensual neto en 2019",
+      "reference_year": 2019,
+      "cohort_label": "Graduados del curso 2013-2014",
+      "total_working": 12551,
+      "dominant_band": "De 1.000 a 1.499 euros",
+      "dominant_band_share": 0.279818,
+      "median_band": "De 1.500 a 1.999 euros",
+      "share_ge_2000": 0.294239,
+      "share_missing": 0.034818,
+      "bands": [
+        {
+          "label": "Menos de 700 euros",
+          "value": 858,
+          "share": 0.068361
+        },
+        {
+          "label": "De 700 a 999 euros",
+          "value": 1001,
+          "share": 0.079755
+        },
+        {
+          "label": "De 1.000 a 1.499 euros",
+          "value": 3512,
+          "share": 0.279818
+        },
+        {
+          "label": "De 1.500 a 1.999 euros",
+          "value": 3050,
+          "share": 0.243009
+        },
+        {
+          "label": "De 2.000 a 2.499 euros",
+          "value": 1866,
+          "share": 0.148673
+        },
+        {
+          "label": "De 2.500 a 2.999 euros",
+          "value": 867,
+          "share": 0.069078
+        },
+        {
+          "label": "De 3.000 euros en adelante",
+          "value": 960,
+          "share": 0.076488
+        },
+        {
+          "label": "No consta",
+          "value": 437,
+          "share": 0.034818
+        }
+      ],
+      "source": {
+        "id": "ine_eilu_04049",
+        "name": "INE \u00b7 Encuesta de inserci\u00f3n laboral de titulados universitarios 2019",
+        "url": "https://www.ine.es/jaxi/Tabla.htm?L=0&file=04049.px&path=%2Ft13%2Fp100%2F2019%2Fp01%2F",
+        "table_label": "Graduados universitarios seg\u00fan el sueldo mensual neto en 2019 por sexo y titulaci\u00f3n",
+        "note": "Dato oficial por titulaci\u00f3n, no salario actual exacto de la ocupaci\u00f3n."
+      }
+    },
+    {
+      "key": "enfermeria",
+      "profession_label": "Enfermeros y matronos",
+      "study_label": "Enfermer\u00eda",
+      "aliases": [
+        "enfermera",
+        "enfermeria",
+        "enfermero",
+        "matrona",
+        "matronas"
+      ],
+      "occupation_codes_2d": [
+        "21"
+      ],
+      "child_codes_4d": [
+        "2121",
+        "2122",
+        "2123"
+      ],
+      "metric_label": "Sueldo mensual neto en 2019",
+      "reference_year": 2019,
+      "cohort_label": "Graduados del curso 2013-2014",
+      "total_working": 10845,
+      "dominant_band": "De 1.500 a 1.999 euros",
+      "dominant_band_share": 0.443246,
+      "median_band": "De 1.500 a 1.999 euros",
+      "share_ge_2000": 0.213555,
+      "share_missing": 0.018718,
+      "bands": [
+        {
+          "label": "Menos de 700 euros",
+          "value": 299,
+          "share": 0.02757
+        },
+        {
+          "label": "De 700 a 999 euros",
+          "value": 629,
+          "share": 0.057999
+        },
+        {
+          "label": "De 1.000 a 1.499 euros",
+          "value": 2590,
+          "share": 0.23882
+        },
+        {
+          "label": "De 1.500 a 1.999 euros",
+          "value": 4807,
+          "share": 0.443246
+        },
+        {
+          "label": "De 2.000 a 2.499 euros",
+          "value": 2016,
+          "share": 0.185892
+        },
+        {
+          "label": "De 2.500 a 2.999 euros",
+          "value": 187,
+          "share": 0.017243
+        },
+        {
+          "label": "De 3.000 euros en adelante",
+          "value": 113,
+          "share": 0.01042
+        },
+        {
+          "label": "No consta",
+          "value": 203,
+          "share": 0.018718
+        }
+      ],
+      "source": {
+        "id": "ine_eilu_04049",
+        "name": "INE \u00b7 Encuesta de inserci\u00f3n laboral de titulados universitarios 2019",
+        "url": "https://www.ine.es/jaxi/Tabla.htm?L=0&file=04049.px&path=%2Ft13%2Fp100%2F2019%2Fp01%2F",
+        "table_label": "Graduados universitarios seg\u00fan el sueldo mensual neto en 2019 por sexo y titulaci\u00f3n",
+        "note": "Dato oficial por titulaci\u00f3n, no salario actual exacto de la ocupaci\u00f3n."
+      }
+    },
+    {
+      "key": "farmacia",
+      "profession_label": "Farmac\u00e9uticos",
+      "study_label": "Farmacia",
+      "aliases": [
+        "farmaceutica",
+        "farmaceuticas",
+        "farmaceutico",
+        "farmaceuticos",
+        "farmacia"
+      ],
+      "occupation_codes_2d": [
+        "21"
+      ],
+      "child_codes_4d": [
+        "2140"
+      ],
+      "metric_label": "Sueldo mensual neto en 2019",
+      "reference_year": 2019,
+      "cohort_label": "Graduados del curso 2013-2014",
+      "total_working": 2669,
+      "dominant_band": "De 1.500 a 1.999 euros",
+      "dominant_band_share": 0.42825,
+      "median_band": "De 1.500 a 1.999 euros",
+      "share_ge_2000": 0.258149,
+      "share_missing": 0.024728,
+      "bands": [
+        {
+          "label": "Menos de 700 euros",
+          "value": 48,
+          "share": 0.017984
+        },
+        {
+          "label": "De 700 a 999 euros",
+          "value": 88,
+          "share": 0.032971
+        },
+        {
+          "label": "De 1.000 a 1.499 euros",
+          "value": 635,
+          "share": 0.237917
+        },
+        {
+          "label": "De 1.500 a 1.999 euros",
+          "value": 1143,
+          "share": 0.42825
+        },
+        {
+          "label": "De 2.000 a 2.499 euros",
+          "value": 399,
+          "share": 0.149494
+        },
+        {
+          "label": "De 2.500 a 2.999 euros",
+          "value": 115,
+          "share": 0.043087
+        },
+        {
+          "label": "De 3.000 euros en adelante",
+          "value": 175,
+          "share": 0.065568
+        },
+        {
+          "label": "No consta",
+          "value": 66,
+          "share": 0.024728
+        }
+      ],
+      "source": {
+        "id": "ine_eilu_04049",
+        "name": "INE \u00b7 Encuesta de inserci\u00f3n laboral de titulados universitarios 2019",
+        "url": "https://www.ine.es/jaxi/Tabla.htm?L=0&file=04049.px&path=%2Ft13%2Fp100%2F2019%2Fp01%2F",
+        "table_label": "Graduados universitarios seg\u00fan el sueldo mensual neto en 2019 por sexo y titulaci\u00f3n",
+        "note": "Dato oficial por titulaci\u00f3n, no salario actual exacto de la ocupaci\u00f3n."
+      }
+    },
+    {
+      "key": "fisioterapia",
+      "profession_label": "Fisioterapeutas",
+      "study_label": "Fisioterapia",
+      "aliases": [
+        "fisioterapeuta",
+        "fisioterapeutas",
+        "fisioterapia"
+      ],
+      "occupation_codes_2d": [
+        "21"
+      ],
+      "child_codes_4d": [
+        "2152"
+      ],
+      "metric_label": "Sueldo mensual neto en 2019",
+      "reference_year": 2019,
+      "cohort_label": "Graduados del curso 2013-2014",
+      "total_working": 3133,
+      "dominant_band": "De 1.000 a 1.499 euros",
+      "dominant_band_share": 0.416534,
+      "median_band": "De 1.000 a 1.499 euros",
+      "share_ge_2000": 0.102458,
+      "share_missing": 0.036706,
+      "bands": [
+        {
+          "label": "Menos de 700 euros",
+          "value": 265,
+          "share": 0.084583
+        },
+        {
+          "label": "De 700 a 999 euros",
+          "value": 424,
+          "share": 0.135334
+        },
+        {
+          "label": "De 1.000 a 1.499 euros",
+          "value": 1305,
+          "share": 0.416534
+        },
+        {
+          "label": "De 1.500 a 1.999 euros",
+          "value": 702,
+          "share": 0.224066
+        },
+        {
+          "label": "De 2.000 a 2.499 euros",
+          "value": 164,
+          "share": 0.052346
+        },
+        {
+          "label": "De 2.500 a 2.999 euros",
+          "value": 58,
+          "share": 0.018513
+        },
+        {
+          "label": "De 3.000 euros en adelante",
+          "value": 99,
+          "share": 0.031599
+        },
+        {
+          "label": "No consta",
+          "value": 115,
+          "share": 0.036706
+        }
+      ],
+      "source": {
+        "id": "ine_eilu_04049",
+        "name": "INE \u00b7 Encuesta de inserci\u00f3n laboral de titulados universitarios 2019",
+        "url": "https://www.ine.es/jaxi/Tabla.htm?L=0&file=04049.px&path=%2Ft13%2Fp100%2F2019%2Fp01%2F",
+        "table_label": "Graduados universitarios seg\u00fan el sueldo mensual neto en 2019 por sexo y titulaci\u00f3n",
+        "note": "Dato oficial por titulaci\u00f3n, no salario actual exacto de la ocupaci\u00f3n."
+      }
+    },
+    {
+      "key": "logopedia",
+      "profession_label": "Logopedas",
+      "study_label": "Logopedia",
+      "aliases": [
+        "logopeda",
+        "logopedas",
+        "logopedia"
+      ],
+      "occupation_codes_2d": [
+        "21"
+      ],
+      "child_codes_4d": [
+        "2154"
+      ],
+      "metric_label": "Sueldo mensual neto en 2019",
+      "reference_year": 2019,
+      "cohort_label": "Graduados del curso 2013-2014",
+      "total_working": 545,
+      "dominant_band": "De 1.000 a 1.499 euros",
+      "dominant_band_share": 0.436697,
+      "median_band": "De 1.000 a 1.499 euros",
+      "share_ge_2000": 0.05688,
+      "share_missing": 0.023853,
+      "bands": [
+        {
+          "label": "Menos de 700 euros",
+          "value": 66,
+          "share": 0.121101
+        },
+        {
+          "label": "De 700 a 999 euros",
+          "value": 110,
+          "share": 0.201835
+        },
+        {
+          "label": "De 1.000 a 1.499 euros",
+          "value": 238,
+          "share": 0.436697
+        },
+        {
+          "label": "De 1.500 a 1.999 euros",
+          "value": 88,
+          "share": 0.161468
+        },
+        {
+          "label": "De 2.000 a 2.499 euros",
+          "value": 26,
+          "share": 0.047706
+        },
+        {
+          "label": "De 2.500 a 2.999 euros",
+          "value": 0,
+          "share": 0.0
+        },
+        {
+          "label": "De 3.000 euros en adelante",
+          "value": 5,
+          "share": 0.009174
+        },
+        {
+          "label": "No consta",
+          "value": 13,
+          "share": 0.023853
+        }
+      ],
+      "source": {
+        "id": "ine_eilu_04049",
+        "name": "INE \u00b7 Encuesta de inserci\u00f3n laboral de titulados universitarios 2019",
+        "url": "https://www.ine.es/jaxi/Tabla.htm?L=0&file=04049.px&path=%2Ft13%2Fp100%2F2019%2Fp01%2F",
+        "table_label": "Graduados universitarios seg\u00fan el sueldo mensual neto en 2019 por sexo y titulaci\u00f3n",
+        "note": "Dato oficial por titulaci\u00f3n, no salario actual exacto de la ocupaci\u00f3n."
+      }
+    },
+    {
+      "key": "medicina",
+      "profession_label": "M\u00e9dicos",
+      "study_label": "Medicina",
+      "aliases": [
+        "cirujano",
+        "medica",
+        "medicas",
+        "medicina",
+        "medico",
+        "medicos",
+        "pediatra"
+      ],
+      "occupation_codes_2d": [
+        "21"
+      ],
+      "child_codes_4d": [
+        "2111",
+        "2112"
+      ],
+      "metric_label": "Sueldo mensual neto en 2019",
+      "reference_year": 2019,
+      "cohort_label": "Graduados del curso 2013-2014",
+      "total_working": 5291,
+      "dominant_band": "De 2.000 a 2.499 euros",
+      "dominant_band_share": 0.371385,
+      "median_band": "De 2.000 a 2.499 euros",
+      "share_ge_2000": 0.768663,
+      "share_missing": 0.028161,
+      "bands": [
+        {
+          "label": "Menos de 700 euros",
+          "value": 14,
+          "share": 0.002646
+        },
+        {
+          "label": "De 700 a 999 euros",
+          "value": 80,
+          "share": 0.01512
+        },
+        {
+          "label": "De 1.000 a 1.499 euros",
+          "value": 326,
+          "share": 0.061614
+        },
+        {
+          "label": "De 1.500 a 1.999 euros",
+          "value": 655,
+          "share": 0.123795
+        },
+        {
+          "label": "De 2.000 a 2.499 euros",
+          "value": 1965,
+          "share": 0.371385
+        },
+        {
+          "label": "De 2.500 a 2.999 euros",
+          "value": 1024,
+          "share": 0.193536
+        },
+        {
+          "label": "De 3.000 euros en adelante",
+          "value": 1078,
+          "share": 0.203742
+        },
+        {
+          "label": "No consta",
+          "value": 149,
+          "share": 0.028161
+        }
+      ],
+      "source": {
+        "id": "ine_eilu_04049",
+        "name": "INE \u00b7 Encuesta de inserci\u00f3n laboral de titulados universitarios 2019",
+        "url": "https://www.ine.es/jaxi/Tabla.htm?L=0&file=04049.px&path=%2Ft13%2Fp100%2F2019%2Fp01%2F",
+        "table_label": "Graduados universitarios seg\u00fan el sueldo mensual neto en 2019 por sexo y titulaci\u00f3n",
+        "note": "Dato oficial por titulaci\u00f3n, no salario actual exacto de la ocupaci\u00f3n."
+      }
+    },
+    {
+      "key": "nutricion",
+      "profession_label": "Nutricionistas y dietistas",
+      "study_label": "Nutrici\u00f3n humana y diet\u00e9tica",
+      "aliases": [
+        "dietista",
+        "dietistas",
+        "nutricion",
+        "nutricionista",
+        "nutricionistas",
+        "nutrici\u00f3n"
+      ],
+      "occupation_codes_2d": [
+        "21"
+      ],
+      "child_codes_4d": [
+        "2153"
+      ],
+      "metric_label": "Sueldo mensual neto en 2019",
+      "reference_year": 2019,
+      "cohort_label": "Graduados del curso 2013-2014",
+      "total_working": 805,
+      "dominant_band": "De 1.000 a 1.499 euros",
+      "dominant_band_share": 0.356522,
+      "median_band": "De 1.000 a 1.499 euros",
+      "share_ge_2000": 0.100621,
+      "share_missing": 0.037267,
+      "bands": [
+        {
+          "label": "Menos de 700 euros",
+          "value": 93,
+          "share": 0.115528
+        },
+        {
+          "label": "De 700 a 999 euros",
+          "value": 143,
+          "share": 0.17764
+        },
+        {
+          "label": "De 1.000 a 1.499 euros",
+          "value": 287,
+          "share": 0.356522
+        },
+        {
+          "label": "De 1.500 a 1.999 euros",
+          "value": 170,
+          "share": 0.21118
+        },
+        {
+          "label": "De 2.000 a 2.499 euros",
+          "value": 37,
+          "share": 0.045963
+        },
+        {
+          "label": "De 2.500 a 2.999 euros",
+          "value": 35,
+          "share": 0.043478
+        },
+        {
+          "label": "De 3.000 euros en adelante",
+          "value": 9,
+          "share": 0.01118
+        },
+        {
+          "label": "No consta",
+          "value": 30,
+          "share": 0.037267
+        }
+      ],
+      "source": {
+        "id": "ine_eilu_04049",
+        "name": "INE \u00b7 Encuesta de inserci\u00f3n laboral de titulados universitarios 2019",
+        "url": "https://www.ine.es/jaxi/Tabla.htm?L=0&file=04049.px&path=%2Ft13%2Fp100%2F2019%2Fp01%2F",
+        "table_label": "Graduados universitarios seg\u00fan el sueldo mensual neto en 2019 por sexo y titulaci\u00f3n",
+        "note": "Dato oficial por titulaci\u00f3n, no salario actual exacto de la ocupaci\u00f3n."
+      }
+    },
+    {
+      "key": "odontologia",
+      "profession_label": "Odont\u00f3logos",
+      "study_label": "Odontolog\u00eda",
+      "aliases": [
+        "dentista",
+        "dentistas",
+        "odontologa",
+        "odontologia",
+        "odontologo"
+      ],
+      "occupation_codes_2d": [
+        "21"
+      ],
+      "child_codes_4d": [
+        "2151"
+      ],
+      "metric_label": "Sueldo mensual neto en 2019",
+      "reference_year": 2019,
+      "cohort_label": "Graduados del curso 2013-2014",
+      "total_working": 1721,
+      "dominant_band": "De 2.000 a 2.499 euros",
+      "dominant_band_share": 0.195816,
+      "median_band": "De 2.000 a 2.499 euros",
+      "share_ge_2000": 0.469494,
+      "share_missing": 0.091226,
+      "bands": [
+        {
+          "label": "Menos de 700 euros",
+          "value": 30,
+          "share": 0.017432
+        },
+        {
+          "label": "De 700 a 999 euros",
+          "value": 148,
+          "share": 0.085997
+        },
+        {
+          "label": "De 1.000 a 1.499 euros",
+          "value": 319,
+          "share": 0.185357
+        },
+        {
+          "label": "De 1.500 a 1.999 euros",
+          "value": 258,
+          "share": 0.149913
+        },
+        {
+          "label": "De 2.000 a 2.499 euros",
+          "value": 337,
+          "share": 0.195816
+        },
+        {
+          "label": "De 2.500 a 2.999 euros",
+          "value": 152,
+          "share": 0.088321
+        },
+        {
+          "label": "De 3.000 euros en adelante",
+          "value": 319,
+          "share": 0.185357
+        },
+        {
+          "label": "No consta",
+          "value": 157,
+          "share": 0.091226
+        }
+      ],
+      "source": {
+        "id": "ine_eilu_04049",
+        "name": "INE \u00b7 Encuesta de inserci\u00f3n laboral de titulados universitarios 2019",
+        "url": "https://www.ine.es/jaxi/Tabla.htm?L=0&file=04049.px&path=%2Ft13%2Fp100%2F2019%2Fp01%2F",
+        "table_label": "Graduados universitarios seg\u00fan el sueldo mensual neto en 2019 por sexo y titulaci\u00f3n",
+        "note": "Dato oficial por titulaci\u00f3n, no salario actual exacto de la ocupaci\u00f3n."
+      }
+    },
+    {
+      "key": "podologia",
+      "profession_label": "Pod\u00f3logos",
+      "study_label": "Podolog\u00eda",
+      "aliases": [
+        "podologa",
+        "podologas",
+        "podologia",
+        "podologo",
+        "podologos",
+        "podolog\u00eda"
+      ],
+      "occupation_codes_2d": [
+        "21"
+      ],
+      "child_codes_4d": [
+        "2157"
+      ],
+      "metric_label": "Sueldo mensual neto en 2019",
+      "reference_year": 2019,
+      "cohort_label": "Graduados del curso 2013-2014",
+      "total_working": 420,
+      "dominant_band": "De 1.000 a 1.499 euros",
+      "dominant_band_share": 0.302381,
+      "median_band": "De 1.000 a 1.499 euros",
+      "share_ge_2000": 0.195238,
+      "share_missing": 0.045238,
+      "bands": [
+        {
+          "label": "Menos de 700 euros",
+          "value": 39,
+          "share": 0.092857
+        },
+        {
+          "label": "De 700 a 999 euros",
+          "value": 71,
+          "share": 0.169048
+        },
+        {
+          "label": "De 1.000 a 1.499 euros",
+          "value": 127,
+          "share": 0.302381
+        },
+        {
+          "label": "De 1.500 a 1.999 euros",
+          "value": 83,
+          "share": 0.197619
+        },
+        {
+          "label": "De 2.000 a 2.499 euros",
+          "value": 48,
+          "share": 0.114286
+        },
+        {
+          "label": "De 2.500 a 2.999 euros",
+          "value": 16,
+          "share": 0.038095
+        },
+        {
+          "label": "De 3.000 euros en adelante",
+          "value": 18,
+          "share": 0.042857
+        },
+        {
+          "label": "No consta",
+          "value": 19,
+          "share": 0.045238
+        }
+      ],
+      "source": {
+        "id": "ine_eilu_04049",
+        "name": "INE \u00b7 Encuesta de inserci\u00f3n laboral de titulados universitarios 2019",
+        "url": "https://www.ine.es/jaxi/Tabla.htm?L=0&file=04049.px&path=%2Ft13%2Fp100%2F2019%2Fp01%2F",
+        "table_label": "Graduados universitarios seg\u00fan el sueldo mensual neto en 2019 por sexo y titulaci\u00f3n",
+        "note": "Dato oficial por titulaci\u00f3n, no salario actual exacto de la ocupaci\u00f3n."
+      }
+    },
+    {
+      "key": "informatica",
+      "profession_label": "Programadores y desarrolladores",
+      "study_label": "Inform\u00e1tica",
+      "aliases": [
+        "backend",
+        "desarrollador",
+        "desarrolladora",
+        "desarrolladoras",
+        "desarrolladores",
+        "devops",
+        "frontend",
+        "fullstack",
+        "informatica",
+        "informatico",
+        "inform\u00e1tica",
+        "programador",
+        "programadora",
+        "programadoras",
+        "programadores",
+        "software"
+      ],
+      "occupation_codes_2d": [
+        "27"
+      ],
+      "child_codes_4d": [
+        "2711",
+        "2712",
+        "2713",
+        "2719",
+        "2721",
+        "2722",
+        "2723",
+        "2729"
+      ],
+      "metric_label": "Sueldo mensual neto en 2019",
+      "reference_year": 2019,
+      "cohort_label": "Graduados del curso 2013-2014",
+      "total_working": 6422,
+      "dominant_band": "De 1.500 a 1.999 euros",
+      "dominant_band_share": 0.342261,
+      "median_band": "De 1.500 a 1.999 euros",
+      "share_ge_2000": 0.439738,
+      "share_missing": 0.018997,
+      "bands": [
+        {
+          "label": "Menos de 700 euros",
+          "value": 70,
+          "share": 0.0109
+        },
+        {
+          "label": "De 700 a 999 euros",
+          "value": 118,
+          "share": 0.018374
+        },
+        {
+          "label": "De 1.000 a 1.499 euros",
+          "value": 1090,
+          "share": 0.169729
+        },
+        {
+          "label": "De 1.500 a 1.999 euros",
+          "value": 2198,
+          "share": 0.342261
+        },
+        {
+          "label": "De 2.000 a 2.499 euros",
+          "value": 1392,
+          "share": 0.216755
+        },
+        {
+          "label": "De 2.500 a 2.999 euros",
+          "value": 679,
+          "share": 0.10573
+        },
+        {
+          "label": "De 3.000 euros en adelante",
+          "value": 753,
+          "share": 0.117253
+        },
+        {
+          "label": "No consta",
+          "value": 122,
+          "share": 0.018997
+        }
+      ],
+      "source": {
+        "id": "ine_eilu_04049",
+        "name": "INE \u00b7 Encuesta de inserci\u00f3n laboral de titulados universitarios 2019",
+        "url": "https://www.ine.es/jaxi/Tabla.htm?L=0&file=04049.px&path=%2Ft13%2Fp100%2F2019%2Fp01%2F",
+        "table_label": "Graduados universitarios seg\u00fan el sueldo mensual neto en 2019 por sexo y titulaci\u00f3n",
+        "note": "Dato oficial por titulaci\u00f3n, no salario actual exacto de la ocupaci\u00f3n."
+      }
+    },
+    {
+      "key": "psicologia",
+      "profession_label": "Psic\u00f3logos",
+      "study_label": "Psicolog\u00eda",
+      "aliases": [
+        "psicologa",
+        "psicologas",
+        "psicologia",
+        "psicologo",
+        "psicologos",
+        "psicolog\u00eda"
+      ],
+      "occupation_codes_2d": [
+        "28"
+      ],
+      "child_codes_4d": [
+        "2823"
+      ],
+      "metric_label": "Sueldo mensual neto en 2019",
+      "reference_year": 2019,
+      "cohort_label": "Graduados del curso 2013-2014",
+      "total_working": 6634,
+      "dominant_band": "De 1.000 a 1.499 euros",
+      "dominant_band_share": 0.432921,
+      "median_band": "De 1.000 a 1.499 euros",
+      "share_ge_2000": 0.121344,
+      "share_missing": 0.015828,
+      "bands": [
+        {
+          "label": "Menos de 700 euros",
+          "value": 746,
+          "share": 0.112451
+        },
+        {
+          "label": "De 700 a 999 euros",
+          "value": 1054,
+          "share": 0.158879
+        },
+        {
+          "label": "De 1.000 a 1.499 euros",
+          "value": 2872,
+          "share": 0.432921
+        },
+        {
+          "label": "De 1.500 a 1.999 euros",
+          "value": 1051,
+          "share": 0.158426
+        },
+        {
+          "label": "De 2.000 a 2.499 euros",
+          "value": 519,
+          "share": 0.078233
+        },
+        {
+          "label": "De 2.500 a 2.999 euros",
+          "value": 154,
+          "share": 0.023214
+        },
+        {
+          "label": "De 3.000 euros en adelante",
+          "value": 132,
+          "share": 0.019897
+        },
+        {
+          "label": "No consta",
+          "value": 105,
+          "share": 0.015828
+        }
+      ],
+      "source": {
+        "id": "ine_eilu_04049",
+        "name": "INE \u00b7 Encuesta de inserci\u00f3n laboral de titulados universitarios 2019",
+        "url": "https://www.ine.es/jaxi/Tabla.htm?L=0&file=04049.px&path=%2Ft13%2Fp100%2F2019%2Fp01%2F",
+        "table_label": "Graduados universitarios seg\u00fan el sueldo mensual neto en 2019 por sexo y titulaci\u00f3n",
+        "note": "Dato oficial por titulaci\u00f3n, no salario actual exacto de la ocupaci\u00f3n."
+      }
+    },
+    {
+      "key": "terapia_ocupacional",
+      "profession_label": "Terapeutas ocupacionales",
+      "study_label": "Terapia ocupacional",
+      "aliases": [
+        "terapeuta ocupacional",
+        "terapeutas ocupacionales",
+        "terapia ocupacional"
+      ],
+      "occupation_codes_2d": [
+        "21"
+      ],
+      "child_codes_4d": [
+        "2156"
+      ],
+      "metric_label": "Sueldo mensual neto en 2019",
+      "reference_year": 2019,
+      "cohort_label": "Graduados del curso 2013-2014",
+      "total_working": 632,
+      "dominant_band": "De 1.000 a 1.499 euros",
+      "dominant_band_share": 0.626582,
+      "median_band": "De 1.000 a 1.499 euros",
+      "share_ge_2000": 0.023735,
+      "share_missing": 0.009494,
+      "bands": [
+        {
+          "label": "Menos de 700 euros",
+          "value": 51,
+          "share": 0.080696
+        },
+        {
+          "label": "De 700 a 999 euros",
+          "value": 83,
+          "share": 0.131329
+        },
+        {
+          "label": "De 1.000 a 1.499 euros",
+          "value": 396,
+          "share": 0.626582
+        },
+        {
+          "label": "De 1.500 a 1.999 euros",
+          "value": 82,
+          "share": 0.129747
+        },
+        {
+          "label": "De 2.000 a 2.499 euros",
+          "value": 10,
+          "share": 0.015823
+        },
+        {
+          "label": "De 2.500 a 2.999 euros",
+          "value": 3,
+          "share": 0.004747
+        },
+        {
+          "label": "De 3.000 euros en adelante",
+          "value": 2,
+          "share": 0.003165
+        },
+        {
+          "label": "No consta",
+          "value": 6,
+          "share": 0.009494
+        }
+      ],
+      "source": {
+        "id": "ine_eilu_04049",
+        "name": "INE \u00b7 Encuesta de inserci\u00f3n laboral de titulados universitarios 2019",
+        "url": "https://www.ine.es/jaxi/Tabla.htm?L=0&file=04049.px&path=%2Ft13%2Fp100%2F2019%2Fp01%2F",
+        "table_label": "Graduados universitarios seg\u00fan el sueldo mensual neto en 2019 por sexo y titulaci\u00f3n",
+        "note": "Dato oficial por titulaci\u00f3n, no salario actual exacto de la ocupaci\u00f3n."
+      }
+    },
+    {
+      "key": "optica",
+      "profession_label": "\u00d3pticos y optometristas",
+      "study_label": "\u00d3ptica y optometr\u00eda",
+      "aliases": [
+        "optica",
+        "optico",
+        "optometria",
+        "optometrista",
+        "optometristas",
+        "optometr\u00eda"
+      ],
+      "occupation_codes_2d": [
+        "21"
+      ],
+      "child_codes_4d": [
+        "2155"
+      ],
+      "metric_label": "Sueldo mensual neto en 2019",
+      "reference_year": 2019,
+      "cohort_label": "Graduados del curso 2013-2014",
+      "total_working": 730,
+      "dominant_band": "De 1.000 a 1.499 euros",
+      "dominant_band_share": 0.410959,
+      "median_band": "De 1.000 a 1.499 euros",
+      "share_ge_2000": 0.142467,
+      "share_missing": 0.010959,
+      "bands": [
+        {
+          "label": "Menos de 700 euros",
+          "value": 28,
+          "share": 0.038356
+        },
+        {
+          "label": "De 700 a 999 euros",
+          "value": 58,
+          "share": 0.079452
+        },
+        {
+          "label": "De 1.000 a 1.499 euros",
+          "value": 300,
+          "share": 0.410959
+        },
+        {
+          "label": "De 1.500 a 1.999 euros",
+          "value": 231,
+          "share": 0.316438
+        },
+        {
+          "label": "De 2.000 a 2.499 euros",
+          "value": 69,
+          "share": 0.094521
+        },
+        {
+          "label": "De 2.500 a 2.999 euros",
+          "value": 3,
+          "share": 0.00411
+        },
+        {
+          "label": "De 3.000 euros en adelante",
+          "value": 32,
+          "share": 0.043836
+        },
+        {
+          "label": "No consta",
+          "value": 8,
+          "share": 0.010959
+        }
+      ],
+      "source": {
+        "id": "ine_eilu_04049",
+        "name": "INE \u00b7 Encuesta de inserci\u00f3n laboral de titulados universitarios 2019",
+        "url": "https://www.ine.es/jaxi/Tabla.htm?L=0&file=04049.px&path=%2Ft13%2Fp100%2F2019%2Fp01%2F",
+        "table_label": "Graduados universitarios seg\u00fan el sueldo mensual neto en 2019 por sexo y titulaci\u00f3n",
+        "note": "Dato oficial por titulaci\u00f3n, no salario actual exacto de la ocupaci\u00f3n."
+      }
+    }
+  ]
+}

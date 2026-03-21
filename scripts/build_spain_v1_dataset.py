@@ -38,6 +38,140 @@ SALARY_REFERENCE_YEAR = 2018
 MAJOR_GROUP_PAY_REFERENCE_YEAR = 2024
 SEPE_REFERENCE_YEAR = 2025
 MAX_SEPE_WORKERS = 6
+EILU_04049_CSV_URL = "https://www.ine.es/jaxi/files/_px/es/csv_bd/t13/p100/2019/p01/l0/04049.csv_bd"
+EILU_04049_HTML_URL = "https://www.ine.es/jaxi/Tabla.htm?L=0&file=04049.px&path=%2Ft13%2Fp100%2F2019%2Fp01%2F"
+
+SPECIFIC_SALARY_SIGNAL_SPECS = [
+    {
+        "key": "medicina",
+        "profession_label": "Médicos",
+        "study_label": "Medicina",
+        "aliases": ["medico", "medica", "medicos", "medicas", "medicina", "cirujano", "pediatra"],
+        "occupation_codes_2d": ["21"],
+        "child_codes_4d": ["2111", "2112"],
+    },
+    {
+        "key": "enfermeria",
+        "profession_label": "Enfermeros y matronos",
+        "study_label": "Enfermería",
+        "aliases": ["enfermero", "enfermera", "enfermeria", "matrona", "matronas"],
+        "occupation_codes_2d": ["21"],
+        "child_codes_4d": ["2121", "2122", "2123"],
+    },
+    {
+        "key": "farmacia",
+        "profession_label": "Farmacéuticos",
+        "study_label": "Farmacia",
+        "aliases": ["farmaceutico", "farmaceutica", "farmacia", "farmaceuticos", "farmaceuticas"],
+        "occupation_codes_2d": ["21"],
+        "child_codes_4d": ["2140"],
+    },
+    {
+        "key": "odontologia",
+        "profession_label": "Odontólogos",
+        "study_label": "Odontología",
+        "aliases": ["odontologo", "odontologa", "odontologia", "dentista", "dentistas"],
+        "occupation_codes_2d": ["21"],
+        "child_codes_4d": ["2151"],
+    },
+    {
+        "key": "fisioterapia",
+        "profession_label": "Fisioterapeutas",
+        "study_label": "Fisioterapia",
+        "aliases": ["fisioterapeuta", "fisioterapeutas", "fisioterapia"],
+        "occupation_codes_2d": ["21"],
+        "child_codes_4d": ["2152"],
+    },
+    {
+        "key": "logopedia",
+        "profession_label": "Logopedas",
+        "study_label": "Logopedia",
+        "aliases": ["logopeda", "logopedas", "logopedia"],
+        "occupation_codes_2d": ["21"],
+        "child_codes_4d": ["2154"],
+    },
+    {
+        "key": "nutricion",
+        "profession_label": "Nutricionistas y dietistas",
+        "study_label": "Nutrición humana y dietética",
+        "aliases": ["nutricionista", "nutricionistas", "dietista", "dietistas", "nutricion", "nutrición"],
+        "occupation_codes_2d": ["21"],
+        "child_codes_4d": ["2153"],
+    },
+    {
+        "key": "optica",
+        "profession_label": "Ópticos y optometristas",
+        "study_label": "Óptica y optometría",
+        "aliases": ["optico", "optica", "optometrista", "optometristas", "optometria", "optometría"],
+        "occupation_codes_2d": ["21"],
+        "child_codes_4d": ["2155"],
+    },
+    {
+        "key": "terapia_ocupacional",
+        "profession_label": "Terapeutas ocupacionales",
+        "study_label": "Terapia ocupacional",
+        "aliases": ["terapeuta ocupacional", "terapeutas ocupacionales", "terapia ocupacional"],
+        "occupation_codes_2d": ["21"],
+        "child_codes_4d": ["2156"],
+    },
+    {
+        "key": "podologia",
+        "profession_label": "Podólogos",
+        "study_label": "Podología",
+        "aliases": ["podologo", "podologa", "podologos", "podologas", "podologia", "podología"],
+        "occupation_codes_2d": ["21"],
+        "child_codes_4d": ["2157"],
+    },
+    {
+        "key": "derecho",
+        "profession_label": "Abogados",
+        "study_label": "Derecho",
+        "aliases": ["abogado", "abogada", "abogados", "abogadas", "derecho", "abogacia", "abogacía"],
+        "occupation_codes_2d": ["25"],
+        "child_codes_4d": ["2511"],
+    },
+    {
+        "key": "informatica",
+        "profession_label": "Programadores y desarrolladores",
+        "study_label": "Informática",
+        "aliases": [
+            "programador",
+            "programadora",
+            "programadores",
+            "programadoras",
+            "desarrollador",
+            "desarrolladora",
+            "desarrolladores",
+            "desarrolladoras",
+            "software",
+            "informatico",
+            "informatica",
+            "informática",
+            "frontend",
+            "backend",
+            "fullstack",
+            "devops",
+        ],
+        "occupation_codes_2d": ["27"],
+        "child_codes_4d": ["2711", "2712", "2713", "2719", "2721", "2722", "2723", "2729"],
+    },
+    {
+        "key": "psicologia",
+        "profession_label": "Psicólogos",
+        "study_label": "Psicología",
+        "aliases": ["psicologo", "psicologa", "psicologos", "psicologas", "psicologia", "psicología"],
+        "occupation_codes_2d": ["28"],
+        "child_codes_4d": ["2823"],
+    },
+    {
+        "key": "arquitectura",
+        "profession_label": "Arquitectos",
+        "study_label": "Arquitectura",
+        "aliases": ["arquitecto", "arquitecta", "arquitectos", "arquitectas", "arquitectura"],
+        "occupation_codes_2d": ["24"],
+        "child_codes_4d": ["2451", "2452", "2481"],
+    },
+]
 
 
 def step(message: str) -> None:
@@ -55,6 +189,12 @@ def decode_local_text(path: Path) -> str:
 
 
 def read_tsv_rows(path: Path) -> list[dict[str, str]]:
+    text = decode_local_text(path)
+    reader = csv.DictReader(io.StringIO(text), delimiter="\t")
+    return [dict(row) for row in reader]
+
+
+def read_eilu_rows(path: Path) -> list[dict[str, str]]:
     text = decode_local_text(path)
     reader = csv.DictReader(io.StringIO(text), delimiter="\t")
     return [dict(row) for row in reader]
@@ -100,6 +240,14 @@ def ensure_ine_exports() -> dict[str, Path]:
         else:
             url = ine_export_url(table_id, "px", "px", is_px=False)
         download_to_path(url, path)
+    return downloads
+
+
+def ensure_specific_salary_exports() -> dict[str, Path]:
+    downloads = {
+        "eilu_04049_csv": RAW_INE_DIR / "eilu_04049.csv",
+    }
+    download_to_path(EILU_04049_CSV_URL, downloads["eilu_04049_csv"])
     return downloads
 
 
@@ -280,6 +428,137 @@ def build_major_group_pay_66244(rows: list[dict[str, str]]) -> dict[str, Any]:
         }
 
     return pay
+
+
+def salary_band_order(label: str) -> int:
+    order = {
+        "Menos de 700 euros": 0,
+        "De 700 a 999 euros": 1,
+        "De 1.000 a 1.499 euros": 2,
+        "De 1.500 a 1.999 euros": 3,
+        "De 2.000 a 2.499 euros": 4,
+        "De 2.500 a 2.999 euros": 5,
+        "De 3.000 euros en adelante": 6,
+        "No consta": 99,
+    }
+    return order.get(label, 999)
+
+
+def compute_median_band(distribution: list[dict[str, Any]]) -> str | None:
+    eligible = [item for item in distribution if item["label"] != "No consta"]
+    total = sum(item["value"] for item in eligible)
+    if total <= 0:
+        return None
+    threshold = total / 2
+    cumulative = 0
+    for item in eligible:
+        cumulative += item["value"]
+        if cumulative >= threshold:
+            return item["label"]
+    return eligible[-1]["label"] if eligible else None
+
+
+def build_specific_salary_signals_from_eilu(rows: list[dict[str, str]]) -> dict[str, Any]:
+    grouped: dict[str, dict[str, Any]] = {}
+
+    for row in rows:
+        if normalize_text(row["Sexo"]) != "Ambos sexos":
+            continue
+
+        study_label = normalize_text(row["Titulación"])
+        entry = grouped.setdefault(
+            study_label,
+            {
+                "study_label": study_label,
+                "total_working": None,
+                "bands": {},
+            },
+        )
+
+        label = normalize_text(row["Sueldo mensual neto en 2019"])
+        value = parse_spanish_number(row["Total"])["value"]
+        if value is None:
+            continue
+
+        if label == "Total trabajando":
+            entry["total_working"] = int(value)
+        else:
+            entry["bands"][label] = int(value)
+
+    entries: list[dict[str, Any]] = []
+    for spec in SPECIFIC_SALARY_SIGNAL_SPECS:
+        grouped_entry = grouped.get(spec["study_label"])
+        if not grouped_entry or not grouped_entry["total_working"]:
+            continue
+
+        distribution = [
+            {
+                "label": label,
+                "value": value,
+                "share": round_or_none(value / grouped_entry["total_working"], 6),
+            }
+            for label, value in sorted(
+                grouped_entry["bands"].items(),
+                key=lambda item: (salary_band_order(item[0]), item[0]),
+            )
+        ]
+
+        dominant_band = max(
+            (item for item in distribution if item["label"] != "No consta"),
+            key=lambda item: item["value"],
+            default=None,
+        )
+        share_ge_2000 = sum(
+            item["share"] or 0
+            for item in distribution
+            if item["label"]
+            in {
+                "De 2.000 a 2.499 euros",
+                "De 2.500 a 2.999 euros",
+                "De 3.000 euros en adelante",
+            }
+        )
+        share_missing = next(
+            (item["share"] for item in distribution if item["label"] == "No consta"),
+            0,
+        )
+
+        entries.append(
+            {
+                "key": spec["key"],
+                "profession_label": spec["profession_label"],
+                "study_label": spec["study_label"],
+                "aliases": sorted(set(spec["aliases"])),
+                "occupation_codes_2d": spec["occupation_codes_2d"],
+                "child_codes_4d": spec["child_codes_4d"],
+                "metric_label": "Sueldo mensual neto en 2019",
+                "reference_year": 2019,
+                "cohort_label": "Graduados del curso 2013-2014",
+                "total_working": grouped_entry["total_working"],
+                "dominant_band": dominant_band["label"] if dominant_band else None,
+                "dominant_band_share": (
+                    dominant_band["share"] if dominant_band else None
+                ),
+                "median_band": compute_median_band(distribution),
+                "share_ge_2000": round_or_none(share_ge_2000, 6),
+                "share_missing": round_or_none(share_missing, 6),
+                "bands": distribution,
+                "source": {
+                    "id": "ine_eilu_04049",
+                    "name": "INE · Encuesta de inserción laboral de titulados universitarios 2019",
+                    "url": EILU_04049_HTML_URL,
+                    "table_label": "Graduados universitarios según el sueldo mensual neto en 2019 por sexo y titulación",
+                    "note": "Dato oficial por titulación, no salario actual exacto de la ocupación.",
+                },
+            }
+        )
+
+    return {
+        "source_id": "ine_eilu_04049",
+        "source_name": "INE · Encuesta de inserción laboral de titulados universitarios 2019",
+        "source_url": EILU_04049_HTML_URL,
+        "entries": sorted(entries, key=lambda item: item["profession_label"]),
+    }
 
 
 def load_ai_scores_4d(path: Path = AI_SCORES_4D_PATH) -> dict[str, dict[str, Any]]:
@@ -750,6 +1029,7 @@ def build_site_payloads(
 def main() -> None:
     step("Downloading official INE exports...")
     ine_paths = ensure_ine_exports()
+    specific_salary_paths = ensure_specific_salary_exports()
 
     step("Loading SEPE catalog...")
     sepe_catalog = load_or_create_sepe_catalog()
@@ -763,6 +1043,11 @@ def main() -> None:
 
     step("Parsing INE major-group salary table 66244...")
     pay_major_group = build_major_group_pay_66244(read_tsv_rows(ine_paths["66244_csv"]))
+
+    step("Parsing INE EILU salary-by-degree table 04049...")
+    specific_salary_signals = build_specific_salary_signals_from_eilu(
+        read_eilu_rows(specific_salary_paths["eilu_04049_csv"])
+    )
 
     step("Fetching and parsing annual SEPE occupation pages...")
     sepe_4d_details, sepe_failures = build_sepe_4d_details(
@@ -819,6 +1104,7 @@ def main() -> None:
         DATA_DIR / f"occupation_2d_trend_proxy_{SEPE_REFERENCE_YEAR}.json",
         {"occupations": [trend_2d[code] for code in sorted(trend_2d)]},
     )
+    write_json(DATA_DIR / "specific_salary_signals.json", specific_salary_signals)
     if ai_scores_4d:
         write_json(
             DATA_DIR / "ai_scores_2d.json",
@@ -844,6 +1130,10 @@ def main() -> None:
         + "\n",
         encoding="utf-8",
     )
+    (SITE_DIR / "specific-salary-signals.json").write_text(
+        json.dumps(specific_salary_signals, ensure_ascii=True, indent=2) + "\n",
+        encoding="utf-8",
+    )
 
     build_summary = {
         "employment_reference_year": EMPLOYMENT_REFERENCE_YEAR,
@@ -855,6 +1145,7 @@ def main() -> None:
         "sepe_failure_count": len(sepe_failures),
         "ai_scores_4d_count": len(ai_scores_4d),
         "ai_scores_2d_count": len(ai_2d),
+        "specific_salary_signal_count": len(specific_salary_signals["entries"]),
     }
     write_json(DATA_DIR / "build_summary_v1.json", build_summary)
     (SITE_DIR / "meta.json").write_text(

@@ -140,6 +140,37 @@
     ]
   },
   {
+    "id": "ine_eilu_04049",
+    "owner": "INE",
+    "official_scope": "Spain national official",
+    "geography": "Spain",
+    "granularity": "degree level titulation",
+    "access": {
+      "type": "html table plus export files",
+      "html_url": "https://www.ine.es/jaxi/Tabla.htm?L=0&file=04049.px&path=%2Ft13%2Fp100%2F2019%2Fp01%2F",
+      "csv_url": "https://www.ine.es/jaxi/files/_px/es/csv_bd/t13/p100/2019/p01/l0/04049.csv_bd"
+    },
+    "fields": [
+      "graduates working",
+      "net monthly salary bands",
+      "sex",
+      "degree"
+    ],
+    "latest_verified_on": "2026-03-21",
+    "reference_year": 2019,
+    "cohort": "graduates from the 2013-2014 academic year",
+    "strengths": [
+      "official and degree-specific",
+      "useful for professions strongly linked to a university degree",
+      "clear public export file"
+    ],
+    "limitations": [
+      "historical, not current",
+      "by degree, not exact occupation",
+      "salary is grouped in monthly net bands, not a current annual gross salary"
+    ]
+  },
+  {
     "id": "cedefop_skills_forecast_2025",
     "owner": "Cedefop",
     "official_scope": "EU official",

@@ -920,6 +920,13 @@ body {
   color: var(--text);
 }
 
+.section-intro {
+  margin: -6px 0 0;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.55;
+}
+
 .match-pill-row {
   display: flex;
   flex-wrap: wrap;
@@ -937,6 +944,56 @@ body {
   font-size: 12px;
   cursor: pointer;
   transition: transform 140ms ease, border-color 140ms ease, background 140ms ease;
+}
+
+.specific-salary-grid {
+  display: grid;
+  gap: 12px;
+}
+
+.specific-salary-card {
+  display: grid;
+  gap: 12px;
+  padding: 16px;
+  border-radius: 18px;
+  border: 1px solid rgba(31, 106, 108, 0.16);
+  background: linear-gradient(180deg, rgba(31, 106, 108, 0.08), rgba(255,255,255,0.86));
+}
+
+.specific-salary-kicker {
+  margin: 0;
+  color: var(--muted);
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.specific-salary-title {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: clamp(1.4rem, 2.4vw, 2rem);
+  line-height: 1.02;
+  letter-spacing: -0.03em;
+}
+
+.specific-salary-number {
+  margin: 0;
+  font-size: clamp(1.2rem, 2vw, 1.6rem);
+  font-weight: 800;
+  line-height: 1.05;
+  color: var(--text);
+}
+
+.specific-salary-copy,
+.specific-salary-source {
+  margin: 0;
+  color: var(--text);
+  font-size: 14px;
+  line-height: 1.58;
+}
+
+.specific-salary-source {
+  color: var(--muted);
 }
 
 .match-pill:hover {
@@ -1563,6 +1620,7 @@ const STATE = {
   compact: [],
   canonicalByCode: new Map(),
   detailsBy2d: new Map(),
+  specificSalarySignals: { entries: [] },
   meta: null,
   occupations: [],
   colorMode: "exposure",
@@ -1628,6 +1686,11 @@ function formatPct(value, digits = 2) {
   if (value == null || Number.isNaN(value)) return "—";
   const fixed = Number(value).toFixed(digits).replace(".", ",");
   return `${Number(value) > 0 ? "+" : ""}${fixed}%`;
+}
+
+function formatPercentShare(value, digits = 1) {
+  if (value == null || Number.isNaN(value)) return "—";
+  return `${(Number(value) * 100).toFixed(digits).replace(".", ",")}%`;
 }
 
 function formatScoreOutOfTen(value) {
@@ -1747,6 +1810,62 @@ function shortenTitle(label, max = 48) {
     if (first.length <= max) return first;
   }
   return clean.slice(0, Math.max(18, max - 1)).trim() + "…";
+}
+
+function specificSalarySignalMatches(entry, occupation, selectedChild, rawQuery = STATE.search) {
+  const query = normalizeSearchText(rawQuery);
+  let score = 0;
+  let matchedByChild = false;
+  let matchedByQuery = false;
+
+  if (selectedChild && (entry.child_codes_4d || []).includes(selectedChild.cno_4d)) {
+    score += 420;
+    matchedByChild = true;
+  }
+
+  if (occupation && (entry.occupation_codes_2d || []).includes(occupation.code)) {
+    score += 12;
+  }
+
+  if (query) {
+    for (const alias of entry.aliases || []) {
+      const normalizedAlias = normalizeSearchText(alias);
+      if (!normalizedAlias) continue;
+      if (query === normalizedAlias) {
+        score = Math.max(score, 320);
+        matchedByQuery = true;
+        continue;
+      }
+      if (query.includes(normalizedAlias) || normalizedAlias.includes(query)) {
+        score = Math.max(score, 240);
+        matchedByQuery = true;
+        continue;
+      }
+      const aliasTokens = tokenizeSearchText(normalizedAlias);
+      const queryTokens = tokenizeSearchText(query);
+      if (queryTokens.some((token) => aliasTokens.includes(token))) {
+        score = Math.max(score, 170);
+        matchedByQuery = true;
+      }
+    }
+  }
+
+  return {
+    score,
+    matchedByChild,
+    matchedByQuery,
+  };
+}
+
+function relevantSpecificSalarySignals(occupation, selectedChild, rawQuery = STATE.search) {
+  return (STATE.specificSalarySignals?.entries || [])
+    .map((entry) => ({
+      entry,
+      ...specificSalarySignalMatches(entry, occupation, selectedChild, rawQuery),
+    }))
+    .filter((item) => item.score > 0)
+    .sort((a, b) => b.score - a.score)
+    .slice(0, 1);
 }
 
 function buildSearchProfile(occupation) {
@@ -2891,6 +3010,56 @@ function renderBarList(items, formatter, colorForItem) {
   `;
 }
 
+function renderSpecificSalarySignals(occupation, selectedChild) {
+  const matches = relevantSpecificSalarySignals(occupation, selectedChild);
+  if (!matches.length) return "";
+
+  return `
+    <section class="section">
+      <h3>Dato más específico por titulación</h3>
+      <p class="section-intro">Cuando existe una fuente oficial más concreta por estudios, la mostramos aparte para no confundirla con la media del grupo amplio.</p>
+      <div class="specific-salary-grid">
+        ${matches.map(({ entry, matchedByChild, matchedByQuery }) => `
+          <article class="specific-salary-card">
+            <p class="specific-salary-kicker">${
+              matchedByChild
+                ? `Subprofesión abierta abajo: ${selectedChild?.label || entry.profession_label}`
+                : matchedByQuery
+                  ? `Búsqueda concreta: ${STATE.search.trim()}`
+                  : "Referencia por titulación"
+            }</p>
+            <h4 class="specific-salary-title">${entry.profession_label} → ${entry.study_label}</h4>
+            <p class="specific-salary-number">${entry.dominant_band || "—"}</p>
+            <p class="specific-salary-copy">Tramo más frecuente de sueldo mensual neto en 2019 entre titulados en ${entry.study_label} que estaban trabajando.</p>
+            <div class="child-stats">
+              <div class="child-stat">
+                <span class="label">Titulados trabajando</span>
+                <span class="value">${formatInteger(entry.total_working)}</span>
+              </div>
+              <div class="child-stat">
+                <span class="label">Cobraba 2.000 € o más</span>
+                <span class="value">${formatPercentShare(entry.share_ge_2000)}</span>
+              </div>
+              <div class="child-stat">
+                <span class="label">Tramo mediano</span>
+                <span class="value">${entry.median_band || "—"}</span>
+              </div>
+              <div class="child-stat">
+                <span class="label">No consta</span>
+                <span class="value">${formatPercentShare(entry.share_missing)}</span>
+              </div>
+            </div>
+            <p class="specific-salary-source"><strong>Fuente:</strong> ${entry.source.name}. ${entry.source.table_label}. ${entry.cohort_label}, ambos sexos, titulación ${entry.study_label}. ${entry.source.note}</p>
+            <div class="source-list">
+              <a href="${entry.source.url}" target="_blank" rel="noreferrer">Abrir tabla oficial del INE</a>
+            </div>
+          </article>
+        `).join("")}
+      </div>
+    </section>
+  `;
+}
+
 function renderDetailPanel() {
   const occupation = selectedOccupation();
   if (!occupation) {
@@ -2902,6 +3071,7 @@ function renderDetailPanel() {
   const children = childDetailsFor(occupation.code);
   const selectedChild = children.find((child) => child.cno_4d === STATE.selectedChildCode) || null;
   const scope = occupationScopeContext(occupation);
+  const specificSalarySection = renderSpecificSalarySignals(occupation, selectedChild);
   const activeQuery = STATE.search.trim();
   const matchedChildResults = activeQuery ? filteredChildSearchResults(occupation, activeQuery) : [];
   const matchedChildren = matchedChildResults.map((item) => item.child);
@@ -3057,6 +3227,8 @@ function renderDetailPanel() {
           )}
     </section>
 
+    ${specificSalarySection}
+
     <section class="section">
       <h3>Trabajos concretos que más influyen en esta nota</h3>
       ${occupation.exposure == null
@@ -3173,15 +3345,17 @@ function renderDetailPanel() {
 }
 
 async function loadData() {
-  const [compact, canonical, details4d, meta] = await Promise.all([
+  const [compact, canonical, details4d, meta, specificSalarySignals] = await Promise.all([
     fetch("./data.json").then((response) => response.json()),
     fetch("./data-2d.json").then((response) => response.json()),
     fetch("./details-4d.json").then((response) => response.json()),
     fetch("./meta.json").then((response) => response.json()),
+    fetch("./specific-salary-signals.json").then((response) => response.json()),
   ]);
 
   STATE.compact = compact;
   STATE.meta = meta;
+  STATE.specificSalarySignals = specificSalarySignals;
   STATE.canonicalByCode = new Map(canonical.map((row) => [row.id, row]));
   STATE.detailsBy2d = details4d.occupations.reduce((map, row) => {
     row.searchProfile = buildChildSearchProfile(row);
