@@ -1685,6 +1685,10 @@ function displayTitleForOccupation(occupation) {
   return SHORT_OCCUPATION_TITLES[occupation.code] || stripCodePrefix(occupation.title || "");
 }
 
+function occupationHasJobs(occupation) {
+  return Number.isFinite(occupation?.jobs) && occupation.jobs > 0;
+}
+
 function shortenTitle(label, max = 48) {
   const clean = stripCodePrefix(label).replace(/\s*\([^)]*\)\s*/g, " ").replace(/\s+/g, " ").trim();
   if (clean.length <= max) return clean;
@@ -2401,7 +2405,7 @@ function renderEditorial() {
   attachSelectionHandlers(rankingGridEl);
 
   coverageChipsEl.innerHTML = `
-    <span class="chip">${STATE.meta.occupation_2d_count} familias de empleo</span>
+    <span class="chip">${buildFamilyBands().length} familias con dato de empleo</span>
     <span class="chip">${STATE.meta.occupation_4d_count} trabajos concretos</span>
     <span class="chip">IA estimada con ${aiModel}</span>
   `;
@@ -2530,6 +2534,7 @@ function rankedSearchResults(rawQuery = STATE.search) {
   const query = normalizeSearchText(rawQuery);
   if (!query) return [];
   return STATE.occupations
+    .filter((occupation) => occupationHasJobs(occupation))
     .map((occupation) => ({ occupation, match: searchMatch(occupation, rawQuery) }))
     .filter(({ match }) => match.matches && match.score > 0)
     .sort((a, b) => (b.match.score - a.match.score) || ((b.occupation.jobs || 0) - (a.occupation.jobs || 0)));
@@ -2548,6 +2553,7 @@ function filteredSearchResults(rawQuery = STATE.search) {
 function buildFamilyBands() {
   return Array.from(
     STATE.occupations.reduce((map, occupation) => {
+      if (!occupationHasJobs(occupation)) return map;
       const key = occupation.categoryCode;
       if (!map.has(key)) {
         map.set(key, {
