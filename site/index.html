@@ -2487,6 +2487,10 @@ function attachSelectionHandlers(root) {
   });
 }
 
+function pickFirstDistinct(candidates, usedCodes) {
+  return candidates.find((occupation) => occupation && !usedCodes.has(occupation.code)) || null;
+}
+
 function renderEditorial() {
   const aiModel = friendlyModelName(STATE.occupations.find((occupation) => occupation.exposureModel)?.exposureModel);
   const exposureCandidates = STATE.occupations.filter((occupation) => occupation.jobs != null && occupation.exposure != null);
@@ -2500,18 +2504,27 @@ function renderEditorial() {
     : 1;
   const wellPaidShieldedCandidates = exposureCandidates.filter((occupation) => occupation.pay != null && occupation.exposure <= 4);
 
-  const mostShielded = exposureCandidates
+  const mostShieldedCandidates = exposureCandidates
     .slice()
-    .sort((a, b) => (a.exposure - b.exposure) || ((b.jobs || 0) - (a.jobs || 0)))[0];
-  const mostExposed = exposureCandidates
+    .sort((a, b) => (a.exposure - b.exposure) || ((b.jobs || 0) - (a.jobs || 0)));
+  const mostExposedCandidates = exposureCandidates
     .slice()
-    .sort((a, b) => (b.exposure - a.exposure) || ((b.jobs || 0) - (a.jobs || 0)))[0];
-  const studyShielded = educationCandidates
+    .sort((a, b) => (b.exposure - a.exposure) || ((b.jobs || 0) - (a.jobs || 0)));
+  const studyShieldedCandidates = educationCandidates
     .slice()
-    .sort((a, b) => (combinedStudyShieldScore(b) - combinedStudyShieldScore(a)) || ((b.jobs || 0) - (a.jobs || 0)))[0];
-  const easyVulnerable = educationCandidates
+    .sort((a, b) => (combinedStudyShieldScore(b) - combinedStudyShieldScore(a)) || ((b.jobs || 0) - (a.jobs || 0)));
+  const easyVulnerableCandidates = educationCandidates
     .slice()
-    .sort((a, b) => (combinedEasyVulnerableScore(b) - combinedEasyVulnerableScore(a)) || ((b.jobs || 0) - (a.jobs || 0)))[0];
+    .sort((a, b) => (combinedEasyVulnerableScore(b) - combinedEasyVulnerableScore(a)) || ((b.jobs || 0) - (a.jobs || 0)));
+
+  const usedHeadlineCodes = new Set();
+  const mostShielded = pickFirstDistinct(mostShieldedCandidates, usedHeadlineCodes);
+  if (mostShielded) usedHeadlineCodes.add(mostShielded.code);
+  const mostExposed = pickFirstDistinct(mostExposedCandidates, usedHeadlineCodes);
+  if (mostExposed) usedHeadlineCodes.add(mostExposed.code);
+  const studyShielded = pickFirstDistinct(studyShieldedCandidates, usedHeadlineCodes);
+  if (studyShielded) usedHeadlineCodes.add(studyShielded.code);
+  const easyVulnerable = pickFirstDistinct(easyVulnerableCandidates, usedHeadlineCodes);
 
   const headlineCards = [
     mostShielded && {
@@ -2537,7 +2550,7 @@ function renderEditorial() {
       question: "Pide más estudios y aguanta mejor",
       title: displayTitleForOccupation(studyShielded),
       tag: "Estudios + blindaje",
-      value: `${educationBucket(studyShielded.education)?.label || studyShielded.education || "Sin dato"} · ${formatExposure(studyShielded.exposure)}`,
+      value: `Estudios: ${educationBucket(studyShielded.education)?.label || studyShielded.education || "Sin dato"} · Automatizable por IA: ${formatExposure(studyShielded.exposure)}`,
       meta: `Cruce entre estudios habituales y menor automatización. ${formatInteger(studyShielded.jobs)} personas en este empleo.`,
       code: studyShielded.code,
       accent: automationColor(studyShielded.exposure, 0.2),
@@ -2546,7 +2559,7 @@ function renderEditorial() {
       question: "Pide menos estudios y queda más expuesta",
       title: displayTitleForOccupation(easyVulnerable),
       tag: "Menos barrera, más riesgo",
-      value: `${educationBucket(easyVulnerable.education)?.label || easyVulnerable.education || "Sin dato"} · ${formatExposure(easyVulnerable.exposure)}`,
+      value: `Estudios: ${educationBucket(easyVulnerable.education)?.label || easyVulnerable.education || "Sin dato"} · Automatizable por IA: ${formatExposure(easyVulnerable.exposure)}`,
       meta: `Cruce entre menor exigencia de estudios y mayor automatización. ${formatInteger(easyVulnerable.jobs)} personas en este empleo.`,
       code: easyVulnerable.code,
       accent: automationColor(easyVulnerable.exposure, 0.22),
@@ -2575,7 +2588,7 @@ function renderEditorial() {
       items: exposureCandidates
         .slice()
         .sort((a, b) => (a.exposure - b.exposure) || ((b.jobs || 0) - (a.jobs || 0)))
-        .slice(0, 4)
+        .slice(0, 5)
         .map((occupation) => ({
           code: occupation.code,
           name: displayTitleForOccupation(occupation),
@@ -2589,7 +2602,7 @@ function renderEditorial() {
       items: exposureCandidates
         .slice()
         .sort((a, b) => (b.exposure - a.exposure) || ((b.jobs || 0) - (a.jobs || 0)))
-        .slice(0, 4)
+        .slice(0, 5)
         .map((occupation) => ({
           code: occupation.code,
           name: displayTitleForOccupation(occupation),
