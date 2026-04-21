@@ -3,7 +3,20 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Impacto laboral de la IA en España</title>
+<title>El futuro del trabajo y la IA en España | trabajo.iia.es</title>
+<meta name="description" content="Busca tu profesión y consulta exposición a la IA, salario, demanda laboral y estudios con datos oficiales del INE y del SEPE.">
+<link rel="canonical" href="https://trabajo.iia.es/">
+<meta property="og:locale" content="es_ES">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="trabajo.iia.es">
+<meta property="og:title" content="El futuro del trabajo y la IA en España">
+<meta property="og:description" content="Profesiones más expuestas a la IA, salario, demanda y educación con datos oficiales del INE y del SEPE.">
+<meta property="og:url" content="https://trabajo.iia.es/">
+<meta property="og:image" content="https://trabajo.iia.es/og-cover.svg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="El futuro del trabajo y la IA en España">
+<meta name="twitter:description" content="Busca tu profesión y consulta exposición a la IA, salario y demanda con datos oficiales.">
+<meta name="twitter:image" content="https://trabajo.iia.es/og-cover.svg">
 <style>
 *,
 *::before,
@@ -27,7 +40,7 @@
   --rust-soft: #d46d37;
   --green-deep: #2c5b4d;
   --amber: #e1b64e;
-  --shadow: 0 18px 60px rgba(56, 39, 26, 0.12);
+  --shadow: none;
   --radius-xl: 28px;
   --radius-lg: 20px;
   --radius-md: 14px;
@@ -82,9 +95,9 @@ body {
 .map-panel,
 .detail-panel {
   border: 1px solid var(--line);
-  background: var(--panel);
-  backdrop-filter: blur(18px);
-  box-shadow: var(--shadow);
+  background: rgba(255, 253, 247, 0.92);
+  backdrop-filter: none;
+  box-shadow: none;
 }
 
 .hero-kicker {
@@ -304,16 +317,14 @@ body {
 }
 
 .headline-card {
-  --story-accent: rgba(31, 106, 108, 0.22);
   display: grid;
   align-content: start;
   gap: 10px;
   min-height: 196px;
   padding: 18px 18px 16px;
   border-radius: var(--radius-lg);
-  background:
-    radial-gradient(circle at top right, var(--story-accent), transparent 42%),
-    linear-gradient(180deg, rgba(255,255,255,0.76), rgba(255,255,255,0.32));
+  border: 1px solid rgba(24, 38, 49, 0.12);
+  background: rgba(255, 253, 247, 0.96);
   box-shadow: none;
   transition: transform 150ms ease, box-shadow 150ms ease, background 150ms ease;
 }
@@ -507,7 +518,7 @@ body {
   border-left: 0;
   border-right: 0;
   background: rgba(255, 252, 247, 0.8);
-  box-shadow: var(--shadow);
+  box-shadow: none;
 }
 
 .mode-switch {
@@ -1499,11 +1510,11 @@ body {
 }
 
 .searchlead-panel {
-  background: #fffdf7;
+  background: rgba(255, 253, 247, 0.96);
   border: 1px solid rgba(24, 38, 49, 0.16);
   padding: 26px 28px 24px;
   border-radius: 3px;
-  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.04);
+  box-shadow: none;
 }
 
 .searchlead-panel h3 {
@@ -1614,6 +1625,367 @@ body {
 .searchlead-suggestions em {
   font-style: italic;
   color: var(--text);
+}
+
+.hero-actions,
+.section-actions,
+.share-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.hero-actions {
+  margin-top: 22px;
+}
+
+.share-strip {
+  display: grid;
+  gap: 10px;
+  margin-top: 18px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(24, 38, 49, 0.08);
+}
+
+.share-strip .section-note,
+.subscribe-copy .section-note,
+.press-card .section-note,
+.detail-cta .section-note {
+  margin: 0;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.share-buttons.compact {
+  gap: 8px;
+}
+
+.action-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 14px;
+  border: 1px solid rgba(24, 38, 49, 0.16);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.66);
+  color: var(--text);
+  text-decoration: none;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 140ms ease, border-color 140ms ease, background 140ms ease, color 140ms ease;
+}
+
+.action-button:hover {
+  transform: translateY(-1px);
+  border-color: rgba(24, 38, 49, 0.28);
+  background: rgba(255, 255, 255, 0.88);
+}
+
+.action-button.primary {
+  background: var(--rust);
+  border-color: var(--rust);
+  color: #fffdf7;
+}
+
+.action-button.primary:hover {
+  background: #8b2e1f;
+  border-color: #8b2e1f;
+}
+
+.action-button.subtle {
+  background: transparent;
+}
+
+.newsletter-form {
+  display: grid;
+  gap: 10px;
+}
+
+.newsletter-helper {
+  margin: 0;
+  color: var(--text);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.newsletter-helper strong {
+  color: var(--text);
+}
+
+.newsletter-form-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 10px;
+}
+
+.newsletter-input {
+  width: 100%;
+  box-sizing: border-box;
+  min-width: 0;
+  padding: 13px 15px;
+  border: 1.5px solid rgba(24, 38, 49, 0.18);
+  border-radius: 999px;
+  background: #fff;
+  color: var(--text);
+  font: inherit;
+  font-size: 15px;
+  outline: none;
+  transition: border-color 140ms ease, box-shadow 140ms ease;
+}
+
+.newsletter-input:focus {
+  border-color: var(--rust);
+  box-shadow: 0 0 0 3px rgba(179, 58, 31, 0.12);
+}
+
+.newsletter-submit {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 18px;
+  border: 1px solid var(--rust);
+  border-radius: 999px;
+  background: var(--rust);
+  color: #fffdf7;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 140ms ease, border-color 140ms ease, transform 140ms ease;
+}
+
+.newsletter-submit:hover {
+  background: #8b2e1f;
+  border-color: #8b2e1f;
+  transform: translateY(-1px);
+}
+
+.newsletter-note {
+  margin: 0;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.newsletter-footer-shell {
+  margin-top: 28px;
+}
+
+.newsletter-footer-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(320px, 1fr);
+  gap: 22px;
+  padding: 24px 26px;
+  border: 1px solid rgba(24, 38, 49, 0.16);
+  background: rgba(255, 253, 247, 0.96);
+  border-radius: 3px;
+}
+
+.newsletter-footer-copy,
+.newsletter-footer-aside {
+  display: grid;
+  gap: 12px;
+  align-content: start;
+}
+
+.newsletter-footer-copy h3 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 400;
+  font-size: clamp(1.6rem, 2.8vw, 2.3rem);
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+}
+
+.newsletter-footer-copy p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.6;
+  max-width: 62ch;
+}
+
+.news-brief,
+.subscribe-section,
+.press-section,
+.featured-pages-section {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.25fr);
+  gap: 40px;
+  padding: 30px 0 22px;
+  border-bottom: 1px solid rgba(24, 38, 49, 0.14);
+  animation: rise 560ms ease both;
+}
+
+.news-brief {
+  padding-top: 4px;
+  margin-bottom: 6px;
+}
+
+.news-brief h2,
+.subscribe-copy h2,
+.press-section h3 {
+  margin: 10px 0 12px;
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 400;
+  font-size: clamp(1.6rem, 2.7vw, 2.4rem);
+  line-height: 1.02;
+  letter-spacing: -0.02em;
+}
+
+.news-brief p,
+.subscribe-copy p,
+.press-intro {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14.5px;
+  line-height: 1.6;
+  max-width: 62ch;
+}
+
+.news-brief strong,
+.subscribe-copy strong,
+.press-intro strong {
+  color: var(--text);
+}
+
+.news-brief-summary {
+  display: grid;
+  gap: 12px;
+  align-content: start;
+}
+
+.brief-points {
+  display: grid;
+  gap: 12px;
+}
+
+.brief-point {
+  padding: 14px 0;
+  border-top: 1px solid rgba(24, 38, 49, 0.12);
+}
+
+.brief-point:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.brief-point .point-kicker {
+  display: block;
+  margin-bottom: 5px;
+  color: var(--muted);
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.brief-point .point-body {
+  margin: 0;
+  color: var(--text);
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+.subscribe-section {
+  padding-top: 0;
+  margin-top: -4px;
+}
+
+.featured-pages-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.featured-page-card {
+  display: grid;
+  gap: 10px;
+  align-content: start;
+  padding: 18px 20px;
+  border: 1px solid rgba(24, 38, 49, 0.16);
+  background: rgba(255, 253, 247, 0.96);
+  border-radius: 3px;
+  color: inherit;
+  text-decoration: none;
+  transition: transform 140ms ease, border-color 140ms ease, background 140ms ease;
+}
+
+.featured-page-card:hover {
+  transform: translateY(-1px);
+  border-color: rgba(24, 38, 49, 0.26);
+  background: rgba(255, 253, 247, 1);
+}
+
+.featured-page-card h3 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1.45rem;
+  line-height: 1.05;
+  letter-spacing: -0.015em;
+}
+
+.featured-page-card p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+.featured-page-card .card-foot {
+  margin-top: auto;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.subscribe-card {
+  display: grid;
+  gap: 16px;
+  align-content: start;
+  padding: 24px 26px;
+  border: 1px solid rgba(24, 38, 49, 0.16);
+  background: rgba(255, 253, 247, 0.96);
+  border-radius: 3px;
+}
+
+.subscribe-proof {
+  margin: 0;
+  color: var(--text);
+  font-size: 15px;
+  line-height: 1.55;
+}
+
+.subscribe-proof strong {
+  font-size: 1.1rem;
+}
+
+.subscribe-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.subscribe-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 10px;
+  border-radius: 999px;
+  background: rgba(24, 38, 49, 0.06);
+  color: var(--muted);
+  font-size: 12px;
 }
 
 .bigstats {
@@ -1875,6 +2247,97 @@ body {
   font-size: 12.5px;
 }
 
+.press-section {
+  border-top: 1px solid rgba(24, 38, 49, 0.18);
+  border-bottom: 0;
+  margin-top: 18px;
+  padding-bottom: 18px;
+}
+
+.press-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.press-card {
+  display: grid;
+  gap: 12px;
+  align-content: start;
+  padding: 18px 20px;
+  border: 1px solid rgba(24, 38, 49, 0.16);
+  background: rgba(255, 253, 247, 0.96);
+  border-radius: 3px;
+}
+
+.press-card h4 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1.35rem;
+  line-height: 1.05;
+  letter-spacing: -0.015em;
+}
+
+.press-card p,
+.press-card li {
+  margin: 0;
+  color: var(--muted);
+  font-size: 13.5px;
+  line-height: 1.55;
+}
+
+.press-card ul {
+  margin: 0;
+  padding-left: 18px;
+  display: grid;
+  gap: 8px;
+}
+
+.press-contact {
+  display: grid;
+  gap: 6px;
+}
+
+.press-contact a {
+  color: var(--text);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(24, 38, 49, 0.16);
+  width: fit-content;
+}
+
+.press-contact a:hover {
+  border-bottom-color: rgba(24, 38, 49, 0.36);
+}
+
+.detail-cta {
+  display: grid;
+  gap: 12px;
+  margin-top: 18px;
+  padding: 18px;
+  border-radius: 18px;
+  border: 1px solid rgba(24, 38, 49, 0.12);
+  background: rgba(255, 253, 247, 0.96);
+}
+
+.detail-cta h3 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.05;
+  letter-spacing: -0.015em;
+}
+
+.detail-cta p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.55;
+}
+
 .citation {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(0, 1.3fr);
@@ -1911,7 +2374,7 @@ body {
 }
 
 .citation-bib {
-  background: #ebe4d3;
+  background: rgba(255, 253, 247, 0.96);
   padding: 18px 22px;
   border: 1px solid rgba(24, 38, 49, 0.2);
   border-radius: 3px;
@@ -1924,13 +2387,11 @@ body {
   color: #6b6b65;
 }
 
-.citation-bib pre {
-  font-family: var(--font-mono);
-  font-size: 12px;
-  line-height: 1.55;
+.citation-bib p {
   margin: 0;
-  white-space: pre-wrap;
-  color: var(--text);
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.55;
 }
 
 .editorial-kicker,
@@ -1965,15 +2426,40 @@ body {
 }
 
 @media (max-width: 1100px) {
+  .news-brief,
+  .subscribe-section,
+  .featured-pages-section,
+  .methodology,
   .searchlead,
   .bigstats,
+  .press-section,
   .citation {
     grid-template-columns: 1fr;
     gap: 24px;
   }
+
+  .searchlead-copy {
+    order: 2;
+    padding-top: 0;
+  }
+
+  .searchlead-panel {
+    order: 1;
+  }
+
   .stat-tiles {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 28px;
+  }
+}
+
+@media (max-width: 860px) {
+  .press-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .featured-pages-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
@@ -1982,34 +2468,186 @@ body {
     grid-template-columns: 1fr;
     gap: 22px;
   }
-  .hero h1 { font-size: clamp(2.5rem, 10vw, 3.8rem); }
-  .searchlead-form input { padding-right: 100px; }
+
+  .featured-pages-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .shell {
+    padding-top: 14px;
+    padding-bottom: 28px;
+  }
+
+  .masthead {
+    gap: 8px;
+    margin-bottom: 18px;
+    padding-bottom: 10px;
+  }
+
+  .masthead-meta {
+    font-size: 10px;
+    letter-spacing: 0.12em;
+  }
+
+  .hero {
+    margin-bottom: 18px;
+  }
+
+  .hero h1 {
+    font-size: clamp(2.35rem, 11vw, 3.65rem);
+    line-height: 0.94;
+  }
+
+  .hero-copy {
+    max-width: 36ch;
+    font-size: 14px;
+  }
+
+  .hero-actions,
+  .section-actions,
+  .share-buttons {
+    gap: 8px;
+  }
+
+  .action-button {
+    padding: 9px 12px;
+    font-size: 12.5px;
+  }
+
+  .share-strip {
+    margin-top: 14px;
+    padding-top: 10px;
+  }
+
+  .newsletter-form-row {
+    grid-template-columns: 1fr;
+  }
+
+  .newsletter-submit {
+    width: 100%;
+  }
+
+  .newsletter-footer-card {
+    grid-template-columns: 1fr;
+    padding: 20px 18px;
+  }
+
+  .searchlead,
+  .subscribe-section,
+  .featured-pages-section,
+  .news-brief,
+  .methodology,
+  .citation {
+    gap: 18px;
+    padding: 22px 0 18px;
+  }
+
+  .searchlead-panel,
+  .subscribe-card,
+  .press-card,
+  .featured-page-card,
+  .citation-bib {
+    padding: 18px;
+  }
+
+  .searchlead-form input {
+    padding-right: 100px;
+    font-size: 15px;
+  }
+
+  .searchlead-form button {
+    right: 6px;
+    padding: 9px 12px;
+    font-size: 12px;
+  }
+
+  .featured-page-card h3 {
+    font-size: 1.3rem;
+  }
+
+  .bigstats {
+    gap: 18px;
+    padding: 4px 0 16px;
+    margin-bottom: 16px;
+  }
+
+  .bigstat-value {
+    font-size: clamp(3.3rem, 19vw, 5.6rem);
+  }
+
+  .bigstat-label {
+    font-size: 18px;
+  }
+
+  .stat-tiles {
+    padding: 8px 0 22px;
+    margin-bottom: 20px;
+  }
+
+  .editorial-shell {
+    gap: 12px;
+  }
+
+  .control-bar {
+    gap: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .map-panel {
+    padding: 12px;
+  }
+
+  .detail-panel {
+    padding: 16px;
+  }
+
   .scatter-panel {
+    margin-top: 20px;
+    margin-bottom: 24px;
+    padding-top: 32px;
+    padding-bottom: 32px;
     padding-left: 18px;
     padding-right: 18px;
+  }
+
+  .methodology-source {
+    grid-template-columns: 1fr;
+    gap: 6px;
   }
 }
 </style>
 </head>
 <body>
 <main class="shell">
+  <div class="masthead">
+    <div class="masthead-title">trabajo.iia.es <span>Instituto de Inteligencia Artificial</span></div>
+    <div class="masthead-meta">INE + SEPE + estimación editorial de exposición a IA · edición 21 abril 2026</div>
+  </div>
+
   <header class="hero">
     <section class="hero-main">
-      <h1>Impacto laboral de la IA <span class="plain">en España</span></h1>
+      <h1>El futuro del trabajo y la IA <span class="plain">en España</span></h1>
       <div class="hero-copy">
-        <p>Qué trabajos parecen más protegidos frente a la IA, cuáles más expuestos y dónde hay más competencia, según datos oficiales.</p>
+        <p>Busca tu profesión y consulta <strong>exposición a la IA</strong>, <strong>salario</strong>, <strong>demanda laboral</strong> y <strong>nivel de estudios</strong> con datos oficiales del INE y del SEPE.</p>
+        <p><strong>Importante:</strong> exposición a la IA no significa automáticamente sustitución. Este recurso estima qué tareas parecen más reconfigurables por herramientas generativas, no qué empleos van a desaparecer.</p>
       </div>
+      <div class="hero-actions">
+        <a class="action-button subtle" href="#prensa">Para periodistas</a>
+        <a class="action-button subtle" href="#metodologia">Ver metodología</a>
+      </div>
+      <div class="share-strip" id="shareStrip"></div>
     </section>
   </header>
 
-  <section class="searchlead" id="searchLead">
+  <section class="searchlead" id="buscar">
     <div class="searchlead-copy">
-      <span class="mono-eyebrow">Herramienta del lector · #buscar</span>
+      <span class="mono-eyebrow">Busca tu profesión</span>
       <h2>Antes de leer el resto,<br>busca tu oficio.</h2>
-      <p>Cada una de las profesiones sugeridas abre su ficha con cifras, narrativa y enlaces oficiales. Prueba también con la tuya: el buscador reconoce más de sesenta ocupaciones habituales.</p>
+      <p>Cada búsqueda abre una ficha con cifras, contexto y enlace oficial del SEPE. Puedes compartirla por URL y usarla como punto de partida para entender cómo cambia una profesión concreta.</p>
     </div>
     <div class="searchlead-panel">
-      <span class="mono-eyebrow">El buscador · datos oficiales</span>
+      <span class="mono-eyebrow">Datos oficiales</span>
       <h3>¿A qué te dedicas?</h3>
       <p class="panel-lede">Busca tu profesión y obtén su exposición a la IA, salario medio, tendencia y narrativa del oficio. Datos reales de los 62 grupos ocupacionales (CNO-2d).</p>
       <form class="searchlead-form" id="searchleadForm" role="search" onsubmit="return false;">
@@ -2031,15 +2669,108 @@ body {
     </div>
   </section>
 
+  <section class="subscribe-section">
+    <div class="subscribe-copy">
+      <span class="mono-eyebrow">1 Minuto de IA</span>
+      <h2>Email diario para estar al día de la IA.</h2>
+      <p><strong>Explicable</strong> publica la pieza breve del IIA para seguir lo importante sin ruido: qué cambia esta semana, qué herramientas merecen atención y qué implica eso para trabajo, empresa y producto.</p>
+      <p class="section-note">La suscripción se procesa en la página oficial de Explicable.</p>
+    </div>
+    <div class="subscribe-card">
+      <p class="subscribe-proof"><strong>Recíbelo en tu correo.</strong></p>
+      <div class="subscribe-meta">
+        <span class="subscribe-pill">Instituto de Inteligencia Artificial</span>
+        <span class="subscribe-pill">Explicable</span>
+        <span class="subscribe-pill">1 Minuto de IA</span>
+      </div>
+      <p class="newsletter-helper"><strong>Un correo corto cada mañana.</strong></p>
+      <p class="newsletter-note">Si prefieres mirar antes de dejar el email, abre el archivo público de Explicable.</p>
+      <div class="section-actions">
+        <a class="action-button subtle" href="https://explicable.iia.es/archive" target="_blank" rel="noreferrer">Ver archivo</a>
+      </div>
+      <p class="section-note">Claim editorial contrastado con la home pública de Explicable el 21 de abril de 2026.</p>
+    </div>
+  </section>
+
+  <section class="featured-pages-section">
+    <div>
+      <span class="mono-eyebrow">Fichas prioritarias</span>
+      <h2>Seis URLs listas para compartir, citar y aterrizar búsquedas concretas.</h2>
+      <p>Esta edición no intenta cubrir las 62 ocupaciones en formato editorial largo. Publica primero seis fichas prioritarias con mezcla explícita de dato agregado y dato ocupacional cuando hace falta: derecho, medios, software, administración, docencia y medicina.</p>
+    </div>
+    <div class="featured-pages-grid">
+      <a class="featured-page-card" href="./abogado/">
+        <span class="mono-eyebrow">Derecho</span>
+        <h3>Abogado</h3>
+        <p>Exposición alta, cuello de botella documental y valor humano concentrado en estrategia y responsabilidad final.</p>
+        <span class="card-foot">Abrir ficha</span>
+      </a>
+      <a class="featured-page-card" href="./periodista/">
+        <span class="mono-eyebrow">Medios</span>
+        <h3>Periodista</h3>
+        <p>La IA acelera clipping, transcripción y redacción base; la verificación y el criterio editorial siguen en el centro.</p>
+        <span class="card-foot">Abrir ficha</span>
+      </a>
+      <a class="featured-page-card" href="./programador/">
+        <span class="mono-eyebrow">Software</span>
+        <h3>Programador</h3>
+        <p>Ficha híbrida entre dos ocupaciones TIC para explicar por qué programar cambia más deprisa que otros oficios digitales.</p>
+        <span class="card-foot">Abrir ficha</span>
+      </a>
+      <a class="featured-page-card" href="./administrativo/">
+        <span class="mono-eyebrow">Oficina</span>
+        <h3>Administrativo</h3>
+        <p>Una de las áreas más expuestas del proyecto, con diferencia clara entre back office y atención al público.</p>
+        <span class="card-foot">Abrir ficha</span>
+      </a>
+      <a class="featured-page-card" href="./profesor/">
+        <span class="mono-eyebrow">Educación</span>
+        <h3>Profesor</h3>
+        <p>La preparación y la corrección cambian antes que la gestión del aula, con diferencias reales entre primaria, secundaria y universidad.</p>
+        <span class="card-foot">Abrir ficha</span>
+      </a>
+      <a class="featured-page-card" href="./medico/">
+        <span class="mono-eyebrow">Salud</span>
+        <h3>Médico</h3>
+        <p>La página usa el detalle que sí existe para médicos de familia y especialistas sin fingir salario específico inexistente.</p>
+        <span class="card-foot">Abrir ficha</span>
+      </a>
+    </div>
+  </section>
+
+  <section class="news-brief" id="titulares">
+    <div>
+      <span class="mono-eyebrow">La noticia en 5 datos</span>
+      <h2>Cinco datos para entender el mapa rápido.</h2>
+      <p>Estos cinco bloques condensan el mensaje principal del dataset: qué parte del empleo está más expuesta, qué parte queda más blindada y qué cruces merecen un titular periodístico sin caer en alarmismo.</p>
+    </div>
+    <div class="news-brief-summary">
+      <div class="brief-points">
+        <div class="brief-point">
+          <span class="point-kicker">Regla editorial</span>
+          <p class="point-body">No llamamos “sustitución” a lo que aquí solo es <strong>exposición estimada</strong> a herramientas de IA.</p>
+        </div>
+        <div class="brief-point">
+          <span class="point-kicker">Cómo leerlo</span>
+          <p class="point-body">Dos cifras grandes abren la pieza. Debajo, tres hallazgos rápidos para explicar salario, demanda y tareas.</p>
+        </div>
+        <div class="brief-point">
+          <span class="point-kicker">Uso recomendado</span>
+          <p class="point-body">Pulsa cualquier dato para abrir la ficha asociada, citarlo con contexto y compartirlo con URL limpia desde la propia home.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section class="bigstats" id="bigStats" aria-live="polite"></section>
 
   <section class="stat-tiles" id="statTiles" aria-live="polite"></section>
 
   <section class="editorial-shell">
     <div class="editorial-intro">
-      <span class="editorial-kicker">Titulares</span>
-      <h2>Lo que cuentan los datos, sin rodeos</h2>
-      <p>Estas tarjetas mezclan IA, estudios, salario y dificultad para entrar. Pulsa una para ver su ficha debajo.</p>
+      <span class="editorial-kicker">Más contexto</span>
+      <h2>Lo que cuentan los rankings cuando sales del titular rápido</h2>
+      <p>Después de los cinco datos principales, aquí quedan los cruces más útiles para lectores y periodistas: blindaje, exposición, competencia y salario. Pulsa cualquier tarjeta para abrir la ficha asociada.</p>
     </div>
     <div class="headline-grid" id="headlineGrid"></div>
     <div class="ranking-grid" id="rankingGrid"></div>
@@ -2099,7 +2830,7 @@ body {
     </aside>
   </div>
 
-  <section class="scatter-panel" id="scatterPanel">
+  <section class="scatter-panel" id="figura">
     <div class="scatter-head">
       <span class="mono-eyebrow">Figura · Salario × exposición</span>
       <span class="mono-eyebrow tight">62 grupos · tamaño = empleo</span>
@@ -2109,7 +2840,7 @@ body {
     <p class="scatter-note">Eje X: salario bruto anual (€). Eje Y: exposición a la IA (0–10). El radio de cada punto es proporcional al número de personas empleadas. Resaltados en ámbar los grupos que combinan salario medio-alto con exposición ≥ 7.</p>
   </section>
 
-  <section class="methodology" id="methodology">
+  <section class="methodology" id="metodologia">
     <div>
       <span class="mono-eyebrow">Metodología · Fuentes oficiales</span>
       <h3>De dónde salen los datos.</h3>
@@ -2131,22 +2862,67 @@ body {
     </div>
   </section>
 
-  <section class="citation">
+  <section class="press-section" id="prensa">
     <div>
-      <span class="mono-eyebrow">Cómo citar este recurso</span>
-      <h3>Cada sección tiene ancla permanente.</h3>
-      <div class="citation-copy">Comparte <code>#titulares</code>, <code>#buscar</code> o <code>#figura</code>. Todos los datos provienen de fuentes oficiales del INE y el SEPE, cruzados con una estimación de exposición a la IA derivada por modelo de lenguaje a partir de descripciones ocupacionales CNO-4d.</div>
+      <span class="mono-eyebrow">Para periodistas</span>
+      <h3>Material listo para citar, enlazar o descargar.</h3>
+      <p class="press-intro"><strong>trabajo.iia.es</strong> sirve dos usos: consulta individual y cobertura periodística. Este bloque deja visibles el dataset, la metodología, el contacto y tres ángulos de titular compatibles con los datos publicados.</p>
     </div>
-    <div class="citation-bib">
-      <span class="mono-eyebrow">BIBTEX</span>
-      <pre id="citationBibtex">@misc{iaespana2026,
-  title  = {Impacto laboral de la IA en España},
-  author = {Observatorio IA España},
-  year   = {2026},
-  url    = {https://ia-espana.example}
-}</pre>
+    <div class="press-grid">
+      <article class="press-card">
+        <span class="mono-eyebrow">Titulares sugeridos</span>
+        <h4>Tres ángulos defendibles con esta edición</h4>
+        <ul>
+          <li>Las ocupaciones administrativas concentran parte de la mayor exposición a la IA en España.</li>
+          <li>Los salarios altos no blindan automáticamente frente a la exposición a herramientas generativas.</li>
+          <li>Exposición a IA no equivale a sustitución: el cambio principal es de tareas, no siempre de empleo.</li>
+        </ul>
+        <div class="section-actions">
+          <button type="button" class="action-button" data-copy-text="Las ocupaciones administrativas concentran parte de la mayor exposición a la IA en España.">Copiar titular 1</button>
+          <button type="button" class="action-button" data-copy-text="Los salarios altos no blindan automáticamente frente a la exposición a herramientas generativas.">Copiar titular 2</button>
+        </div>
+      </article>
+      <article class="press-card">
+        <span class="mono-eyebrow">Descargas</span>
+        <h4>Dataset y activos</h4>
+        <p>Se publica un CSV descargable con las 62 ocupaciones agregadas, junto con el JSON de la web y el repositorio con el código y la metodología.</p>
+        <div class="section-actions">
+          <a class="action-button" href="./ocupaciones.csv" download>Descargar CSV</a>
+          <a class="action-button" href="./data.json" download>Descargar JSON</a>
+          <a class="action-button" href="https://github.com/antorsae/ia-espana" target="_blank" rel="noreferrer">Abrir repositorio</a>
+        </div>
+        <p class="section-note">El CSV se genera a partir del dataset compacto publicado en esta misma carpeta `site/`.</p>
+      </article>
+      <article class="press-card">
+        <span class="mono-eyebrow">Contacto</span>
+        <h4>Instituto de Inteligencia Artificial</h4>
+        <div class="press-contact">
+          <a href="mailto:info@iia.es">info@iia.es</a>
+          <a href="tel:+34623068412">+34 623 068 412</a>
+          <a href="https://iia.es/hablamos/" target="_blank" rel="noreferrer">Formulario oficial de contacto</a>
+        </div>
+        <p class="section-note">Contacto y newsletter tomados de la web pública del IIA. Si prefieres otro buzón de prensa, lo sustituyo.</p>
+      </article>
     </div>
   </section>
+
+  <section class="citation">
+    <div>
+      <span class="mono-eyebrow">Cómo enlazar este recurso</span>
+      <h3>URL limpia y cita corta para prensa.</h3>
+      <div class="citation-copy">Comparte <code>#titulares</code>, <code>#buscar</code>, <code>#figura</code>, <code>#metodologia</code> o <code>#prensa</code>. Todos los datos provienen de fuentes oficiales del INE y el SEPE, cruzados con una estimación propia y explícitamente etiquetada de exposición a la IA derivada por modelo de lenguaje a partir de descripciones ocupacionales CNO-4d.</div>
+      <div class="section-actions" style="margin-top:14px;">
+        <button type="button" class="action-button" data-copy-text="Según 'El futuro del trabajo y la IA en España' (trabajo.iia.es), basado en datos oficiales del INE y del SEPE, la exposición a la IA no implica automáticamente sustitución del empleo y debe leerse como reconfiguración potencial de tareas.">Copiar cita</button>
+        <button type="button" class="action-button" data-copy-text="https://trabajo.iia.es/">Copiar URL</button>
+      </div>
+    </div>
+    <div class="citation-bib">
+      <span class="mono-eyebrow">Uso recomendado</span>
+      <p>Si una pieza cita un dato concreto, enlaza la home o la ficha exacta y menciona que el análisis cruza INE, SEPE y una estimación explícita de exposición a IA.</p>
+    </div>
+  </section>
+
+  <section class="newsletter-footer-shell" id="newsletterFooter"></section>
 
   <footer class="footer-note" id="footerNote"></footer>
 </main>
@@ -2389,9 +3165,17 @@ const scatterWrapEl = document.getElementById("scatterWrap");
 const mapHeadlineEl = document.getElementById("mapHeadline");
 const coverageChipsEl = document.getElementById("coverageChips");
 const footerNoteEl = document.getElementById("footerNote");
+const shareStripEl = document.getElementById("shareStrip");
+const newsletterFooterEl = document.getElementById("newsletterFooter");
 const tooltipEl = document.getElementById("tooltip");
 const tooltipTitleEl = document.getElementById("tooltipTitle");
 const tooltipGridEl = document.getElementById("tooltipGrid");
+const ROOT_PUBLIC_URL = "https://trabajo.iia.es/";
+const NEWSLETTER_URL = "https://explicable.iia.es/";
+const NEWSLETTER_ARCHIVE_URL = "https://explicable.iia.es/archive";
+const NEWSLETTER_SUBSCRIBE_ACTION = "https://explicable.iia.es/api/v1/free?nojs=true";
+const HOME_PAGE_TITLE = "El futuro del trabajo y la IA en España | trabajo.iia.es";
+const HOME_PAGE_DESCRIPTION = "Busca tu profesión y consulta exposición a la IA, salario, demanda laboral y estudios con datos oficiales del INE y del SEPE.";
 
 function formatCompact(value) {
   if (value == null || Number.isNaN(value)) return "—";
@@ -2556,6 +3340,285 @@ function phraseVariants(text) {
 function displayTitleForOccupation(occupation) {
   if (!occupation) return "";
   return SHORT_OCCUPATION_TITLES[occupation.code] || stripCodePrefix(occupation.title || "");
+}
+
+function lowerFirst(value) {
+  const text = String(value || "").trim();
+  if (!text) return "";
+  return text.charAt(0).toLowerCase() + text.slice(1);
+}
+
+function pageUrlWithSelection(occupation = selectedOccupation()) {
+  const base = new URL(window.location.href);
+  if (occupation?.slug) {
+    base.searchParams.set("ocupacion", occupation.slug);
+  } else {
+    base.searchParams.delete("ocupacion");
+  }
+  return base.toString();
+}
+
+function publicShareUrl(occupation = selectedOccupation()) {
+  const url = new URL(ROOT_PUBLIC_URL);
+  if (occupation?.slug) {
+    url.searchParams.set("ocupacion", occupation.slug);
+  }
+  return url.toString();
+}
+
+function shareTextForOccupation(occupation = selectedOccupation()) {
+  if (!occupation) {
+    return "El futuro del trabajo y la IA en España: profesiones, salario y demanda con datos oficiales del INE y del SEPE.";
+  }
+  const title = displayTitleForOccupation(occupation);
+  const salary = occupation.pay == null ? "sin salario publicado" : `salario medio ${formatCurrency(occupation.pay)}`;
+  const exposure = occupation.exposure == null ? "sin estimación de exposición" : `exposición IA ${formatExposure(occupation.exposure)}`;
+  return `${title} en España: ${exposure}, ${salary} y demanda laboral en trabajo.iia.es.`;
+}
+
+function escapeHtml(value) {
+  return String(value || "")
+    .replace(/&/g, "&amp;")
+    .replace(/"/g, "&quot;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;");
+}
+
+function newsletterSubscribePageUrl(nextUrl = ROOT_PUBLIC_URL) {
+  const url = new URL("subscribe", NEWSLETTER_URL);
+  url.searchParams.set("utm_source", "trabajo_iia_es");
+  url.searchParams.set("simple", "true");
+  url.searchParams.set("next", nextUrl);
+  return url.toString();
+}
+
+function newsletterHiddenFieldsMarkup(contextUrl = ROOT_PUBLIC_URL) {
+  const safeContextUrl = escapeHtml(contextUrl);
+  const safeSubscribeUrl = escapeHtml(newsletterSubscribePageUrl(contextUrl));
+  return `
+    <input type="hidden" name="first_url" value="${safeContextUrl}">
+    <input type="hidden" name="first_referrer" value="">
+    <input type="hidden" name="current_url" value="${safeSubscribeUrl}">
+    <input type="hidden" name="current_referrer" value="${safeContextUrl}">
+    <input type="hidden" name="first_session_url" value="${safeContextUrl}">
+    <input type="hidden" name="first_session_referrer" value="">
+    <input type="hidden" name="referral_code" value="">
+    <input type="hidden" name="source" value="subscribe_page">
+    <input type="hidden" name="referring_pub_id" value="">
+    <input type="hidden" name="additional_referring_pub_ids" value="">
+  `;
+}
+
+function newsletterSignupMarkup({
+  contextUrl = ROOT_PUBLIC_URL,
+  inputId = "newsletter-email",
+  helperText = "Email diario para estar al día de la IA.",
+  buttonLabel = "Recibir 1 Minuto de IA",
+  placeholder = "Tu correo electrónico",
+} = {}) {
+  return `
+    <form class="newsletter-form" action="${NEWSLETTER_SUBSCRIBE_ACTION}" method="post">
+      ${newsletterHiddenFieldsMarkup(contextUrl)}
+      <p class="newsletter-helper"><strong>${escapeHtml(helperText)}</strong></p>
+      <div class="newsletter-form-row">
+        <input class="newsletter-input" id="${escapeHtml(inputId)}" name="email" type="email" placeholder="${escapeHtml(placeholder)}" autocomplete="email" required>
+        <button class="newsletter-submit" type="submit">${escapeHtml(buttonLabel)}</button>
+      </div>
+      <p class="newsletter-note">Al enviar, se abre la suscripción oficial de Explicable para confirmar el alta.</p>
+    </form>
+  `;
+}
+
+function newsletterSectionMarkup({
+  title,
+  body,
+  contextUrl = ROOT_PUBLIC_URL,
+  inputId = "newsletter-email",
+  helperText = "Email diario para seguir IA y trabajo sin ruido.",
+  note = "La suscripción se completa en la página oficial de Explicable.",
+  actionsMarkup = "",
+} = {}) {
+  return `
+    <div class="newsletter-footer-card">
+      <div class="newsletter-footer-copy">
+        <span class="mono-eyebrow">1 Minuto de IA</span>
+        <h3>${escapeHtml(title)}</h3>
+        <p>${body}</p>
+      </div>
+      <div class="newsletter-footer-aside">
+        ${newsletterSignupMarkup({
+          contextUrl,
+          inputId,
+          helperText,
+        })}
+        <div class="section-actions">
+          <a class="action-button subtle" href="${NEWSLETTER_ARCHIVE_URL}" target="_blank" rel="noreferrer">Ver archivo</a>
+          ${actionsMarkup}
+        </div>
+        <p class="section-note">${escapeHtml(note)}</p>
+      </div>
+    </div>
+  `;
+}
+
+function renderNewsletterFooter(occupation = selectedOccupation()) {
+  if (!newsletterFooterEl) return;
+  const title = "Recíbelo por email si quieres seguir el cambio de cerca.";
+  const body = occupation
+    ? `Si trabajas como <strong>${escapeHtml(lowerFirst(displayTitleForOccupation(occupation)))}</strong>, la pregunta útil no es solo qué puede automatizarse, sino qué cambia esta semana.`
+    : "Si quieres seguir el impacto de la IA en trabajo, empresa y producto, el correo diario de Explicable es la pieza corta para no perder el hilo.";
+  const note = occupation
+    ? "La URL de la home conserva la ocupación seleccionada cuando compartes esta vista."
+    : "La suscripción se completa en la página oficial de Explicable.";
+
+  newsletterFooterEl.innerHTML = newsletterSectionMarkup({
+    title,
+    body,
+    contextUrl: publicShareUrl(occupation),
+    inputId: occupation ? `footer-newsletter-${occupation.code}` : "footer-newsletter-home",
+    helperText: "Email diario para seguir IA y trabajo sin ruido.",
+    note,
+    actionsMarkup: shareButtonsMarkup(true),
+  });
+}
+
+function shareButtonsMarkup(compact = false) {
+  return `
+    <div class="share-buttons ${compact ? "compact" : ""}">
+      <button type="button" class="action-button" data-share="whatsapp">WhatsApp</button>
+      <button type="button" class="action-button" data-share="linkedin">LinkedIn</button>
+      <button type="button" class="action-button" data-share="x">X</button>
+      <button type="button" class="action-button" data-share="copy">Copiar enlace</button>
+    </div>
+  `;
+}
+
+function setHeadTag(selector, tagName, attributes) {
+  let node = document.head.querySelector(selector);
+  if (!node) {
+    node = document.createElement(tagName);
+    document.head.appendChild(node);
+  }
+  Object.entries(attributes).forEach(([key, value]) => node.setAttribute(key, value));
+}
+
+function updatePageMetadata() {
+  const occupation = selectedOccupation();
+  const title = occupation
+    ? `${displayTitleForOccupation(occupation)} y la IA en España | trabajo.iia.es`
+    : HOME_PAGE_TITLE;
+  const description = occupation
+    ? `${displayTitleForOccupation(occupation)}: ${occupation.exposure == null ? "sin estimación de exposición a la IA" : `exposición a la IA ${formatExposure(occupation.exposure)}`}, ${occupation.pay == null ? "sin salario publicado" : `salario medio ${formatCurrency(occupation.pay)}`}, ${occupation.outlook == null ? "sin dato reciente de demanda" : `variación anual ${formatPct(occupation.outlook, 2)}`}.`
+    : HOME_PAGE_DESCRIPTION;
+  const url = publicShareUrl(occupation);
+
+  document.title = title;
+  setHeadTag('meta[name="description"]', "meta", { name: "description", content: description });
+  setHeadTag('link[rel="canonical"]', "link", { rel: "canonical", href: url });
+  setHeadTag('meta[property="og:title"]', "meta", { property: "og:title", content: title });
+  setHeadTag('meta[property="og:description"]', "meta", { property: "og:description", content: description });
+  setHeadTag('meta[property="og:url"]', "meta", { property: "og:url", content: url });
+  setHeadTag('meta[name="twitter:title"]', "meta", { name: "twitter:title", content: title });
+  setHeadTag('meta[name="twitter:description"]', "meta", { name: "twitter:description", content: description });
+}
+
+function syncUrlState() {
+  window.history.replaceState({}, "", pageUrlWithSelection());
+}
+
+function occupationFromUrl() {
+  const requested = normalizeSearchText(new URL(window.location.href).searchParams.get("ocupacion"));
+  if (!requested) return null;
+  return STATE.occupations.find((occupation) => {
+    const candidates = [
+      occupation.slug,
+      occupation.code,
+      displayTitleForOccupation(occupation),
+      occupation.title,
+    ];
+    return candidates.some((candidate) => normalizeSearchText(candidate) === requested);
+  }) || null;
+}
+
+async function copyToClipboard(text) {
+  if (!text) return;
+  if (navigator.clipboard?.writeText) {
+    await navigator.clipboard.writeText(text);
+    return;
+  }
+  const helper = document.createElement("textarea");
+  helper.value = text;
+  helper.setAttribute("readonly", "");
+  helper.style.position = "absolute";
+  helper.style.left = "-9999px";
+  document.body.appendChild(helper);
+  helper.select();
+  document.execCommand("copy");
+  helper.remove();
+}
+
+function renderShareStrip() {
+  if (!shareStripEl) return;
+  shareStripEl.innerHTML = `
+    <p class="section-note">Comparte la home o la profesión seleccionada con WhatsApp, LinkedIn, X o copia directa de enlace.</p>
+    ${shareButtonsMarkup()}
+  `;
+}
+
+function bindUtilityActions() {
+  document.addEventListener("click", async (event) => {
+    const copyNode = event.target.closest("[data-copy-text]");
+    if (copyNode) {
+      event.preventDefault();
+      try {
+        await copyToClipboard(copyNode.getAttribute("data-copy-text"));
+        copyNode.textContent = "Copiado";
+        window.setTimeout(() => {
+          copyNode.textContent = copyNode.dataset.originalLabel || copyNode.textContent;
+        }, 1200);
+      } catch (error) {
+        console.error(error);
+      }
+      return;
+    }
+
+    const shareNode = event.target.closest("[data-share]");
+    if (!shareNode) return;
+    event.preventDefault();
+    const occupation = selectedOccupation();
+    const shareUrl = publicShareUrl(occupation);
+    const shareText = shareTextForOccupation(occupation);
+    const encodedUrl = encodeURIComponent(shareUrl);
+    const encodedText = encodeURIComponent(shareText);
+    const network = shareNode.getAttribute("data-share");
+
+    try {
+      if (network === "copy") {
+        await copyToClipboard(shareUrl);
+        shareNode.textContent = "Copiado";
+        window.setTimeout(() => {
+          shareNode.textContent = "Copiar enlace";
+        }, 1200);
+        return;
+      }
+
+      const destinations = {
+        whatsapp: `https://wa.me/?text=${encodedText}%20${encodedUrl}`,
+        linkedin: `https://www.linkedin.com/sharing/share-offsite/?url=${encodedUrl}`,
+        x: `https://twitter.com/intent/tweet?text=${encodedText}&url=${encodedUrl}`,
+      };
+      const targetUrl = destinations[network];
+      if (targetUrl) {
+        window.open(targetUrl, "_blank", "noopener,noreferrer");
+      }
+    } catch (error) {
+      console.error(error);
+    }
+  });
+
+  document.querySelectorAll("[data-copy-text]").forEach((node) => {
+    node.dataset.originalLabel = node.textContent;
+  });
 }
 
 function occupationHasJobs(occupation) {
@@ -3285,7 +4348,7 @@ function renderBigStats() {
   const stats = computeHeadlineStats();
   const shieldedList = stats.shieldedLabels.slice(0, 5).join(", ");
   bigStatsEl.innerHTML = `
-    <a href="#expuestos" class="bigstat exposed" id="bigstat-exposed">
+    <a href="#titulares" class="bigstat exposed" id="bigstat-exposed">
       <div class="bigstat-head">
         <span class="mono-eyebrow rust">#expuestos</span>
         <span class="bigstat-tag">Score ≥ 7/10</span>
@@ -3294,7 +4357,7 @@ function renderBigStats() {
       <div class="bigstat-label">del empleo español está muy expuesto a la IA</div>
       <div class="bigstat-sub">${formatMillionsFromJobs(stats.exposedJobs)} de personas en ocupaciones con score ≥ 7/10.</div>
     </a>
-    <a href="#blindados" class="bigstat shielded" id="bigstat-shielded">
+    <a href="#titulares" class="bigstat shielded" id="bigstat-shielded">
       <div class="bigstat-head">
         <span class="mono-eyebrow">#blindados</span>
         <span class="bigstat-tag">Score ≤ 3/10</span>
@@ -3341,50 +4404,50 @@ function renderStatTiles() {
 
   const rawTiles = [
     mostExposed && {
-      anchor: "admin",
+      anchor: "exposicion",
       value: `${mostExposed.exposure.toFixed(1).replace(".", ",")}/10`,
-      title: "Un administrativo, el trabajo más expuesto",
-      body: `${shortOccupationName(mostExposed)} lidera el ranking con ${formatInteger(mostExposed.jobs)} empleos y ${mostExposed.pay == null ? "sin salario" : formatCurrency(mostExposed.pay) + "/año"}. Ofimática repetitiva, redacción, clasificación: el corazón del back office.`,
+      title: `${sentenceCase(shortOccupationName(mostExposed))}, entre las más expuestas`,
+      body: `${formatInteger(mostExposed.jobs)} personas en este grupo. La puntuación alta señala tareas digitales y repetibles especialmente sensibles a reconfiguración por IA.`,
       tone: "warm",
       code: mostExposed.code,
     },
     tech && tech.exposure != null && {
       anchor: "tic",
       value: `${tech.exposure.toFixed(1).replace(".", ",")}/10`,
-      title: "La tecnología se come a sí misma",
-      body: `${sentenceCase(shortOccupationName(tech))} aparecen entre los más expuestos. El sector que construye la IA es, a la vez, el más expuesto a ella.`,
+      title: "Las ocupaciones TIC también están expuestas",
+      body: `${sentenceCase(shortOccupationName(tech))} aparecen entre los grupos con más reconfiguración potencial. Quien construye la IA también cambia su forma de trabajar.`,
       tone: "warm",
       code: tech.code,
     },
     bestPaidExposed && {
-      anchor: "finanzas",
+      anchor: "salario",
       value: formatCurrency(bestPaidExposed.pay),
-      title: "Bien pagados, bajo amenaza",
-      body: `${sentenceCase(shortOccupationName(bestPaidExposed))} cobra entre los más altos y aparece en la zona roja (${bestPaidExposed.exposure.toFixed(1).replace(".", ",")}/10). La exposición no es inversa al salario.`,
+      title: "El salario alto no blinda",
+      body: `${sentenceCase(shortOccupationName(bestPaidExposed))} combina sueldo alto y exposición elevada (${bestPaidExposed.exposure.toFixed(1).replace(".", ",")}/10). La automatización potencial no se reparte solo entre empleos de bajo salario.`,
       tone: "warm",
       code: bestPaidExposed.code,
     },
     leastExposed && {
-      anchor: "hogar",
+      anchor: "blindaje",
       value: `${leastExposed.exposure.toFixed(1).replace(".", ",")}/10`,
-      title: `${sentenceCase(shortOccupationName(leastExposed))}: el mínimo`,
-      body: `${formatInteger(leastExposed.jobs)} personas. La exposición estimada cae a cero. Lo más humano no se automatiza fácil.`,
+      title: `${sentenceCase(shortOccupationName(leastExposed))}, en el extremo más blindado`,
+      body: `${formatInteger(leastExposed.jobs)} personas. La exposición estimada cae al mínimo y refuerza la idea de que presencia física y trato humano siguen pesando.`,
       tone: "cool",
       code: leastExposed.code,
     },
     biggestDrop && {
       anchor: "caida",
       value: formatPct(biggestDrop.outlook, 2),
-      title: "La biblioteca en caída libre",
-      body: `${sentenceCase(shortOccupationName(biggestDrop))} lideran la caída interanual de contratos. El descenso no es solo IA: hay digitalización previa consolidándose.`,
+      title: "La mayor caída anual entre los grupos grandes",
+      body: `${sentenceCase(shortOccupationName(biggestDrop))} encabeza el peor dato de contratos del último año entre los grupos con tamaño relevante. No es una prueba de IA por sí sola.`,
       tone: "warm",
       code: biggestDrop.code,
     },
     prestigeRise && {
       anchor: "alza",
       value: formatPct(prestigeRise.outlook, 2),
-      title: `${sentenceCase(shortOccupationName(prestigeRise))}, al alza`,
-      body: `Crece en contratos. Puntúa ${prestigeRise.exposure == null ? "sin dato" : prestigeRise.exposure.toFixed(1).replace(".", ",") + "/10"} en exposición a la IA: ciertas tareas se automatizan, el contacto humano no.`,
+      title: "La mayor subida anual entre los grupos grandes",
+      body: `${sentenceCase(shortOccupationName(prestigeRise))} crece en contratos y recuerda que una parte del trabajo puede automatizarse sin hundir necesariamente la demanda del grupo.`,
       tone: "cool",
       code: prestigeRise.code,
     },
@@ -3396,7 +4459,7 @@ function renderStatTiles() {
     if (!tile.code || seenCodes.has(tile.code)) continue;
     seenCodes.add(tile.code);
     tiles.push(tile);
-    if (tiles.length >= 6) break;
+    if (tiles.length >= 3) break;
   }
 
   statTilesEl.innerHTML = tiles.map((tile, index) => `
@@ -3992,6 +5055,10 @@ function setSelectedOccupation(code, options = {}) {
   renderEditorial();
   renderTreemap();
   renderDetailPanel();
+  renderNewsletterFooter();
+  syncUrlState();
+  updatePageMetadata();
+  renderShareStrip();
   if (options.reveal !== false) {
     window.requestAnimationFrame(() => revealOccupationDetail());
   }
@@ -4576,7 +5643,8 @@ async function loadData() {
   const defaultSelection = STATE.occupations
     .filter((occupation) => occupation.jobs != null && occupation.exposure != null)
     .sort((a, b) => (a.exposure - b.exposure) || ((b.jobs || 0) - (a.jobs || 0)))[0] || STATE.occupations[0];
-  STATE.selectedCode = defaultSelection ? defaultSelection.code : null;
+  const requestedOccupation = occupationFromUrl();
+  STATE.selectedCode = requestedOccupation?.code || (defaultSelection ? defaultSelection.code : null);
   ensureSelectedChild();
 }
 
@@ -4586,6 +5654,10 @@ function updateSelectionFromSearch() {
     renderEditorial();
     renderTreemap();
     renderDetailPanel();
+    renderNewsletterFooter();
+    renderShareStrip();
+    syncUrlState();
+    updatePageMetadata();
     return;
   }
 
@@ -4600,6 +5672,10 @@ function updateSelectionFromSearch() {
   renderEditorial();
   renderTreemap();
   renderDetailPanel();
+  renderNewsletterFooter();
+  renderShareStrip();
+  syncUrlState();
+  updatePageMetadata();
 }
 
 function bindControls() {
@@ -4672,6 +5748,10 @@ function renderApp() {
   renderTreemap();
   renderScatter();
   renderDetailPanel();
+  renderNewsletterFooter();
+  renderShareStrip();
+  syncUrlState();
+  updatePageMetadata();
 }
 
 function attachError(message) {
@@ -4681,6 +5761,7 @@ function attachError(message) {
 
 loadData()
   .then(() => {
+    bindUtilityActions();
     bindControls();
     renderApp();
   })
