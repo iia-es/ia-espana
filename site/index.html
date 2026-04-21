@@ -16,17 +16,24 @@
   --panel-strong: rgba(255, 248, 238, 0.96);
   --line: rgba(22, 38, 49, 0.12);
   --line-strong: rgba(22, 38, 49, 0.2);
-  --text: #182631;
-  --muted: #55636f;
+  --text: #1a1a1a;
+  --ink: #1a1a1a;
+  --paper: #f7f3ea;
+  --muted: #6b6b65;
   --accent: #1f6a6c;
   --accent-2: #b45735;
   --accent-3: #e0c79e;
+  --rust: #b33a1f;
+  --rust-soft: #d46d37;
+  --green-deep: #2c5b4d;
+  --amber: #e1b64e;
   --shadow: 0 18px 60px rgba(56, 39, 26, 0.12);
   --radius-xl: 28px;
   --radius-lg: 20px;
   --radius-md: 14px;
-  --font-display: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", serif;
-  --font-ui: "Avenir Next", "Segoe UI", "Helvetica Neue", sans-serif;
+  --font-display: "Charter", "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  --font-ui: "Avenir Next", "Inter", "Segoe UI", "Helvetica Neue", sans-serif;
+  --font-mono: "JetBrains Mono", "SF Mono", "Menlo", monospace;
 }
 
 html {
@@ -94,16 +101,24 @@ body {
 }
 
 .hero h1 {
-  margin: 18px 0 14px;
+  margin: 14px 0 16px;
   font-family: var(--font-display);
-  font-size: clamp(2.4rem, 4.6vw, 4.5rem);
-  line-height: 0.94;
+  font-size: clamp(3rem, 6.8vw, 6rem);
+  font-style: italic;
+  font-weight: 400;
+  line-height: 0.92;
   letter-spacing: -0.035em;
   max-width: none;
 }
 
+.hero h1 .plain {
+  display: block;
+  font-style: normal;
+  color: var(--text);
+}
+
 .hero h1 span {
-  color: var(--accent-2);
+  color: var(--text);
 }
 
 .hero-copy {
@@ -1374,18 +1389,583 @@ body {
     text-align: center;
   }
 }
+
+/* === Editorial / newspaper aesthetic === */
+.masthead {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 14px;
+  flex-wrap: wrap;
+  padding: 2px 0 14px;
+  border-bottom: 1px solid rgba(24, 38, 49, 0.14);
+  margin-bottom: 24px;
+}
+
+.masthead-title {
+  font-family: var(--font-display);
+  font-size: clamp(1.15rem, 1.5vw, 1.45rem);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: var(--text);
+}
+
+.masthead-title span {
+  color: var(--muted);
+  font-weight: 500;
+}
+
+.masthead-meta {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.hero-framestamp {
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 10px;
+}
+
+.hero-main {
+  padding: 0;
+  border-bottom: 1px solid rgba(24, 38, 49, 0.22);
+  padding-bottom: 26px;
+  margin-bottom: 10px;
+}
+
+.hero-main::after {
+  display: none;
+}
+
+.hero-copy p {
+  font-family: var(--font-ui);
+  max-width: 760px;
+  font-size: 17px;
+  line-height: 1.5;
+  color: var(--text);
+}
+
+.mono-eyebrow {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 2px;
+}
+
+.mono-eyebrow.rust { color: var(--rust); }
+
+.searchlead {
+  display: grid;
+  grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.35fr);
+  gap: 40px;
+  padding: 34px 0 26px;
+  border-bottom: 1px solid rgba(24, 38, 49, 0.14);
+  margin-bottom: 28px;
+  animation: rise 560ms ease both;
+}
+
+.searchlead-copy {
+  padding-top: 6px;
+}
+
+.searchlead-copy h2 {
+  margin: 10px 0 14px;
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 400;
+  font-size: clamp(1.7rem, 3vw, 2.6rem);
+  line-height: 1.05;
+  letter-spacing: -0.025em;
+}
+
+.searchlead-copy p {
+  margin: 0;
+  color: var(--muted);
+  max-width: 42ch;
+  font-size: 14.5px;
+  line-height: 1.55;
+}
+
+.searchlead-panel {
+  background: #fffdf7;
+  border: 1px solid rgba(24, 38, 49, 0.16);
+  padding: 26px 28px 24px;
+  border-radius: 3px;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.04);
+}
+
+.searchlead-panel h3 {
+  margin: 8px 0 6px;
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 500;
+  font-size: clamp(1.5rem, 2.2vw, 2rem);
+  line-height: 1.08;
+  letter-spacing: -0.015em;
+}
+
+.searchlead-panel .panel-lede {
+  margin: 0 0 18px;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+.searchlead-form {
+  position: relative;
+  margin-bottom: 14px;
+}
+
+.searchlead-form .searchlead-icon {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--muted);
+  pointer-events: none;
+}
+
+.searchlead-form input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 14px 110px 14px 46px;
+  background: #fff;
+  border: 1.5px solid rgba(24, 38, 49, 0.18);
+  border-radius: 3px;
+  color: var(--text);
+  font-family: inherit;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 140ms ease, box-shadow 140ms ease;
+}
+
+.searchlead-form input:focus {
+  border-color: var(--rust);
+  box-shadow: 0 0 0 3px rgba(179, 58, 31, 0.12);
+}
+
+.searchlead-form button {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 10px 16px;
+  border: none;
+  border-radius: 3px;
+  background: var(--rust);
+  color: #fffdf7;
+  font-family: var(--font-ui);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  transition: background 150ms ease, transform 150ms ease;
+}
+
+.searchlead-form button:hover {
+  background: #8b2e1f;
+  transform: translateY(-50%) translateY(-1px);
+}
+
+.searchlead-suggestions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.searchlead-suggestions .pops {
+  font-size: 12px;
+  color: var(--muted);
+  margin-right: 2px;
+}
+
+.searchlead-chip {
+  background: #eee7d7;
+  color: var(--text);
+  border: 1px solid rgba(24, 38, 49, 0.14);
+  border-radius: 999px;
+  padding: 6px 12px;
+  font: inherit;
+  font-size: 13px;
+  cursor: pointer;
+  transition: background 120ms ease, transform 120ms ease;
+}
+
+.searchlead-chip:hover {
+  background: #e5dcc4;
+  transform: translateY(-1px);
+}
+
+.searchlead-suggestions em {
+  font-style: italic;
+  color: var(--text);
+}
+
+.bigstats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 56px;
+  padding: 8px 0 18px;
+  border-bottom: 1px solid rgba(24, 38, 49, 0.14);
+  margin-bottom: 20px;
+  animation: rise 560ms ease both;
+}
+
+.bigstat {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  padding: 4px 0 12px;
+  transition: transform 150ms ease;
+}
+
+.bigstat:hover { transform: translateY(-1px); }
+
+.bigstat-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 12px;
+}
+
+.bigstat-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  border-radius: 99px;
+  border: 1px solid var(--text);
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: var(--text);
+}
+
+.bigstat-value {
+  font-family: var(--font-display);
+  font-size: clamp(4.5rem, 10vw, 9.5rem);
+  line-height: 0.9;
+  letter-spacing: -0.045em;
+  font-weight: 400;
+}
+
+.bigstat.exposed .bigstat-value { color: var(--rust); }
+.bigstat.shielded .bigstat-value { color: var(--green-deep); }
+
+.bigstat-label {
+  font-size: 21px;
+  line-height: 1.25;
+  margin-top: 10px;
+  font-weight: 500;
+  color: var(--text);
+}
+
+.bigstat-sub {
+  margin-top: 8px;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.5;
+  max-width: 380px;
+}
+
+.stat-tiles {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 40px;
+  padding: 10px 0 28px;
+  border-bottom: 1px solid rgba(24, 38, 49, 0.14);
+  margin-bottom: 26px;
+  animation: rise 560ms ease both;
+}
+
+.stat-tile {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  transition: transform 150ms ease;
+}
+
+.stat-tile:hover { transform: translateY(-1px); }
+
+.stat-tile-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 10px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.stat-tile-value {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 400;
+  font-size: clamp(2.2rem, 3.4vw, 3rem);
+  line-height: 0.95;
+  letter-spacing: -0.02em;
+  color: var(--rust);
+  margin-bottom: 10px;
+}
+
+.stat-tile.cool .stat-tile-value { color: var(--green-deep); }
+
+.stat-tile-title {
+  font-size: 19px;
+  line-height: 1.2;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  margin-bottom: 10px;
+  color: var(--text);
+}
+
+.stat-tile-body {
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--muted);
+}
+
+.scatter-panel {
+  background: #1a1a1a;
+  color: var(--paper);
+  padding: 44px max(24px, calc((100vw - 1460px) / 2 + 24px));
+  margin: 26px calc(50% - 50vw) 30px;
+  width: 100vw;
+  animation: rise 560ms ease both;
+}
+
+.scatter-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 4px;
+}
+
+.scatter-head .mono-eyebrow {
+  color: rgba(247, 243, 234, 0.7);
+}
+
+.scatter-head .mono-eyebrow.tight {
+  letter-spacing: 0.14em;
+  opacity: 0.55;
+  color: rgba(247, 243, 234, 0.85);
+}
+
+.scatter-panel h3 {
+  margin: 10px 0 22px;
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 400;
+  font-size: clamp(1.7rem, 2.6vw, 2.4rem);
+  line-height: 1;
+  letter-spacing: -0.022em;
+  max-width: 720px;
+  color: var(--paper);
+}
+
+.scatter-wrap {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(247, 243, 234, 0.15);
+  padding: 14px;
+}
+
+.scatter-wrap svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.scatter-note {
+  font-size: 12px;
+  color: rgba(247, 243, 234, 0.55);
+  margin-top: 12px;
+  max-width: 820px;
+  line-height: 1.5;
+}
+
+.citation {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.3fr);
+  gap: 40px;
+  padding: 30px 0 18px;
+  border-top: 1px solid rgba(24, 38, 49, 0.18);
+  margin-top: 18px;
+  margin-bottom: 14px;
+}
+
+.citation h3 {
+  margin: 10px 0 12px;
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 400;
+  font-size: clamp(1.3rem, 2.2vw, 1.9rem);
+  line-height: 1.05;
+  letter-spacing: -0.015em;
+}
+
+.citation-copy {
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
+.citation-copy code {
+  background: rgba(24, 38, 49, 0.08);
+  padding: 1px 6px;
+  border-radius: 3px;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--text);
+}
+
+.citation-bib {
+  background: #ebe4d3;
+  padding: 18px 22px;
+  border: 1px solid rgba(24, 38, 49, 0.2);
+  border-radius: 3px;
+}
+
+.citation-bib .mono-eyebrow {
+  font-size: 10px;
+  margin-bottom: 8px;
+  letter-spacing: 0.15em;
+  color: #6b6b65;
+}
+
+.citation-bib pre {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  line-height: 1.55;
+  margin: 0;
+  white-space: pre-wrap;
+  color: var(--text);
+}
+
+.editorial-kicker,
+.tool-kicker {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  background: transparent;
+  padding: 0;
+  border-radius: 0;
+  color: var(--muted);
+}
+
+.editorial-intro h2,
+.tool-intro h2 {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+}
+
+.headline-title,
+.ranking-card h3 {
+  font-family: var(--font-display);
+  letter-spacing: -0.015em;
+}
+
+.map-panel h3,
+.map-note .headline {
+  font-family: var(--font-ui);
+}
+
+@media (max-width: 1100px) {
+  .searchlead,
+  .bigstats,
+  .citation {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  .stat-tiles {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 28px;
+  }
+}
+
+@media (max-width: 640px) {
+  .stat-tiles {
+    grid-template-columns: 1fr;
+    gap: 22px;
+  }
+  .hero h1 { font-size: clamp(2.5rem, 10vw, 3.8rem); }
+  .searchlead-form input { padding-right: 100px; }
+  .scatter-panel {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+}
 </style>
 </head>
 <body>
 <main class="shell">
+  <header class="masthead">
+    <span class="masthead-title">Periódico de datos <span>· IA España</span></span>
+    <span class="masthead-meta">Fuentes oficiales · INE · SEPE</span>
+  </header>
+
   <header class="hero">
     <section class="hero-main">
-      <h1>Impacto laboral de la IA <span>en España</span></h1>
+      <div class="hero-framestamp"><span id="heroFrameStamp">Fuentes oficiales · INE · SEPE</span></div>
+      <h1>Impacto laboral de la IA <span class="plain">en España</span></h1>
       <div class="hero-copy">
         <p>Qué trabajos parecen más protegidos frente a la IA, cuáles más expuestos y dónde hay más competencia, según datos oficiales.</p>
       </div>
     </section>
   </header>
+
+  <section class="searchlead" id="searchLead">
+    <div class="searchlead-copy">
+      <span class="mono-eyebrow">Herramienta del lector · #buscar</span>
+      <h2>Antes de leer el resto,<br>busca tu oficio.</h2>
+      <p>Cada una de las profesiones sugeridas abre su ficha con cifras, narrativa y enlaces oficiales. Prueba también con la tuya: el buscador reconoce más de sesenta ocupaciones habituales.</p>
+    </div>
+    <div class="searchlead-panel">
+      <span class="mono-eyebrow">El buscador · datos oficiales</span>
+      <h3>¿A qué te dedicas?</h3>
+      <p class="panel-lede">Busca tu profesión y obtén su exposición a la IA, salario medio, tendencia y narrativa del oficio. Datos reales de los 62 grupos ocupacionales (CNO-2d).</p>
+      <form class="searchlead-form" id="searchleadForm" role="search" onsubmit="return false;">
+        <span class="searchlead-icon" aria-hidden="true">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg>
+        </span>
+        <input id="searchLeadInput" type="search" placeholder="Busca tu profesión…" aria-label="Buscar trabajo u ocupación" autocomplete="off">
+        <button type="submit">Buscar →</button>
+      </form>
+      <div class="searchlead-suggestions" id="searchleadSuggestions">
+        <span class="pops">Populares:</span>
+        <button type="button" class="searchlead-chip" data-suggest="médico">Médico</button>
+        <button type="button" class="searchlead-chip" data-suggest="programador">Programador</button>
+        <button type="button" class="searchlead-chip" data-suggest="administrativo">Administrativo</button>
+        <button type="button" class="searchlead-chip" data-suggest="profesor">Profesor</button>
+        <button type="button" class="searchlead-chip" data-suggest="periodista">Periodista</button>
+        <span>· o prueba <em>abogado</em>, <em>camarero</em>, <em>enfermera</em>, <em>electricista</em>…</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="bigstats" id="bigStats" aria-live="polite"></section>
+
+  <section class="stat-tiles" id="statTiles" aria-live="polite"></section>
 
   <section class="editorial-shell">
     <div class="editorial-intro">
@@ -1453,6 +2033,33 @@ body {
       <div class="empty">Cargando datos...</div>
     </aside>
   </div>
+
+  <section class="scatter-panel" id="scatterPanel">
+    <div class="scatter-head">
+      <span class="mono-eyebrow">Figura · Salario × exposición</span>
+      <span class="mono-eyebrow tight">62 grupos · tamaño = empleo</span>
+    </div>
+    <h3>Pagado y expuesto — el cuadrante incómodo.</h3>
+    <div class="scatter-wrap" id="scatterWrap" aria-label="Dispersión salario × exposición"></div>
+    <p class="scatter-note">Eje X: salario bruto anual (€). Eje Y: exposición a la IA (0–10). El radio de cada punto es proporcional al número de personas empleadas. Resaltados en ámbar los grupos que combinan salario medio-alto con exposición ≥ 7.</p>
+  </section>
+
+  <section class="citation">
+    <div>
+      <span class="mono-eyebrow">Cómo citar este recurso</span>
+      <h3>Cada sección tiene ancla permanente.</h3>
+      <div class="citation-copy">Comparte <code>#titulares</code>, <code>#buscar</code> o <code>#figura</code>. Todos los datos provienen de fuentes oficiales del INE y el SEPE, cruzados con una estimación de exposición a la IA derivada por modelo de lenguaje a partir de descripciones ocupacionales CNO-4d.</div>
+    </div>
+    <div class="citation-bib">
+      <span class="mono-eyebrow">BIBTEX</span>
+      <pre id="citationBibtex">@misc{iaespana2026,
+  title  = {Impacto laboral de la IA en España},
+  author = {Observatorio IA España},
+  year   = {2026},
+  url    = {https://ia-espana.example}
+}</pre>
+    </div>
+  </section>
 
   <footer class="footer-note" id="footerNote"></footer>
 </main>
@@ -1686,6 +2293,12 @@ const headlineGridEl = document.getElementById("headlineGrid");
 const rankingGridEl = document.getElementById("rankingGrid");
 const legendEl = document.getElementById("legend");
 const searchInputEl = document.getElementById("searchInput");
+const searchLeadInputEl = document.getElementById("searchLeadInput");
+const searchleadFormEl = document.getElementById("searchleadForm");
+const searchleadSuggestionsEl = document.getElementById("searchleadSuggestions");
+const bigStatsEl = document.getElementById("bigStats");
+const statTilesEl = document.getElementById("statTiles");
+const scatterWrapEl = document.getElementById("scatterWrap");
 const mapHeadlineEl = document.getElementById("mapHeadline");
 const coverageChipsEl = document.getElementById("coverageChips");
 const footerNoteEl = document.getElementById("footerNote");
@@ -2536,6 +3149,415 @@ function attachSelectionHandlers(root) {
 
 function pickFirstDistinct(candidates, usedCodes) {
   return candidates.find((occupation) => occupation && !usedCodes.has(occupation.code)) || null;
+}
+
+function formatMillionsFromJobs(jobs) {
+  if (jobs == null || !Number.isFinite(jobs)) return "—";
+  const m = jobs / 1_000_000;
+  return `${m.toFixed(2).replace(".", ",")} millones`;
+}
+
+function formatPercentOne(value) {
+  if (value == null || Number.isNaN(value)) return "—";
+  return `${value.toFixed(1).replace(".", ",")}%`;
+}
+
+function computeHeadlineStats() {
+  const valid = STATE.occupations.filter((o) => o.jobs != null && o.exposure != null);
+  const totalJobs = valid.reduce((sum, o) => sum + (o.jobs || 0), 0) || 1;
+  const exposed = valid.filter((o) => o.exposure >= 7);
+  const shielded = valid.filter((o) => o.exposure <= 3);
+  const exposedJobs = exposed.reduce((sum, o) => sum + (o.jobs || 0), 0);
+  const shieldedJobs = shielded.reduce((sum, o) => sum + (o.jobs || 0), 0);
+  const shieldedLabels = shielded
+    .slice()
+    .sort((a, b) => (b.jobs || 0) - (a.jobs || 0))
+    .slice(0, 5)
+    .map((o) => shortOccupationName(o));
+  return {
+    totalJobs,
+    exposedJobs,
+    shieldedJobs,
+    exposedShare: (exposedJobs / totalJobs) * 100,
+    shieldedShare: (shieldedJobs / totalJobs) * 100,
+    shieldedLabels,
+  };
+}
+
+function shortOccupationName(occupation) {
+  if (!occupation) return "";
+  const code = occupation.code;
+  const short = SHORT_OCCUPATION_TITLES[code];
+  if (short) return short.split(/[,;:]/)[0].trim().toLowerCase();
+  const fallback = displayTitleForOccupation(occupation) || occupation.code || "";
+  return String(fallback).split(/[,;:]/)[0].trim().toLowerCase();
+}
+
+function renderBigStats() {
+  if (!bigStatsEl) return;
+  const stats = computeHeadlineStats();
+  const shieldedList = stats.shieldedLabels.slice(0, 5).join(", ");
+  bigStatsEl.innerHTML = `
+    <a href="#expuestos" class="bigstat exposed" id="bigstat-exposed">
+      <div class="bigstat-head">
+        <span class="mono-eyebrow rust">#expuestos</span>
+        <span class="bigstat-tag">Score ≥ 7/10</span>
+      </div>
+      <div class="bigstat-value">${formatPercentOne(stats.exposedShare)}</div>
+      <div class="bigstat-label">del empleo español está muy expuesto a la IA</div>
+      <div class="bigstat-sub">${formatMillionsFromJobs(stats.exposedJobs)} de personas en ocupaciones con score ≥ 7/10.</div>
+    </a>
+    <a href="#blindados" class="bigstat shielded" id="bigstat-shielded">
+      <div class="bigstat-head">
+        <span class="mono-eyebrow">#blindados</span>
+        <span class="bigstat-tag">Score ≤ 3/10</span>
+      </div>
+      <div class="bigstat-value">${formatPercentOne(stats.shieldedShare)}</div>
+      <div class="bigstat-label">del empleo está bastante blindado</div>
+      <div class="bigstat-sub">${formatMillionsFromJobs(stats.shieldedJobs)}${shieldedList ? ` — ${shieldedList}` : ""}.</div>
+    </a>
+  `;
+  bigStatsEl.querySelectorAll(".bigstat").forEach((node) => {
+    node.addEventListener("click", (event) => {
+      event.preventDefault();
+      const treemapSection = document.querySelector(".map-panel");
+      if (treemapSection) treemapSection.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  });
+}
+
+function renderStatTiles() {
+  if (!statTilesEl) return;
+  const occs = STATE.occupations.filter((o) => o.jobs != null && o.exposure != null);
+  if (!occs.length) { statTilesEl.innerHTML = ""; return; }
+
+  const mostExposed = occs.slice().sort((a, b) => (b.exposure - a.exposure) || ((b.jobs || 0) - (a.jobs || 0)))[0];
+  const tech = occs.find((o) => o.code === "27") // Profesionales TIC
+    || occs.slice().sort((a, b) => (b.exposure - a.exposure))[1];
+  const bestPaidExposed = occs
+    .filter((o) => o.pay != null && o.exposure >= 7 && (!mostExposed || o.code !== mostExposed.code))
+    .slice()
+    .sort((a, b) => (b.pay || 0) - (a.pay || 0))[0];
+  const leastExposed = occs.slice().sort((a, b) => (a.exposure - b.exposure) || ((b.jobs || 0) - (a.jobs || 0)))[0];
+  const biggestDrop = occs
+    .filter((o) => o.outlook != null && (o.jobs || 0) >= 50000)
+    .slice()
+    .sort((a, b) => (a.outlook || 0) - (b.outlook || 0))[0];
+  // Editorial choice: biggest-rising big sector that also carries a clear human-service angle
+  // (expo >= 2.5, jobs >= 300k) to make the "contact doesn't automate" story land.
+  const prestigeRise = occs
+    .filter((o) => o.outlook != null && (o.jobs || 0) >= 300000 && (o.exposure || 0) >= 2.5
+      && (!leastExposed || o.code !== leastExposed.code)
+      && (!biggestDrop || o.code !== biggestDrop.code))
+    .slice()
+    .sort((a, b) => (b.outlook || 0) - (a.outlook || 0))[0];
+
+  const rawTiles = [
+    mostExposed && {
+      anchor: "admin",
+      value: `${mostExposed.exposure.toFixed(1).replace(".", ",")}/10`,
+      title: "Un administrativo, el trabajo más expuesto",
+      body: `${shortOccupationName(mostExposed)} lidera el ranking con ${formatInteger(mostExposed.jobs)} empleos y ${mostExposed.pay == null ? "sin salario" : formatCurrency(mostExposed.pay) + "/año"}. Ofimática repetitiva, redacción, clasificación: el corazón del back office.`,
+      tone: "warm",
+      code: mostExposed.code,
+    },
+    tech && tech.exposure != null && {
+      anchor: "tic",
+      value: `${tech.exposure.toFixed(1).replace(".", ",")}/10`,
+      title: "La tecnología se come a sí misma",
+      body: `${sentenceCase(shortOccupationName(tech))} aparecen entre los más expuestos. El sector que construye la IA es, a la vez, el más expuesto a ella.`,
+      tone: "warm",
+      code: tech.code,
+    },
+    bestPaidExposed && {
+      anchor: "finanzas",
+      value: formatCurrency(bestPaidExposed.pay),
+      title: "Bien pagados, bajo amenaza",
+      body: `${sentenceCase(shortOccupationName(bestPaidExposed))} cobra entre los más altos y aparece en la zona roja (${bestPaidExposed.exposure.toFixed(1).replace(".", ",")}/10). La exposición no es inversa al salario.`,
+      tone: "warm",
+      code: bestPaidExposed.code,
+    },
+    leastExposed && {
+      anchor: "hogar",
+      value: `${leastExposed.exposure.toFixed(1).replace(".", ",")}/10`,
+      title: `${sentenceCase(shortOccupationName(leastExposed))}: el mínimo`,
+      body: `${formatInteger(leastExposed.jobs)} personas. La exposición estimada cae a cero. Lo más humano no se automatiza fácil.`,
+      tone: "cool",
+      code: leastExposed.code,
+    },
+    biggestDrop && {
+      anchor: "caida",
+      value: formatPct(biggestDrop.outlook, 2),
+      title: "La biblioteca en caída libre",
+      body: `${sentenceCase(shortOccupationName(biggestDrop))} lideran la caída interanual de contratos. El descenso no es solo IA: hay digitalización previa consolidándose.`,
+      tone: "warm",
+      code: biggestDrop.code,
+    },
+    prestigeRise && {
+      anchor: "alza",
+      value: formatPct(prestigeRise.outlook, 2),
+      title: `${sentenceCase(shortOccupationName(prestigeRise))}, al alza`,
+      body: `Crece en contratos. Puntúa ${prestigeRise.exposure == null ? "sin dato" : prestigeRise.exposure.toFixed(1).replace(".", ",") + "/10"} en exposición a la IA: ciertas tareas se automatizan, el contacto humano no.`,
+      tone: "cool",
+      code: prestigeRise.code,
+    },
+  ].filter(Boolean);
+
+  const seenCodes = new Set();
+  const tiles = [];
+  for (const tile of rawTiles) {
+    if (!tile.code || seenCodes.has(tile.code)) continue;
+    seenCodes.add(tile.code);
+    tiles.push(tile);
+    if (tiles.length >= 6) break;
+  }
+
+  statTilesEl.innerHTML = tiles.map((tile, index) => `
+    <a href="#${tile.anchor}" class="stat-tile ${tile.tone === "cool" ? "cool" : ""}" data-select-code="${tile.code || ""}">
+      <div class="stat-tile-head">
+        <span>#${tile.anchor}</span>
+        <span>${String(index + 2).padStart(2, "0")}</span>
+      </div>
+      <div class="stat-tile-value">${tile.value}</div>
+      <div class="stat-tile-title">${tile.title}</div>
+      <div class="stat-tile-body">${tile.body}</div>
+    </a>
+  `).join("");
+}
+
+function sentenceCase(value) {
+  if (!value) return "";
+  const str = String(value).trim();
+  return str.charAt(0).toUpperCase() + str.slice(1);
+}
+
+function renderScatter() {
+  if (!scatterWrapEl) return;
+  const points = Array.from(STATE.canonicalByCode.values())
+    .map((row) => {
+      const expo = row?.ai_exposure?.value;
+      const jobsStock = row?.jobs_stock;
+      const jobs = typeof jobsStock === "object" && jobsStock ? jobsStock.value : jobsStock;
+      const payReal = row?.pay?.mean_annual_gross ?? null;
+      const payMonthlyProxy = row?.pay_monthly_major_group_proxy?.value ?? null;
+      const payAnnual = payReal != null ? payReal : payMonthlyProxy != null ? payMonthlyProxy * 12 : null;
+      if (expo == null || jobs == null || !Number.isFinite(jobs)) return null;
+      if (payAnnual == null || !Number.isFinite(payAnnual)) return null;
+      return {
+        id: row.id,
+        label: scatterLabel(row),
+        exposure: Number(expo),
+        jobs: Number(jobs),
+        pay: Number(payAnnual),
+        categoryCode: row.major_group_code,
+      };
+    })
+    .filter(Boolean);
+
+  if (!points.length) {
+    scatterWrapEl.innerHTML = `<p style="color:rgba(247,243,234,0.55);padding:16px;">Sin datos suficientes para la figura.</p>`;
+    return;
+  }
+
+  const width = 1120;
+  const height = 520;
+  const padL = 64, padR = 22, padT = 32, padB = 64;
+  const payMax = Math.min(80000, Math.max(40000, Math.ceil((Math.max(...points.map((p) => p.pay)) / 10000)) * 10000 + 10000));
+  const x = (v) => padL + ((Math.min(v, payMax) / payMax) * (width - padL - padR));
+  const y = (v) => padT + ((10 - Math.max(0, Math.min(10, v))) / 10) * (height - padT - padB - 24);
+  const jobsMax = Math.max(...points.map((p) => p.jobs));
+  const r = (j) => Math.max(4, Math.sqrt(j / jobsMax) * 24 + 4);
+
+  const gridY = [0, 2, 4, 6, 8, 10];
+  const axisXTicks = [];
+  for (let v = 0; v <= payMax; v += 20000) axisXTicks.push(v);
+
+  const hotBandY1 = y(10);
+  const hotBandY2 = y(7);
+  const hotBandH = Math.abs(hotBandY2 - hotBandY1);
+  const hotBandX = x(35000);
+  const hotBandW = width - padR - hotBandX;
+
+  // Label layout: prefer the hot-band points (top-right) + top-N by importance.
+  // Place each label by trying 4 anchor positions around its dot; skip if it still collides.
+  const hotLabeled = points.filter((p) => p.exposure >= 7 && p.pay >= 35000);
+  const restCandidates = points
+    .filter((p) => !hotLabeled.includes(p))
+    .slice()
+    .sort((a, b) => {
+      const scoreA = Math.log((a.jobs || 1) + 1) + (a.exposure >= 7 ? 2 : 0) + (a.pay >= 40000 ? 1.2 : 0);
+      const scoreB = Math.log((b.jobs || 1) + 1) + (b.exposure >= 7 ? 2 : 0) + (b.pay >= 40000 ? 1.2 : 0);
+      return scoreB - scoreA;
+    });
+  const maxLabels = 20;
+
+  const labelBoxes = [];
+  const labelPositions = new Map();
+  const approxLabelWidth = (text) => Math.max(28, text.length * 7.2);
+  const tryPlace = (p, anchorsSeq) => {
+    const cx = x(p.pay);
+    const cy = y(p.exposure);
+    const rr = r(p.jobs);
+    const text = p.label;
+    const w = approxLabelWidth(text);
+    const h = 14;
+    for (const anchor of anchorsSeq) {
+      let tx, ty, textAnchor, boxX;
+      if (anchor === "right") { tx = cx + rr + 6; ty = cy + 4; textAnchor = "start"; boxX = tx; }
+      else if (anchor === "left") { tx = cx - rr - 6; ty = cy + 4; textAnchor = "end"; boxX = tx - w; }
+      else if (anchor === "above") { tx = cx; ty = cy - rr - 6; textAnchor = "middle"; boxX = tx - w / 2; }
+      else /* below */ { tx = cx; ty = cy + rr + 14; textAnchor = "middle"; boxX = tx - w / 2; }
+      const box = { x: boxX, y: ty - h, w, h: h + 4 };
+      // Clamp to viewport
+      if (box.x < padL - 6 || box.x + box.w > width - padR + 6) continue;
+      if (box.y < 4 || box.y + box.h > height - padB - 2) continue;
+      // Check collisions
+      let collides = false;
+      for (const b of labelBoxes) {
+        if (box.x < b.x + b.w && box.x + box.w > b.x && box.y < b.y + b.h && box.y + box.h > b.y) { collides = true; break; }
+      }
+      if (collides) continue;
+      labelBoxes.push(box);
+      labelPositions.set(p.id, { tx, ty, textAnchor });
+      return true;
+    }
+    return false;
+  };
+
+  const labelList = [];
+  for (const p of hotLabeled) {
+    // For the hot cluster, prefer right, then above/below, then left.
+    if (tryPlace(p, ["right", "above", "below", "left"])) labelList.push(p);
+  }
+  for (const p of restCandidates) {
+    if (labelList.length >= maxLabels) break;
+    const farRight = x(p.pay) > width * 0.72;
+    const order = farRight ? ["left", "above", "below", "right"] : ["right", "above", "below", "left"];
+    if (tryPlace(p, order)) labelList.push(p);
+  }
+  const labelSet = new Set(labelList.map((p) => p.id));
+
+  const svgParts = [];
+  svgParts.push(`<svg viewBox="0 0 ${width} ${height}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Salario bruto vs exposición a la IA, 62 grupos">`);
+  // Hot band
+  svgParts.push(`<rect x="${hotBandX}" y="${hotBandY1}" width="${hotBandW}" height="${hotBandH}" fill="${'#d46d37'}" opacity="0.1"></rect>`);
+  svgParts.push(`<text x="${hotBandX + 10}" y="${hotBandY1 + 16}" font-size="11" fill="#d46d37" font-family="JetBrains Mono, monospace" letter-spacing="1.5" font-weight="700">PAGADO Y EXPUESTO</text>`);
+
+  // Gridlines
+  gridY.forEach((g) => {
+    const yy = y(g);
+    svgParts.push(`<line x1="${padL}" x2="${width - padR}" y1="${yy}" y2="${yy}" stroke="rgba(247,243,234,0.18)" stroke-dasharray="2 4"></line>`);
+    svgParts.push(`<text x="${padL - 10}" y="${yy + 4}" text-anchor="end" font-size="11" fill="rgba(247,243,234,0.55)" font-family="JetBrains Mono, monospace">${g}</text>`);
+  });
+
+  // X axis ticks
+  axisXTicks.forEach((v) => {
+    const xx = x(v);
+    svgParts.push(`<text x="${xx}" y="${height - padB + 18}" font-size="11" fill="rgba(247,243,234,0.55)" font-family="JetBrains Mono, monospace" text-anchor="middle">${(v / 1000).toFixed(0)}k €</text>`);
+  });
+
+  svgParts.push(`<line x1="${padL}" x2="${padL}" y1="${padT}" y2="${height - padB}" stroke="rgba(247,243,234,0.55)"></line>`);
+  svgParts.push(`<line x1="${padL}" x2="${width - padR}" y1="${height - padB}" y2="${height - padB}" stroke="rgba(247,243,234,0.55)"></line>`);
+  svgParts.push(`<text x="${padL - 46}" y="${padT - 10}" font-size="11" fill="#f7f3ea" font-family="JetBrains Mono, monospace" letter-spacing="1.2">EXPOSICIÓN IA ↑</text>`);
+  svgParts.push(`<text x="${width - padR}" y="${height - padB + 38}" font-size="11" fill="#f7f3ea" font-family="JetBrains Mono, monospace" letter-spacing="1.2" text-anchor="end">SALARIO BRUTO →</text>`);
+
+  // Points
+  points.forEach((p) => {
+    const cx = x(p.pay);
+    const cy = y(p.exposure);
+    const rr = r(p.jobs);
+    const isHot = p.exposure >= 7 && p.pay >= 35000;
+    const fill = isHot ? "#d46d37" : "#a58b3a";
+    const opacity = isHot ? 0.85 : 0.5;
+    const stroke = isHot ? "rgba(247,243,234,0.7)" : "rgba(247,243,234,0.28)";
+    svgParts.push(`<circle cx="${cx.toFixed(2)}" cy="${cy.toFixed(2)}" r="${rr.toFixed(2)}" fill="${fill}" opacity="${opacity}" stroke="${stroke}" stroke-width="1" data-code="${p.id}"><title>${p.label} — ${p.exposure.toFixed(1).replace(".", ",")} / 10 · ${formatInteger(p.jobs)} empleos · ${formatCurrency(p.pay)}</title></circle>`);
+  });
+
+  // Labels — only for priority points, using pre-computed positions.
+  points.forEach((p) => {
+    if (!labelSet.has(p.id)) return;
+    const pos = labelPositions.get(p.id);
+    if (!pos) return;
+    const isHot = p.exposure >= 7 && p.pay >= 35000;
+    const opacity = isHot ? 0.96 : 0.72;
+    const weight = isHot ? 600 : 500;
+    svgParts.push(`<text x="${pos.tx.toFixed(2)}" y="${pos.ty.toFixed(2)}" text-anchor="${pos.textAnchor}" font-size="12" fill="#f7f3ea" opacity="${opacity}" font-family="Inter, sans-serif" font-weight="${weight}" stroke="#1a1a1a" stroke-width="3" stroke-opacity="0.6" style="paint-order: stroke;">${p.label}</text>`);
+  });
+
+  svgParts.push(`</svg>`);
+  scatterWrapEl.innerHTML = svgParts.join("");
+
+  scatterWrapEl.querySelectorAll("circle[data-code]").forEach((node) => {
+    node.style.cursor = "pointer";
+    node.addEventListener("click", () => setSelectedOccupation(node.getAttribute("data-code")));
+  });
+}
+
+function scatterLabel(row) {
+  const SHORT = {
+    "43": "Administrativos",
+    "27": "TIC",
+    "34": "Finanzas",
+    "41": "Contables",
+    "36": "Apoyo",
+    "45": "Admin. público",
+    "44": "Recepción",
+    "26": "Especialistas",
+    "25": "Derecho",
+    "13": "Dir. producción",
+    "11": "Altos cargos",
+    "12": "Directores admin.",
+    "14": "Directores hostel.",
+    "15": "Directores servicios",
+    "21": "Salud",
+    "22": "Profesorado",
+    "23": "Profesorado FP",
+    "24": "Ingenieros",
+    "28": "Ciencias sociales",
+    "29": "Cultura",
+    "31": "Técnicos ciencias",
+    "32": "Supervisores",
+    "33": "Técnicos sanitarios",
+    "35": "Agentes comerciales",
+    "37": "Apoyo jurídico",
+    "38": "Técnicos TIC",
+    "42": "Biblio. y correos",
+    "50": "Restauración propia",
+    "51": "Restauración",
+    "52": "Dependientes",
+    "56": "Cuidados salud",
+    "57": "Cuidados no salud",
+    "58": "Seguridad privada",
+    "59": "Otros servicios",
+    "61": "Agricultura",
+    "62": "Ganadería",
+    "64": "Agro subsistencia",
+    "71": "Construcción",
+    "72": "Acabado",
+    "73": "Pintores",
+    "74": "Electricidad",
+    "75": "Soldadores",
+    "76": "Mecánicos",
+    "77": "Precisión/artesanía",
+    "78": "Artes gráficas",
+    "79": "Alimentación/textil",
+    "81": "Industria",
+    "82": "Montadores",
+    "83": "Conductores",
+    "84": "Conductores",
+    "85": "Marineros",
+    "91": "Hogar",
+    "92": "Limpieza",
+    "93": "Peones cocina",
+    "94": "Recogedores",
+    "95": "Peones agrarios",
+    "96": "Peones construcc.",
+    "97": "Peones manufact.",
+    "98": "Peones transporte",
+  };
+  if (SHORT[row.id]) return SHORT[row.id];
+  const text = row.short_label || row.label || row.id;
+  return String(text).split(/[,;:]/)[0].split(" ").slice(0, 2).join(" ");
 }
 
 function renderEditorial() {
@@ -3506,8 +4528,44 @@ function bindControls() {
 
   searchInputEl.addEventListener("input", () => {
     STATE.search = searchInputEl.value;
+    if (searchLeadInputEl) searchLeadInputEl.value = STATE.search;
     updateSelectionFromSearch();
   });
+
+  if (searchLeadInputEl) {
+    searchLeadInputEl.addEventListener("input", () => {
+      STATE.search = searchLeadInputEl.value;
+      searchInputEl.value = STATE.search;
+      updateSelectionFromSearch();
+    });
+  }
+
+  if (searchleadFormEl) {
+    searchleadFormEl.addEventListener("submit", (event) => {
+      event.preventDefault();
+      if (!searchLeadInputEl) return;
+      STATE.search = searchLeadInputEl.value;
+      searchInputEl.value = STATE.search;
+      updateSelectionFromSearch();
+      const detail = document.getElementById("detailPanel");
+      if (detail) detail.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  }
+
+  if (searchleadSuggestionsEl) {
+    searchleadSuggestionsEl.addEventListener("click", (event) => {
+      const target = event.target.closest("[data-suggest]");
+      if (!target) return;
+      const suggestion = target.getAttribute("data-suggest");
+      if (!suggestion) return;
+      STATE.search = suggestion;
+      if (searchLeadInputEl) searchLeadInputEl.value = suggestion;
+      searchInputEl.value = suggestion;
+      updateSelectionFromSearch();
+      const detail = document.getElementById("detailPanel");
+      if (detail) detail.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  }
 
   window.addEventListener("resize", () => {
     window.clearTimeout(STATE.resizeTimer);
@@ -3518,9 +4576,12 @@ function bindControls() {
 }
 
 function renderApp() {
+  renderBigStats();
+  renderStatTiles();
   renderEditorial();
   renderLegend();
   renderTreemap();
+  renderScatter();
   renderDetailPanel();
 }
 
