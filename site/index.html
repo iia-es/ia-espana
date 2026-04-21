@@ -46,8 +46,8 @@ body {
   color: var(--text);
   font-family: var(--font-ui);
   background:
-    radial-gradient(circle at top left, rgba(31, 106, 108, 0.12), transparent 32%),
-    radial-gradient(circle at top right, rgba(180, 87, 53, 0.14), transparent 28%),
+    radial-gradient(circle at top left, rgba(44, 91, 77, 0.12), transparent 32%),
+    radial-gradient(circle at top right, rgba(179, 58, 31, 0.12), transparent 28%),
     linear-gradient(180deg, #f8f2e8 0%, #f2e8d7 45%, #efe4cf 100%);
 }
 
@@ -535,13 +535,13 @@ body {
 }
 
 .mode-switch button[data-mode="exposure"].active {
-  background: linear-gradient(90deg, #3d6ea8 0%, #f0c45a 52%, #a83a33 100%);
+  background: linear-gradient(90deg, #2c5b4d 0%, #e1b64e 52%, #b33a1f 100%);
   color: #fff9f3;
   box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.18);
 }
 
 .mode-switch button[data-mode="exposure"]:hover:not(.active) {
-  background: rgba(168, 58, 51, 0.08);
+  background: rgba(179, 58, 31, 0.08);
 }
 
 .mode-switch button:hover:not(.active) {
@@ -1801,6 +1801,80 @@ body {
   line-height: 1.5;
 }
 
+.methodology {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.3fr);
+  gap: 40px;
+  padding: 30px 0 18px;
+  border-top: 1px solid rgba(24, 38, 49, 0.18);
+  margin-top: 24px;
+}
+
+.methodology h3 {
+  margin: 10px 0 14px;
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 400;
+  font-size: clamp(1.4rem, 2.4vw, 2.1rem);
+  line-height: 1.02;
+  letter-spacing: -0.015em;
+}
+
+.methodology-intro {
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
+.methodology-intro strong {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.methodology-sources {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+}
+
+.methodology-source {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 14px;
+  align-items: baseline;
+  padding: 14px 0;
+  border-top: 1px solid rgba(24, 38, 49, 0.12);
+}
+
+.methodology-source:first-of-type {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.methodology-source .source-tag {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--rust);
+  font-weight: 600;
+  min-width: 86px;
+}
+
+.methodology-source .source-body {
+  font-size: 13.5px;
+  line-height: 1.55;
+  color: var(--text);
+}
+
+.methodology-source .source-body em {
+  color: var(--muted);
+  font-style: italic;
+  display: block;
+  margin-top: 2px;
+  font-size: 12.5px;
+}
+
 .citation {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(0, 1.3fr);
@@ -1919,14 +1993,8 @@ body {
 </head>
 <body>
 <main class="shell">
-  <header class="masthead">
-    <span class="masthead-title">Periódico de datos <span>· IA España</span></span>
-    <span class="masthead-meta">Fuentes oficiales · INE · SEPE</span>
-  </header>
-
   <header class="hero">
     <section class="hero-main">
-      <div class="hero-framestamp"><span id="heroFrameStamp">Fuentes oficiales · INE · SEPE</span></div>
       <h1>Impacto laboral de la IA <span class="plain">en España</span></h1>
       <div class="hero-copy">
         <p>Qué trabajos parecen más protegidos frente a la IA, cuáles más expuestos y dónde hay más competencia, según datos oficiales.</p>
@@ -2014,10 +2082,7 @@ body {
       <button data-mode="education">Educación</button>
       <button data-mode="demandants">Personas que buscan esta ocupación</button>
     </div>
-    <div class="search-wrap">
-      <input id="searchInput" type="search" placeholder="Buscar médico, camarero, programador o código" aria-label="Buscar trabajo o código">
-      <div class="legend" id="legend"></div>
-    </div>
+    <div class="legend" id="legend"></div>
   </section>
 
   <div class="workspace">
@@ -2042,6 +2107,28 @@ body {
     <h3>Pagado y expuesto — el cuadrante incómodo.</h3>
     <div class="scatter-wrap" id="scatterWrap" aria-label="Dispersión salario × exposición"></div>
     <p class="scatter-note">Eje X: salario bruto anual (€). Eje Y: exposición a la IA (0–10). El radio de cada punto es proporcional al número de personas empleadas. Resaltados en ámbar los grupos que combinan salario medio-alto con exposición ≥ 7.</p>
+  </section>
+
+  <section class="methodology" id="methodology">
+    <div>
+      <span class="mono-eyebrow">Metodología · Fuentes oficiales</span>
+      <h3>De dónde salen los datos.</h3>
+      <p class="methodology-intro">Este recurso cruza <strong>microdatos públicos</strong> de empleo y demanda con una estimación de <strong>exposición a la IA</strong> derivada por modelo de lenguaje a partir de las descripciones ocupacionales CNO-4d. Cifras armonizadas a los 62 grupos del CNO-2d.</p>
+    </div>
+    <div class="methodology-sources">
+      <div class="methodology-source">
+        <span class="source-tag">INE</span>
+        <div class="source-body">Encuesta de Población Activa (EPA) y Encuesta Anual de Estructura Salarial. Empleo por ocupación CNO-2d y salario bruto anual. <em>Instituto Nacional de Estadística · datos más recientes publicados a la fecha de esta edición.</em></div>
+      </div>
+      <div class="methodology-source">
+        <span class="source-tag">SEPE</span>
+        <div class="source-body">Estadística de demandantes de empleo y contratos registrados por ocupación. <em>Servicio Público de Empleo Estatal · media móvil de 12 meses.</em></div>
+      </div>
+      <div class="methodology-source">
+        <span class="source-tag">Exposición IA</span>
+        <div class="source-body">Estimación propia derivada por LLM sobre descripciones CNO-4d, agregada a CNO-2d ponderando por empleo. Escala 0–10; orientativa y no predictiva. <em>Inspirada en la literatura sobre exposición ocupacional a modelos generativos.</em></div>
+      </div>
+    </div>
   </section>
 
   <section class="citation">
@@ -2221,11 +2308,11 @@ const CHILD_SEARCH_ALIASES_BY_CODE = {
 };
 
 const AUTOMATION_BUCKETS = [
-  { id: "very_low", range: "0-2", label: "Muy blindado", legendLabel: "Muy blindado frente a la IA", color: "#3d6ea8" },
-  { id: "low", range: "3-4", label: "Bastante blindado", legendLabel: "Bastante blindado frente a la IA", color: "#60a6b0" },
+  { id: "very_low", range: "0-2", label: "Muy blindado", legendLabel: "Muy blindado frente a la IA", color: "#2c5b4d" },
+  { id: "low", range: "3-4", label: "Bastante blindado", legendLabel: "Bastante blindado frente a la IA", color: "#6f9680" },
   { id: "medium", range: "5", label: "Zona intermedia", legendLabel: "Zona intermedia", color: "#e1b64e" },
   { id: "high", range: "6-7", label: "Bastante expuesto", legendLabel: "Bastante expuesto a la IA", color: "#d46d37" },
-  { id: "very_high", range: "8-10", label: "Muy expuesto", legendLabel: "Muy expuesto a la IA", color: "#a83a33" },
+  { id: "very_high", range: "8-10", label: "Muy expuesto", legendLabel: "Muy expuesto a la IA", color: "#b33a1f" },
 ];
 
 const EDUCATION_BUCKETS = [
@@ -2234,11 +2321,11 @@ const EDUCATION_BUCKETS = [
   { id: "eso", label: "ESO", color: "#da9961", match: [/primera etapa de educaci[oó]n secundaria/i] },
   { id: "bachiller", label: "Bachillerato", color: "#e4b67e", match: [/orientaci[oó]n general/i] },
   { id: "fp_media", label: "FP media / postsec.", color: "#d9c78c", match: [/orientaci[oó]n profesional/i, /postsecundaria no superior/i] },
-  { id: "fp_superior", label: "FP superior", color: "#9db88d", match: [/grado superior/i] },
-  { id: "grado_corto", label: "Grado / diplomatura", color: "#6ea0a7", match: [/hasta 240 cr[eé]ditos/i, /diplomados universitarios/i] },
-  { id: "grado_largo", label: "Grado largo / licenciatura", color: "#4e7f91", match: [/m[aá]s de 240 cr[eé]ditos/i, /licenciados/i] },
-  { id: "master", label: "Master / especialidad", color: "#335b78", match: [/m[aá]steres/i, /especialidades en ciencias de la salud/i] },
-  { id: "doctorado", label: "Doctorado", color: "#1c3d54", match: [/doctorado/i] },
+  { id: "fp_superior", label: "FP superior", color: "#a7bc8d", match: [/grado superior/i] },
+  { id: "grado_corto", label: "Grado / diplomatura", color: "#7ba292", match: [/hasta 240 cr[eé]ditos/i, /diplomados universitarios/i] },
+  { id: "grado_largo", label: "Grado largo / licenciatura", color: "#538877", match: [/m[aá]s de 240 cr[eé]ditos/i, /licenciados/i] },
+  { id: "master", label: "Master / especialidad", color: "#355f54", match: [/m[aá]steres/i, /especialidades en ciencias de la salud/i] },
+  { id: "doctorado", label: "Doctorado", color: "#1f443c", match: [/doctorado/i] },
 ];
 
 const EDUCATION_BUCKET_SCORES = {
@@ -2813,7 +2900,7 @@ function luminanceFromCss(color) {
 
 function tileColor(occupation) {
   if (STATE.colorMode === "trend") {
-    return divergingColor(occupation.outlook, -8, 0, 8, "#c2613c", "#f5ebd8", "#1f6a6c", 0.94);
+    return divergingColor(occupation.outlook, -8, 0, 8, "#b33a1f", "#f5ebd8", "#2c5b4d", 0.94);
   }
   if (STATE.colorMode === "pay") {
     const payMin = 12000;
@@ -2824,12 +2911,12 @@ function tileColor(occupation) {
       Math.log(payMin),
       Math.log(payMax),
       "#eedfc5",
-      "#18384b",
+      "#2c5b4d",
       0.94,
     );
   }
   if (STATE.colorMode === "demandants") {
-    return sequentialColor(occupation.demandants, 0, 125000, "#f4eee0", "#ab5534", 0.94);
+    return sequentialColor(occupation.demandants, 0, 125000, "#f4eee0", "#b33a1f", 0.94);
   }
   if (STATE.colorMode === "exposure") {
     return automationColor(occupation.exposure, 0.96);
@@ -4526,16 +4613,18 @@ function bindControls() {
     });
   });
 
-  searchInputEl.addEventListener("input", () => {
-    STATE.search = searchInputEl.value;
-    if (searchLeadInputEl) searchLeadInputEl.value = STATE.search;
-    updateSelectionFromSearch();
-  });
+  if (searchInputEl) {
+    searchInputEl.addEventListener("input", () => {
+      STATE.search = searchInputEl.value;
+      if (searchLeadInputEl) searchLeadInputEl.value = STATE.search;
+      updateSelectionFromSearch();
+    });
+  }
 
   if (searchLeadInputEl) {
     searchLeadInputEl.addEventListener("input", () => {
       STATE.search = searchLeadInputEl.value;
-      searchInputEl.value = STATE.search;
+      if (searchInputEl) searchInputEl.value = STATE.search;
       updateSelectionFromSearch();
     });
   }
@@ -4545,7 +4634,7 @@ function bindControls() {
       event.preventDefault();
       if (!searchLeadInputEl) return;
       STATE.search = searchLeadInputEl.value;
-      searchInputEl.value = STATE.search;
+      if (searchInputEl) searchInputEl.value = STATE.search;
       updateSelectionFromSearch();
       const detail = document.getElementById("detailPanel");
       if (detail) detail.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -4560,7 +4649,7 @@ function bindControls() {
       if (!suggestion) return;
       STATE.search = suggestion;
       if (searchLeadInputEl) searchLeadInputEl.value = suggestion;
-      searchInputEl.value = suggestion;
+      if (searchInputEl) searchInputEl.value = suggestion;
       updateSelectionFromSearch();
       const detail = document.getElementById("detailPanel");
       if (detail) detail.scrollIntoView({ behavior: "smooth", block: "start" });
