@@ -3,20 +3,20 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>El futuro del trabajo y la IA en España | trabajo.iia.es</title>
+<title>El futuro del trabajo y la IA en España | ia-espana</title>
 <meta name="description" content="Busca tu profesión y consulta exposición a la IA, salario, demanda laboral y estudios con datos oficiales del INE y del SEPE.">
-<link rel="canonical" href="https://trabajo.iia.es/">
+<link rel="canonical" href="https://iia-es.github.io/ia-espana/">
 <meta property="og:locale" content="es_ES">
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="trabajo.iia.es">
+<meta property="og:site_name" content="ia-espana">
 <meta property="og:title" content="El futuro del trabajo y la IA en España">
 <meta property="og:description" content="Profesiones más expuestas a la IA, salario, demanda y educación con datos oficiales del INE y del SEPE.">
-<meta property="og:url" content="https://trabajo.iia.es/">
-<meta property="og:image" content="https://trabajo.iia.es/og-cover.svg">
+<meta property="og:url" content="https://iia-es.github.io/ia-espana/">
+<meta property="og:image" content="https://iia-es.github.io/ia-espana/og-cover.svg">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="El futuro del trabajo y la IA en España">
 <meta name="twitter:description" content="Busca tu profesión y consulta exposición a la IA, salario y demanda con datos oficiales.">
-<meta name="twitter:image" content="https://trabajo.iia.es/og-cover.svg">
+<meta name="twitter:image" content="https://iia-es.github.io/ia-espana/og-cover.svg">
 <style>
 *,
 *::before,
@@ -2621,7 +2621,7 @@ body {
 <body>
 <main class="shell">
   <div class="masthead">
-    <div class="masthead-title">trabajo.iia.es <span>Instituto de Inteligencia Artificial</span></div>
+    <div class="masthead-title">ia-espana <span>Instituto de Inteligencia Artificial</span></div>
     <div class="masthead-meta">INE + SEPE + estimación editorial de exposición a IA · edición 21 abril 2026</div>
   </div>
 
@@ -2866,7 +2866,7 @@ body {
     <div>
       <span class="mono-eyebrow">Para periodistas</span>
       <h3>Material listo para citar, enlazar o descargar.</h3>
-      <p class="press-intro"><strong>trabajo.iia.es</strong> sirve dos usos: consulta individual y cobertura periodística. Este bloque deja visibles el dataset, la metodología, el contacto y tres ángulos de titular compatibles con los datos publicados.</p>
+      <p class="press-intro"><strong>ia-espana</strong> sirve dos usos: consulta individual y cobertura periodística. Este bloque deja visibles el dataset, la metodología, el contacto y tres ángulos de titular compatibles con los datos publicados.</p>
     </div>
     <div class="press-grid">
       <article class="press-card">
@@ -2912,8 +2912,8 @@ body {
       <h3>URL limpia y cita corta para prensa.</h3>
       <div class="citation-copy">Comparte <code>#titulares</code>, <code>#buscar</code>, <code>#figura</code>, <code>#metodologia</code> o <code>#prensa</code>. Todos los datos provienen de fuentes oficiales del INE y el SEPE, cruzados con una estimación propia y explícitamente etiquetada de exposición a la IA derivada por modelo de lenguaje a partir de descripciones ocupacionales CNO-4d.</div>
       <div class="section-actions" style="margin-top:14px;">
-        <button type="button" class="action-button" data-copy-text="Según 'El futuro del trabajo y la IA en España' (trabajo.iia.es), basado en datos oficiales del INE y del SEPE, la exposición a la IA no implica automáticamente sustitución del empleo y debe leerse como reconfiguración potencial de tareas.">Copiar cita</button>
-        <button type="button" class="action-button" data-copy-text="https://trabajo.iia.es/">Copiar URL</button>
+        <button type="button" class="action-button" data-copy-text="Según 'El futuro del trabajo y la IA en España' (ia-espana), basado en datos oficiales del INE y del SEPE, la exposición a la IA no implica automáticamente sustitución del empleo y debe leerse como reconfiguración potencial de tareas.">Copiar cita</button>
+        <button type="button" class="action-button" data-copy-text="https://iia-es.github.io/ia-espana/">Copiar URL</button>
       </div>
     </div>
     <div class="citation-bib">
@@ -3170,11 +3170,11 @@ const newsletterFooterEl = document.getElementById("newsletterFooter");
 const tooltipEl = document.getElementById("tooltip");
 const tooltipTitleEl = document.getElementById("tooltipTitle");
 const tooltipGridEl = document.getElementById("tooltipGrid");
-const ROOT_PUBLIC_URL = "https://trabajo.iia.es/";
+const ROOT_PUBLIC_URL = "https://iia-es.github.io/ia-espana/";
 const NEWSLETTER_URL = "https://explicable.iia.es/";
 const NEWSLETTER_ARCHIVE_URL = "https://explicable.iia.es/archive";
 const NEWSLETTER_SUBSCRIBE_ACTION = "https://explicable.iia.es/api/v1/free?nojs=true";
-const HOME_PAGE_TITLE = "El futuro del trabajo y la IA en España | trabajo.iia.es";
+const HOME_PAGE_TITLE = "El futuro del trabajo y la IA en España | ia-espana";
 const HOME_PAGE_DESCRIPTION = "Busca tu profesión y consulta exposición a la IA, salario, demanda laboral y estudios con datos oficiales del INE y del SEPE.";
 
 function formatCompact(value) {
@@ -3373,7 +3373,7 @@ function shareTextForOccupation(occupation = selectedOccupation()) {
   const title = displayTitleForOccupation(occupation);
   const salary = occupation.pay == null ? "sin salario publicado" : `salario medio ${formatCurrency(occupation.pay)}`;
   const exposure = occupation.exposure == null ? "sin estimación de exposición" : `exposición IA ${formatExposure(occupation.exposure)}`;
-  return `${title} en España: ${exposure}, ${salary} y demanda laboral en trabajo.iia.es.`;
+  return `${title} en España: ${exposure}, ${salary} y demanda laboral en ia-espana.`;
 }
 
 function escapeHtml(value) {
@@ -3505,7 +3505,7 @@ function setHeadTag(selector, tagName, attributes) {
 function updatePageMetadata() {
   const occupation = selectedOccupation();
   const title = occupation
-    ? `${displayTitleForOccupation(occupation)} y la IA en España | trabajo.iia.es`
+    ? `${displayTitleForOccupation(occupation)} y la IA en España | ia-espana`
     : HOME_PAGE_TITLE;
   const description = occupation
     ? `${displayTitleForOccupation(occupation)}: ${occupation.exposure == null ? "sin estimación de exposición a la IA" : `exposición a la IA ${formatExposure(occupation.exposure)}`}, ${occupation.pay == null ? "sin salario publicado" : `salario medio ${formatCurrency(occupation.pay)}`}, ${occupation.outlook == null ? "sin dato reciente de demanda" : `variación anual ${formatPct(occupation.outlook, 2)}`}.`

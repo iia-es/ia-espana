@@ -190,7 +190,7 @@ const PAGE_CONFIGS = {
 const pageRoot = document.getElementById("page");
 const pageKey = window.FICHA_KEY;
 const config = PAGE_CONFIGS[pageKey];
-const ROOT_PUBLIC_URL = "https://trabajo.iia.es/";
+const ROOT_PUBLIC_URL = "https://iia-es.github.io/ia-espana/";
 const NEWSLETTER_URL = "https://explicable.iia.es/";
 const NEWSLETTER_SUBSCRIBE_ACTION = "https://explicable.iia.es/api/v1/free?nojs=true";
 
@@ -411,7 +411,7 @@ function renderPage(groupsMap, occupationsMap) {
 
   pageRoot.innerHTML = `
     <div class="masthead">
-      <div class="masthead-title">trabajo.iia.es <span>Instituto de Inteligencia Artificial</span></div>
+      <div class="masthead-title">ia-espana <span>Instituto de Inteligencia Artificial</span></div>
       <div class="masthead-meta">${publicKicker()}</div>
     </div>
 
@@ -579,7 +579,7 @@ function renderPage(groupsMap, occupationsMap) {
         <p>Grupo agregado para empleo y salario, ocupación específica para contratos, demandantes, tareas y señal IA. Si falta una métrica a nivel exacto, aquí se deja visible en vez de inventarla.</p>
       </div>
       <div class="source-list">
-        <a href="../#metodologia">Metodología general de trabajo.iia.es</a>
+        <a href="../#metodologia">Metodología general de ia-espana</a>
         <a href="../ocupaciones.csv" download>CSV descargable del proyecto</a>
         ${sepeLinks.map((entry) => `<a href="${entry.url}" target="_blank" rel="noreferrer">${entry.label}</a>`).join("")}
         <a href="https://github.com/antorsae/ia-espana" target="_blank" rel="noreferrer">Repositorio y pipeline</a>
