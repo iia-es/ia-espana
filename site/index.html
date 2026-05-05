@@ -79,7 +79,7 @@ body {
 }
 
 .hero {
-  margin-bottom: 30px;
+  margin-bottom: 0;
 }
 
 .hero-main {
@@ -1662,6 +1662,48 @@ body {
   gap: 8px;
 }
 
+.share-icon {
+  flex-shrink: 0;
+  width: 15px;
+  height: 15px;
+}
+
+.share-buttons [data-share="whatsapp"] .share-icon { color: #25D366; }
+.share-buttons [data-share="whatsapp"]:hover {
+  border-color: rgba(37, 211, 102, 0.5);
+  background: rgba(37, 211, 102, 0.07);
+}
+
+.share-buttons [data-share="linkedin"] .share-icon { color: #0A66C2; }
+.share-buttons [data-share="linkedin"]:hover {
+  border-color: rgba(10, 102, 194, 0.5);
+  background: rgba(10, 102, 194, 0.07);
+}
+
+.share-buttons [data-share="x"]:hover {
+  border-color: rgba(24, 38, 49, 0.4);
+  background: rgba(24, 38, 49, 0.06);
+}
+
+.share-buttons [data-share="copy"] .share-icon { color: var(--muted); }
+
+.share-strip-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--muted);
+  font-size: 11.5px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.share-strip-header svg {
+  width: 12px;
+  height: 12px;
+  opacity: 0.6;
+}
+
 .action-button {
   display: inline-flex;
   align-items: center;
@@ -2617,12 +2659,25 @@ body {
   }
 }
 </style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="enhancements.css">
 </head>
 <body>
 <main class="shell">
   <div class="masthead">
-    <div class="masthead-title">ia-espana <span>Instituto de Inteligencia Artificial</span></div>
-    <div class="masthead-meta">INE + SEPE + estimación editorial de exposición a IA · edición 21 abril 2026</div>
+    <div class="masthead-title">
+      <span class="masthead-brand">ia-espana</span><span class="masthead-sep" aria-hidden="true">·</span><span class="masthead-org">Instituto de Inteligencia Artificial</span>
+    </div>
+    <nav class="masthead-nav" aria-label="Secciones">
+      <a href="#buscar">Buscar</a>
+      <a href="#titulares">Datos</a>
+      <a href="#figura">Gráfico</a>
+      <a href="#metodologia">Metodología</a>
+      <a href="#prensa">Prensa</a>
+    </nav>
+    <div class="masthead-meta">Edición 21 abril 2026</div>
   </div>
 
   <header class="hero">
@@ -2637,8 +2692,25 @@ body {
         <a class="action-button subtle" href="#metodologia">Ver metodología</a>
       </div>
       <div class="share-strip" id="shareStrip"></div>
+      <div class="hero-byline">
+        <a href="https://iia.es" target="_blank" rel="noreferrer">Instituto de Inteligencia Artificial</a>
+        <span class="byline-sep">·</span>
+        <span>Datos: INE · SEPE · LLM propio</span>
+        <span class="byline-sep">·</span>
+        <span>Edición 21 abril 2026</span>
+      </div>
     </section>
   </header>
+
+  <section class="scatter-panel" id="figura">
+    <div class="scatter-head">
+      <span class="mono-eyebrow">Figura · Salario × exposición</span>
+      <span class="mono-eyebrow tight">62 grupos · tamaño = empleo</span>
+    </div>
+    <h3>Pagado y expuesto — el cuadrante incómodo.</h3>
+    <div class="scatter-wrap" id="scatterWrap" aria-label="Dispersión salario × exposición"></div>
+    <p class="scatter-note">Eje X: salario bruto anual (€). Eje Y: exposición a la IA (0–10). El radio de cada punto es proporcional al número de personas empleadas. Resaltados en ámbar los grupos que combinan salario medio-alto con exposición ≥ 7.</p>
+  </section>
 
   <section class="searchlead" id="buscar">
     <div class="searchlead-copy">
@@ -2683,10 +2755,16 @@ body {
         <span class="subscribe-pill">Explicable</span>
         <span class="subscribe-pill">1 Minuto de IA</span>
       </div>
-      <p class="newsletter-helper"><strong>Un correo corto cada mañana.</strong></p>
-      <p class="newsletter-note">Si prefieres mirar antes de dejar el email, abre el archivo público de Explicable.</p>
+      <p class="newsletter-helper"><strong>Un correo corto cada mañana.</strong> Suscríbete directamente:</p>
+      <form class="newsletter-form" action="https://explicable.iia.es/api/v1/free?nojs=true" method="post" target="_blank">
+        <div class="newsletter-form-row">
+          <input class="newsletter-input" type="email" name="email" placeholder="tu@email.es" required autocomplete="email">
+          <button type="submit" class="newsletter-submit">Suscribirme</button>
+        </div>
+        <p class="newsletter-note">Sin spam. Un correo cada mañana. Baja cuando quieras.</p>
+      </form>
       <div class="section-actions">
-        <a class="action-button subtle" href="https://explicable.iia.es/archive" target="_blank" rel="noreferrer">Ver archivo</a>
+        <a class="action-button subtle" href="https://explicable.iia.es/archive" target="_blank" rel="noreferrer">Ver archivo primero</a>
       </div>
       <p class="section-note">Claim editorial contrastado con la home pública de Explicable el 21 de abril de 2026.</p>
     </div>
@@ -2763,8 +2841,10 @@ body {
   </section>
 
   <section class="bigstats" id="bigStats" aria-live="polite"></section>
+  <div class="data-source-dark" aria-hidden="true">Fuente: INE (EPA 2023) · SEPE (contratos, media móvil 12 meses) · Estimación propia de exposición a IA · ia-espana, edición 21 abril 2026</div>
 
   <section class="stat-tiles" id="statTiles" aria-live="polite"></section>
+  <div class="data-source-light" aria-hidden="true">Fuente: INE · SEPE · ia-espana — datos empleados 2023, salarios 2024</div>
 
   <section class="editorial-shell">
     <div class="editorial-intro">
@@ -2822,6 +2902,7 @@ body {
         <div class="headline" id="mapHeadline">Barra más larga = más empleo. Color = de muy blindado a muy expuesto a la IA.</div>
         <div class="chip-row" id="coverageChips"></div>
       </div>
+      <p class="treemap-hint">Pulsa cualquier barra para ver la ficha completa de esa ocupación</p>
       <div id="treemap" aria-label="Visualización de ocupaciones"></div>
     </section>
 
@@ -2829,16 +2910,6 @@ body {
       <div class="empty">Cargando datos...</div>
     </aside>
   </div>
-
-  <section class="scatter-panel" id="figura">
-    <div class="scatter-head">
-      <span class="mono-eyebrow">Figura · Salario × exposición</span>
-      <span class="mono-eyebrow tight">62 grupos · tamaño = empleo</span>
-    </div>
-    <h3>Pagado y expuesto — el cuadrante incómodo.</h3>
-    <div class="scatter-wrap" id="scatterWrap" aria-label="Dispersión salario × exposición"></div>
-    <p class="scatter-note">Eje X: salario bruto anual (€). Eje Y: exposición a la IA (0–10). El radio de cada punto es proporcional al número de personas empleadas. Resaltados en ámbar los grupos que combinan salario medio-alto con exposición ≥ 7.</p>
-  </section>
 
   <section class="methodology" id="metodologia">
     <div>
@@ -2880,6 +2951,7 @@ body {
         <div class="section-actions">
           <button type="button" class="action-button" data-copy-text="Las ocupaciones administrativas concentran parte de la mayor exposición a la IA en España.">Copiar titular 1</button>
           <button type="button" class="action-button" data-copy-text="Los salarios altos no blindan automáticamente frente a la exposición a herramientas generativas.">Copiar titular 2</button>
+          <button type="button" class="action-button" data-copy-text="Exposición a IA no equivale a sustitución: el cambio principal es de tareas, no siempre de empleo.">Copiar titular 3</button>
         </div>
       </article>
       <article class="press-card">
@@ -2925,7 +2997,78 @@ body {
   <section class="newsletter-footer-shell" id="newsletterFooter"></section>
 
   <footer class="footer-note" id="footerNote"></footer>
+
+  <!-- UX enhancements -->
+  <button class="back-to-top" id="backToTop" aria-label="Volver arriba">↑</button>
+  <div class="copy-toast" id="copyToast" role="status" aria-live="polite">¡Copiado!</div>
 </main>
+
+<script>
+/* ── Enhancements: copy toast · back-to-top · sticky nav active state ── */
+(function () {
+  /* Copy toast */
+  var toast = document.getElementById('copyToast');
+  if (toast) {
+    var toastTimer;
+    document.addEventListener('click', function (e) {
+      var btn = e.target.closest('[data-copy-text]');
+      if (!btn) return;
+      var text = btn.dataset.copyText;
+      if (!text) return;
+      var show = function () {
+        toast.classList.add('show');
+        clearTimeout(toastTimer);
+        toastTimer = setTimeout(function () { toast.classList.remove('show'); }, 2000);
+      };
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(show, show);
+      } else {
+        var ta = document.createElement('textarea');
+        ta.value = text;
+        ta.style.cssText = 'position:fixed;opacity:0;top:0;left:0;width:1px;height:1px';
+        document.body.appendChild(ta);
+        ta.select();
+        try { document.execCommand('copy'); } catch (_) {}
+        document.body.removeChild(ta);
+        show();
+      }
+    });
+  }
+
+  /* Back to top */
+  var backBtn = document.getElementById('backToTop');
+  if (backBtn) {
+    window.addEventListener('scroll', function () {
+      backBtn.classList.toggle('visible', window.scrollY > 500);
+    }, { passive: true });
+    backBtn.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  }
+
+  /* Sticky nav: highlight active section */
+  var navLinks = document.querySelectorAll('.masthead-nav a');
+  if (navLinks.length) {
+    var sectionMap = Array.from(navLinks).map(function (a) {
+      var id = a.getAttribute('href').slice(1);
+      return { link: a, el: document.getElementById(id) };
+    }).filter(function (s) { return s.el; });
+
+    var markActive = function () {
+      var y = window.scrollY + 130;
+      var active = sectionMap[0];
+      sectionMap.forEach(function (s) {
+        if (s.el.getBoundingClientRect().top + window.scrollY <= y) active = s;
+      });
+      navLinks.forEach(function (a) { a.classList.remove('active'); });
+      if (active) active.link.classList.add('active');
+    };
+
+    window.addEventListener('scroll', markActive, { passive: true });
+    markActive();
+  }
+})();
+</script>
 
 <div class="tooltip" id="tooltip" role="status" aria-hidden="true">
   <div class="tooltip-title" id="tooltipTitle"></div>
@@ -3485,10 +3628,22 @@ function renderNewsletterFooter(occupation = selectedOccupation()) {
 function shareButtonsMarkup(compact = false) {
   return `
     <div class="share-buttons ${compact ? "compact" : ""}">
-      <button type="button" class="action-button" data-share="whatsapp">WhatsApp</button>
-      <button type="button" class="action-button" data-share="linkedin">LinkedIn</button>
-      <button type="button" class="action-button" data-share="x">X</button>
-      <button type="button" class="action-button" data-share="copy">Copiar enlace</button>
+      <button type="button" class="action-button" data-share="whatsapp">
+        <svg class="share-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+        WhatsApp
+      </button>
+      <button type="button" class="action-button" data-share="linkedin">
+        <svg class="share-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        LinkedIn
+      </button>
+      <button type="button" class="action-button" data-share="x">
+        <svg class="share-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+        X
+      </button>
+      <button type="button" class="action-button" data-share="copy">
+        <svg class="share-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71"/></svg>
+        <span class="share-label">Copiar enlace</span>
+      </button>
     </div>
   `;
 }
@@ -3560,7 +3715,10 @@ async function copyToClipboard(text) {
 function renderShareStrip() {
   if (!shareStripEl) return;
   shareStripEl.innerHTML = `
-    <p class="section-note">Comparte la home o la profesión seleccionada con WhatsApp, LinkedIn, X o copia directa de enlace.</p>
+    <p class="share-strip-header">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+      Compartir
+    </p>
     ${shareButtonsMarkup()}
   `;
 }
@@ -3595,9 +3753,10 @@ function bindUtilityActions() {
     try {
       if (network === "copy") {
         await copyToClipboard(shareUrl);
-        shareNode.textContent = "Copiado";
+        const labelEl = shareNode.querySelector(".share-label") || shareNode;
+        labelEl.textContent = "Copiado";
         window.setTimeout(() => {
-          shareNode.textContent = "Copiar enlace";
+          labelEl.textContent = "Copiar enlace";
         }, 1200);
         return;
       }
