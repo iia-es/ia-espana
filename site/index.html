@@ -70,7 +70,6 @@ body {
   padding: 28px 0 40px;
 }
 
-.hero,
 .editorial-shell,
 .control-bar,
 .map-panel,
@@ -2674,7 +2673,7 @@ body {
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="enhancements.css?v=3">
+<link rel="stylesheet" href="enhancements.css?v=4">
 </head>
 <body>
 <main class="shell">
@@ -2756,36 +2755,7 @@ body {
     </div>
   </section>
 
-  <section class="subscribe-section">
-    <div class="subscribe-copy">
-      <span class="mono-eyebrow">1 Minuto de IA</span>
-      <h2>Email diario para estar al día de la IA.</h2>
-      <p><strong>Explicable</strong> publica la pieza breve del IIA para seguir lo importante sin ruido: qué cambia esta semana, qué herramientas merecen atención y qué implica eso para trabajo, empresa y producto.</p>
-      <p class="section-note">La suscripción se procesa en la página oficial de Explicable.</p>
-    </div>
-    <div class="subscribe-card">
-      <p class="subscribe-proof"><strong>Recíbelo en tu correo.</strong></p>
-      <div class="subscribe-meta">
-        <span class="subscribe-pill">Instituto de Inteligencia Artificial</span>
-        <span class="subscribe-pill">Explicable</span>
-        <span class="subscribe-pill">1 Minuto de IA</span>
-      </div>
-      <p class="newsletter-helper"><strong>Un correo corto cada mañana.</strong> Suscríbete directamente:</p>
-      <form class="newsletter-form" action="https://explicable.iia.es/api/v1/free?nojs=true" method="post" target="_blank">
-        <div class="newsletter-form-row">
-          <input class="newsletter-input" type="email" name="email" placeholder="tu@email.es" required autocomplete="email">
-          <button type="submit" class="newsletter-submit">Suscribirme</button>
-        </div>
-        <p class="newsletter-note">Sin spam. Un correo cada mañana. Baja cuando quieras.</p>
-      </form>
-      <div class="section-actions">
-        <a class="action-button subtle" href="https://explicable.iia.es/archive" target="_blank" rel="noreferrer">Ver archivo primero</a>
-      </div>
-      <p class="section-note">Claim editorial contrastado con la home pública de Explicable el 21 de abril de 2026.</p>
-    </div>
-  </section>
-
-  <section class="featured-pages-section">
+  <section class="featured-pages-section" data-reveal>
     <div>
       <span class="mono-eyebrow">Fichas prioritarias</span>
       <h2>Seis URLs listas para compartir, citar y aterrizar búsquedas concretas.</h2>
@@ -2831,7 +2801,7 @@ body {
     </div>
   </section>
 
-  <section class="news-brief" id="titulares">
+  <section class="news-brief" id="titulares" data-reveal>
     <div>
       <span class="mono-eyebrow">La noticia en 5 datos</span>
       <h2>Cinco datos para entender el mapa rápido.</h2>
@@ -2855,13 +2825,42 @@ body {
     </div>
   </section>
 
-  <section class="bigstats" id="bigStats" aria-live="polite"></section>
-  <div class="data-source-dark" aria-hidden="true">Fuente: INE (EPA 2023) · SEPE (contratos, media móvil 12 meses) · Estimación propia de exposición a IA · ia-espana, edición 21 abril 2026</div>
+  <section class="bigstats" id="bigStats" aria-live="polite" data-reveal></section>
+  <div class="data-source-dark" aria-hidden="true" data-reveal>Fuente: INE (EPA 2023) · SEPE (contratos, media móvil 12 meses) · Estimación propia de exposición a IA · ia-espana, edición 21 abril 2026</div>
 
-  <section class="stat-tiles" id="statTiles" aria-live="polite"></section>
-  <div class="data-source-light" aria-hidden="true">Fuente: INE · SEPE · ia-espana — datos empleados 2023, salarios 2024</div>
+  <section class="stat-tiles" id="statTiles" aria-live="polite" data-reveal></section>
+  <div class="data-source-light" aria-hidden="true" data-reveal>Fuente: INE · SEPE · ia-espana — datos empleados 2023, salarios 2024</div>
 
-  <section class="editorial-shell">
+  <section class="subscribe-section" data-reveal>
+    <div class="subscribe-copy">
+      <span class="mono-eyebrow">1 Minuto de IA</span>
+      <h2>Email diario para estar al día de la IA.</h2>
+      <p><strong>Explicable</strong> publica la pieza breve del IIA para seguir lo importante sin ruido: qué cambia esta semana, qué herramientas merecen atención y qué implica eso para trabajo, empresa y producto.</p>
+      <p class="section-note">La suscripción se procesa en la página oficial de Explicable.</p>
+    </div>
+    <div class="subscribe-card">
+      <p class="subscribe-proof"><strong>Recíbelo en tu correo.</strong></p>
+      <div class="subscribe-meta">
+        <span class="subscribe-pill">Instituto de Inteligencia Artificial</span>
+        <span class="subscribe-pill">Explicable</span>
+        <span class="subscribe-pill">1 Minuto de IA</span>
+      </div>
+      <p class="newsletter-helper"><strong>Un correo corto cada mañana.</strong> Suscríbete directamente:</p>
+      <form class="newsletter-form" action="https://explicable.iia.es/api/v1/free?nojs=true" method="post" target="_blank">
+        <div class="newsletter-form-row">
+          <input class="newsletter-input" type="email" name="email" placeholder="tu@email.es" required autocomplete="email">
+          <button type="submit" class="newsletter-submit">Suscribirme</button>
+        </div>
+        <p class="newsletter-note">Sin spam. Un correo cada mañana. Baja cuando quieras.</p>
+      </form>
+      <div class="section-actions">
+        <a class="action-button subtle" href="https://explicable.iia.es/archive" target="_blank" rel="noreferrer">Ver archivo primero</a>
+      </div>
+      <p class="section-note">Claim editorial contrastado con la home pública de Explicable el 21 de abril de 2026.</p>
+    </div>
+  </section>
+
+  <section class="editorial-shell" data-reveal>
     <div class="editorial-intro">
       <span class="editorial-kicker">Más contexto</span>
       <h2>Lo que cuentan los rankings cuando sales del titular rápido</h2>
@@ -2871,7 +2870,7 @@ body {
     <div class="ranking-grid" id="rankingGrid"></div>
   </section>
 
-  <section class="tool-intro">
+  <section class="tool-intro" data-reveal>
     <div class="tool-grid">
       <div class="tool-heading">
         <span class="tool-kicker">La herramienta</span>
@@ -2900,7 +2899,7 @@ body {
     </div>
   </section>
 
-  <section class="control-bar">
+  <section class="control-bar" data-reveal>
     <div class="mode-switch" id="modeSwitch">
       <button data-mode="exposure" class="active">Automatizable por IA</button>
       <button data-mode="trend">Tendencia</button>
@@ -2911,7 +2910,7 @@ body {
     <div class="legend" id="legend"></div>
   </section>
 
-  <div class="workspace">
+  <div class="workspace" data-reveal>
     <section class="map-panel">
       <div class="map-note">
         <div class="headline" id="mapHeadline">Barra más larga = más empleo. Color = de muy blindado a muy expuesto a la IA.</div>
@@ -3017,6 +3016,37 @@ body {
   <button class="back-to-top" id="backToTop" aria-label="Volver arriba">↑</button>
   <div class="copy-toast" id="copyToast" role="status" aria-live="polite">¡Copiado!</div>
 </main>
+
+<script>
+/* ── Progressive disclosure: scroll-reveal ── */
+(function () {
+  if (!('IntersectionObserver' in window)) {
+    document.querySelectorAll('[data-reveal]').forEach(function (el) {
+      el.style.opacity = '1'; el.style.transform = 'none';
+    });
+    return;
+  }
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (entry) {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('is-visible');
+        io.unobserve(entry.target);
+      }
+    });
+  }, { rootMargin: '0px 0px -60px 0px', threshold: 0.08 });
+
+  document.querySelectorAll('[data-reveal]').forEach(function (el) { io.observe(el); });
+
+  var panel = document.querySelector('.hero-right.scatter-panel');
+  var wrap  = document.getElementById('scatterWrap');
+  if (panel && wrap) {
+    var mo = new MutationObserver(function () {
+      if (wrap.querySelector('svg')) { panel.classList.add('scatter-ready'); mo.disconnect(); }
+    });
+    mo.observe(wrap, { childList: true });
+  }
+})();
+</script>
 
 <script>
 /* ── Enhancements: copy toast · back-to-top · sticky nav active state ── */
