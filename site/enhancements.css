@@ -53,12 +53,11 @@ body::before {
   margin-right: calc(50% - 50vw);
   padding-left:  max(20px, calc((100vw - 1460px) / 2 + 20px));
   padding-right: max(20px, calc((100vw - 1460px) / 2 + 20px));
-  /* dark background */
-  background: rgba(24, 20, 16, 0.97);
+  background: rgba(242, 236, 224, 0.97);
   backdrop-filter: blur(18px);
   -webkit-backdrop-filter: blur(18px);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
-  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.22);
+  border-bottom: 1px solid rgba(24, 20, 16, 0.1);
+  box-shadow: 0 2px 12px rgba(24, 20, 16, 0.08);
   align-items: center;
   padding-top: 13px;
   padding-bottom: 13px;
@@ -79,26 +78,26 @@ body::before {
   font-weight: 700;
   font-style: italic;
   letter-spacing: -0.03em;
-  color: var(--cream);
+  color: var(--ink);
 }
 
 .masthead-sep {
   margin: 0 0.5em;
-  color: rgba(242, 236, 224, 0.25);
+  color: rgba(24, 20, 16, 0.25);
   font-weight: 300;
 }
 
 .masthead-org {
   font-weight: 400;
   font-size: 0.85em;
-  color: rgba(242, 236, 224, 0.42);
+  color: rgba(24, 20, 16, 0.45);
   letter-spacing: -0.005em;
 }
 
 .masthead-meta {
   font-size: 10px;
   letter-spacing: 0.11em;
-  color: rgba(242, 236, 224, 0.35);
+  color: rgba(24, 20, 16, 0.4);
   white-space: nowrap;
 }
 
@@ -110,8 +109,8 @@ body::before {
   flex: 1;
   justify-content: center;
   padding: 4px;
-  background: rgba(242, 236, 224, 0.08);
-  border: 1px solid rgba(242, 236, 224, 0.13);
+  background: rgba(24, 20, 16, 0.06);
+  border: 1px solid rgba(24, 20, 16, 0.12);
   border-radius: 999px;
   max-width: fit-content;
   /* center within flex parent */
@@ -123,7 +122,7 @@ body::before {
   border-radius: 999px;
   font-size: 13px;
   font-weight: 500;
-  color: rgba(242, 236, 224, 0.58);
+  color: rgba(24, 20, 16, 0.55);
   text-decoration: none;
   letter-spacing: -0.01em;
   transition: background 130ms ease, color 130ms ease;
@@ -131,13 +130,13 @@ body::before {
 }
 
 .masthead-nav a:hover {
-  background: rgba(242, 236, 224, 0.1);
-  color: var(--cream);
+  background: rgba(24, 20, 16, 0.08);
+  color: var(--ink);
 }
 
 .masthead-nav a.active {
-  background: rgba(242, 236, 224, 0.14);
-  color: var(--cream);
+  background: rgba(24, 20, 16, 0.1);
+  color: var(--ink);
   font-weight: 600;
 }
 
