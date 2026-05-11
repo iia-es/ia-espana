@@ -68,7 +68,7 @@ body::before {
 
 .masthead-title {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   gap: 0;
   font-size: clamp(0.95rem, 1.3vw, 1.15rem);
   white-space: nowrap;

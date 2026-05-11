@@ -1404,7 +1404,7 @@ body {
 /* === Editorial / newspaper aesthetic === */
 .masthead {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   justify-content: space-between;
   gap: 14px;
   flex-wrap: wrap;
@@ -1419,6 +1419,16 @@ body {
   font-weight: 600;
   letter-spacing: -0.01em;
   color: var(--text);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  line-height: 1;
+}
+
+.masthead-logo {
+  height: 36px;
+  width: auto;
+  display: block;
 }
 
 .masthead-title span {
@@ -2668,7 +2678,7 @@ body {
 <main class="shell">
   <div class="masthead">
     <div class="masthead-title">
-      <span class="masthead-brand">ia-espana</span><span class="masthead-sep" aria-hidden="true">·</span><span class="masthead-org">Instituto de Inteligencia Artificial</span>
+      <img src="iia-logo.png" alt="IIA" class="masthead-logo"><span class="masthead-sep" aria-hidden="true">·</span><span class="masthead-org">Instituto de Inteligencia Artificial</span>
     </div>
     <nav class="masthead-nav" aria-label="Secciones">
       <a href="#buscar">Buscar</a>
