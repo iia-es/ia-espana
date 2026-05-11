@@ -256,10 +256,11 @@ body::before {
 .hero h1 {
   color: var(--ink);
   font-weight: 700;
-  font-size: clamp(1.8rem, 3.2vw, 3.2rem);
-  line-height: 1.05;
-  letter-spacing: -0.04em;
+  font-size: clamp(1.4rem, 2.2vw, 2.4rem);
+  line-height: 1.1;
+  letter-spacing: -0.03em;
   max-width: none;
+  white-space: nowrap;
   margin: 0 0 24px;
 }
 
@@ -897,7 +898,7 @@ body::before {
 }
 @media (max-width: 860px) {
   .hero-body { grid-template-columns: 1fr; }
-  .hero h1   { font-size: clamp(1.6rem, 7vw, 2.6rem); }
+  .hero h1   { font-size: clamp(1.4rem, 6vw, 2rem); white-space: normal; }
 }
 
 /* ════════════════════════════════════════════════════════
@@ -961,16 +962,6 @@ body::before {
   transform: translateY(0);
 }
 
-/* Scatter chart starts dimmed, fades in after SVG is rendered */
-.hero-right.scatter-panel {
-  opacity: 0.35;
-  transition: opacity 700ms ease 300ms;
-}
-.hero-right.scatter-panel.scatter-ready {
-  opacity: 1;
-}
-
 @media (prefers-reduced-motion: reduce) {
   [data-reveal] { opacity: 1; transform: none; transition: none; }
-  .hero-right.scatter-panel { opacity: 1; transition: none; }
 }

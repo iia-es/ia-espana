@@ -2673,7 +2673,7 @@ body {
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="enhancements.css?v=5">
+<link rel="stylesheet" href="enhancements.css?v=6">
 </head>
 <body>
 <main class="shell">
@@ -2825,11 +2825,11 @@ body {
     </div>
   </section>
 
-  <section class="bigstats" id="bigStats" aria-live="polite" data-reveal></section>
-  <div class="data-source-dark" aria-hidden="true" data-reveal>Fuente: INE (EPA 2023) · SEPE (contratos, media móvil 12 meses) · Estimación propia de exposición a IA · ia-espana, edición 21 abril 2026</div>
+  <section class="bigstats" id="bigStats" aria-live="polite"></section>
+  <div class="data-source-dark" aria-hidden="true">Fuente: INE (EPA 2023) · SEPE (contratos, media móvil 12 meses) · Estimación propia de exposición a IA · ia-espana, edición 21 abril 2026</div>
 
-  <section class="stat-tiles" id="statTiles" aria-live="polite" data-reveal></section>
-  <div class="data-source-light" aria-hidden="true" data-reveal>Fuente: INE · SEPE · ia-espana — datos empleados 2023, salarios 2024</div>
+  <section class="stat-tiles" id="statTiles" aria-live="polite"></section>
+  <div class="data-source-light" aria-hidden="true">Fuente: INE · SEPE · ia-espana — datos empleados 2023, salarios 2024</div>
 
   <section class="subscribe-section" data-reveal>
     <div class="subscribe-copy">
@@ -3036,15 +3036,6 @@ body {
   }, { rootMargin: '0px 0px -60px 0px', threshold: 0.08 });
 
   document.querySelectorAll('[data-reveal]').forEach(function (el) { io.observe(el); });
-
-  var panel = document.querySelector('.hero-right.scatter-panel');
-  var wrap  = document.getElementById('scatterWrap');
-  if (panel && wrap) {
-    var mo = new MutationObserver(function () {
-      if (wrap.querySelector('svg')) { panel.classList.add('scatter-ready'); mo.disconnect(); }
-    });
-    mo.observe(wrap, { childList: true });
-  }
 })();
 </script>
 
