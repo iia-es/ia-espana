@@ -431,9 +431,11 @@ body::before {
 }
 
 .featured-pages-section > div:first-child h2 {
-  font-weight: 700;
-  font-size: clamp(1.7rem, 2.8vw, 2.5rem);
-  letter-spacing: -0.025em;
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 400;
+  font-size: clamp(1.6rem, 2.7vw, 2.4rem);
+  letter-spacing: -0.02em;
   line-height: 1.02;
 }
 
@@ -878,4 +880,102 @@ body::before {
   .featured-page-card, .press-card { padding: 18px 16px; }
 
   .back-to-top { bottom: 20px; right: 20px; width: 42px; height: 42px; font-size: 17px; }
+}
+
+/* ════════════════════════════════════════════════════════
+   LIGHT HERO — cream background
+   ════════════════════════════════════════════════════════ */
+.hero {
+  background: transparent;
+  color: var(--ink);
+  border-bottom: 1px solid rgba(24, 20, 16, 0.1);
+}
+.hero h1 {
+  color: var(--ink);
+  font-size: clamp(1.8rem, 3.2vw, 3.2rem);
+  max-width: none;
+  line-height: 1.05;
+  margin: 0 0 24px;
+}
+.hero h1 .plain { color: var(--muted); }
+.hero h1 span   { color: var(--ink); }
+.hero-copy p    { color: var(--muted); }
+.hero-copy strong { color: var(--ink); }
+.hero-kicker    { background: rgba(24,20,16,0.06); color: var(--muted); }
+.hero .action-button        { background: rgba(24,20,16,0.06); border-color: rgba(24,20,16,0.18); color: var(--ink); }
+.hero .action-button:hover  { background: rgba(24,20,16,0.1);  border-color: rgba(24,20,16,0.28); }
+.hero .action-button.subtle { background: transparent; border-color: rgba(24,20,16,0.18); color: var(--muted); }
+.hero .action-button.primary { background: var(--rust); border-color: var(--rust); color: #fffdf7; }
+.hero-notes       { border-top-color: rgba(24,20,16,0.1); }
+.hero-note h2, .hero-note p { color: var(--muted); }
+.hero .share-strip { border-top-color: rgba(24,20,16,0.1); }
+.hero .source-list a, .hero .child-actions a, .hero .source-pill {
+  border-color: rgba(24,20,16,0.14); background: rgba(24,20,16,0.04); color: var(--muted);
+}
+.hero-byline      { color: var(--muted); border-top-color: rgba(24,20,16,0.1); }
+.hero-byline a    { color: var(--muted); border-bottom-color: rgba(24,20,16,0.18); }
+.hero-byline a:hover { color: var(--ink); }
+
+/* ── Hero 2-column body layout ── */
+.hero-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  align-items: start;
+}
+.hero-right.scatter-panel {
+  width: auto !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+@media (max-width: 860px) {
+  .hero-body { grid-template-columns: 1fr; }
+  .hero h1   { font-size: clamp(1.6rem, 7vw, 2.6rem); }
+}
+
+/* ════════════════════════════════════════════════════════
+   LIGHT BIGSTATS — cream background
+   ════════════════════════════════════════════════════════ */
+.bigstats {
+  background: transparent;
+  color: var(--ink);
+  border-top: 1px solid rgba(24,20,16,0.1);
+}
+.bigstat          { color: var(--ink); }
+.bigstat-tag      { border-color: rgba(24,20,16,0.2); color: var(--muted); }
+.bigstat-value    { color: var(--ink); }
+.bigstat.exposed  .bigstat-value { color: var(--rust); }
+.bigstat.shielded .bigstat-value { color: var(--teal); }
+.bigstat-label    { color: var(--ink); }
+.bigstat-sub      { color: var(--muted); }
+
+.data-source-dark {
+  background: transparent;
+  color: var(--muted);
+  border-top: 1px solid rgba(24,20,16,0.06);
+  padding-top: 0;
+  padding-bottom: 12px;
+}
+
+/* ════════════════════════════════════════════════════════
+   HEADLINE GRID — 4 equal columns, one row
+   ════════════════════════════════════════════════════════ */
+.headline-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+}
+.headline-card.featured {
+  grid-column: span 1 !important;
+  min-height: 196px;
+}
+.headline-card.featured .headline-title {
+  font-size: clamp(1.35rem, 2vw, 2rem);
+}
+@media (max-width: 1100px) {
+  .headline-grid { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
+  .headline-card.featured { grid-column: span 1 !important; }
+}
+@media (max-width: 640px) {
+  .headline-grid { grid-template-columns: 1fr !important; }
 }

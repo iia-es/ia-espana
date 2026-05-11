@@ -2184,31 +2184,32 @@ body {
 }
 
 .scatter-head .mono-eyebrow {
-  color: rgba(247, 243, 234, 0.7);
+  color: var(--muted);
 }
 
 .scatter-head .mono-eyebrow.tight {
   letter-spacing: 0.14em;
-  opacity: 0.55;
-  color: rgba(247, 243, 234, 0.85);
+  opacity: 0.7;
+  color: var(--muted);
 }
 
 .scatter-panel h3 {
-  margin: 10px 0 22px;
+  margin: 10px 0 14px;
   font-family: var(--font-display);
   font-style: italic;
   font-weight: 400;
-  font-size: clamp(1.7rem, 2.6vw, 2.4rem);
+  font-size: clamp(1.2rem, 1.8vw, 1.6rem);
   line-height: 1;
   letter-spacing: -0.022em;
   max-width: 720px;
-  color: var(--paper);
+  color: var(--ink);
 }
 
 .scatter-wrap {
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px solid rgba(247, 243, 234, 0.15);
-  padding: 14px;
+  background: transparent;
+  border: 1px solid rgba(24, 20, 16, 0.1);
+  border-radius: 8px;
+  padding: 10px;
 }
 
 .scatter-wrap svg {
@@ -2218,11 +2219,12 @@ body {
 }
 
 .scatter-note {
-  font-size: 12px;
-  color: rgba(247, 243, 234, 0.55);
-  margin-top: 12px;
+  font-size: 11px;
+  color: var(--muted);
+  margin-top: 8px;
   max-width: 820px;
   line-height: 1.5;
+  opacity: 0.75;
 }
 
 .methodology {
@@ -2693,34 +2695,37 @@ body {
   <header class="hero">
     <section class="hero-main">
       <h1>El futuro del trabajo y la IA <span class="plain">en España</span></h1>
-      <div class="hero-copy">
-        <p>Busca tu profesión y consulta <strong>exposición a la IA</strong>, <strong>salario</strong>, <strong>demanda laboral</strong> y <strong>nivel de estudios</strong> con datos oficiales del INE y del SEPE.</p>
-        <p><strong>Importante:</strong> exposición a la IA no significa automáticamente sustitución. Este recurso estima qué tareas parecen más reconfigurables por herramientas generativas, no qué empleos van a desaparecer.</p>
-      </div>
-      <div class="hero-actions">
-        <a class="action-button subtle" href="#prensa">Para periodistas</a>
-        <a class="action-button subtle" href="#metodologia">Ver metodología</a>
-      </div>
-      <div class="share-strip" id="shareStrip"></div>
-      <div class="hero-byline">
-        <a href="https://iia.es" target="_blank" rel="noreferrer">Instituto de Inteligencia Artificial</a>
-        <span class="byline-sep">·</span>
-        <span>Datos: INE · SEPE · LLM propio</span>
-        <span class="byline-sep">·</span>
-        <span>Edición 21 abril 2026</span>
+      <div class="hero-body">
+        <div class="hero-left">
+          <div class="hero-copy">
+            <p>Busca tu profesión y consulta <strong>exposición a la IA</strong>, <strong>salario</strong>, <strong>demanda laboral</strong> y <strong>nivel de estudios</strong> con datos oficiales del INE y del SEPE.</p>
+            <p><strong>Importante:</strong> exposición a la IA no significa automáticamente sustitución. Este recurso estima qué tareas parecen más reconfigurables por herramientas generativas, no qué empleos van a desaparecer.</p>
+          </div>
+          <div class="hero-actions">
+            <a class="action-button subtle" href="#prensa">Para periodistas</a>
+            <a class="action-button subtle" href="#metodologia">Ver metodología</a>
+          </div>
+          <div class="share-strip" id="shareStrip"></div>
+          <div class="hero-byline">
+            <a href="https://iia.es" target="_blank" rel="noreferrer">Instituto de Inteligencia Artificial</a>
+            <span class="byline-sep">·</span>
+            <span>Datos: INE · SEPE · LLM propio</span>
+            <span class="byline-sep">·</span>
+            <span>Edición 21 abril 2026</span>
+          </div>
+        </div>
+        <div class="hero-right scatter-panel" id="figura">
+          <div class="scatter-head">
+            <span class="mono-eyebrow">Figura · Salario × exposición</span>
+            <span class="mono-eyebrow tight">62 grupos · tamaño = empleo</span>
+          </div>
+          <h3>Pagado y expuesto — el cuadrante incómodo.</h3>
+          <div class="scatter-wrap" id="scatterWrap" aria-label="Dispersión salario × exposición"></div>
+          <p class="scatter-note">Eje X: salario bruto anual (€). Eje Y: exposición a la IA (0–10). El radio de cada punto es proporcional al número de personas empleadas. Resaltados en ámbar los grupos que combinan salario medio-alto con exposición ≥ 7.</p>
+        </div>
       </div>
     </section>
   </header>
-
-  <section class="scatter-panel" id="figura">
-    <div class="scatter-head">
-      <span class="mono-eyebrow">Figura · Salario × exposición</span>
-      <span class="mono-eyebrow tight">62 grupos · tamaño = empleo</span>
-    </div>
-    <h3>Pagado y expuesto — el cuadrante incómodo.</h3>
-    <div class="scatter-wrap" id="scatterWrap" aria-label="Dispersión salario × exposición"></div>
-    <p class="scatter-note">Eje X: salario bruto anual (€). Eje Y: exposición a la IA (0–10). El radio de cada punto es proporcional al número de personas empleadas. Resaltados en ámbar los grupos que combinan salario medio-alto con exposición ≥ 7.</p>
-  </section>
 
   <section class="searchlead" id="buscar">
     <div class="searchlead-copy">
@@ -4674,7 +4679,7 @@ function renderScatter() {
     .filter(Boolean);
 
   if (!points.length) {
-    scatterWrapEl.innerHTML = `<p style="color:rgba(247,243,234,0.55);padding:16px;">Sin datos suficientes para la figura.</p>`;
+    scatterWrapEl.innerHTML = `<p style="color:rgba(24,20,16,0.45);padding:16px;">Sin datos suficientes para la figura.</p>`;
     return;
   }
 
@@ -4765,20 +4770,20 @@ function renderScatter() {
   // Gridlines
   gridY.forEach((g) => {
     const yy = y(g);
-    svgParts.push(`<line x1="${padL}" x2="${width - padR}" y1="${yy}" y2="${yy}" stroke="rgba(247,243,234,0.18)" stroke-dasharray="2 4"></line>`);
-    svgParts.push(`<text x="${padL - 10}" y="${yy + 4}" text-anchor="end" font-size="11" fill="rgba(247,243,234,0.55)" font-family="JetBrains Mono, monospace">${g}</text>`);
+    svgParts.push(`<line x1="${padL}" x2="${width - padR}" y1="${yy}" y2="${yy}" stroke="rgba(24,20,16,0.1)" stroke-dasharray="2 4"></line>`);
+    svgParts.push(`<text x="${padL - 10}" y="${yy + 4}" text-anchor="end" font-size="11" fill="rgba(24,20,16,0.45)" font-family="JetBrains Mono, monospace">${g}</text>`);
   });
 
   // X axis ticks
   axisXTicks.forEach((v) => {
     const xx = x(v);
-    svgParts.push(`<text x="${xx}" y="${height - padB + 18}" font-size="11" fill="rgba(247,243,234,0.55)" font-family="JetBrains Mono, monospace" text-anchor="middle">${(v / 1000).toFixed(0)}k €</text>`);
+    svgParts.push(`<text x="${xx}" y="${height - padB + 18}" font-size="11" fill="rgba(24,20,16,0.45)" font-family="JetBrains Mono, monospace" text-anchor="middle">${(v / 1000).toFixed(0)}k €</text>`);
   });
 
-  svgParts.push(`<line x1="${padL}" x2="${padL}" y1="${padT}" y2="${height - padB}" stroke="rgba(247,243,234,0.55)"></line>`);
-  svgParts.push(`<line x1="${padL}" x2="${width - padR}" y1="${height - padB}" y2="${height - padB}" stroke="rgba(247,243,234,0.55)"></line>`);
-  svgParts.push(`<text x="${padL - 46}" y="${padT - 10}" font-size="11" fill="#f7f3ea" font-family="JetBrains Mono, monospace" letter-spacing="1.2">EXPOSICIÓN IA ↑</text>`);
-  svgParts.push(`<text x="${width - padR}" y="${height - padB + 38}" font-size="11" fill="#f7f3ea" font-family="JetBrains Mono, monospace" letter-spacing="1.2" text-anchor="end">SALARIO BRUTO →</text>`);
+  svgParts.push(`<line x1="${padL}" x2="${padL}" y1="${padT}" y2="${height - padB}" stroke="rgba(24,20,16,0.35)"></line>`);
+  svgParts.push(`<line x1="${padL}" x2="${width - padR}" y1="${height - padB}" y2="${height - padB}" stroke="rgba(24,20,16,0.35)"></line>`);
+  svgParts.push(`<text x="${padL - 46}" y="${padT - 10}" font-size="11" fill="rgba(24,20,16,0.55)" font-family="JetBrains Mono, monospace" letter-spacing="1.2">EXPOSICIÓN IA ↑</text>`);
+  svgParts.push(`<text x="${width - padR}" y="${height - padB + 38}" font-size="11" fill="rgba(24,20,16,0.55)" font-family="JetBrains Mono, monospace" letter-spacing="1.2" text-anchor="end">SALARIO BRUTO →</text>`);
 
   // Points
   points.forEach((p) => {
@@ -4788,7 +4793,7 @@ function renderScatter() {
     const isHot = p.exposure >= 7 && p.pay >= 35000;
     const fill = isHot ? "#d46d37" : "#a58b3a";
     const opacity = isHot ? 0.85 : 0.5;
-    const stroke = isHot ? "rgba(247,243,234,0.7)" : "rgba(247,243,234,0.28)";
+    const stroke = isHot ? "rgba(24,20,16,0.35)" : "rgba(24,20,16,0.15)";
     svgParts.push(`<circle cx="${cx.toFixed(2)}" cy="${cy.toFixed(2)}" r="${rr.toFixed(2)}" fill="${fill}" opacity="${opacity}" stroke="${stroke}" stroke-width="1" data-code="${p.id}"><title>${p.label} — ${p.exposure.toFixed(1).replace(".", ",")} / 10 · ${formatInteger(p.jobs)} empleos · ${formatCurrency(p.pay)}</title></circle>`);
   });
 
@@ -4800,7 +4805,7 @@ function renderScatter() {
     const isHot = p.exposure >= 7 && p.pay >= 35000;
     const opacity = isHot ? 0.96 : 0.72;
     const weight = isHot ? 600 : 500;
-    svgParts.push(`<text x="${pos.tx.toFixed(2)}" y="${pos.ty.toFixed(2)}" text-anchor="${pos.textAnchor}" font-size="12" fill="#f7f3ea" opacity="${opacity}" font-family="Inter, sans-serif" font-weight="${weight}" stroke="#1a1a1a" stroke-width="3" stroke-opacity="0.6" style="paint-order: stroke;">${p.label}</text>`);
+    svgParts.push(`<text x="${pos.tx.toFixed(2)}" y="${pos.ty.toFixed(2)}" text-anchor="${pos.textAnchor}" font-size="12" fill="#181410" opacity="${opacity}" font-family="Inter, sans-serif" font-weight="${weight}" stroke="#f2ece0" stroke-width="3" stroke-opacity="0.85" style="paint-order: stroke;">${p.label}</text>`);
   });
 
   svgParts.push(`</svg>`);
