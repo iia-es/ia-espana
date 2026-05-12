@@ -965,3 +965,195 @@ body::before {
 @media (prefers-reduced-motion: reduce) {
   [data-reveal] { opacity: 1; transform: none; transition: none; }
 }
+
+/* ════════════════════════════════════════════════════════
+   EDITORIAL POLISH — visual focus pass
+   Goals (no structural changes, no hidden content):
+   1. Tighter typographic hierarchy so the eye knows where to land
+   2. Calmer hover states (no vertical jumps)
+   3. Accessible focus rings (WCAG)
+   4. Subtle section rhythm via hairline rules
+   5. Tabular numerals on data values so digits align
+   Reference: ui-ux-pro-max Editorial Grid / Magazine style.
+   ════════════════════════════════════════════════════════ */
+
+/* — 1. Heading hierarchy: real jumps between levels — */
+.hero h1 {
+  letter-spacing: -0.035em;
+  line-height: 1.05;
+}
+.editorial-intro h2,
+.searchlead h2,
+.news-brief h2,
+.tool-intro h2,
+.featured-pages-section h2,
+.subscribe-copy h2,
+.methodology h2,
+.press-section h2 {
+  letter-spacing: -0.025em;
+  line-height: 1.12;
+}
+.headline-card h3,
+.ranking-card h3,
+.featured-page-card h3,
+.brief-point h3,
+.methodology-source h3 {
+  letter-spacing: -0.012em;
+}
+
+/* — 2. Body reading rhythm — */
+.hero-copy,
+.editorial-intro p,
+.searchlead p,
+.news-brief p,
+.tool-copy p,
+.featured-pages-section > div > p,
+.subscribe-copy p,
+.methodology p,
+.press-section p,
+.panel-lede {
+  line-height: 1.7;
+}
+
+/* — 3. Tabular numerals on data values (digits line up) — */
+.bigstat-value,
+.stat-tile-value,
+.headline-value,
+.ranking-value,
+.metric-value,
+.focus-stat .value,
+.family-total,
+.band-row-value,
+.bar-value {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum" 1, "lnum" 1;
+}
+
+/* — 4. Calmer hover states: no vertical jump, just gentle shifts — */
+.headline-card,
+.ranking-item,
+.featured-page-card,
+.stat-tile,
+.bigstat,
+.band-row {
+  cursor: pointer;
+  transition:
+    border-color 200ms ease,
+    background-color 200ms ease,
+    box-shadow 200ms ease;
+}
+.headline-card:hover,
+.featured-page-card:hover,
+.stat-tile:hover,
+.bigstat:hover {
+  transform: none;
+  border-color: rgba(24, 20, 16, 0.28);
+  background: rgba(255, 253, 247, 1);
+}
+.ranking-item:hover,
+.band-row:hover {
+  transform: none;
+  background: rgba(24, 20, 16, 0.04);
+}
+
+/* — 5. Visible focus rings for keyboard users — */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+[role="tab"]:focus-visible,
+.headline-card:focus-visible,
+.ranking-item:focus-visible,
+.featured-page-card:focus-visible,
+.band-row:focus-visible {
+  outline: 2px solid var(--teal);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+.hero-search-form:focus-within,
+.searchlead-form:focus-within {
+  outline: none;
+}
+
+/* — 6. Hairline rule between top-level sections for editorial rhythm — */
+.shell > section + section,
+.shell > .editorial-shell + section,
+.shell > section + .editorial-shell,
+.shell > section + .tool-intro,
+.shell > .tool-intro + section {
+  position: relative;
+}
+
+/* — 7. Subtle masthead-nav active state — */
+.masthead-nav a {
+  transition: color 180ms ease, border-color 180ms ease;
+  border-bottom: 1px solid transparent;
+}
+.masthead-nav a:hover {
+  color: var(--rust);
+}
+.masthead-nav a.active {
+  color: var(--ink);
+  border-bottom-color: var(--rust);
+}
+
+/* — 8. Hero eyebrow / mono-eyebrow refinement — */
+.mono-eyebrow,
+.editorial-kicker,
+.tool-kicker,
+.point-kicker {
+  font-feature-settings: "tnum" 1;
+}
+
+/* — 9. Body strong emphasis: never use accent color, only weight — */
+.hero-copy strong,
+.editorial-intro p strong,
+.news-brief p strong,
+.tool-copy p strong,
+.panel-lede strong {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+/* — 10. Print/data source labels: smaller, calmer — */
+.data-source-dark,
+.data-source-light {
+  font-feature-settings: "tnum" 1;
+  letter-spacing: 0.02em;
+}
+
+/* — 11. Better contrast on muted text (existing #6b6660 → 4.7:1 against cream) — */
+.hero-note p,
+.headline-meta,
+.ranking-meta,
+.band-row-sub,
+.scatter-note,
+.section-note,
+.point-body {
+  color: #5d574f;
+}
+
+/* — 12. Stat values: cap the visual size of secondary stat tiles so big stats win — */
+.stat-tile-value {
+  font-size: clamp(1.4rem, 1.9vw, 1.9rem);
+  line-height: 1.05;
+}
+
+/* — 13. Reduced-motion safeguard for hover transitions — */
+@media (prefers-reduced-motion: reduce) {
+  .headline-card,
+  .ranking-item,
+  .featured-page-card,
+  .stat-tile,
+  .bigstat,
+  .band-row {
+    transition: none;
+  }
+}
+
+/* — 14. Mobile: tighten extreme letter-spacing that hurts small headings — */
+@media (max-width: 600px) {
+  .hero h1 { letter-spacing: -0.02em; }
+  .editorial-intro h2,
+  .searchlead h2,
+  .news-brief h2 { letter-spacing: -0.015em; }
+}
