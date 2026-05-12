@@ -539,25 +539,29 @@ function renderPage(groupsMap, occupationsMap) {
     <section class="section">
       <div class="section-head">
         <span class="section-kicker">Lectura editorial</span>
-        <h2>Qué cambia antes, qué sigue siendo más humano y qué conviene aprender</h2>
+        <h2>Qué cambia antes y qué sigue siendo más humano</h2>
         <p>${config.interpretationNote}</p>
       </div>
-      <div class="ficha-tabs" role="tablist" aria-label="Lectura editorial">
-        <button type="button" role="tab" id="tab-aceleradas" aria-controls="panel-aceleradas" aria-selected="true">Aceleradas</button>
-        <button type="button" role="tab" id="tab-humanas" aria-controls="panel-humanas" aria-selected="false">Humanas</button>
-        <button type="button" role="tab" id="tab-aprendizaje" aria-controls="panel-aprendizaje" aria-selected="false">Qué aprender</button>
+      <div class="interpretation-grid">
+        <article class="card">
+          <h3>Tareas que la IA puede acelerar</h3>
+          <ul class="text-list">
+            ${config.acceleratedTasks.map((item) => `<li>${item}</li>`).join("")}
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Tareas con barrera humana más clara</h3>
+          <ul class="text-list">
+            ${config.humanTasks.map((item) => `<li>${item}</li>`).join("")}
+          </ul>
+        </article>
       </div>
-      <div id="panel-aceleradas" role="tabpanel" aria-labelledby="tab-aceleradas">
-        <ul class="text-list">
-          ${config.acceleratedTasks.map((item) => `<li>${item}</li>`).join("")}
-        </ul>
-      </div>
-      <div id="panel-humanas" role="tabpanel" aria-labelledby="tab-humanas" hidden>
-        <ul class="text-list">
-          ${config.humanTasks.map((item) => `<li>${item}</li>`).join("")}
-        </ul>
-      </div>
-      <div id="panel-aprendizaje" role="tabpanel" aria-labelledby="tab-aprendizaje" hidden>
+    </section>
+
+    <section class="section">
+      <div class="callout">
+        <span class="section-kicker">Qué aprender</span>
+        <h3>La mejor respuesta no es negar la IA, sino mover el valor del oficio.</h3>
         <ul class="text-list">
           ${config.learning.map((item) => `<li>${item}</li>`).join("")}
         </ul>
@@ -596,69 +600,6 @@ function renderPage(groupsMap, occupationsMap) {
   `;
 
   bindCopyButton();
-  bindFichaTabs();
-}
-
-function bindFichaTabs() {
-  const tablist = pageRoot.querySelector('.ficha-tabs[role="tablist"]');
-  if (!tablist) return;
-  const tabs = Array.from(tablist.querySelectorAll('[role="tab"]'));
-  const panels = tabs.map((tab) => document.getElementById(tab.getAttribute("aria-controls"))).filter(Boolean);
-
-  function activate(targetTab, { focus = true, updateHash = true } = {}) {
-    tabs.forEach((tab) => {
-      const isActive = tab === targetTab;
-      tab.setAttribute("aria-selected", String(isActive));
-      tab.tabIndex = isActive ? 0 : -1;
-    });
-    panels.forEach((panel) => {
-      const isActive = panel.id === targetTab.getAttribute("aria-controls");
-      if (isActive) panel.removeAttribute("hidden");
-      else panel.setAttribute("hidden", "");
-    });
-    if (updateHash) {
-      const anchor = ({
-        "tab-aceleradas": "tareas-aceleradas",
-        "tab-humanas": "tareas-humanas",
-        "tab-aprendizaje": "tareas-aprendizaje",
-      })[targetTab.id];
-      if (anchor && window.history && window.history.replaceState) {
-        window.history.replaceState(null, "", `#${anchor}`);
-      }
-    }
-    if (focus) targetTab.focus({ preventScroll: true });
-  }
-
-  tabs.forEach((tab, index) => {
-    tab.addEventListener("click", () => activate(tab, { focus: false }));
-    tab.addEventListener("keydown", (event) => {
-      if (event.key === "ArrowRight" || event.key === "ArrowDown") {
-        event.preventDefault();
-        activate(tabs[(index + 1) % tabs.length]);
-      } else if (event.key === "ArrowLeft" || event.key === "ArrowUp") {
-        event.preventDefault();
-        activate(tabs[(index - 1 + tabs.length) % tabs.length]);
-      } else if (event.key === "Home") {
-        event.preventDefault();
-        activate(tabs[0]);
-      } else if (event.key === "End") {
-        event.preventDefault();
-        activate(tabs[tabs.length - 1]);
-      }
-    });
-  });
-
-  const hashToTabId = {
-    "tareas-aceleradas": "tab-aceleradas",
-    "tareas-humanas": "tab-humanas",
-    "tareas-aprendizaje": "tab-aprendizaje",
-  };
-  const initialHash = (window.location.hash || "").replace(/^#/, "");
-  const initialTabId = hashToTabId[initialHash];
-  if (initialTabId) {
-    const tab = tabs.find((t) => t.id === initialTabId);
-    if (tab) activate(tab, { focus: false, updateHash: false });
-  }
 }
 
 async function loadPage() {
