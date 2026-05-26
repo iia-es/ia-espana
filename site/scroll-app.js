@@ -168,7 +168,8 @@
 
       row.addEventListener('click', (e) => {
         e.preventDefault();
-        showProfessionDetail(o);
+        document.querySelector('#chapter-3').scrollIntoView({behavior: 'smooth', block: 'start'});
+        setTimeout(() => showProfessionDetail(o), 700);
       });
     });
   }
@@ -317,90 +318,39 @@
 
   function showProfessionDetail(o) {
     if (!o) return;
-    const overlay = document.getElementById('profession-overlay');
-    const inner   = document.getElementById('profession-overlay-inner');
-    if (!overlay || !inner) return;
-
+    const mount = document.getElementById('profession-detail-mount');
+    if (!mount) return;
     const expLabel = o.exposure >= 7 ? 'Alta' : o.exposure >= 4 ? 'Moderada' : 'Baja';
-    const expClass = o.exposure >= 7 ? 'high'  : o.exposure >= 4 ? 'med'      : 'low';
-    const markerPct = Math.min(100, (o.exposure / 10) * 100).toFixed(1);
-
     const outlookLabel = o.outlook == null ? '—'
-      : o.outlook >= 4 ? 'Sube con fuerza' : o.outlook >= 0.5 ? 'Sube'
-      : o.outlook >= -1 ? 'Estable' : o.outlook >= -4 ? 'Cae' : 'Cae con fuerza';
-    const outlookClass = o.outlook == null ? 'flat' : o.outlook >= 0.5 ? 'up' : o.outlook <= -0.5 ? 'down' : 'flat';
+      : o.outlook >= 4 ? 'Sube con fuerza' : o.outlook >= 0.5 ? 'Sube' : o.outlook >= -1 ? 'Estable' : o.outlook >= -4 ? 'Cae' : 'Cae con fuerza';
 
-    inner.innerHTML = `
-      <button class="po-close" id="po-close-btn">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5m7-7-7 7 7 7"/></svg>
-        Volver
-      </button>
-      <div class="po-eyebrow">
-        <span class="po-code">CNO ${o.code}</span>
-        Exposición a IA · ${expLabel.toLowerCase()}
-      </div>
-      <h2 class="po-title">${o.title}</h2>
-      <div class="po-gauge">
-        <div class="po-gauge-left">
-          <div class="gauge-label">Índice de exposición a IA</div>
-          <div class="gauge-value">${o.exposure.toFixed(1)}<span class="gauge-suffix">/ 10</span></div>
-          <span class="gauge-badge ${expClass}">${expLabel}</span>
-        </div>
-        <div class="po-gauge-right">
-          <div class="po-gauge-bar-wrap">
-            <div class="po-gauge-bar">
-              <div class="po-gauge-marker" id="po-marker" style="left:0%"></div>
-            </div>
-            <div class="po-gauge-scale">
-              <span>0 · Protegido</span><span>5</span><span>10 · Expuesto</span>
-            </div>
+    mount.innerHTML = `
+      <div class="profession-detail" id="detail-${o.code}">
+        <div class="pd-overline">Exposición a IA · ${expLabel.toLowerCase()}</div>
+        <h3>${o.title}</h3>
+        <div class="pd-grid">
+          <div class="pd-cell">
+            <div class="pd-label">Exposición IA</div>
+            <div class="pd-value">${o.exposure.toFixed(1)}<span style="font-size: 1rem; color: var(--color-on-dark-soft);"> / 10</span></div>
+            <div class="pd-suffix">${expLabel}</div>
+          </div>
+          <div class="pd-cell">
+            <div class="pd-label">Salario medio</div>
+            <div class="pd-value">${o.pay ? Math.round(o.pay/1000) + 'k' : '—'}<span style="font-size: 1rem; color: var(--color-on-dark-soft);">€</span></div>
+            <div class="pd-suffix">${o.pay ? 'anual bruto' : 'no disponible'}</div>
+          </div>
+          <div class="pd-cell">
+            <div class="pd-label">Demanda</div>
+            <div class="pd-value">${o.outlook == null ? '—' : (o.outlook >= 0 ? '+' : '') + o.outlook.toFixed(1) + '%'}</div>
+            <div class="pd-suffix">${outlookLabel}</div>
           </div>
         </div>
       </div>
-      <div class="po-metrics">
-        <div class="po-metric">
-          <div class="m-label">Trabajadores en España</div>
-          <div class="m-value">${fmtJobs(o.jobs)}</div>
-          <div class="m-detail">según clasificación INE CNO-11</div>
-        </div>
-        <div class="po-metric">
-          <div class="m-label">Salario medio anual</div>
-          <div class="m-value">${o.pay ? Math.round(o.pay / 1000) : '—'}<span class="m-suffix">${o.pay ? 'k €' : ''}</span></div>
-          <div class="m-detail">${o.pay ? 'bruto · Encuesta Salarial INE 2018' : 'no disponible'}</div>
-        </div>
-        <div class="po-metric">
-          <div class="m-label">Tendencia de demanda</div>
-          <div class="m-value"><span class="po-trend ${outlookClass}">${o.outlook == null ? '—' : (o.outlook >= 0 ? '+' : '') + o.outlook.toFixed(1) + '%'}</span></div>
-          <div class="m-detail">${outlookLabel} · SEPE 2024–2025</div>
-        </div>
-      </div>
-      <div class="po-footer">
-        <p>Datos del <em>Instituto de Inteligencia Artificial</em>. Exposición calculada tarea por tarea sobre el perfil ocupacional CNO-11. Confianza media del modelo: 8,6 / 10.</p>
-        <p>Fuentes: INE Encuesta de Estructura Salarial 2018 · SEPE Mercado de Trabajo 2024–2025 · IIA Evaluación de Exposición a IA.</p>
-      </div>
     `;
-
-    overlay.classList.add('open');
-    overlay.setAttribute('aria-hidden', 'false');
-    document.body.classList.add('profession-open');
-    overlay.scrollTop = 0;
-
-    // Animate the gauge marker after first paint
-    requestAnimationFrame(() => requestAnimationFrame(() => {
-      const marker = document.getElementById('po-marker');
-      if (marker) marker.style.left = markerPct + '%';
-    }));
-
-    function closeOverlay() {
-      overlay.classList.remove('open');
-      overlay.setAttribute('aria-hidden', 'true');
-      document.body.classList.remove('profession-open');
-      document.removeEventListener('keydown', onKey);
-    }
-    function onKey(e) { if (e.key === 'Escape') closeOverlay(); }
-
-    document.getElementById('po-close-btn').addEventListener('click', closeOverlay);
-    document.addEventListener('keydown', onKey);
+    setTimeout(() => {
+      const el = document.getElementById('detail-' + o.code);
+      if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }, 60);
   }
 
   /* ---------- 8. Tweaks: accent color + show rail + scroll style ---------- */
