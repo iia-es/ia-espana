@@ -1,4 +1,4 @@
-# Impacto laboral de la IA en España
+# Impacto laboral de la IA en España 
 
 Visualización estática sobre empleo, salarios, educación, demanda y automatización por IA en España, construida con fuentes oficiales del INE y del SEPE.
 
