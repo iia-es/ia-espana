@@ -581,6 +581,8 @@
     setupRail();
     setupCounters();
     if (OCC) {
+      // occupations.js may omit .all — fall back to scatter which has all 62 occupations
+      if (!OCC.all) OCC.all = OCC.scatter || [];
       renderRanking('ranking-exposed', OCC.top10Exposed, 10);
       renderRanking('ranking-protected', OCC.top10Protected, 10);
       setupRankingBars();
