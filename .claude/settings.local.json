@@ -10,7 +10,10 @@
       "Bash(curl -s -o /dev/null -w \"HTTP %{http_code}\" http://127.0.0.1:8765/site/abogado/)",
       "Bash(curl -s -o /dev/null -w \"main:%{http_code}\" http://127.0.0.1:8765/site/)",
       "Bash(curl -s -o /dev/null -w \" abogado:%{http_code}\" http://127.0.0.1:8765/site/abogado/)",
-      "Bash(curl -s -o /dev/null -w \" enhancements:%{http_code}\" http://127.0.0.1:8765/site/enhancements.css)"
+      "Bash(curl -s -o /dev/null -w \" enhancements:%{http_code}\" http://127.0.0.1:8765/site/enhancements.css)",
+      "Bash(git commit *)",
+      "Bash(git push *)",
+      "Bash(git add *)"
     ]
   }
 }

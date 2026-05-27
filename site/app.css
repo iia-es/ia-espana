@@ -629,7 +629,7 @@ h3.title {
 .profession-overlay {
   position: fixed;
   inset: 0;
-  z-index: 60;
+  z-index: 70;
   background: var(--color-canvas);
   overflow-y: auto;
   opacity: 0;
@@ -653,13 +653,13 @@ h3.title {
 
 .po-close {
   position: fixed;
-  top: 18px;
-  right: clamp(16px, 3vw, 36px);
-  z-index: 70;
+  top: clamp(16px, 3vh, 28px);
+  left: clamp(16px, 3vw, 36px);
+  z-index: 80;
   display: inline-flex;
   align-items: center;
-  gap: 8px;
-  padding: 10px 16px;
+  gap: 10px;
+  padding: 11px 18px 11px 14px;
   border-radius: var(--radius-pill);
   border: 1px solid var(--color-hairline);
   background: var(--color-canvas);
@@ -670,14 +670,20 @@ h3.title {
   cursor: pointer;
   text-decoration: none;
   box-shadow: 0 2px 14px rgba(0, 0, 0, 0.06);
-  transition: background 160ms var(--ease-out), border-color 160ms var(--ease-out), transform 160ms var(--ease-out);
+  transition: background 160ms var(--ease-out), border-color 160ms var(--ease-out), transform 160ms var(--ease-out), gap 160ms var(--ease-out);
 }
 .po-close:hover {
   background: var(--color-ink);
   color: var(--color-canvas);
   border-color: var(--color-ink);
+  gap: 14px;
 }
-.po-close svg { width: 14px; height: 14px; }
+.po-close:hover svg { transform: translateX(-2px); }
+.po-close svg {
+  width: 16px;
+  height: 16px;
+  transition: transform 160ms var(--ease-out);
+}
 
 .po-eyebrow {
   display: flex;
@@ -979,66 +985,10 @@ h3.title {
   .po-context { grid-template-columns: 1fr; gap: 16px; }
 }
 
-/* ====== Profession detail card (inline, inside search chapter) ====== */
-.profession-detail {
-  margin: 28px auto 0;
-  max-width: 600px;
-  text-align: left;
-  padding: 28px 32px;
-  background: var(--color-surface-cream-strong);
-  color: var(--color-ink);
-  border-radius: var(--radius-lg);
-  border: 1px solid var(--color-hairline);
-}
-
-.profession-detail h3 {
-  color: var(--color-ink);
-  font-family: var(--font-serif);
-  font-size: 1.8rem;
-  margin: 0 0 6px;
-  letter-spacing: -0.02em;
-}
-
-.profession-detail .pd-overline {
-  font-family: var(--font-mono);
-  font-size: 11px;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: var(--color-muted);
-  margin-bottom: 4px;
-}
-
-.profession-detail .pd-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 18px;
-  margin: 22px 0 0;
-  padding-top: 22px;
-  border-top: 1px solid var(--color-hairline);
-}
-
-.profession-detail .pd-cell .pd-label {
-  font-family: var(--font-mono);
-  font-size: 10px;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: var(--color-muted);
-  margin-bottom: 6px;
-}
-
-.profession-detail .pd-cell .pd-value {
-  font-family: var(--font-serif);
-  font-size: 1.8rem;
-  letter-spacing: -0.02em;
-  line-height: 1;
-  color: var(--color-ink);
-}
-
-.profession-detail .pd-cell .pd-suffix {
-  font-size: 12px;
-  color: var(--color-muted);
-  margin-top: 4px;
-}
+body.profession-open { overflow: hidden; }
+body.profession-open .masthead,
+body.profession-open .rail,
+body.profession-open .rail-bottom { opacity: 0; pointer-events: none; transition: opacity 200ms var(--ease-out); }
 
 @media (max-width: 640px) {
   .profession-detail .pd-grid { grid-template-columns: 1fr 1fr; }
