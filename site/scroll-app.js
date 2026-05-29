@@ -168,9 +168,9 @@
 
       row.addEventListener('click', (e) => {
         e.preventDefault();
-        // open profession detail
-        document.querySelector('#chapter-3').scrollIntoView({behavior: 'smooth', block: 'start'});
-        setTimeout(() => showProfessionDetail(o), 700);
+        // Find full occupation record by code
+        const full = (OCC.all || []).find(x => x.code === o.code) || o;
+        showProfessionDetail(full);
       });
     });
   }
@@ -207,11 +207,20 @@
     points.forEach((p, i) => {
       const xPct = ((p.exposure - minExp) / (maxExp - minExp)) * 86 + 8;   // 8% to 94%
       const yPct = 92 - ((p.pay - minPay) / (maxPay - minPay)) * 82;        // inverted
-      const r = Math.max(4, Math.min(14, Math.sqrt(p.jobs / 5000)));
-      const danger = (p.exposure >= 6 && p.pay >= 30000);
+      const r = Math.max(5, Math.min(16, Math.sqrt(p.jobs / 4000)));
+
+      // Color tier:
+      //  - danger: high exposure (≥6) + high pay (≥30k) — coral
+      //  - warm:   high exposure (≥6) but lower pay      — amber
+      //  - safe:   low exposure (≤3)                     — teal
+      //  - default: medium — muted teal/grey
+      let cls = '';
+      if (p.exposure >= 6 && p.pay >= 30000) cls = 'danger';
+      else if (p.exposure >= 6) cls = 'warm';
+      else if (p.exposure <= 3) cls = 'safe';
 
       const dot = document.createElement('div');
-      dot.className = 'scatter-dot' + (danger ? ' danger' : '');
+      dot.className = 'scatter-dot' + (cls ? ' ' + cls : '');
       dot.style.left = xPct + '%';
       dot.style.top  = yPct + '%';
       dot.style.width = r + 'px';
@@ -232,6 +241,10 @@
       dot.addEventListener('mouseleave', () => {
         if (activeDot === dot) tooltip.classList.remove('show');
       });
+      dot.addEventListener('click', () => {
+        const full = (OCC.all || []).find(x => x.code === p.code);
+        if (full) showProfessionDetail(full);
+      });
 
       canvas.appendChild(dot);
     });
@@ -249,32 +262,47 @@
   function setupSearch() {
     const input = document.getElementById('search-input');
     const resultsBox = document.getElementById('search-results');
+    const form = document.getElementById('search-form');
     if (!input || !OCC) return;
 
-    const allOcc = [
-      ...OCC.top10Exposed,
-      ...OCC.top10Protected,
-      ...OCC.top10Growing,
-      ...OCC.top10Declining,
-      ...OCC.top10PayExp,
-      ...OCC.scatter,
-    ];
-    // dedupe by code
-    const map = new Map();
-    allOcc.forEach(o => { if (!map.has(o.code)) map.set(o.code, o); });
-    const all = Array.from(map.values());
+    // Use the full 62-occupation list now
+    const all = OCC.all || [];
 
     function normalize(s) {
       return (s || '').toLowerCase()
         .normalize('NFD').replace(/[\u0300-\u036f]/g, '');
     }
 
+    // Build alias map for popular short names
+    const ALIASES = {
+      'programador': '27', 'programadora': '27', 'developer': '27', 'desarrollador': '27', 'software': '27',
+      'abogado': '25', 'abogada': '25',
+      'periodista': '29',
+      'enfermera': '56', 'enfermero': '56', 'auxiliar de enfermeria': '56',
+      'profesor': '22', 'profesora': '22', 'maestro': '22', 'maestra': '22', 'docente': '22',
+      'administrativo': '43', 'administrativa': '43',
+      'medico': '21', 'médico': '21', 'médica': '21', 'doctor': '21',
+      'camarero': '51', 'camarera': '51',
+      'electricista': '75',
+      'mecanico': '74', 'mecánico': '74',
+      'cocinero': '50', 'cocinera': '50', 'chef': '50',
+      'arquitecto': '24', 'arquitecta': '24', 'ingeniero': '24', 'ingeniera': '24',
+      'comercial': '35', 'vendedor': '52', 'vendedora': '52', 'dependiente': '52', 'dependienta': '52',
+      'taxista': '83', 'conductor': '83', 'conductora': '83',
+    };
+
     function search(q) {
-      q = normalize(q.trim());
-      if (!q || q.length < 2) return [];
-      return all
-        .filter(o => normalize(o.title).includes(q))
-        .slice(0, 6);
+      const qn = normalize(q.trim());
+      if (!qn || qn.length < 2) return [];
+      // Alias match first
+      if (ALIASES[qn]) {
+        const o = all.find(x => x.code === ALIASES[qn]);
+        const others = all.filter(x => x.code !== ALIASES[qn] && normalize(x.title).includes(qn));
+        return [o, ...others].filter(Boolean).slice(0, 6);
+      }
+      // Title substring
+      const hits = all.filter(o => normalize(o.title).includes(qn) || normalize(o.fullTitle || '').includes(qn));
+      return hits.slice(0, 6);
     }
 
     function render(results) {
@@ -296,9 +324,8 @@
         row.addEventListener('click', () => {
           const code = row.dataset.code;
           const occ = all.find(o => o.code === code);
-          showProfessionDetail(occ);
+          if (occ) showProfessionDetail(occ);
           resultsBox.classList.remove('open');
-          input.value = occ.title.split(',')[0].slice(0, 40);
         });
       });
     }
@@ -307,54 +334,209 @@
       render(search(e.target.value));
     });
 
+    // Pressing Enter / clicking the search button opens the top match
+    if (form) {
+      form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const hits = search(input.value);
+        if (hits.length) showProfessionDetail(hits[0]);
+      });
+    }
+
     $$('.search-chip').forEach(chip => {
       chip.addEventListener('click', () => {
         const q = chip.dataset.suggest;
         input.value = q;
-        input.focus();
-        render(search(q));
+        const hits = search(q);
+        // Open the top match directly — chips are pre-vetted shortcuts
+        if (hits.length) showProfessionDetail(hits[0]);
       });
     });
   }
 
   function showProfessionDetail(o) {
-    if (!o) return;
-    const mount = document.getElementById('profession-detail-mount');
-    if (!mount) return;
-    const expLabel = o.exposure >= 7 ? 'Alta' : o.exposure >= 4 ? 'Moderada' : 'Baja';
-    const outlookLabel = o.outlook == null ? '—'
-      : o.outlook >= 4 ? 'Sube con fuerza' : o.outlook >= 0.5 ? 'Sube' : o.outlook >= -1 ? 'Estable' : o.outlook >= -4 ? 'Cae' : 'Cae con fuerza';
+    if (!o || !OCC) return;
+    const overlay = document.getElementById('profession-overlay');
+    const inner   = document.getElementById('profession-overlay-inner');
+    if (!overlay || !inner) return;
 
-    mount.innerHTML = `
-      <div class="profession-detail" id="detail-${o.code}">
-        <div class="pd-overline">Exposición a IA · ${expLabel.toLowerCase()}</div>
-        <h3>${o.title}</h3>
-        <div class="pd-grid">
-          <div class="pd-cell">
-            <div class="pd-label">Exposición IA</div>
-            <div class="pd-value">${o.exposure.toFixed(1)}<span style="font-size: 1rem; color: var(--color-on-dark-soft);"> / 10</span></div>
-            <div class="pd-suffix">${expLabel}</div>
+    const all = OCC.all || [];
+
+    // Helpers
+    const expLevel = o.exposure >= 6.5 ? 'high' : o.exposure >= 3.5 ? 'med' : 'low';
+    const expLabel = o.exposure >= 6.5 ? 'Exposición alta'
+                    : o.exposure >= 3.5 ? 'Exposición moderada'
+                    : 'Exposición baja';
+
+    const outlookCls = o.outlook == null ? 'flat'
+      : o.outlook >= 1 ? 'up' : o.outlook <= -1 ? 'down' : 'flat';
+    const outlookArrow = outlookCls === 'up' ? '↗' : outlookCls === 'down' ? '↘' : '→';
+    const outlookLabel = o.outlook == null ? '—'
+      : o.outlook >= 4 ? 'Sube con fuerza'
+      : o.outlook >= 0.5 ? 'Sube'
+      : o.outlook >= -1 ? 'Estable'
+      : o.outlook >= -4 ? 'Cae'
+      : 'Cae con fuerza';
+
+    // peers in same broad CNO category (first digit of code)
+    const broad = (o.category || '').split('-')[0];
+    const peers = all
+      .filter(p => p.exposure != null)
+      .filter(p => (p.category || '').split('-')[0] === broad)
+      .sort((a, b) => b.exposure - a.exposure);
+
+    // Best- and worst-exposure peers in same family + this one as "current"
+    const peerExposureBars = peers.slice(0, 6).map(p => ({
+      label: p.title,
+      value: p.exposure,
+      max: 10,
+      suffix: ' / 10',
+      current: p.code === o.code,
+    }));
+
+    // Comparison vs all 62 (national)
+    const allWithExp = all.filter(p => p.exposure != null);
+    const avgExp = allWithExp.reduce((s, p) => s + p.exposure, 0) / allWithExp.length;
+    const allWithPay = all.filter(p => p.pay);
+    const avgPay = allWithPay.reduce((s, p) => s + p.pay, 0) / allWithPay.length;
+    const allWithOutlook = all.filter(p => p.outlook != null);
+    const avgOutlook = allWithOutlook.reduce((s, p) => s + p.outlook, 0) / allWithOutlook.length;
+
+    const nationalBars = [
+      { label: 'Tu profesión', value: o.exposure, max: 10, suffix: ' / 10', current: true },
+      { label: 'Media nacional', value: avgExp, max: 10, suffix: ' / 10', current: false },
+    ];
+
+    inner.innerHTML = `
+      <button class="po-close" id="po-close" aria-label="Volver al inicio">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="m12 19-7-7 7-7"/></svg>
+        Volver
+      </button>
+
+      <div class="po-eyebrow">
+        <span class="po-code">CNO ${o.code}</span>
+        <span>${expLabel}</span>
+        ${o.exposure_confidence ? `<span>Confianza ${o.exposure_confidence.toFixed(1)} / 10</span>` : ''}
+      </div>
+
+      <h1 class="po-title">${o.title}</h1>
+      <p class="po-subtitle">${o.fullTitle && o.fullTitle !== o.title ? o.fullTitle : ''}</p>
+
+      <div class="po-gauge">
+        <div class="po-gauge-left">
+          <div class="gauge-label">Exposición a la IA</div>
+          <div class="gauge-value">${o.exposure.toFixed(1)}<span class="gauge-suffix">/ 10</span></div>
+          <span class="gauge-badge ${expLevel}">${expLabel}</span>
+        </div>
+        <div class="po-gauge-bar-wrap">
+          <div class="po-gauge-bar">
+            <div class="po-gauge-marker" id="po-marker"></div>
           </div>
-          <div class="pd-cell">
-            <div class="pd-label">Salario medio</div>
-            <div class="pd-value">${o.pay ? Math.round(o.pay/1000) + 'k' : '—'}<span style="font-size: 1rem; color: var(--color-on-dark-soft);">€</span></div>
-            <div class="pd-suffix">${o.pay ? 'anual bruto' : 'no disponible'}</div>
-          </div>
-          <div class="pd-cell">
-            <div class="pd-label">Demanda</div>
-            <div class="pd-value">${o.outlook == null ? '—' : (o.outlook >= 0 ? '+' : '') + o.outlook.toFixed(1) + '%'}</div>
-            <div class="pd-suffix">${outlookLabel}</div>
+          <div class="po-gauge-scale">
+            <span>Baja · 0</span>
+            <span>Moderada · 5</span>
+            <span>Alta · 10</span>
           </div>
         </div>
       </div>
+
+      <div class="po-metrics">
+        <div class="po-metric">
+          <div class="m-label">Trabajadores</div>
+          <div class="m-value">${fmtJobs(o.jobs)}</div>
+          <div class="m-detail"><strong>${(o.jobs || 0).toLocaleString('es-ES')}</strong> personas en España (${o.jobs_year || '—'})</div>
+        </div>
+        <div class="po-metric">
+          <div class="m-label">Salario medio</div>
+          <div class="m-value">${o.pay ? Math.round(o.pay/1000) + 'k' : '—'}<span class="m-suffix">€/año</span></div>
+          <div class="m-detail">${o.pay ? `Bruto anual · INE ${o.pay_year || ''}` : 'No disponible para esta ocupación'}</div>
+        </div>
+        <div class="po-metric">
+          <div class="m-label">Demanda laboral</div>
+          <div class="m-value"><span class="po-trend ${outlookCls}">${outlookArrow} ${o.outlook == null ? '—' : (o.outlook >= 0 ? '+' : '') + o.outlook.toFixed(1) + '%'}</span></div>
+          <div class="m-detail">${outlookLabel} · SEPE</div>
+        </div>
+      </div>
+
+      <div class="po-context">
+        <div class="po-context-card">
+          <h4>Frente a la media nacional</h4>
+          <div class="po-bar-list" data-bars='${JSON.stringify(nationalBars).replace(/'/g, '&#39;')}'></div>
+        </div>
+        <div class="po-context-card">
+          <h4>Su familia ocupacional</h4>
+          <div class="po-bar-list" data-bars='${JSON.stringify(peerExposureBars).replace(/'/g, '&#39;')}'></div>
+        </div>
+      </div>
+
+      ${o.children_4d_count ? `
+        <div class="po-children">
+          <h3>Composición del grupo</h3>
+          <p style="font-size: 14px; color: var(--color-muted); margin: 0 0 18px; max-width: 60ch;">
+            Este grupo agrupa <strong style="color: var(--color-ink);">${o.children_4d_count}</strong> ocupaciones específicas (CNO de 4 dígitos).
+            ${o.education ? `<br>Nivel educativo predominante: <em style="color: var(--color-ink); font-style: normal;">${o.education}</em>.` : ''}
+          </p>
+        </div>
+      ` : ''}
+
+      <div class="po-footer">
+        <p>Exposición a la IA derivada con Gemini 3.1 Pro, agregada al nivel de grupo ocupacional CNO-2d y revisada por equipo. <em>Exposición no equivale a sustitución.</em></p>
+        <p>Salarios: Encuesta de Estructura Salarial (INE). Demanda y tendencia: SEPE / Información del Mercado de Trabajo.</p>
+      </div>
     `;
-    // scroll into view smoothly within chapter
-    setTimeout(() => {
-      const el = document.getElementById('detail-' + o.code);
-      if (el) {
-        el.scrollIntoView({ behavior: 'smooth', block: 'center' });
-      }
-    }, 60);
+
+    // Render bars after innerHTML
+    function renderBars(list, data) {
+      list.innerHTML = data.map(b => {
+        const pct = Math.min(100, (b.value / b.max) * 100);
+        return `
+          <div class="po-bar-row ${b.current ? 'current' : ''}">
+            <span class="bar-label" title="${b.label}">${b.label}</span>
+            <span class="bar-value">${b.value.toFixed(1)}${b.suffix || ''}</span>
+            <div class="bar-track"><div class="bar-fill" data-w="${pct}"></div></div>
+          </div>
+        `;
+      }).join('');
+    }
+    inner.querySelectorAll('.po-bar-list').forEach(list => {
+      const bars = JSON.parse(list.dataset.bars);
+      renderBars(list, bars);
+    });
+
+    // Open overlay
+    overlay.classList.add('open');
+    overlay.setAttribute('aria-hidden', 'false');
+    document.body.classList.add('profession-open');
+    overlay.scrollTop = 0;
+
+    // Animate the bars + gauge marker
+    requestAnimationFrame(() => {
+      setTimeout(() => {
+        inner.querySelectorAll('.bar-fill').forEach(f => {
+          f.style.width = f.dataset.w + '%';
+        });
+        const marker = inner.querySelector('#po-marker');
+        if (marker) marker.style.left = (o.exposure / 10 * 100) + '%';
+      }, 60);
+    });
+
+    // Close handler
+    const closeBtn = document.getElementById('po-close');
+    if (closeBtn) closeBtn.addEventListener('click', closeProfession);
+    // Esc to close
+    document.addEventListener('keydown', escClose);
+  }
+
+  function escClose(e) {
+    if (e.key === 'Escape') closeProfession();
+  }
+  function closeProfession() {
+    const overlay = document.getElementById('profession-overlay');
+    if (!overlay) return;
+    overlay.classList.remove('open');
+    overlay.setAttribute('aria-hidden', 'true');
+    document.body.classList.remove('profession-open');
+    document.removeEventListener('keydown', escClose);
   }
 
   /* ---------- 8. Tweaks: accent color + show rail + scroll style ---------- */
@@ -399,6 +581,8 @@
     setupRail();
     setupCounters();
     if (OCC) {
+      // occupations.js may omit .all — fall back to scatter which has all 62 occupations
+      if (!OCC.all) OCC.all = OCC.scatter || [];
       renderRanking('ranking-exposed', OCC.top10Exposed, 10);
       renderRanking('ranking-protected', OCC.top10Protected, 10);
       setupRankingBars();
