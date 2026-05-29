@@ -4,6 +4,9 @@ Visualización estática sobre empleo, salarios, educación, demanda y automatiz
 
 La versión publicada en GitHub Pages despliega directamente el contenido del directorio `site/` y sus datos asociados.
 
+## Desplegado online usando Vercel (gratis):
+`https://ia-espana.vercel.app`
+
 ## Desarrollo local
 
 ```bash
